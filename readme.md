@@ -127,9 +127,9 @@ This course contributes to the following Program Learning Outcomes:
 
 ## Additional Resources 🔗
 
-- [Walter Savitch. (2013). Absolute C++. Pearson.‌](https://github.com/nnbaokhuong/CSBooks/blob/master/Absolute%20C%2B%2B%20FIFTH%20EDITION%20Walter%20Savitch.pdf))
-- [Dale, N. B. (2003). C++ Plus Data Structures. Jones & Bartlett Learning.](https://cdn.preterhuman.net/texts/math/Data_Structure_And_Algorithms/C++%20Data%20Structures%203rd%20ed%20-%20Nell%20Dale.pdf)
-- [Drozdek, A. (2012). Data Structures and Algorithms in C++. Cengage Learning.](http://www.pkt.edu.my/pdf_sys/home/pdf/65)
+- [Walter Savitch (2013). Absolute C++. Pearson.‌](https://github.com/nnbaokhuong/CSBooks/blob/master/Absolute%20C%2B%2B%20FIFTH%20EDITION%20Walter%20Savitch.pdf)
+- [Stephen Randy Davis (2004). C++ for Dummies. Wiley Publishing Inc.](http://uroci.karadev.net/pdf_basic/C++%20For%20DUMMIES.pdf)
+- [Bjarne Stroustrup (2013). The C++ Programming Language. Addison-Wesley.](https://github.com/jorgemedra/Documentation/blob/master/The%20C%2B%2B%20Programming%20Language%20%5B4th%20Edition%5D%20-%20Bjarne%20Stroustrup.pdf)
 - [Sartaj Sahni. (2005). Data Structures, Algorithms, and Applications in C++. Silicon Press, Cop.](https://o6ucs.files.wordpress.com/2012/10/data-structures-algorithms-and-applications-in-c-by-sartraj-sahani.pdf)
 - [Goodrich, M. T., Mount, D. M., and Tamassia, R. (2011). Data Structures and Algorithms in C++. John Wiley & Sons, Cop.‌](https://github.com/ashwani65/Algorithms-and-Data-Structures.pdf/blob/master/data-structures-and-algorithms-in-C%2B%2B.pdf)
 - [Carrano, F. M., and Henry, T. (2017). Data Abstraction and Problem Solving with C++ : Walls and Mirrors. Pearson.](https://github.com/RyanYaNg7/cs32/blob/master/Data%20Abstraction%20%26%20Problem%20Solving%20with%20C%2B%2B%20Walls%20and%20Mirrors.pdf)
