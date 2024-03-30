@@ -134,8 +134,8 @@ This course contributes to the following Program Learning Outcomes:
 - [Ulla Kirch-Prinz & Peter Prinz (2002). A Complete Guide to Programming in C++. Jones and Barlett Publishers](http://www.lmpt.univ-tours.fr/~volkov/C++.pdf)
 - [D. S. Malik (2013). C++ Programming: From Problem Analysis to Program Design. Cengage Learning](https://github.com/vladimir454/projectV/blob/master/C%2B%2B%20Programming%20from%20problem%20analysis%20to%20program%20designe%2C%206th%20edition%20(1).pdf)
 - [Gaddis, T. (2015). Starting out with C++. From control structures through objects. Pearson.‌](https://github.com/ystanev/Fundamentals-of-Programming/blob/master/Starting%20Out%20With%20C%2B%2B%20From%20Control%20Structures%20Through%20Objects%208th%20Edition.pdf)
-- [Lipschutz, S. (2011). Data Structures With C. McGraw-Hill Education.‌](https://github.com/ahsan-habib-hstu/data-structure/blob/master/Data%20Structures%20With%20C%20-%20by%20schaum%20series_2.pdf)
-- [Miller, B., Ranum, D. and Pearce, J. (n.d.). Problem Solving with Algorithms and Data Structures using C++. Runestone.academy‌](https://runestone.academy/ns/books/published/cppds/index.html)
+- [J. R. Hubbard (2000). Schaum’s Outline of Theory and Problems of Programming with C++. McGraw-Hill.‌](https://kishorekoduvayur.files.wordpress.com/2017/12/schaums-programming-with-c-434.pdf)
+- [Jesse Liberty, Siddhartha Rao & Bradley Jones (2009). Teach Yourself C++ in One Hour a Day. SAMS](http://library.uc.edu.kh/userfiles/pdf/18.SAMS%20Teach%20Yourself%20C++%20in%20One%20Hour%20a%20Day.pdf)
 - [Learn GitHub](https://github.com/drshahizan/learn-github)
 
 [comment]: <> (This is a comment, it will not be included)
