@@ -32,7 +32,7 @@ This course contributes to the following Program Learning Outcomes:
 
 ## Table of Contents 📑
 
-1. [1.0	Introduction](#introduction)
+1. [Introduction](#introduction)
 2. [Abstract Data Type, C++ Revision and Advanced File Operations](#abstract-data-type-c-revision-and-advanced-file-operations)
 3. [Recursive and Algorithm Efficiency](#recursive-and-algorithm-efficiency)
 4. [Sorting](#sorting)
