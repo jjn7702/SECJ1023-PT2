@@ -1,9 +1,9 @@
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/stargazers"><img src="https://img.shields.io/github/stars/jjn7702/SECJ2013-DSA-04" alt="Stars Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/network/members"><img src="https://img.shields.io/github/forks/jjn7702/SECJ2013-DSA-04" alt="Forks Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/pulls"><img src="https://img.shields.io/github/issues-pr/jjn7702/SECJ2013-DSA-04" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/issues"><img src="https://img.shields.io/github/issues/jjn7702/SECJ2013-DSA-04" alt="Issues Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jjn7702/SECJ2013-DSA-04?color=2b9348"></a>
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjjn7702%2FSECJ2013-DSA-04&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
+<a href="https://github.com/jjn7702/SECJ2013-DSA-04/stargazers"><img src="https://img.shields.io/github/stars/jjn7702/SECJ1023-PT2" alt="Stars Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ2013-DSA-04/network/members"><img src="https://img.shields.io/github/forks/jjn7702/SECJ1023-PT2" alt="Forks Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ2013-DSA-04/pulls"><img src="https://img.shields.io/github/issues-pr/jjn7702/SECJ1023-PT2" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ2013-DSA-04/issues"><img src="https://img.shields.io/github/issues/jjn7702/SECJ1023-PT2" alt="Issues Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ2013-DSA-04/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jjn7702/SECJ1023-PT2?color=2b9348"></a>
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjjn7702%2FSECJ1023-PT2&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 _Don't forget to hit the :star: if you like this repo._
 
@@ -33,74 +33,86 @@ This course contributes to the following Program Learning Outcomes:
 ## Table of Contents 📑
 
 1. [Introduction](#introduction)
-2. [Abstract Data Type, C++ Revision and Advanced File Operations](#abstract-data-type-c-revision-and-advanced-file-operations)
-3. [Recursive and Algorithm Efficiency](#recursive-and-algorithm-efficiency)
-4. [Sorting](#sorting)
-5. [Searching](#searching)
-6. [Linked Lists](#linked-lists)
-7. [Stack](#stack)
-8. [Queue](#queue)
-9. [Tree](#tree)
+2. [Introduction to Classes and Objects](#introduction-to-classes-and-objects)
+3. [Constructors and Destructors](#constructors-and-destructors)
+4. [Class and Object Manipulations](#class-and-object-manipulations)
+5. [String Manipulations](#string-manipulations)
+6. [Associations, Aggregations and Compositions](#associations,-aggregations-and-compositions)
+7. [Inheritance](#inheritance)
+8. [Polymorphisms](#polymorphisms)
+9. [Overview of Advanced Features](#overview-of-advanced-features)
 
 ## Course Content 📖
 
 ### Introduction
 
 - Overview of Programming Paradigms
--	Revision on Programming Technique I
+-	Revision on Programming Technique I: Procedural Programming, Object-Oriented Programming, Functional Programming
 -	Setting Up Programming Environment
-- Overview of Object-Oriented Programming Principles
+- Overview of Object-Oriented Programming Principles: Abstractions, Data Hiding, Encapsulations, Associations, Inheritances
 -	UML Class Diagram
 
-### Abstract Data Type, C++ Revision and Advanced File Operations
+### Introduction to Classes and Objects
 
-- Abstract Data Type Concepts
-- C++ Revision: C++ Class, Pass objects to functions, class as return value for functions, Array of class, and pointer to class
-- Advanced File Operations: File Operations, Passing File Stream Objects to Functions, Member Functions for Reading and Writing Files, Binary Files, and Random-Access Files
+- Defining Classes
+- Creating Objects
+- Private Members: Why Have Private Members?, Using Private Member Functions
+- Separating Class Specification from Implementation
+- Inline Member Functions
 
-### Recursive and Algorithm Efficiency
+### Constructors and Destructors
 
-- Recursive Principle and Design
-- Tracing Recursive Algorithms
-- Algorithm Efficiency: Analysis order of magnitude, Big O notation
+- Constructors
+- Passing Arguments to Constructors
+- Destructors
+- Overloading Constructors
+- Copy Constructors
 
-### Sorting
+### Class and Object Manipulations
 
-- Simple Sort: Bubble Sort, Selection Sort, Insertion Sort, and Sorting Analysis
-- Advanced Sort: Merge Sort and Quick Sort
+- Friend of Classes
+- Pointers to Objects
+- Arrays of Objects
+- Objects and Functions: Objects as Function Parameters, Returning Objects from Functions
+- Operator Overloading
+- Object Conversions
 
-### Searching
+### String Manipulations
 
-- Sequential search
-- Binary search
+- The string Class
+- String Comparisons
+- String Operators
+- String Member Functions
 
-### Linked Lists
+### Associations, Aggregations and Compositions
 
-- Pointer Concepts
-- Introduction to Linked lists
-- Linked lists operations
-- Types of Linked List
-- Linked List Implementations: Declaring Nodes and Linked Lists class, Insert Node, Delete Node, Find Node, and Print Node
+- Introduction to Associations
+- Introduction to Aggregations
+- Aggregation Implementations
+- Introduction to Compositions
+- Composition Implementations
 
-### Stack
+### Inheritance
 
-- Introduction to Stack
-- Stack Operations: push() and pop()
-- Stack implementations: Stack Array and Stack Linked List
-- Stack Applications: Infix, Postfix and Prefix
+-  Introduction to Inheritance
+-  Protected Members and Class Access
+-  Constructors and Destructors in Base and Derived Classes
+-  Redefining Base Class Functions
+-  Class Hierarchies
+-  Multiple Inheritances 
 
-### Queue
+### Polymorphisms
 
-- Introduction to Queue
-- Queue Implementations: Array Implementation (Linear and Circular) and Linked List Implementation (Linear and Circular Queue)
+- Introduction to Polymorphisms
+- Polymorphism and Virtual Member Functions
+- Abstract Base Classes and Pure Virtual Functions
 
-### Tree
+### Overview of Advanced Features
 
-- Introduction to Tree
-- Terms related to Tree concepts
-- Binary Search Tree
-- Binary Search Tree Implementations: Declaring Tree node, Tree class, Create Node, Insert Node, Delete Node, Search Node
-- Tree Traversals
+- Exceptions
+- Templates
+- Containers
+- Iterator
 
 ## Evaluation 📊
 
