@@ -37,7 +37,7 @@ This course contributes to the following Program Learning Outcomes:
 3. [Constructors and Destructors](#constructors-and-destructors)
 4. [Class and Object Manipulations](#class-and-object-manipulations)
 5. [String Manipulations](#string-manipulations)
-6. [Associations, Aggregations and Compositions](#associations,-aggregations-and-compositions)
+6. [Associations, Aggregations and Compositions](#associations-aggregations-and-compositions)
 7. [Inheritance](#inheritance)
 8. [Polymorphisms](#polymorphisms)
 9. [Overview of Advanced Features](#overview-of-advanced-features)
