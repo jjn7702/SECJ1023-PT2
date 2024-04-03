@@ -11,7 +11,7 @@ _Don't forget to hit the :star: if you like this repo._
 
 ## [Project 📚](/Submission/Readme.md) 
 
-### Section 01 (2023/2024- Sem 1)
+### Section 04 (2023/2024- Sem 2)
 
 | No | Name | Project |
 | --- | --- | :---: |
