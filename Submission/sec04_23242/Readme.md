@@ -7,7 +7,7 @@
 
 _Don't forget to hit the :star: if you like this repo._
 
-# [Object Oriented Programming (SECJ2154)](/.)
+# [Programming Technique II (SECJ1023)](/.)
 
 ## [Project 📚](/Submission/Readme.md) 
 
