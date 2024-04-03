@@ -25,7 +25,7 @@ In this course, each student is required to complete one group [project](#projec
 | 4. Complete project and TW4             | 5%        | Week 13-15 |
 |                                         | 2%        |            |
 | **Total**                               | **25%**   |            |
-TW: Teamworking Assessment, to be submitted individually.
+_TW: Teamworking Assessment, to be submitted individually._
 
 - Each student (group member) must create at least one module (or one of the main functions of your proposed system), with that module/function containing at least TWO classes. This means that if you have three members, your group project must have at least six classes.
 - It must implement the following concepts:
