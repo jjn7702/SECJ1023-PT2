@@ -16,14 +16,14 @@ In this course, each student is required to complete one group [project](#projec
 | Items                                   | Weightage | Timeline   |
 |-----------------------------------------|:---------:|:----------:|
 | **Group Formation**                     |           | Week 1     |
-| 1. Project Proposal, and TW1            | 5%        | Week 3-6   |
-|                                         | 1%        |            |
-| 2. Problem Analysis and Design, and TW2 | 5%        | Week 7-9   |
-|                                         | 1%        |            |
-| 3. Interim Progress, and TW3            | 5%        | Week 10-12 |
-|                                         | 1%        |            |
-| 4. Complete project and TW4             | 5%        | Week 13-15 |
-|                                         | 2%        |            |
+| 1. Project Proposal,             | 5%        | Week 3-6   |
+|    and TW1                                     | 1%        |            |
+| 2. Problem Analysis and Design,  | 5%        | Week 7-9   |
+|    and TW2                                     | 1%        |            |
+| 3. Interim Progress,             | 5%        | Week 10-12 |
+|    and TW2                                     | 1%        |            |
+| 4. Complete project,             | 5%        | Week 13-15 |
+|    and TW4                                     | 2%        |            |
 | **Total**                               | **25%**   |            |
 _TW: Teamworking Assessment, to be submitted individually._
 
@@ -71,20 +71,9 @@ Inside the `group_name` folder, you'll find three subdirectories:
 
 In summary, this folder structure appears to be organizing a GitHub repository by dividing it into separate sections for different classes. Each task has its own directory, including the md file, along with subdirectories for related files, such as images and source codes.
 
-
 ### Outcomes
 - [Section 04 (2023/2024-2)](./sec04_23242/Readme.md)
 - [Section 08 (2023/2024-2)](./sec08_23242/Readme.md)
-
-
-### Section 01 (Space)
-
-| No | Name | Project |
-| --- | --- | :---: |
-| _0_ |[Sample](../Submission/sec01_perdana/sample/readme.md) | <a href="../Submission/sec01_perdana/sample/readme.md" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
-| 1 | Group 1 | <a href="group1" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
-| 2 | Group 2 | <a href="group2" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
-| 3 | Group 3 | <a href="group3" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/jjn7702/SECJ1023-PT2/issues) for any improvements, suggestions or errors in the content.
