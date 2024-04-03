@@ -64,7 +64,7 @@ Inside the `group_name` folder, you'll find three subdirectories:
 In summary, this folder structure appears to be organizing a GitHub repository by dividing it into separate sections for different classes. Each task has its own directory, including the md file, along with subdirectories for related files, such as images and source codes.
 
 
-### Findings
+### Outcomes
 - [Section 04 (2023/2024-2)](./sec04_23242/Readme.md)
 - [Section 08 (2023/2024-2)](./sec08_23242/Readme.md)
 
