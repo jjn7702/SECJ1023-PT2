@@ -13,8 +13,8 @@ _Don't forget to hit the :star: if you like this repo._
 
 In this course, each student is required to complete one group [project](#project). Each group is tasked with selecting a system from a list of topics/ case studies. Following that, you will be working in a group of three to develop a system using Object-Oriented Programming (OOP) paradigm and C++ language. You will deliver the project in four stages:
 
-| Items                                   | Weightage | Timeline   |
-|-----------------------------------------|:---------:|:----------:|
+| Items                           | Weightage | Timeline   |
+|---------------------------------|:---------:|:----------:|
 | **Group Formation**                     |           | Week 1     |
 | 1. Project Proposal,             | 5%        | Week 3-6   |
 |    and TW1                                     | 1%        |            |
