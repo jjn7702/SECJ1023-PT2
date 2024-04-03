@@ -15,7 +15,7 @@ _Don't forget to hit the :star: if you like this repo._
 
 | No | Name | Proposal | Analysis and Design | Final |
 | --- | --- | :---: | :---: | :---: |
-| 1 | [Group 1](../sec04_23242/sec04_23242/readme.md) | <a href="../sec04_23242/Group1/readme.md"><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 1 | [Group 1](../sec04_23242/sec04_23242/readme.md) | <a href="../sec04_23242/Group1/readme.md"><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |<a href="../sec04_23242/Group1/readme.md"><img src="/./images/inventory.png" width="24px" height="24px" ></a> |<a href="../sec04_23242/Group1/readme.md"><img src="/./images/project-management.png" width="24px" height="24px" ></a> |
 | 2 | [Group 2](../sec04_23242/Group2/readme.md) | <a href="../sec04_23242/Group2/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
 | 3 | [Group 3](../sec04_23242/Group3/readme.md) | <a href="../sec04_23242/Group3/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
 | 4 | [Group 4](../sec04_23242/Group4/readme.md) | <a href="../sec04_23242/Group4/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
