@@ -49,7 +49,7 @@ You must place your file in the submission folder. Within the `submission` folde
 │   ├── 📄readme.md
 │   └── 📁files
 │   └── 📁images  
-├── 📁Analysis_&_Design
+├── 📁Analysis-Design
 │   ├── 📄readme.md
 │   ├── 📁files
 │   └── 📁images
