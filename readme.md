@@ -117,7 +117,7 @@ This course contributes to the following Program Learning Outcomes:
 ## Evaluation 📊
 
 - Exercises(5): 15%
-- [Project](./Submission): 20%
+- [Project](./Submission/Readme.md): 20%
 - Teamworking: 5%
 - Test1(Theory): 15%
 - Test2(Practical): 10%
