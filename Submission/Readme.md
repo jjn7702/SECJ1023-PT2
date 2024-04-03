@@ -43,9 +43,17 @@ _TW: Teamworking Assessment, to be submitted individually._
 You must place your file in the submission folder. Within the `submission` folder, create a folder called your  `group_name`. Suggested folder structure for the project:
 
 ```
-📁Submission/sec04_23242
+📁Submission/sec04_23242/group_name
 ├── 📄readme.md
-└── group_name
+├── 📁Proposal
+│   ├── 📄readme.md
+│   └── 📁files
+│   └── 📁images  
+├── 📁Analysis_&_Design
+│   ├── 📄readme.md
+│   ├── 📁files
+│   └── 📁images
+└── 📁Final
     ├── 📄readme.md
     ├── 📁files
     ├── 📁images
