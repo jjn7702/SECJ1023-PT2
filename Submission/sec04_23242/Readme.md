@@ -13,17 +13,17 @@ _Don't forget to hit the :star: if you like this repo._
 
 ### Section 04 (2023/2024- Sem 2)
 
-| No | Name | Project |
-| --- | --- | :---: |
-| 1 | [Group 1](../sec01_perdana/Group1/readme.md) | <a href="../sec01_perdana/Group1/readme.md"><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 2 | [Group 2](../sec01_perdana/Group2/readme.md) | <a href="../sec01_perdana/Group2/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 3 | [Group 3](../sec01_perdana/Group3/readme.md) | <a href="../sec01_perdana/Group3/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 4 | [Group 4](../sec01_perdana/Group4/readme.md) | <a href="../sec01_perdana/Group4/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 5 | [Group 5](../sec01_perdana/Group5/readme.md) | <a href="../sec01_perdana/Group5/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 6 | [Group 6](../sec01_perdana/Group6/readme.md) | <a href="../sec01_perdana/Group6/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 7 | [Group 7](../sec01_perdana/Group7/readme.md) | <a href="../sec01_perdana/Group7/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 8 | [Group 8](../sec01_perdana/Group%208/readme.md) | <a href="../sec01_perdana/Group%208/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
-| 9 | [Group 9](../sec01_perdana/Group9/readme.md) | <a href="../sec01_perdana/Group9/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| No | Name | Proposal | Analysis and Design | Final |
+| --- | --- | :---: | :---: | :---: |
+| 1 | [Group 1](../sec04_23242/sec04_23242/readme.md) | <a href="../sec04_23242/Group1/readme.md"><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 2 | [Group 2](../sec04_23242/Group2/readme.md) | <a href="../sec04_23242/Group2/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 3 | [Group 3](../sec04_23242/Group3/readme.md) | <a href="../sec04_23242/Group3/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 4 | [Group 4](../sec04_23242/Group4/readme.md) | <a href="../sec04_23242/Group4/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 5 | [Group 5](../sec04_23242/Group5/readme.md) | <a href="../sec04_23242/Group5/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 6 | [Group 6](../sec04_23242/Group6/readme.md) | <a href="../sec04_23242/Group6/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 7 | [Group 7](../sec04_23242/Group7/readme.md) | <a href="../sec04_23242/Group7/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 8 | [Group 8](../sec04_23242/Group8/readme.md) | <a href="../sec04_23242/Group%208/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
+| 9 | [Group 9](../sec04_23242/Group9/readme.md) | <a href="../sec04_23242/Group9/readme.md" ><img src="/./images/clipboard.png" width="24px" height="24px" ></a> |
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/jjn7702/SECJ1023-PT2/issues) for any improvements, suggestions or errors in the content.
