@@ -65,8 +65,8 @@ In summary, this folder structure appears to be organizing a GitHub repository b
 
 
 ### Findings
-- [Section 04 (2023/2024-2)](./sec04_23242/readme.md)
-- [Section 08 (2023/2024-2)](./sec08_23242/readme.md)
+- [Section 04 (2023/2024-2)](./sec04_23242/Readme.md)
+- [Section 08 (2023/2024-2)](./sec08_23242/Readme.md)
 
 
 ### Section 01 (Space)
