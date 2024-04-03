@@ -1,8 +1,8 @@
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/stargazers"><img src="https://img.shields.io/github/stars/jjn7702/SECJ1023-PT2" alt="Stars Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/network/members"><img src="https://img.shields.io/github/forks/jjn7702/SECJ1023-PT2" alt="Forks Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/pulls"><img src="https://img.shields.io/github/issues-pr/jjn7702/SECJ1023-PT2" alt="Pull Requests Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/issues"><img src="https://img.shields.io/github/issues/jjn7702/SECJ1023-PT2" alt="Issues Badge"/></a>
-<a href="https://github.com/jjn7702/SECJ2013-DSA-04/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jjn7702/SECJ1023-PT2?color=2b9348"></a>
+<a href="https://github.com/jjn7702/SECJ1023-PT2/stargazers"><img src="https://img.shields.io/github/stars/jjn7702/SECJ1023-PT2" alt="Stars Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ1023-PT2/network/members"><img src="https://img.shields.io/github/forks/jjn7702/SECJ1023-PT2" alt="Forks Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ1023-PT2/pulls"><img src="https://img.shields.io/github/issues-pr/jjn7702/SECJ1023-PT2" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ1023-PT2/issues"><img src="https://img.shields.io/github/issues/jjn7702/SECJ1023-PT2" alt="Issues Badge"/></a>
+<a href="https://github.com/jjn7702/SECJ1023-PT2/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/jjn7702/SECJ1023-PT2?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjjn7702%2FSECJ1023-PT2&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 _Don't forget to hit the :star: if you like this repo._
@@ -64,8 +64,9 @@ Inside the `group_name` folder, you'll find three subdirectories:
 In summary, this folder structure appears to be organizing a GitHub repository by dividing it into separate sections for different classes. Each task has its own directory, including the md file, along with subdirectories for related files, such as images and source codes.
 
 
-### Examples
-- [Section 01 (2023/2024-1)](./sec01_perdana/readme.md)
+### Findings
+- [Section 04 (2023/2024-2)](./sec04_23242/readme.md)
+- [Section 08 (2023/2024-2)](./sec08_23242/readme.md)
 
 
 ### Section 01 (Space)
@@ -76,3 +77,9 @@ In summary, this folder structure appears to be organizing a GitHub repository b
 | 1 | Group 1 | <a href="group1" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
 | 2 | Group 2 | <a href="group2" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
 | 3 | Group 3 | <a href="group3" ><img src="../Images/clipboard.png" width="24px" height="24px" ></a> |
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/jjn7702/SECJ1023-PT2/issues) for any improvements, suggestions or errors in the content.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjjn7702&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fjjn7702)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
