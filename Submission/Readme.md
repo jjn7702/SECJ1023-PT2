@@ -21,7 +21,7 @@ In this course, each student is required to complete one group [project](#projec
 | 2. Problem Analysis and Design,  | 5%        | Week 7-9   |
 |    and TW2                                     | 1%        |            |
 | 3. Interim Progress,             | 5%        | Week 10-12 |
-|    and TW2                                     | 1%        |            |
+|    and TW3                                     | 1%        |            |
 | 4. Complete project,             | 5%        | Week 13-15 |
 |    and TW4                                     | 2%        |            |
 | **Total**                               | **25%**   |            |
