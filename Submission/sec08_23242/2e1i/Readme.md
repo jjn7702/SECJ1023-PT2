@@ -1,4 +1,4 @@
-# PT2
+# NUTRITION TRACKER SYSTEM
 
 ## Description 📝
 
