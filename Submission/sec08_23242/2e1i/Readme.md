@@ -8,9 +8,9 @@ These days, the prevalence of unhealthy eating habits, fueled by a reliance on j
 
 | Name                                     | Matric Number | Photo |
 |------------------------------------------|---------------|-------|
-| OW YEE HAO  | A23CS0261     | <image src = "images/OWYEEHAO.jpg" width="250" height="300">|
-| CHANG WEI LAM       | A23CS0212     | <image src = "images/CHANGWEILAM.JPEG" width="240" height="300">|
-| YAP JIA XIN                 | A23CS0199    |<image src = "images/YAPJIAXIN.jpg" width="205" height="300"> |
+| OW YEE HAO  | A23CS0261     | <image src = "images/OWYEEHAO.jpg" width="100" height="120">|
+| CHANG WEI LAM       | A23CS0212     | <image src = "images/CHANGWEILAM.JPEG" width="96" height="120">|
+| YAP JIA XIN                 | A23CS0199    |<image src = "images/YAPJIAXIN.jpg" width="90" height="120"> |
 
 
-## Findings
+## Findings 🔍
