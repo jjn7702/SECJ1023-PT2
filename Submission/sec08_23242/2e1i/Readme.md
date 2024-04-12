@@ -10,7 +10,7 @@ These days, the prevalence of unhealthy eating habits, fueled by a reliance on j
 |------------------------------------------|---------------|-------|
 | OW YEE HAO  | A23CS0261     | <image src = "images/OWYEEHAO.jpg" width="250" height="300">|
 | CHANG WEI LAM       | A23CS0212     | <image src = "images/CHANGWEILAM.JPEG" width="240" height="300">|
-| YAP JIA XIN                 | A23CS0199    | |
+| YAP JIA XIN                 | A23CS0199    |<image src = "images/YAPJIAXIN.jpg" width="240" height="300"> |
 
 
 ## Findings
