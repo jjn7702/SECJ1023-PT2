@@ -2,10 +2,10 @@
 
 ### Table of Contents
 
-- [Synopsis and General Idea](#synopsis-and-general-idea)
-- [Objectives and Purpose](#objectives-and-purpose)
-- [How to Use the System](#how-to-use-the-system)
-- [Reporting](#reporting)
+- [Synopsis and General Idea](#-synopsis-and-general-idea)
+- [Objectives and Purpose](#-objectives-and-purpose)
+- [How to Use the System](#-how-to-use-the-system)
+- [Reporting](#-reporting)
 
 
 
