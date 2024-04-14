@@ -14,3 +14,4 @@ These days, the prevalence of unhealthy eating habits, fueled by a reliance on j
 
 
 ## Findings 🔍
+-[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/2e1i/Proposal)
