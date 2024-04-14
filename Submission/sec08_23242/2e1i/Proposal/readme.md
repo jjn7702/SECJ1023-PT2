@@ -27,5 +27,19 @@ The **nutrition tracking system** aims to provide users with a comprehensive pla
 
 
 ## How to use the system 🛠️
+- **User Registration/Login:** New users can sign up for an account by providing basic information such as age and gender. Existing users can log in with their credentials.
+
+- **Profile Setup:** Users set up their profiles by entering relevant details such as activity level. 
+
+- **Goal Setting:** The system provides a recommended daily calorie budget based on users’ individual information. Users also have the option to set personalized nutrition goals, such as calorie intake   targets. 
+
+- **Daily Tracking:**
+Food Intake: Users categorize their daily food intake into distinct meal categories such as breakfast, lunch, dinner, and snack. They log their consumption by searching for items in the system's database or manually entering nutritional information. They track calories, macronutrients (carbohydrates, fats, proteins), and fiber consumed throughout the day.
+
+Physical Activity: Users also track their daily calories burned. This includes exercises, workouts, or any other physical movements that contribute to their energy expenditure. Users have the option to directly input the calories burnt through physical activity.
+
+
+- **Feedback and Recommendations:** The system compares users’ nutritional intake against personalized targets thereby generating real-time overview on users' progress towards their nutrition goals. Additionally, users are offered personalized recommendations from nutritionists based on users’ diet patterns.
+
 
 ## Reporting 🖥️
