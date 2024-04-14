@@ -44,3 +44,9 @@ The **nutrition tracking system** aims to provide users with a comprehensive pla
 
 
 ## Reporting 🖥️
+-**Daily Summary:** Users receive a daily summary of their food intake and progress towards their nutrition goals.
+
+-**Weekly/Monthly Reports:** Users can access comprehensive reports summarizing their dietary habits and overall progress over extended periods.
+
+-**Nutritionist Recommendations:** Nutritionists can review users' data and provide tailored recommendations for achieving optimal health and wellness.
+
