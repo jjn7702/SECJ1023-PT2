@@ -1,9 +1,11 @@
 # Synopsis and General Idea :memo:
-A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea where to start? Search for your books by just choosing your favorite genre. The system also provides random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, we suggests users to enter their ratings for the books that they've read and update in the book lists.
+A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea where to start?  Simply select your favorite genre to find books tailored to your tastes. The system also offers random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, we suggests users to enter their ratings for the books that they've read and update in the book lists.
 
 
 # Objective and Purposes :dart:
-
+- To recommend books to the users according to their preferences
+- To encourage genre exploration by suggesting high-rated books
+- develop an interactive system that allows user to input the rating of books 
 
 
 # How to use the system :computer:
