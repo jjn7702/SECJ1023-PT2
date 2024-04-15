@@ -4,11 +4,11 @@
 Reading is a good habit that incurs creativity 
 
 ## Our team 
-<table style="border:1px solid black">
+<table style="border:1px">
   <tr>
-    <td>Name</td>
-    <td>Matric Number</td>
-    <td>Photo</td>
+    <td style="width:30%">Name</td>
+    <td style="width:20%">Matric Number</td>
+    <td style="width:50%">Photo</td>
   </tr>
 </table>
 
