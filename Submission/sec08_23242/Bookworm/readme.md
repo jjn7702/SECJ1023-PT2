@@ -6,9 +6,9 @@ Reading is a good habit that incurs creativity
 ## Our team 
 <table>
   <tr>
-    <td width= "50px">Name</td>
-    <td width= "50px">Matric Number</td>
-    <td width= "50px">Photo</td>
+    <td width= "150px">Name</td>
+    <td width= "100px">Matric Number</td>
+    <td width= "300px">Photo</td>
   </tr>
 </table>
 
