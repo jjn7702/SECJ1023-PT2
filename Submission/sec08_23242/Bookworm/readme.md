@@ -7,7 +7,7 @@ Reading is a good habit that incurs creativity
 <table>
   <tr>
     <td width= "150px">Name</td>
-    <td width= "100px">Matric Number</td>
+    <td width= "150px">Matric Number</td>
     <td width= "300px">Photo</td>
   </tr>
 </table>
