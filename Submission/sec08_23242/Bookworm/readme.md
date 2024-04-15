@@ -2,7 +2,7 @@
 <img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/6f0a5d87-6569-4935-9278-3e145685baee" width="1500"></img>
 
 ## Description :sparkles:
- 
+Reading is a good habit that nourishes creativity and broadens one's horizon. However, reading is a minor activity for Gen-Z in this leading-edge era.  Smartphones and games have replaced books vastly as mobile games are way more addictive and intriguing. This has led to the problem that younger people overlook the intellectual benefits of reading books that can consolidate knowledge and skills. Hence, we came up to help young people build reading habits by recommending books that suit their preferences and likes.
 
 ## Our team :runner:
 <table>
