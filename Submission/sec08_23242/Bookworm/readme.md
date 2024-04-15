@@ -4,7 +4,7 @@
 ## Description :sparkles:
 Reading is a good habit that incurs creativity 
 
-## Our team:runner:
+## Our team :runner:
 <table>
   <tr>
     <td width="250px">Name</td>
