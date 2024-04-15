@@ -19,7 +19,8 @@ Reading is a good habit that incurs creativity
   <tr>
     <td>Lim Xin Rou</td>
     <td>A23CS0240</td>
-    <td></td>
+    <td><img src= https://github.com/jjn7702/SECJ1023-PT2/assets/133843320/bbc5124e-cbbc-4394-a80a-17a7d239dc73" height="200" width="130">
+</td>
   </tr>
   <tr>
     <td>Chen Wei Jay Nickolas</td>
