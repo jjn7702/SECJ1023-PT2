@@ -32,14 +32,20 @@
 The system will output a book recommendation list which includes:
 <ul>
   <li><b>1. User details:</b></li>
-  <li>The username and full name of the user for whom the recommendations are generated. This helps personalize the recommendations and allows users to identify their own      preferences.</li>
+  <ul>
+    <li>The username and full name of the user for whom the recommendations are generated. This helps personalize the recommendations and allows users to identify their own      preferences.</li>
+  </ul>
 </ul>
 <ul>
   <li><b>2. Book Details:</b></li>
-  <li>Detailed information about each recommended book, including title, author, genre, publication date, synopsis, and possibly cover images. Providing comprehensive 
-  details helps users make informed decisions about which books to explore further.</li>
+  <ul>
+    <li>Detailed information about each recommended book, including title, author, genre, publication date, synopsis, and possibly cover images. Providing comprehensive 
+    details helps users make informed decisions about which books to explore further.</li>
+  </ul>
 </ul>
 <ul>
    <li><b>3. Book Ratings:</b></li>
-  <li>This can provide additional insight into the book's quality and appeal.</li>
+  <ul>
+    <li>This can provide additional insight into the book's quality and appeal.</li>
+  </ul>
 </ul>
