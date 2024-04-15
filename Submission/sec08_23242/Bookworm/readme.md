@@ -1,10 +1,10 @@
-<h1 align="center"> :sparkles: Book Recommendation System :sparkles: </h1>
+<h1 align="center"> :books: Book Recommendation System :books: </h1>
 <img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/6f0a5d87-6569-4935-9278-3e145685baee" width="1500"></img>
 
-## Description 
+## Description :sparkles:
 Reading is a good habit that incurs creativity 
 
-## Our team 
+## Our team:runner:
 <table>
   <tr>
     <td width="250px">Name</td>
@@ -28,5 +28,5 @@ Reading is a good habit that incurs creativity
   </tr>
 </table>
 
-## Findings 
+## Findings :mag_right:
 <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Bookworm/Proposal"> Proposal </a>
