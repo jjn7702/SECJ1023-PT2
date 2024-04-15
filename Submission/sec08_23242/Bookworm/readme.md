@@ -1,4 +1,5 @@
-# Book Recommendation System 
+<h1 align="center"> Book Recommendation System </h1>
+<img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/6f0a5d87-6569-4935-9278-3e145685baee"></img>
 
 ## Description 
 Reading is a good habit that incurs creativity 
