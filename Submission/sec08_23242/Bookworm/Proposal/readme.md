@@ -1,12 +1,12 @@
-# Synopsis and General Idea
+# Synopsis and General Idea :memo:
 
 
 
-# Objective and Purposes
+# Objective and Purposes :dart:
 
 
 
-# How to use the system 
+# How to use the system :computer:
 <ul>
   <li><b>User Registration:</b></li>
   Users need to register to access the system's features. This could involve creating an account with a username, email, and password.
