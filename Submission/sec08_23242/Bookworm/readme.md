@@ -4,7 +4,7 @@
 Reading is a good habit that incurs creativity 
 
 ## Our team 
-<table>
+<table style="border:1px solid black">
   <tr>
     <td>Name</td>
     <td>Matric Number</td>
