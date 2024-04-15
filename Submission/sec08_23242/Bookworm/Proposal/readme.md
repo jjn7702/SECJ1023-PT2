@@ -7,10 +7,10 @@
 
 
 # How to use the system
-<p>
-  <b>User Registration:</b>
+<li>
+  <ul><b>User Registration:</b></ul>
   Users need to register to access the system's features. This could involve creating an account with a username, email, and password.
-</p>
+</li>
 <p>
   <b>Home Page:</b>
   After users log in to the system, users will be directed to the home page. The home page serves as the entry point for users and presents several options for them to   
