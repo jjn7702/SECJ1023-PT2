@@ -17,11 +17,11 @@
   choose from.
   <ul>
     <li><b>Option 1: Recommendation by Genre: </b></li>
-    Users can select a genre they're interested in, and the system will provide recommendations from that genre.
+    Users can select a genre they're interested in, and the system will provide recommendation list of books from that genre.
     <li><b>Option 2: Recommendation by Ratings:</b></li>
-    Users can opt for a random recommendation based on ratings. This could introduce them to books with genre that they might not have read before.
+    Users can opt for a random recommendation based on ratings. The system will provide recommendation list of books which includes all genre based on the ratings. 
     <li><b>Option 3: Book Details and Give Ratings:</b></li>
-    After reading a book, users can log in to the system and provide details about the book (such as title, author, genre) and rate it. This   
+    After reading a book, users can log in to the system and provide details about the book (such as title, author, genre) and input the rating of the book. This   
     could contribute to the recommendation engine's algorithm.
     <li><b>Option 4: Exit the System:</b></li>
     Provides users with an option to leave the system.
@@ -29,3 +29,17 @@
 </ul>
 
 # Reporting
+The system will output a book recommendation list which includes:
+<ul>
+  1. User details:
+  <li>The username and full name of the user for whom the recommendations are generated. This helps personalize the recommendations and allows users to identify their own      preferences.</li>
+</ul>
+<ul>
+  2. Book Details:
+  <li>Detailed information about each recommended book, including title, author, genre, publication date, synopsis, and possibly cover images. Providing comprehensive 
+  details helps users make informed decisions about which books to explore further.</li>
+</ul>
+<ul>
+  3. Book Ratings:
+  <li>This can provide additional insight into the book's quality and appeal.</li>
+</ul>
