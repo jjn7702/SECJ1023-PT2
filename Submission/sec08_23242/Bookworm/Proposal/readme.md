@@ -6,7 +6,7 @@
 
 
 
-# How to use the system
+# How to use the system 
 <ul>
   <li><b>User Registration:</b></li>
   Users need to register to access the system's features. This could involve creating an account with a username, email, and password.
@@ -28,7 +28,7 @@
   </ul>
 </ul>
 
-# Reporting
+# Reporting :memo:
 The system will output a book recommendation list which includes:
 <ul>
   <li><b>1. User details:</b></li>
