@@ -22,7 +22,8 @@
   <li><b>Option 3:</b></li>
   Book Details and Give Ratings: After reading a book, users can log in to the system and provide details about the book (such as title, author, genre) and rate it. This   
   could contribute to the recommendation engine's algorithm.
-  <li><b>Option 4: Exit the System: Provides users with an option to leave the system.</b></li>
+  <li><b>Option 4:</b></li>
+  Exit the System: Provides users with an option to leave the system.
 </p>
 
 
