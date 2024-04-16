@@ -24,7 +24,7 @@ Reading is a good habit that nourishes creativity and broadens one's horizon. Ho
   <tr>
     <td>Chen Wei Jay Nickolas</td>
     <td>A23CS5028</td>
-    <td></td>
+    <td><img src= https://github.com/jjn7702/SECJ1023-PT2/assets/148372073/bbc5124e-cbbc-4394-a80a-17a7d239dc73" height="200" width="130"></td>
   </tr>
 </table>
 
