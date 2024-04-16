@@ -1,5 +1,7 @@
 # Project Proposal
 
+<image src = "images/nutrition tracker.png" width="1920" height="250">
+
 ### Table of Contents
 
 - [Synopsis and General Idea](#synopsis-and-general-idea)
