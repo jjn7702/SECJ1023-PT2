@@ -3,9 +3,6 @@ A good book recommendation system is indispensable for every diligent soul. It m
 
 
 # Objective and Purposes :dart:
-- To recommend books to the users according to their preferences
-- To encourage genre exploration by suggesting high-rated books
-- develop an interactive system that allows user to input the rating of books 
 
 
 # How to use the system :computer:
