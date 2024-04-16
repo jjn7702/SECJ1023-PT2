@@ -21,12 +21,14 @@ A good book recommendation system is indispensable for every diligent soul. It m
       <ul>
         <li><b>Genre Option List Page:</b></li>
         Readers can choose the genre that they are interested in.
-        <li>Option A: Fantasy</li>
-        If readers enter option A on the genre option list page, readers can see the Fantasy Genre Book List. Readers can view the title, the description, and the ratings of         all books in the fantasy genre.
-        <li>Option B: Romance</li>
-        If readers enter option B on the genre option list page, readers can see the Romance Genre Book List. Readers can view the title, the description, and the ratings of         all books in the romance genre.
-        <li>Option C: Sci-Fi</li>
-        If readers enter option C on the genre option list page, readers can see the Sci-Fi Genre Book List. Readers can view the title, the description, and the ratings of          all books in the sci-fi genre.
+        <ul>
+          <li>Option A: Fantasy</li>
+          If readers enter option A on the genre option list page, readers can see the Fantasy Genre Book List. Readers can view the title, the description, and the ratings            of all books in the fantasy genre.
+          <li>Option B: Romance</li>
+          If readers enter option B on the genre option list page, readers can see the Romance Genre Book List. Readers can view the title, the description, and the ratings            of all books in the romance genre.
+          <li>Option C: Sci-Fi</li>
+          If readers enter option C on the genre option list page, readers can see the Sci-Fi Genre Book List. Readers can view the title, the description, and the ratings             of all books in the sci-fi genre.
+        </ul>
       </ul>
     <li><b>Option 3: Make own recommendation list</b></li>
     If readers enter option 3 on the home page, readers can make their book recommendation list after they read the descriptions and ratings of the books. Readers need to        key in the book code of the book that they are interested in to add the book to their book recommendation list. Then, users can press N to stop adding books to the list.     After the user presses N, the book recommendation list will be outputted.
