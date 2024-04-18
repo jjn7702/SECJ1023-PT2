@@ -26,10 +26,10 @@ A good book recommendation system is indispensable for every diligent soul. It m
         <li><b>Genre Option List Page:</b></li>
         Users can choose the genre that they are interested in.
         <ul>
-          <li>Genre 1: Fantasy</li>
+          <li>Genre 1: Romance</li>
           Users will be able to see a list of romance genre books with the book code, title, genre, publication year, and publisher of the books.
           Users can input the code number of the book that they are interested in, then the book will be added to the users’ personalized book recommendation list.
-          <li>Genre 2: Romance</li>
+          <li>Genre 2: Fantasy</li>
           Users will be able to see a list of fantasy genre books with the book code, title, genre, publication year, and publisher of the books.
           Users can input the code number of the book that they are interested in, then the book will be added to the users’ personalized book recommendation list.
           <li>Genre 3: Sci-Fi</li>
