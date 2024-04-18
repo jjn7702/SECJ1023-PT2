@@ -3,7 +3,10 @@ A good book recommendation system is indispensable for every diligent soul. It m
 
 
 # Objective and Purposes :dart:
-
+- The system could provide personalized book recommendations to users based on user's favourite genre.
+- User can check the top trending books in the system, and explore different genre of books.
+- A recommendation list can be customized by user to summarise their interested books.
+- This book recommendation system aims to cultivate and sparks interest of people to indulge in reading habits.
 
 # How to use the system :computer:
 <ul>
