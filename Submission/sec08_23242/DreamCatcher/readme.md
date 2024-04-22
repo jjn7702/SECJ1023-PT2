@@ -7,7 +7,7 @@ As social media continues to grow at a fast pace, we spend most of our free time
 
 | Name                                     | Matric Number | Photo |
 |------------------------------------------|---------------|-------|
-| CH'NG SENG HONG  | A23CS0058     | |
+| CH'NG SENG HONG  | A23CS0058     |<image src = "images/Ch'ngSengHong.jpg" width="200" height="250"> |
 | FOO MING KUANG       | A23CS5026     | |
 | TAN QING QING                 | A23CS5034    ||
 
