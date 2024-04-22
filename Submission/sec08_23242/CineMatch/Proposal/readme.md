@@ -7,4 +7,11 @@ User can interact with the system through simple input.Besides of that,they can 
 
 Overall, the movie recommendation system aims to help users discover new and interesting movies that match their tastes, thereby enhancing their movie-watching experience.
 
+# Objective
+• suggest movies to users based on their preferences,behavior
+• enable user to rate the movie
+• organize movie information
+• Provide accurate movie information to user
+• Personalized recommendation
+• improving user satisfaction and engagement
 
