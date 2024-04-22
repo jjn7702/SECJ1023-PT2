@@ -10,6 +10,7 @@
     <li>Reduce the risk of various health problems associated with poor sleep, such as obesity, heart disease, and mental health disorders</li>
   </ul>
 
+  <h1>System User Guide </h1>
   <h2>Feedback And Recommendation:</h2>
   <ul>
     <li><strong>Morning Feelings Notification:</strong> Each morning, the system could prompt users with a notification asking how they feel upon waking up. Users could select from options like "Refreshed," "Tired," "Restless," etc., or they could provide additional comments if they wish. This feedback would help the system understand the user's sleep quality and mood upon waking.</li>
