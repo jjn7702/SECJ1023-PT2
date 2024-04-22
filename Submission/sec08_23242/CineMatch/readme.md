@@ -2,7 +2,7 @@
 <image src = "image/CINEMA.jpg" width="2000" height="500">
   
 ## Description
-Movie recommendation system aims to enhance our user experience by helping them discover new movies they are likely to enjoy, thereby increasing engagement and satisfaction with the movie-watching experience.
+A movie recommendation system is a sophisticated software application designed to enhance the movie-watching experience by suggesting films tailored to individual preferences. It leverages a user's past movie ratings, genre interests, viewing history, and demographic information to generate personalized suggestions. By analyzing these factors, the system aims to recommend films that resonate with the user's tastes and preferences, ultimately enriching their cinematic journey. Whether seeking entertainment, education, or emotional connection, the system strives to provide a curated selection of movies that align with the user's unique viewing desires, making each movie-watching experience more enjoyable and fulfilling.
 
 ## Our team members 
 <table> 
