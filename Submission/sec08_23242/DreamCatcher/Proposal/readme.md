@@ -49,12 +49,18 @@
   </ul>
 </body>
 </html>
-
-
-## Reporting 📑
-- **Daily Summary:** Users receive summary include metrics like total sleep time, sleep efficiency, number of awakenings, and any other relevant data collected by the app.
-
-- **Weekly/Monthly Reports:** Users could access weekly and monthly reports within the app. These reports could show trends in sleep quality over time, such as average sleep duration and average sleep efficiency. Besides,users could view which days of the week or month had the best sleep quality based on the metrics tracked by the app. This could help users identify patterns and adjust their sleep habits accordingly.
-
+</head>
+<body>
+  <h2>Reporting 📑</h2>
+  <ul>
+    <li>
+      <strong>Daily Summary:</strong> Users receive a summary including metrics like total sleep time, sleep efficiency, number of awakenings, and any other relevant data collected by the app.
+    </li>
+    <li>
+      <strong>Weekly/Monthly Reports:</strong> Users could access weekly and monthly reports within the app. These reports could show trends in sleep quality over time, such as average sleep duration and average sleep efficiency. Additionally, users could view which days of the week or month had the best sleep quality based on the metrics tracked by the app. This could help users identify patterns and adjust their sleep habits accordingly.
+    </li>
+  </ul>
+</body>
+</html>
 
 
