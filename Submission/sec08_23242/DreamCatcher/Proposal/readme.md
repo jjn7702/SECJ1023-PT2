@@ -13,20 +13,23 @@
   <h1>System User Guide: &#128187; <!-- 👨‍💻 -->
  </h1>
 <h3 style="font-weight: bold;">Sleep Tracking:</h3>
-<p>
-  Heart Rate Monitoring:<br>
-  This feature tracks your heart rate while you sleep, providing insights into your sleep patterns and overall sleep quality. By detecting changes in your heart rate throughout the night, it helps identify different sleep stages and areas for improvement in your sleep routine. Additionally, it serves as a tool to detect any abnormal heart activities, offering valuable health information. If your heart rate reaches a critical level during the night, the app will alert you. In case of no response, it initiates an emergency protocol, contacting healthcare providers for immediate assistance.
-</p>
+<ul>
+  <li>
+    <strong>Heart Rate Monitoring:</strong><br>
+    This feature tracks your heart rate while you sleep, providing insights into your sleep patterns and overall sleep quality. By detecting changes in your heart rate throughout the night, it helps identify different sleep stages and areas for improvement in your sleep routine. Additionally, it serves as a tool to detect any abnormal heart activities, offering valuable health information. If your heart rate reaches a critical level during the night, the app will alert you. In case of no response, it initiates an emergency protocol, contacting healthcare providers for immediate assistance.
+  </li>
+  <br>
+  <li>
+    <strong>Movement Tracking:</strong><br>
+    With the help of smart sensors, like those found in a smartwatch, the Movement Tracking feature keeps tabs on your nighttime movements. It then dives into the quality of your sleep based on this data. Understanding your sleep patterns helps the system suggest personalized tweaks to your sleep routines, ultimately boosting your overall sleep health.
+  </li>
+  <br>
+  <li>
+    <strong>Sleep Tracking:</strong><br>
+    The system keeps an eye on your sleep patterns and routines based on when you go to bed. Just activate the sleep function at bedtime and set your wake-up alarm. This helps the app understand when you're asleep and when you're awake, making it easier to track your sleep habits.
+  </li>
+</ul>
 
-<p>
-  Movement Tracking:<br>
-  With the help of smart sensors, like those found in a smartwatch, the Movement Tracking feature keeps tabs on your nighttime movements. It then dives into the quality of your sleep based on this data. Understanding your sleep patterns helps the system suggest personalized tweaks to your sleep routines, ultimately boosting your overall sleep health.
-</p>
-
-<p>
-  Sleep Tracking:<br>
-  The system keeps an eye on your sleep patterns and routines based on when you go to bed. Just activate the sleep function at bedtime and set your wake-up alarm. This helps the app understand when you're asleep and when you're awake, making it easier to track your sleep habits.
-</p>
 
   <h3 style="font-weight: bold;">Feedback And Recommendation:</h3>
   <ul>
