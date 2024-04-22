@@ -2,7 +2,7 @@
 <image src = "image/MOVIE.jpg" width="2000" height="500">
 
 ### Table
-- [Synopsis](Synopsis)
+- [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs)
 - [Reporting](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs)
   
 # Synopsis :clapper:
