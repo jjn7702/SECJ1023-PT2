@@ -1,4 +1,4 @@
-<image src = "image/MOVIE.jpg" width="2000" height="500">
+<image src = "image/CINEMA.jpg" width="2000" height="500">
 # Synopsis
 The movie recommendation system is a software application designed to suggest movies to users based on their preferences. It uses a combination of user input to generate personalized movie recommendations. The system aims to improve user satisfaction and engagement by providing relevant and diverse movie suggestions.This sytem will be built by using C++ language.
 
