@@ -1,5 +1,7 @@
 # Sleep Cycle Analyzer
 
+![Dream Catcher](https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/bec247d3-bbdc-4940-9817-29c4c17f6f90)
+
 ## Description 📝
 As social media continues to grow at a fast pace, we spend most of our free time on social media. This causes us to stay up all night and neglect our sleep. However, without having a good sleep, we don't have enough energy during the day. Therefore, using a sleep cycle analyzer can empower us to take control of our sleep health, identify areas for improvement, and make informed decisions to enhance the quality of our sleep and overall well-being.
 
