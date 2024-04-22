@@ -24,6 +24,6 @@ Movie recommendation system aims to enhance our user experience by helping them 
   <tr> 
     <td>CHEW CHUAN KAI</td> 
     <td>A23CSXXXX</td> 
-    <td><img src= https://github.com/jjn7702/SECJ1023-PT2/assets/148372073/00a4950c-8af5-4886-b4aa-acb13d59c117" height="200" width="130"></td> 
+    <td><img src==/assets/148372073/00a4950c-8af5-4886-b4aa-acb13d59c117" height="200" width="130"></td> 
   </tr> 
 </table> 
