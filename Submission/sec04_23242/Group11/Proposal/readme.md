@@ -18,7 +18,7 @@ Due to the multiple features and huge amount of storage for food nutritional inf
 * Help users to assess their overall health status and their weight relative to height
 
 
-## 3.User Manual*
+## 3.User Manual
 
 ## 4.Example Output
 
