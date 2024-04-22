@@ -3,7 +3,7 @@
 
 ### Table
 - [Synopsis](Synopsis)
-- [Reporting](Reporting)
+- [Reporting](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs))
   
 # Synopsis :clapper:
 The movie recommendation system is a software application designed to suggest movies to users based on their preferences. It uses a combination of user input to generate personalized movie recommendations. The system aims to improve user satisfaction and engagement by providing relevant and diverse movie suggestions.This sytem will be built by using C++ language.
