@@ -12,7 +12,7 @@
 
   <h1>System User Guide: &#128187; <!-- 👨‍💻 -->
  </h1>
-  <h2>Feedback And Recommendation:</h2>
+  <h3 style="font-weight: bold;">Feedback And Recommendation:</h3>
   <ul>
     <li><strong>Morning Feelings Notification:</strong> Each morning, the system could prompt users with a notification asking how they feel upon waking up. Users could select from options like "Refreshed," "Tired," "Restless," etc., or they could provide additional comments if they wish. This feedback would help the system understand the user's sleep quality and mood upon waking.</li>
 <br>
