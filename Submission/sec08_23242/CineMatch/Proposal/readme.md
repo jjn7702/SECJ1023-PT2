@@ -4,6 +4,7 @@
 ### Table
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs)
 - [Objective](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs)
+- [How to use the system](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#how-to-use-the-system-book)
 - [Reporting](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#reporting-bookmark_tabs)
   
 # Synopsis :clapper:
