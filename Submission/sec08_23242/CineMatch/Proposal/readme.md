@@ -19,6 +19,33 @@ Overall, the movie recommendation system aims to help users discover new and int
 • improving user satisfaction and engagement<br> <br>
 
 # How to use the system
-Step 1: sign in / sign up <br>
-  
+***Step 1: sign in / sign up*** <br>
+**Sign In**
+  - User key in their Username and Password as input <br>
+    *Both correct :+1: ->next section <br>
+    *Not matched :-1: ->try again <br>
+**Sign Up**
+  -User create their Username and Password as input <br>
+
+***Step 2: User Option***
+|Option|Program|
+|---|---|
+|1|SEARCH MOVIE by MOVIE NAME|
+|2|SEARCH MOVIE by MOVIE CLASSIFICATION|
+|3|SEARCH MOVIE by GENRE|
+|4|RATE MOVIE|
+|5|VIEW USER'S WATCHLIST|
+|6|EXIT|
+
+***Step 3.1: Select Movie***
+*For Option 1,2,3 in Step 2* <br>
+Display Movie List :clipboard: User can select movie by input and option in Step 4 <br>
+*For Option 4 in Step 2* <br>
+Movie Rating :black_nib: User can select movie and rate the selected movie (After user rate the movie, the movie rating will be updated in the system <br>
+***Step 3.2: User's Watchlist***
+*For Option 5 in Step 2* <br>
+Watchlist View 🎞️: User can view the movies in their watchlist and the movie can be removed if user wish to
+
+~~~The user will proceed to Step 4 **ONLY IF** they select option 1/2/3 in Step 2~~~ <br>
+8888888888
 
