@@ -2,8 +2,8 @@
 <image src = "image/MOVIE.jpg" width="2000" height="500">
 
 ### Table
-- [Synopsis](docs/Synopsis.md)
-- [Reporting](docs/Reporting.md)
+- [Synopsis](Synopsis.md)
+- [Reporting](Reporting.md)
   
 # Synopsis :clapper:
 The movie recommendation system is a software application designed to suggest movies to users based on their preferences. It uses a combination of user input to generate personalized movie recommendations. The system aims to improve user satisfaction and engagement by providing relevant and diverse movie suggestions.This sytem will be built by using C++ language.
