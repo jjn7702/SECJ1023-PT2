@@ -47,8 +47,9 @@ Overall, the movie recommendation system aims to help users discover new and int
 ## ***Step 3.2: User's Watchlist***
 *For Option 5 in Step 2* <br>
 **Watchlist View 🎞️:** User can view the movies in their watchlist and the movie can be removed if user wish to
-||
-|*The user will proceed to Step 4 **ONLY IF** they select option 1/2/3 in Step 2*|
+<br>
+
+>>|*The user will proceed to Step 4 **ONLY IF** they select option 1/2/3 in Step 2*|
 |---|
 <br>
 
