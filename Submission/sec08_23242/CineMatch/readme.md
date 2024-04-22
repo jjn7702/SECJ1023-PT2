@@ -14,16 +14,16 @@ Movie recommendation system aims to enhance our user experience by helping them 
   <tr> 
     <td>CHEW ZHUO HENG</td> 
     <td>A23CS0064</td> 
-    <td><img src="image/CHEW ZHUO HENG.jpg" height="200" width="130"></td> 
+    <td><img src="image/CHEW ZHUO HENG.jpg" height="200" width="150"></td> 
   </tr> 
   <tr> 
     <td>GOH CHANG ZHE</td> 
     <td>A23CS0225</td> 
-    <td><img src= "image/GOH CHANG ZHE.jpg" height="200" width="130"></td> 
+    <td><img src= "image/GOH CHANG ZHE.jpg" height="200" width="150"></td> 
   </tr> 
   <tr> 
     <td>CHEW CHUAN KAI</td> 
     <td>A23CS0062</td> 
-    <td><img src= "image/CHEW CHUAN KAI.jpg" height="200" width="130"></td> 
+    <td><img src= "image/CHEW CHUAN KAI.jpg" height="200" width="150"></td> 
   </tr> 
 </table> 
