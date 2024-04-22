@@ -38,6 +38,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 |4|RATE MOVIE|
 |5|VIEW USER'S WATCHLIST|
 |6|EXIT|
+<br>
 
 ## ***Step 3.1: Select Movie***
 *For Option 1,2,3 in Step 2* <br>
@@ -48,7 +49,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 *For Option 5 in Step 2* <br>
 **Watchlist View 🎞️:** User can view the movies in their watchlist and the movie can be removed if user wish to
 
-|`#0969DA` *The user will proceed to Step 4 **ONLY IF** they select option 1/2/3 in Step 2*|
+| *The user will proceed to Step 4 **ONLY IF** they select option 1/2/3 in Step 2*|`#RRGGBB`
 |---|
 
 ## ***Step 4: Options (CONT.)***
@@ -58,7 +59,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 |2|ADD TO WATCHLIST|User can add the selected movie to their personal watchlist (if the selected movie existed in the watchlist, the movie will not be added again and user will be notified)|
 |3|REMOVE FROM WATCHLIST|User can remove the selected movie from their personal watchlist (if the selected movie do not existed in the watchlist, the movie will not be removed and user will be notified)|
 |4|EXIT|User can exit the program by user input if they do not wish to proceed anymore|
-
+<br>
 
 # Reporting :bookmark_tabs:
 This system will have different output based on user selection:
