@@ -20,7 +20,8 @@ As social media continues to grow at a fast pace, we spend most of our free time
   <tr>
     <td>FOO MING KUANG</td>
     <td>A23CS5026</td>
-    <td></td>
+    <td><img src="https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/f191eb78-40b9-4193-b934-a0f6c288dc19" width="200" height="250"> 
+</td>
   </tr>
   <tr>
     <td>TAN QING QING</td>
