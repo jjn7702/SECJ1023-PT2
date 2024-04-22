@@ -13,5 +13,10 @@ Overall, the movie recommendation system aims to help users discover new and int
 • organize movie information<br>
 • Provide accurate movie information to user<br>
 • Personalized recommendation<br>
-• improving user satisfaction and engagement<br>
+• improving user satisfaction and engagement<br> <br>
+
+# How to use the system
+Step 1: sign in / sign up <br>
+  SIGN IN <br>
+    - User key in their Username and Password as input
 
