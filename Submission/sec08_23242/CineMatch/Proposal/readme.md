@@ -1,7 +1,7 @@
 <h1 align="center"> 🎥Movie Recommendation System🎥 </h1>
 <image src = "image/MOVIE.jpg" width="2000" height="500">
   
-# Synopsis
+# Synopsis :clapper:
 The movie recommendation system is a software application designed to suggest movies to users based on their preferences. It uses a combination of user input to generate personalized movie recommendations. The system aims to improve user satisfaction and engagement by providing relevant and diverse movie suggestions.This sytem will be built by using C++ language.
 
 The movie recommendation system works by collecting data about users' movie preferences, such as ratings, genre preferences.The system employ various C++ specification.
@@ -18,7 +18,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 • Personalized recommendation<br>
 • improving user satisfaction and engagement<br> <br>
 
-# How to use the system
+# How to use the system :book:
 ## ***Step 1: sign in / sign up*** <br>
 **Sign In**
   - User key in their Username and Password as input <br>
