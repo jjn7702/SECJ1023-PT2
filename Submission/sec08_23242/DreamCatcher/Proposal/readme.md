@@ -5,5 +5,7 @@ A sleep analyzer system is a technological solution designed to monitor and anal
 
 
 # Objective and Purpose :dart:
-- Aid the people know that
+- Understand sleep patterns including the duration and quality of different sleep stages throughout the night
+- Indentify sleep probelems and optimizing sleep schedule
+- Reduce the risk of various health problems associated with poor sleep, such as obesity, heart disease, and mental health disorders
 
