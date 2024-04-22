@@ -43,6 +43,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 ## ***Step 3.1: Select Movie***
 *For Option 1,2,3 in Step 2* <br>
 **Display Movie List :clipboard::** User can select movie by input and option in Step 4 <br>
+
 *For Option 4 in Step 2* <br>
 **Movie Rating :black_nib::** User can select movie and rate the selected movie (After user rate the movie, the movie rating will be updated in the system <br>
 ## ***Step 3.2: User's Watchlist***
