@@ -9,7 +9,7 @@ Movie recommendation system aims to enhance our user experience by helping them 
   <tr> 
     <td width="250px">Name</td> 
     <td width="150px">Matric Number</td> 
-    <td width="300px">Photo</td> 
+    <td width="200px">Photo</td> 
   </tr> 
   <tr> 
     <td>CHEW ZHUO HENG</td> 
