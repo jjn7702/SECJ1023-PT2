@@ -13,8 +13,11 @@
   <h2>Feedback And Recommendation:</h2>
   <ul>
     <li><strong>Morning Feelings Notification:</strong> Each morning, the system could prompt users with a notification asking how they feel upon waking up. Users could select from options like "Refreshed," "Tired," "Restless," etc., or they could provide additional comments if they wish. This feedback would help the system understand the user's sleep quality and mood upon waking.</li>
+<br>
     <li><strong>Recommended Sleep Time:</strong> Based on the user's sleep patterns and the data collected over time, the system could calculate and display a recommended sleep time for optimal rest. This recommendation could consider factors such as the user's typical bedtime, wake-up time, sleep duration, and sleep quality. The recommendation could be shown in the app dashboard or included in the morning notification.</li>
+<br>
     <li><strong>Customized Pre-Sleep Music:</strong> Users have the option to choose their own pre-sleep music or rely on the system's recommendations. The system suggests music based on user feedback and preferences, offering calming and relaxing options tailored to individual tastes.</li>
+<br>
     <li><strong>Personalized Alarm:</strong> The sleep analyzer offers personalized alarm settings that cater to each user's unique needs. Users can customize alarm tones, volume levels, and wake-up times to suit their preferences. The system also learns from user feedback to refine alarm settings over time, ensuring a gentle and effective wake-up experience for each individual.</li>
   </ul>
 </body>
