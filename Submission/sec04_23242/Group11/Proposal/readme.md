@@ -1,8 +1,8 @@
 # **Nutrition Tracker System**
 
-![banner][logo]
-[logo]: ./images/Green%20and%20Beige%20Illustrative%20Healthy%20Food%20Presentation.jpg
+![banner](./images/Green%20and%20Beige%20Illustrative%20Healthy%20Food%20Presentation.jpg)
 
+<img>
 ## 1.Synopsis
 
 Nutrition Tracker System is command-line-tool (CLI) that is build in C++ develop to help people monitoring their dietary intake and give them informed decisions about their nutrition. The program allows to check Food nutrition, set nutrition goals, calculate BMI and generate recommendation for dietary intake. With a simple CLI-interface, Nutrition Tracker System provide a seamless experinence for users to input dietary information and give a real-time feedback on their nutrional intake. 
