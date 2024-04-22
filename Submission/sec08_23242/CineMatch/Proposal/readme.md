@@ -17,6 +17,5 @@ Overall, the movie recommendation system aims to help users discover new and int
 
 # How to use the system
 Step 1: sign in / sign up <br>
-  SIGN IN <br>
-    - User key in their Username and Password as input
+  
 
