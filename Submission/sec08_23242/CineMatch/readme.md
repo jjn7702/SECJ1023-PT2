@@ -1,2 +1,2 @@
 # 🎥Movie Recommendation System🎥
-<image src = "images/CINEMA.jpg" width="2000" height="1800">
+<image src = "images/CINEMA.jpg" width="200" height="180">
