@@ -31,6 +31,6 @@ As social media continues to grow at a fast pace, we spend most of our free time
 
 
 ## Findings 🔍
--[Proposal]
+-[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal)
 
 
