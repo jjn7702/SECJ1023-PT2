@@ -27,3 +27,8 @@ A movie recommendation system is a sophisticated software application designed t
     <td><img src= "image/CHEW CHUAN KAI.jpg" height="200" width="150"></td> 
   </tr> 
 </table> 
+
+## Findings :mag_right:
+<ul>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal"> Proposal </a></li>
+</ul>
