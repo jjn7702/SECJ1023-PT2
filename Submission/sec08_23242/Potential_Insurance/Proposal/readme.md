@@ -26,7 +26,7 @@ The main aim of this application is to propose food options tailored to users' t
 |Option|Program|
 |---|---|
 |1|SEARCH RESTAUTANT by RESTAURANT NAME|
-|2|SEARCH MOVIE by MOVIE CLASSIFICATION|
+|2|SEARCH MOVIE by Cusine|
 |3|SEARCH MOVIE by PROMOTION|
 |4|RATE RESTAURANT|
 |5|VIEW USER'S WATCHLIST|
