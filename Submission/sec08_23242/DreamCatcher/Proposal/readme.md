@@ -49,7 +49,6 @@
     </ul>
 </body>
 </html>
-<hr>
   <h3 style="font-weight: bold;">Sleep Tracking:</h3>
   <ul>
     <li>
@@ -75,10 +74,11 @@
       <div class="right-align">
       <ul>
       The system keeps an eye on your sleep patterns and routines based on when you go to bed. Just activate the sleep function at bedtime and set your wake-up alarm. This helps the app understand when you're asleep and when you're awake, making it easier to track your sleep habits.
-    </li>
-  </ul>
-      </head>
-      <body>
+    </div>
+        </li>
+    </ul>
+</body>
+</html>
        
 <h3 style="font-weight: bold;">Feedback And Recommendation:</h3>
   <ul>
@@ -102,7 +102,7 @@
 </html>
 </head>
 <body>
-  <h2>Reporting 📑</h2>
+  <h1>Reporting 📑</h1>
   <ul>
     <li>
       <strong>Daily Summary:</strong> Users receive a summary including metrics like total sleep time, sleep efficiency, number of awakenings, and any other relevant data collected by the app.
