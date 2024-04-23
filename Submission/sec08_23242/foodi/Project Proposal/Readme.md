@@ -16,6 +16,7 @@
     <li>
       <strong>Login Page</strong><br>
     </li>
+    The user will be prompted to enter his personal information to be saved as a profile.
     <br>
     <li>
       <strong></strong><br>
