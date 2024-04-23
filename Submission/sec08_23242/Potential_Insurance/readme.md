@@ -14,17 +14,17 @@ Angie
   <tr> 
     <td>TAN ZHENG YU</td> 
     <td>A23CS5017</td> 
-    <td><img src="image/TANZHENGYU.jpg" height="200" width="150"></td> 
+    <td><img src="Image/TANZHENGYU.jpg" height="200" width="150"></td> 
   </tr> 
   <tr> 
     <td>TAN JIA YING</td> 
     <td>A23CS0274</td> 
-    <td><img src= "image/TANJIAYING.jpg" height="200" width="150"></td> 
+    <td><img src= "Image/TANJIAYING.jpg" height="200" width="150"></td> 
   </tr> 
   <tr> 
     <td>ANGIE WONG SIAW THING</td> 
     <td>A23CS0048</td> 
-    <td><img src= "image/ANGIE.jpg" height="200" width="150"></td> 
+    <td><img src= "Image/ANGIE.jpg" height="200" width="150"></td> 
   </tr> 
 </table> 
 
