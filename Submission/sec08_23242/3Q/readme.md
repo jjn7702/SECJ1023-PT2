@@ -13,4 +13,4 @@
 
 
 ## Description
--Phase1:  (Report: [proposal/readme.md](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/3Q/proposal/readme.md))
+-Proposal :  (Report: [proposal/readme.md](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/3Q/proposal/readme.md))
