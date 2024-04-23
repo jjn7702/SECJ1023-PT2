@@ -9,7 +9,7 @@
   </ul>
 
   <h1>System User Guide: 👨‍💻</h1>
-  <h3 style="font-weight: bold;">Sleep Tracking:</h3>
+  <h3 style="font-weight: bold;"></h3>
   <ul>
     <li>
       <strong></strong><br>
