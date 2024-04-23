@@ -15,7 +15,12 @@
 <br>
 
 ### :mega: How To Use The System
-->
+First time users will be directed to the **sign up page**. Users will be requested to enter their email address then create their password. After successfully signing up, users will be directed to the **login page** and requested to login with the credentials provided to the system at the signup page.
+After entering the system, users can either choose to go to their **account page** and update their recent information, **explore the book listing** currently available for exchange, or **update their owned book listing**. 
+
+Firstly, updating users’ account pages would include the information of the user's current education level, user’s age, and user’s current education institution. On the other hand, if a user is interested in exploring books available for exchange, they will need to type in the book title into the search engine. If the title of the book is unclear, a ***keyword search*** can be done by only searching keywords of the book, then the system will produce a listing of relevant books. Users can further narrow down their search by applying a filter that includes but not limit to its date of publication, its author, edition number and ISBN code. Lastly, for users who wish to share their owned-books listing, they would be requested to type in information about the books. 
+
+If a user decided a book was needed after finding it in the available book listing, the user could ***send an exchange reques*** to the book owner. After the book owner accepts the request, the book will be sent on its way. If out of a large amount of demands, the book owner received multiple requests for the same book, then the book owner will have to pick the earliest request and accept it whilst also rejecting the other requests at the same time. The book owner could also put them on hold if the book requesters would still like to be lent that book after a long wait. 
 <br>
 <br>
 
