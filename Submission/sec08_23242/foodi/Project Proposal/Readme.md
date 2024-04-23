@@ -1,18 +1,20 @@
 </head>
 <body>
   <h1>Synopsis and General Idea :memo:</h1>
-  <p> Foodie" is a software designed to serve as a comprehensive food allergy alert system. هts primary aim is to enhance the safety and dining experience of individuals with food allergies by providing them with vital information about potential allergens in various food items.</p>
+  <p>Foodi is a food allergy system designed for people with food sensitivities. It helps users live safer by comparing their allergens to food information in various databases, allowing them to avoid allergens and prevent allergic reactions.</p>
 
   <h1>Objective and Purpose :dart:</h1>
   <ul>
-    <li></li>
+    <li>The system provides the user with a list of allergens they can choose from.</li>
+    <li>User can search for a specific food to identify if it contains allergens.</li>
+    <li>The system recommends the user with foods that are free of allregens they specified.</li>
   </ul>
 
   <h1>System User Guide: 👨‍💻</h1>
   <h3 style="font-weight: bold;"></h3>
   <ul>
     <li>
-      <strong></strong><br>
+      <strong>Login Page</strong><br>
     </li>
     <br>
     <li>
