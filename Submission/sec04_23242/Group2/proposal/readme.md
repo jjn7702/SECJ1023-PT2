@@ -21,14 +21,15 @@ The new user needs to input their intended username, as well as their password.
 | Press Enter        |     |
 
 ## Page 2 : Menu
-
+In the menu page the user should see two options, one to see their timeline and another to edit events. Below the two options, the application will show the nearest upcoming event. Followed by that is the input of the user where they choose their following action.
+|  |     |
+| ------------------ | --- |
 | 2.1              | See Timeline         |
-| ---------------- | -------------------- |
 | 2.2              | Add or Remove Events |
 | Upcoming Event : | EventName            |
 |                  |                      |
 | Option :         | 2.1  / 2.2           |
-In the menu page the user should see two options, one to see their timeline and another to edit events. Below the two options, the application will show the nearest upcoming event. Followed by that is the input of the user where they choose their following action.
+
 
 ## Page 2.1 : Timeline
 The user's timeline should be shown in the following order
@@ -45,6 +46,7 @@ The user's timeline should be shown in the following order
 | 0                           | Back   |         |             |
 | 00                          | Logout |         |             |
 | Input number to show more : |        |         |             |
+
 The user is able to input the number of their desired event to see more detailed descriptions of it. When the user inputs 0, they will be redirected to the previous page, and when the user inputs 00, they will logout. Inputs 0 and 00 will be consistent in the whole application.
 
 ## Page 2.1.1 Event Details
