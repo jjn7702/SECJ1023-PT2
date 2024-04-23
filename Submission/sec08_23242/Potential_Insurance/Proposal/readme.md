@@ -24,10 +24,10 @@ The main aim of this application is to propose food options tailored to users' t
 
 ## ***Step 1: Sign in/ Sign out***
 • Sign in <br>
-  &nbsp User enters their username and password
+  &nbsp; User enters their username and password
 
 • Sign up <br>
-  "\t" User create their username and password
+  '\t' User create their username and password
 
 ## ***Step 2: User Option***
 |Option|Program|
