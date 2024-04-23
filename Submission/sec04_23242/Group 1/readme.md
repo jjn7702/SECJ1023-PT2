@@ -20,3 +20,7 @@ The Book Recommendation System is simple to use. Follow these steps:
 3. Receive personalized book recommendations.
 4. Explore the recommended books and choose the ones you're interested in.
 
+## Output / Result
+
+After filtering is done by the user, the system will display book(s) based on user's preference. Moreover, the system lists out every detail of the recommended book(s).
+
