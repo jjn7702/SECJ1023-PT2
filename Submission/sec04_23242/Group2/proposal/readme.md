@@ -2,9 +2,8 @@
 As the user runs the application, he should see the following pages: 
 ## Page 1 : User Login
 
-| | |
+
 | User : |     |
-| --------------------------------- | --- |
 | Password :                        |     |
 |                                   |     |
 | New User? |     |
