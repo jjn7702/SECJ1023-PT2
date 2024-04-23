@@ -16,4 +16,4 @@
 | Mohamed Ali Mohamed Ali | A21EC0287     | <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/a4149f9f-5667-4148-b33a-94d4565ff249" width="200" height="200">      |
 
 ## Log🔍
-[proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/ab855d76aa521eb1497dfde418c6e6f09b06d474/Submission/sec08_23242/foodi/Project%20Proposal))
+([proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/ab855d76aa521eb1497dfde418c6e6f09b06d474/Submission/sec08_23242/foodi/Project%20Proposal))
