@@ -5,6 +5,10 @@
 
 ### How to use the system 📝
 
+<p align="justify"> 
+Firstly, the users would enter their name andmonthly income. Next, users can choosewhether they wish to record theirtransactions or create a monthly budgetreport. Processes would be done based onthe users' choice to help them manage theirfinances.</p><br>
+
+
 ### Report/Output 🗂
 
 
