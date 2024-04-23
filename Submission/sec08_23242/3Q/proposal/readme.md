@@ -1,5 +1,6 @@
 # Project Proposal 📋
 ### Synopsis and General Idea 💡
+Nowadays, individuals encounter myriads of challenges to manage their finances well. From tracking their spending and analyzing their investment portfolio. The Personal Finance Manager system is intended to help individuals manage their finances effectively by tracking the users' transactions and creating reports to provide a clearer view of their monthly financial activities. 
 
 ### Objectives 🔮
 
