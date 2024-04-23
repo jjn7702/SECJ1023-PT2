@@ -24,3 +24,13 @@ The Book Recommendation System is simple to use. Follow these steps:
 
 After filtering is done by the user, the system will display book(s) based on user's preference. Moreover, the system lists out every detail of the recommended book(s).
 
+## Array of Objects
+
+Array is used in this system, acting as database. Every data will stored based on their data types. For example:
+1. Name of book
+2. Type of book
+3. Genre
+4. Language
+5. Author name
+6. Year publishment
+7. Synopsis
