@@ -15,10 +15,9 @@
 </p>
   <ol type="1">
     <li>
-      Exchange Book: <be>
+      Exchange Book: <br>
         - Enabling users to exchange reference books with each other can drive to foster a culture of sharing and collaboration. 
     </li>
-      <be>
     <li>
       Facilitate Learning:
       <br>
