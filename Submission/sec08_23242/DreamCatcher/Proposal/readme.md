@@ -11,6 +11,43 @@
   </ul>
 
   <h1>System User Guide: 👨‍💻</h1>
+ </head>
+<body>
+    <h3>Login Page:</h3>
+    <ul>
+        <li>
+            New users can sign up using their email address and a password. During the registration process, they will be prompted to provide basic personal information such as age, gender, height, and weight. This information is crucial for the app to perform a basic sleep analysis and offer tailored recommendations. Existing users can conveniently log in using their existing credentials.
+        </li>
+    </ul>
+    <h3>Menu Page:</h3>
+    <ul>
+        <li>
+          <strong>Main Dashboard:</strong><br>
+        <ul>
+            The main page serves as a comprehensive dashboard, offering a daily summary of previous sleep quality metrics such as sleep duration, efficiency, and the number of awakenings. Additionally, users can delve deeper into their sleep data by accessing extended options, which provide insights into sleep patterns and trends over time. These insights help users gain a better understanding of their sleep habits and make informed decisions to improve their overall sleep quality.
+        </li>
+    </ul>
+    <br>
+
+    <h3>SleepTime Scheduler:</h3>
+    <ul>
+        <li>
+            <strong>SleepTime Scheduler:</strong><br>
+            The SleepTime Scheduler feature empowers users to take control of their sleep routines. Users can easily set their preferred sleep time, and the system utilizes advanced algorithms to recommend the optimal sleep schedule based on the user's individual routine and sleep patterns. Furthermore, users have the flexibility to personalize their alarm settings, including choosing alarm tones and adjusting volume levels to create a customized wake-up experience that suits their preferences.
+        </li>
+    </ul>
+
+    <h3>Sleep Symphony:</h3>
+    <ul>
+        <li>
+            <strong>Sleep Symphony:</strong><br>
+            In the Sleep Symphony section, users can indulge in a personalized relaxation experience before bedtime. This feature allows users to customize their pre-sleep music or sounds, creating a tranquil atmosphere conducive to relaxation and sleep. Leveraging sophisticated algorithms, the system tailors the selection of relaxation sounds to each user's preferences and sleep needs, ensuring an immersive and rejuvenating pre-sleep experience.
+        </li>
+    </ul>
+</body>
+</html>
+
+
   <h3 style="font-weight: bold;">Sleep Tracking:</h3>
   <ul>
     <li>
