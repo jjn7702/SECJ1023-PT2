@@ -34,3 +34,8 @@ Array is used in this system, acting as database. Every data will stored based o
 5. Author name
 6. Year publishment
 7. Synopsis
+
+## Exception Handling
+
+Exception is something unexpected has occurred or been detected. Exception handling allows the program to deal with the problem in a controlled manner. In this case, when the user enters an input out of options, the system will display “Error! Invalid input. Please enter again.”
+Another situation is that the book/author that user wants is not in the database, the system will display “Sorry, this book/author is not in the database.”
