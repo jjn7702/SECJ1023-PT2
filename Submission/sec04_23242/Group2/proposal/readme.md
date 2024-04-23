@@ -2,20 +2,24 @@
 As the user runs the application, he should see the following pages: 
 ## Page 1 : User Login
 
+Once the user inputs their username , they shall be redirected to the second page. If either the username or the password is incorrect, they shall be requested to re-input the username and password for at most 5 times where there will be a cooldown period. For new users, they have an option to create a new account.
 |  |     |
 | ------------------ | --- |
 | User : |     |
 | Password :                        |     |
 |                                   |     |
 | New User? |     |
-Once the user inputs their username , they shall be redirected to the second page. If either the username or the password is incorrect, they shall be requested to re-input the username and password for at most 5 times where there will be a cooldown period. For new users, they have an option to create a new account.
+
 ## Page 1.1 New User
-| User :             |     |
+
+The new user needs to input their intended username, as well as their password.
+|  |     |
 | ------------------ | --- |
+| User :             |     |
 | Password :         |     |
 | Confirm Password : |     |
 | Press Enter        |     |
-The new user needs to input their intended username, as well as their password.
+
 ## Page 2 : Menu
 
 | 2.1              | See Timeline         |
