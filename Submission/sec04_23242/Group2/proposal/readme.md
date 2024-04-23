@@ -4,8 +4,7 @@
 # Synopsis and General Idea About The Proposed Topic/System
 Our project focuses on the development of a Personal Organiser system. The Personal Organiser serves as a centralised platform for users to manage their daily tasks, events, notes, reminders, and alarms efficiently. Similar to popular tools like Google Keep, our Personal Organiser provides users with a user-friendly interface to create, edit, emphasise, and track various types of events. By offering a centralised hub for organising tasks, events, notes, and reminders, the Personal Organiser empowers users to stay on top of their commitments and achieve their goals effectively.
 
-# System Objectives and/or Purpose
-# What The User Can Achieve/Do in The System?
+# System Objectives and/or Purpose and What The User Can Achieve/Do in The System
 The main objective of the system is to help the user to organise their activities and events in a more structured and easier to access way. The user can input their future events or activities into the system and the system will save and display any upcoming activities to act as a reminder for the user on the timeline, almost like a calendar. The system will also ask for the date and time of the events and calculate which event is going to come out first and display it on the front page for the user to see, and the user can further check their other events if they choose to do so. An optional description could also be added to the events, giving more options for the user to set up their events. Furthermore, the system allows for the users to remove or edit the events that they’ve entered into the system previously. When the event has already finished, the user is able to change the status of the event, whether it is still upcoming or if it’s already finished.
 
 # How To Use System
