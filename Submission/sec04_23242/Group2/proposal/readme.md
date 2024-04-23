@@ -32,10 +32,11 @@ In the menu page the user should see two options, one to see their timeline and 
 
 
 ## Page 2.1 : Timeline
+The user is able to input the number of their desired event to see more detailed descriptions of it. When the user inputs 0, they will be redirected to the previous page, and when the user inputs 00, they will logout. Inputs 0 and 00 will be consistent in the whole application.
 The user's timeline should be shown in the following order
-
+|  |     |
+| ------------------ | --- |
 | Date 1                      |        |         |             |
-| --------------------------- | ------ | ------- | ----------- |
 | 1.                          | Time 1 | Event 1 | eventType 1 |
 | 2.                          | Time 2 | Event 2 | eventType 2 |
 |                             |        |         |             |
@@ -47,12 +48,11 @@ The user's timeline should be shown in the following order
 | 00                          | Logout |         |             |
 | Input number to show more : |        |         |             |
 
-The user is able to input the number of their desired event to see more detailed descriptions of it. When the user inputs 0, they will be redirected to the previous page, and when the user inputs 00, they will logout. Inputs 0 and 00 will be consistent in the whole application.
-
 ## Page 2.1.1 Event Details
 
+|  |     |
+| ------------------ | --- |
 | Month                             | eventMonth        |
-| --------------------------------- | ----------------- |
 | Date                              | eventDate         |
 | Starting Time                     | eventStart        |
 | End Time                          | eventEnd          |
@@ -64,9 +64,9 @@ The user is able to input the number of their desired event to see more detailed
 | Press 0 to return , 00 to logout: |                   |
 ## Page 2.2 Add or Remove Events
 In this page there will be 3 main options
-
+|  |     |
+| ------------------ | --- |
 | 1.                  | Add event    |
-| ------------------- | ------------ |
 | 2.                  | Remove event |
 | 3.                  | Edit event   |
 | 4.                  | Event status |
@@ -76,9 +76,9 @@ In this page there will be 3 main options
 | Choose your option: |              |
 ## Page 2.2.1 Add Event
 The user will input the details of their event in this page. 
-
+|  |     |
+| ------------------ | --- |
 | Month                             | eventMonth        |
-| --------------------------------- | ----------------- |
 | Date                              | eventDate         |
 | Starting Time                     | eventStart        |
 | End Time                          | eventEnd          |
@@ -90,9 +90,9 @@ The user will input the details of their event in this page.
 | Press 0 to return , 00 to logout: |                   |
 ## Page 2.2.2 Remove Event
 The application will show the list of events in a similar manner to the timeline for the user to choose from.
-
+|  |     |
+| ------------------ | --- |
 | Date 1                         |        |         |             |
-| ------------------------------ | ------ | ------- | ----------- |
 | 1.                             | Time 1 | Event 1 | eventType 1 |
 | 2.                             | Time 2 | Event 2 | eventType 2 |
 |                                |        |         |             |
@@ -112,9 +112,9 @@ When y is pressed, event will be erased from timeline. When either y or n is inp
 
 ## Page 2.2.3 Edit Event
 The interface is similar to page 2.2.2
-
+|  |     |
+| ------------------ | --- |
 | Date 1                       |        |         |             |
-| ---------------------------- | ------ | ------- | ----------- |
 | 1.                           | Time 1 | Event 1 | eventType 1 |
 | 2.                           | Time 2 | Event 2 | eventType 2 |
 |                              |        |         |             |
@@ -128,9 +128,9 @@ The interface is similar to page 2.2.2
 ## Page 2.2.3.1 Edit Details
 The user will be shown the details page, similar to page 2.2.1
 
-
+|  |     |
+| ------------------ | --- |
 | 1.                     | Month         | eventMonth        |
-| ---------------------- | ------------- | ----------------- |
 | 2.                     | Date          | eventDate         |
 | 3.                     | Starting Time | eventStart        |
 | 4.                     | End Time      | eventEnd          |
@@ -156,9 +156,9 @@ When y is pressed, event will be edited. When either y or n is inputted, the use
 
 ## Page 2.2.4 Event Status
 This page is for the user to change the status of an event from in progress to done. The interface is similar to page 2.2.3.
-
+|  |     |
+| ------------------ | --- |
 | Date 1                               |        |         |             |
-| ------------------------------------ | ------ | ------- | ----------- |
 | 1.                                   | Time 1 | Event 1 | eventType 1 |
 | 2.                                   | Time 2 | Event 2 | eventType 2 |
 |                                      |        |         |             |
