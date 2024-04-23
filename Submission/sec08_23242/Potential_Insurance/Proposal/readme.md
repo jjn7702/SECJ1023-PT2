@@ -32,9 +32,9 @@ The main aim of this application is to propose food options tailored to users' t
 ## ***Step 2: User Option***
 |Option|Program|
 |---|---|
-|1|SEARCH RESTAUTANT by RESTAURANT NAME|
-|2|SEARCH MOVIE by Cusine|
-|3|SEARCH MOVIE by PROMOTION|
+|1|SEARCH RESTAURANT by RESTAURANT NAME|
+|2|SEARCH RESTAURANT by CUSINE|
+|3|SEARCH RESTAURANT by PROMOTION|
 |4|RATE RESTAURANT|
 |5|VIEW USER'S WATCHLIST|
 |6|EXIT|
