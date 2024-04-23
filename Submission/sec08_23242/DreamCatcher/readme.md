@@ -36,8 +36,9 @@
 </table>
 
 <h2>Findings 🔍</h2>
-<ul>
-    <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal">Proposal</a></li>
+   <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal">
+    <img alt="Proposal" src="https://img.shields.io/badge/Proposal-%23b3b3ff" style="width: 80px;">
+</a>
 </ul>
 
 
