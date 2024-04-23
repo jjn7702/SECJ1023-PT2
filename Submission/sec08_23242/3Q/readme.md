@@ -4,6 +4,8 @@
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/cb80b646-675b-412c-beaf-50390ef92476" width ="350">
 </p>
 
+## Description 📃
+Financial management plays an important role in our daily lives. Everyone should be able to plan their expenses and manage their finances effectively to prevent themselves from encountering financial problems in emergency situations. However, individuals nowadays are easily tempted to spend money unnecessarily for their wants instead of their needs. Therefore, we decided to develop a personal finance system to help individuals manage their finances effectively so that they will not face bankruptcy and financial problems in their daily lives.
 
 ## Group Member 🧑‍💻
 
