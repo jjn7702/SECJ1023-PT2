@@ -11,12 +11,14 @@
 
 ### :bookmark: Objectives & Purpose of System
 <body> 
-<h1 font-size=1rem>The suggested reference book exchange system is to offer a comprehensive platform for users to share, borrow, and lend reference books to transform access to academic resources. The system's main goals and aims are listed below:
+<h1 font-size=0.5rem>The suggested reference book exchange system is to offer a comprehensive platform for users to share, borrow, and lend reference books to transform access to academic resources. The system's main goals and aims are listed below:
 </h1>
   <ul>
     <li>
       1. Exchange Book: 
+      <br>
       2. Facilitate Learning:
+      <br>
     </li> 
   </ul>
 </body>
