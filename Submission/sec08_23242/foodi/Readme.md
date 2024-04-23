@@ -1,6 +1,6 @@
 <h1 align="center"> Foodi :🍞🐟🚨 Food allergy system 🥜⚠️ </h1>
-![2546496](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/d9de1b0f-30f3-4df9-9806-7bcb3b2424c1)
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/d9de1b0f-30f3-4df9-9806-7bcb3b2424c1" width="500" height="500">
+
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/d9de1b0f-30f3-4df9-9806-7bcb3b2424c1" width="1500" height="500">
 
 ## Description 📝
   Foodi is a Food allergy Alert system , it enables users to search for the ingredients of the meals they are eating and notify them if it contains an ingredient they are allergic to . 
