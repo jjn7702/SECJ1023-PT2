@@ -5,7 +5,13 @@ Nowadays, individuals encounter myriads of challenges to manage their finances w
 </p>
 
 ### Objectives 🔮
+<p align="justify"> 
+1. To record users’ income
+2. To record the users’ transactions of different categories such as food, shopping, and transportation.
+3. To help users plan their monthly budget to maintain a positive cash flow for each month.
+</p>
 
+   
 ### How to use the system 📝
 
 <p align="justify"> 
