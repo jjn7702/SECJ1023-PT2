@@ -49,7 +49,7 @@
     </ul>
 </body>
 </html>
-  <br>
+<hr>
   <h3 style="font-weight: bold;">Sleep Tracking:</h3>
   <ul>
     <li>
