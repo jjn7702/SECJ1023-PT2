@@ -19,8 +19,11 @@ The Book Recommendation System is a command-line tool (CLI) developed in C++ des
 ## System Objectives & Purposes
 
 -Assist users in finding a book that aligns with their preferences and interests.
+
 -Provide personalized book recommendations tailored to each user's specific criteria.
+
 -Enhance user engagement with books by suggesting titles they may enjoy.
+
 -Foster a love for reading by introducing users to new genres and authors they may not have explored before.
 
 ## User Manual
