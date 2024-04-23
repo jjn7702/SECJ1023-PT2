@@ -1,5 +1,13 @@
 # Book Recommendation System
 
+## Group Members
+
+| No | Name                               | Matrix    | GitHub       |
+|----|------------------------------------|-----------|--------------|
+| 1  | AVIDIAN DIPESH SIVA                | A23CS0052 | `Avidian22`  |
+| 2  | MUHAMMAD AZIIDAN BIN MUHD AZLAN NG | A23CS0124 | `AziidanNg`  |
+| 3  | MERVYN BEE ZHENG CHENG             | A23CS0245 | `MERVYN3567` |
+
 ## Synopsis
 
 The Book Recommendation System is a command-line tool (CLI) developed in C++ designed to help users discover new books based on their interests. The system allows users to input preferences such as genre or author and receive recommendations accordingly. With a simple CLI interface, the Book Recommendation System provides a seamless experience for users to explore a wide range of books tailored to their tastes.
