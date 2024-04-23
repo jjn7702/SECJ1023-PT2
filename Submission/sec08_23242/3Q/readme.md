@@ -1,5 +1,8 @@
 
-# Personal Finance Manager
+# Personal Finance Manager 💰
+<p align = "center">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/cb80b646-675b-412c-beaf-50390ef92476" width ="350">
+</p>
 
 
 ## Group Member 🧑‍💻
