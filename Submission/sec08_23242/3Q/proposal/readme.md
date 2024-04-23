@@ -1,11 +1,11 @@
-# Project Proposal
-### Synopsis and General Idea
+# Project Proposal 📋
+### Synopsis and General Idea 💡
 
-### Objectives
+### Objectives 🔮
 
-### How to use the system
+### How to use the system 📝
 
-### Report/Output
+### Report/Output 🗂
 
 
  <p align="justify"> 
