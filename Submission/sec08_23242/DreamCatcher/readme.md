@@ -35,8 +35,9 @@
   </tr>
 </table>
 
-
-## Findings 🔍
--[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal)
+<h2>Findings 🔍</h2>
+<ul>
+    <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal">Proposal</a></li>
+</ul>
 
 
