@@ -15,12 +15,12 @@
 </p>
   <ol type="1">
     <li>
-      Exchange Book: <br>
-        - Enabling users to exchange reference books with each other can drive to foster a culture of sharing and collaboration. 
+      <b>Knowledge Sharing</b>
+      <br> - Encourage the sharing of knowledge and information among society by enabling users to exchange their reference books that are no longer required 
     </li>
     <li>
-      Facilitate Learning:
-      <br>
+      <b>Secure Platform </b>
+      <br> - Provide a trusted platform for users interested in sharing and acquiring reference materials
     </li> 
   </ol>
 </body>
