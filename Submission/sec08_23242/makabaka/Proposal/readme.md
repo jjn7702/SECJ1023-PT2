@@ -13,7 +13,7 @@
 <body> 
 <p>The suggested reference book exchange system is to offer a comprehensive platform for users to share, borrow, and lend reference books to transform access to academic resources. The system's main goals and aims are listed below:
 </p>
-  <ul>
+  <ol type="1">
     <li>
       1. Exchange Book:
     </li>
@@ -22,7 +22,7 @@
       2. Facilitate Learning:
       <br>
     </li> 
-  </ul>
+  </ol>
 </body>
 <br>
 <br>
