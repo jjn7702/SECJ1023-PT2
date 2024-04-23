@@ -1,3 +1,13 @@
+# PROJECT PROPOSAL GROUP2
+## TOPIC: PERSONAL ORGANISER
+
+# Synopsis and General Idea About The Proposed Topic/System
+Our project focuses on the development of a Personal Organiser system. The Personal Organiser serves as a centralised platform for users to manage their daily tasks, events, notes, reminders, and alarms efficiently. Similar to popular tools like Google Keep, our Personal Organiser provides users with a user-friendly interface to create, edit, emphasise, and track various types of events. By offering a centralised hub for organising tasks, events, notes, and reminders, the Personal Organiser empowers users to stay on top of their commitments and achieve their goals effectively.
+
+# System Objectives and/or Purpose
+## What The User Can Achieve/Do in The System?
+
+
 # How To Use System
 As the user runs the application, he should see the following pages: 
 ## Page 1 : User Login
