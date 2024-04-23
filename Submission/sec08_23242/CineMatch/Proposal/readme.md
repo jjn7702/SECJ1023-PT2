@@ -61,7 +61,7 @@ Overall, the movie recommendation system aims to help users discover new and int
 |---|
 <br>
 
-## ***Step 4: Options (CONT.)***
+## ***Step 4: Options ***
 |OPTION|PROGRAM|DESCRIPTION|
 |---|:---|:---|
 |1|MOVIE INFO|After the movie been selected, user can choose to view the movie information by user input (movie name, year of movie released, genre, ratings and so on)|
