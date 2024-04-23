@@ -15,11 +15,12 @@
 </p>
   <ol type="1">
     <li>
-      1. Exchange Book:
+      Exchange Book: <be>
+      <li>Enable users to exchange reference books with each other can drive to foster culture of sharing and collaboration. </li>
     </li>
       <be>
     <li>
-      2. Facilitate Learning:
+      Facilitate Learning:
       <br>
     </li> 
   </ol>
