@@ -1,5 +1,5 @@
 <h1 align="center"> 🍝Restaurant Recommendation System🍝 </h1>
-<image src = "Image/Restaurant.jpg" width="2000" height="500">
+<image src = "Potential_Insurance/Image/Restaurant.png" width="2000" height="500">
   
 ## Description
 Angie
