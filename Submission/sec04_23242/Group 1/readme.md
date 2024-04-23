@@ -1,5 +1,8 @@
 # Book Recommendation System
 
+![Project](https://github.com/jjn7702/SECJ1023-PT2/assets/147811435/ed2211cf-c968-49a7-89ed-a169bb228fe7)
+
+
 ## Group Members
 
 | No | Name                               | Matrix    | GitHub       |
