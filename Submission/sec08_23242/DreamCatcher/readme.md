@@ -36,8 +36,10 @@
 </table>
 
 <h2>Findings 🔍</h2>
-   <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal">
-    <img alt="Proposal" src="https://img.shields.io/badge/Proposal-%23b3b3ff" style="width: 80px;">
+  <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Proposal">
+    <button style="width: 80px; border: none; background-color: transparent; cursor: pointer;">
+        <img alt="Proposal" src="https://img.shields.io/badge/Proposal-%23003366" style="width: 80px;">
+    </button>
 </a>
 </ul>
 
