@@ -54,21 +54,33 @@
   <ul>
     <li>
       <strong>Heart Rate Monitoring:</strong><br>
+      <div class="right-align">
+      <ul>
       This feature tracks your heart rate while you sleep, providing insights into your sleep patterns and overall sleep quality. By detecting changes in your heart rate throughout the night, it helps identify different sleep stages and areas for improvement in your sleep routine. Additionally, it serves as a tool to detect any abnormal heart activities, offering valuable health information. If your heart rate reaches a critical level during the night, the app will alert you. In case of no response, it initiates an emergency protocol, contacting healthcare providers for immediate assistance.
-    </li>
-    <br>
-    <li>
+       </div>
+     </li>
+  </ul>
+  <ul>
+     <li> 
       <strong>Movement Tracking:</strong><br>
+      <div class="right-align">
+      <ul>
       With the help of smart sensors, like those found in a smartwatch, the Movement Tracking feature keeps tabs on your nighttime movements. It then dives into the quality of your sleep based on this data. Understanding your sleep patterns helps the system suggest personalized tweaks to your sleep routines, ultimately boosting your overall sleep health.
-    </li>
-    <br>
-    <li>
+         </div>
+     </li>
+  </ul>
+  <ul>
+     <li> 
       <strong>Sleep Tracking:</strong><br>
+      <div class="right-align">
+      <ul>
       The system keeps an eye on your sleep patterns and routines based on when you go to bed. Just activate the sleep function at bedtime and set your wake-up alarm. This helps the app understand when you're asleep and when you're awake, making it easier to track your sleep habits.
     </li>
   </ul>
-
-  <h3 style="font-weight: bold;">Feedback And Recommendation:</h3>
+      </head>
+      <body>
+       
+<h3 style="font-weight: bold;">Feedback And Recommendation:</h3>
   <ul>
     <li>
       <strong>Morning Feelings Notification:</strong> Each morning, the system could prompt users with a notification asking how they feel upon waking up. Users could select from options like "Refreshed," "Tired," "Restless," etc., or they could provide additional comments if they wish. This feedback would help the system understand the user's sleep quality and mood upon waking.
