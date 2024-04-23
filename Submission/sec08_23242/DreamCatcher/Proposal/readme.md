@@ -22,24 +22,34 @@
     <h3>Menu Page:</h3>
   <ul>
         <li>
-            <strong>Main Dashboard:</strong><br>
+<strong>Main Dashboard:</strong><br>
+            <div class="right-align">
+              <ul>
             The main page serves as a comprehensive dashboard, offering a daily summary of previous sleep quality metrics such as sleep duration, efficiency, and the number of awakenings. Additionally, users can delve deeper into their sleep data by accessing extended options, which provide insights into sleep patterns and trends over time. These insights help users gain a better understanding of their sleep habits and make informed decisions to improve their overall sleep quality.
-          </li>
+            </div>
+        </li>
     </ul>
     <ul>
         <li>
             <strong>SleepTime Scheduler:</strong><br>
+            <div class="right-align">
+              <ul>
             The SleepTime Scheduler feature empowers users to take control of their sleep routines. Users can easily set their preferred sleep time, and the system utilizes advanced algorithms to recommend the optimal sleep schedule based on the user's individual routine and sleep patterns. Furthermore, users have the flexibility to personalize their alarm settings, including choosing alarm tones and adjusting volume levels to create a customized wake-up experience that suits their preferences.
+            </div>
         </li>
     </ul>
     <ul>
         <li>
             <strong>Sleep Symphony:</strong><br>
+            <div class="right-align">
+              <ul>
             In the Sleep Symphony section, users can indulge in a personalized relaxation experience before bedtime. This feature allows users to customize their pre-sleep music or sounds, creating a tranquil atmosphere conducive to relaxation and sleep. Leveraging sophisticated algorithms, the system tailors the selection of relaxation sounds to each user's preferences and sleep needs, ensuring an immersive and rejuvenating pre-sleep experience.
+            </div>
         </li>
     </ul>
 </body>
 </html>
+  <br>
   <h3 style="font-weight: bold;">Sleep Tracking:</h3>
   <ul>
     <li>
