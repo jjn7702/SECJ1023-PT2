@@ -62,9 +62,9 @@ The main aim of this application is to propose food options tailored to users' t
 • 3.3 Rate restaurant <br>
   &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list  <br>
 
-<b> * User proceed to Step 4 if they choose option 1-5 </b>
+** <b> * User proceed to Step 4 if they choose option 1-5 </b> **
 
-## ***Step 4: Restaurant Option
+## ***Step 4: Restaurant Option***
 |Option|Program|
 |---|---|
 |Restaurant Overview|Users can see the introduction of the restaurant, address, open hours, contact number and price range.|
