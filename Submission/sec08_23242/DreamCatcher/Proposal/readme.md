@@ -90,7 +90,7 @@ Users interested in customizing their own alarm sounds can also contribute to th
     </li>
     <br>
     <li>
-      <strong>Weekly/Monthly Reports:</strong> Users could access weekly and monthly reports within the app. These reports could show trends in sleep quality over time, such as average sleep duration and average sleep efficiency. Additionally, users could view which days of the week or month had the best sleep quality based on the metrics tracked by the app. This could help users identify patterns and adjust their sleep habits accordingly.
+      <strong>Sleep Analyzer Reports:</strong> Users have access to personalized reports within the app, showcasing average sleep duration and sleep efficiency. Additionally, users can review sleep quality and duration trends across different days of the week or month, based on tracked metrics. This feature enables users to identify patterns and make informed adjustments to their sleep habits.
       <br>
       <br>
     </li>
