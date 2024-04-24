@@ -36,16 +36,43 @@ The main aim of this application is to propose food options tailored to users' t
   &nbsp;&nbsp; - User can choose to join the membership, food delivery fee will be free. <br>
   &nbsp;&nbsp; - Several plans will be provided.
 
+### **Option for subscription plan
+|Plan|
+|---|
+|1 month RM4|
+|3 month RM11|
+|1 year RM45|
 
 ## ***Step 3: User Option***
 |Option|Program|
 |---|---|
 |1|SEARCH RESTAURANT by RESTAURANT NAME|
-|2|SEARCH RESTAURANT by CUSINE|
-|3|SEARCH RESTAURANT by PROMOTION|
-|4|RATE RESTAURANT|
-|5|VIEW USER'S WATCHLIST|
+|2|RECOMMENDED RESTAURANT NEARBY THE USER|
+|3|SEARCH RESTAURANT by RESTAURANT TYPE|
+|4|FAVOURITE RESTAURANT LIST|
+|5|RATE RESTAURANT|
 |6|EXIT|
-<br>
+<br> <br>
+
+• 3.1 Find Restaurant
+  &nbsp;&nbsp; - Option 1-4 will display the restaurant list by self typing, or based on the recommendation, type of restaurant, promotion. The recommendation is based on the rating.
+
+• 3.2 Favourite restaurant list
+  &nbsp;&nbsp; - Users can add their favourite restaurant in the list. It is convenient for users to retrieve restaurants in the future.
+
+• 3.3 Rate restaurant
+  &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list
+
+<b> * User proceed to Step 4 if they choose option 1-5 </b>
+
+## ***Step 4: Restaurant Option
+|Option|Program|
+|---|---|
+|Restaurant Overview|Users can see the introduction of the restaurant, address, open hours, contact number and price range.|
+|Restaurant Menu|User can see the food offered by the restaurant|
+|Rating & Comment|User can read through the rating and comment to make decision whether they want to order the food or not|
+|Promotion/ free delivery <b> (for user option 4) </b> | Users can easily find the cheaper set of meals.|
+|Exit| Users can exit the program if they do not want to proceed anymore.|
+
 
 # Reporting 📙
