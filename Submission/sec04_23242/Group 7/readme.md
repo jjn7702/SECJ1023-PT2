@@ -1,4 +1,6 @@
+![picture](https://github.com/jjn7702/SECJ1023-PT2/assets/148675818/0893589d-6933-48f0-9dd2-f2b81bbe1f9b)
 <h1 align="center">  Scholarship Application System  </h1>
+
 
 
 ## Group Members
