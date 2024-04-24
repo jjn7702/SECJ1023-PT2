@@ -51,6 +51,9 @@
 Upon entering the valid date range, users provide details such as sleep time, wake time, alarm used, and duration of wake after the alarm triggers.
 <br><br>
 The system processes this data, taking into account user demographics such as age and gender, to create a personalized weekly report. This report indicates whether users met the recommended sleep duration, providing valuable insights into their sleep patterns and habits.
+                <br><br>
+                Example Output:
+                <img src=https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/8ad45a4c-d993-4794-aa7a-a3854867067f">
             </div>
         </li>
     </ul>
