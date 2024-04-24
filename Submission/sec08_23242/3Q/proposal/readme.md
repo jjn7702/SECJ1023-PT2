@@ -22,8 +22,8 @@ Firstly, the users will enter the main page and they can choose
 1. New user <br>
 2. Existing user <br>
 <p align="justify">
-If they are a new user they will have to enter their full name and password for registration. After registration is successfully done, they will be automatically directed to the income page to enter their monthly income.
-If they are existing user, they can enter their username and password to log in. After they have successfully logged in, they will be directed to the page to decide what they want to do. Existing users do not need to record monthly income because they have done it before, but they can edit it on the next page.</p>
+If they are a __new user__ they will have to enter their full name and password for registration. After registration is successfully done, they will be automatically directed to the income page to enter their monthly income.
+If they are __existing user__, they can enter their username and password to log in. After they have successfully logged in, they will be directed to the page to decide what they want to do. Existing users do not need to record monthly income because they have done it before, but they can edit it on the next page.</p>
 
 
 
