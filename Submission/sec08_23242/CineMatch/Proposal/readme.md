@@ -4,6 +4,9 @@
 ### :boom:Youtube link 📹
 [Proposal Video](https://youtu.be/e0ODevNF4NQ)
 
+### Canva Slide
+[Proposal Slide](https://www.canva.com/design/DAGCvuP5qco/tJlZtvkww0G0l_YHKUyTqQ/edit?utm_content=DAGCvuP5qco&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ### Contents
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/CineMatch/Proposal/readme.md#synopsis-clapper)
 - [Objective](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/CineMatch/Proposal/readme.md#objective-dart)
