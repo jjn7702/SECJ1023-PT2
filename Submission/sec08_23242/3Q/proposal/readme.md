@@ -18,7 +18,7 @@ Nowadays, individuals encounter myriads of challenges to manage their finances w
 
 <p align="justify"> 
 Firstly, the users will enter the main page and they can choose
-<p align="right">
+<p align="left">
 1. New user <br>
 2. Existing user <br>
 <p align="justify">
