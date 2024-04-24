@@ -52,7 +52,6 @@ The main aim of this application is to propose food options tailored to users' t
 |4|FAVOURITE RESTAURANT LIST|
 |5|RATE RESTAURANT|
 |6|EXIT|
-<br> <br>
 
 • 3.1 Find Restaurant
   &nbsp;&nbsp; - Option 1-4 will display the restaurant list by self typing, or based on the recommendation, type of restaurant, promotion. The recommendation is based on the rating.
