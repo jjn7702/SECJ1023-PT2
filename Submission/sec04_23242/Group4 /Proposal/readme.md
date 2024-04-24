@@ -37,6 +37,11 @@ Our system, Grocery Shopping Assistant, is designed to assist users and admin. A
 <img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-13.jpg" width="600" />
 </details>
 
+### Reporting/Output
+- Customer: At the end of the output, the customer will be able to see their final expenditure on their grocery which enables them to see whether they have over budget
+- Admin: At the end of the output, the admin will be able to go through the customer purchase history(RECEIPT)
+
+
 <details>
 
 <summary>Exit</summary>
