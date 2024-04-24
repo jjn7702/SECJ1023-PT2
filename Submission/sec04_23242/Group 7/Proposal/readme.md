@@ -18,21 +18,20 @@ The Scholarship application system offers a platform where students can easily a
     Admin will need to login first. After login, they will be able to setup scholarship information, review and evaluate applicants.
         <ul>
           <li>Setup Scholarship Information</li>
-          Admin will be able to view available scholarships or updates current scholarship. 
+          - Admin will be able to view available scholarships or updates current scholarship. 
           <li>Review and Evaluate Applicants</li>
-          Admin can see list of applicants, review and evaluate them one by one and change their status (incomplete, processing, interview, completed)
+          - Admin can see list of applicants, review and evaluate them one by one and change their status (incomplete, processing, interview, completed)
         </ul>
       
   <li><b>Option 2: Student Page</b></li>
     Applicant will need to create account first. After creating the account, they will be able to review available scholarships, apply scholarship and track their application status.
-    <ul>
         <ul>
           <li>Review Available Scholarship</li>
-          Applicants will be able to see available scholarships that they want to apply for. Here all the information regarding the scholarships information and details will be display.
+          - Applicants will be able to see available scholarships that they want to apply for. Here all the information regarding the scholarships information and details will be display.
           <li>Apply Scholarship</li>
-          Applicants can apply scholarship of their choice. They will need to fill required information about themselves including their personal information, academic background as well as their extracurricular activities. Before submitting, the system will generate summary of their application for them to have a last look.
+          - Applicants can apply scholarship of their choice. They will need to fill required information about themselves including their personal information, academic background as well as their extracurricular activities. Before submitting, the system will generate summary of their application for them to have a last look.
           <li>Track Application Status</li>
-          Applicants who have submitted their application will be able to see their application status (processing, interview, completed). 
+          - Applicants who have submitted their application will be able to see their application status (processing, interview, completed). 
         </ul>
   </ul>
 </ul>
