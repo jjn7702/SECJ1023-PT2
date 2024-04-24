@@ -22,7 +22,7 @@ The main aim of this application is to propose food options tailored to users' t
 
 # How to use the system 💻
 
-## ***Step 1: Sign in/ Sign out***
+## ***Step 1: Sign in/ Sign up***
 • Sign in <br>
   &nbsp;&nbsp; User enters their username and password
 
