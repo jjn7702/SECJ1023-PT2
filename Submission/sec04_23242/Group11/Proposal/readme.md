@@ -18,9 +18,22 @@ Due to the multiple features and huge amount of storage for food nutritional inf
 * Help users to assess their overall health status and their weight relative to height
 
 
-## 3.User Manual
+## 3.What will the user achieve:
 
-## 4.Example Output
+Using a nutrition tracking system helps users:
 
+Know What They Eat: Users understand the nutrients in their food, like carbs, proteins, and vitamins, which helps them make healthier choices.
+Reach Health Goals: Whether it's losing weight, gaining muscle, or just staying healthy, users can set goals and track their progress over time.
+Stay on Track: By logging meals and snacks, users can see if they're meeting their daily nutrition needs and adjust as needed.
+Discover Healthy Choices: The system suggests healthier food options and recipes, making it easier for users to eat well.
+
+## 4.Implementation and how to use the system:
+
+Sign Up: Create an account and fill in basic info like age, weight, and health goals.
+Log Meals: Add what you eat each day, either by searching for foods or entering them manually.
+See Progress: Check your dashboard to see how you're doing with your goals and what areas you can improve.
+Plan Ahead: Use the system's meal planning tools to prepare balanced meals for the week.
+Learn More: Explore the educational resources to get tips on nutrition and healthy eating habits.
+By following these steps, users can make healthier choices, track their progress, and reach their nutrition goals more effectively.
 
  
