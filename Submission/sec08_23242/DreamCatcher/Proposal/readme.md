@@ -86,11 +86,15 @@ Users interested in customizing their own alarm sounds can also contribute to th
   <h1>Reporting 📑</h1>
   <ul>
     <li>
-      <strong>Trending Alarm List:</strong> Users can view the currently most used alarm sounds on the system, based on the number of times each alarm has been used.
+      <strong>Trending Alarm List: </strong> Users can view the currently most used alarm sounds on the system, based on the number of times each alarm has been used.
     </li>
     <br>
     <li>
-      <strong>Sleep Analyzer Reports:</strong> Users have access to personalized reports within the app, showcasing average sleep duration and sleep efficiency. Additionally, users can review sleep quality and duration trends across different days of the week or month, based on tracked metrics. This feature enables users to identify patterns and make informed adjustments to their sleep habits.
+      <strong>Sleep Analyzer Reports: </strong> Users have access to personalized reports within the app, showcasing average sleep duration and sleep efficiency. Additionally, users can review sleep quality and duration trends across different days of the week or month, based on tracked metrics. This feature enables users to identify patterns and make informed adjustments to their sleep habits.
+      </li>
+    <br>
+    <li>
+      <strong>Personalized Symphony List: </strong> Users are allowed to view their personalized list of alarms they've added or customize their own.
       <br>
       <br>
     </li>
