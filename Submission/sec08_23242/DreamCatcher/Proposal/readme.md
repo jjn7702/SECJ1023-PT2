@@ -86,7 +86,7 @@ Users interested in customizing their own alarm sounds can also contribute to th
   <h1>Reporting 📑</h1>
   <ul>
     <li>
-      <strong>Daily Summary:</strong> Users receive a summary including metrics like total sleep time, sleep efficiency, number of awakenings, and any other relevant data collected by the app.
+      <strong>Trending Alarm List:</strong> Users can view the currently most used alarm sounds on the system, based on the number of times each alarm has been used.
     </li>
     <br>
     <li>
