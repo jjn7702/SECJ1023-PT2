@@ -30,10 +30,15 @@ Discover Healthy Choices: The system suggests healthier food options and recipes
 ## 4.Implementation and how to use the system:
 
 Sign Up: Create an account and fill in basic info like age, weight, and health goals.
+
 Log Meals: Add what you eat each day, either by searching for foods or entering them manually.
+
 See Progress: Check your dashboard to see how you're doing with your goals and what areas you can improve.
+
 Plan Ahead: Use the system's meal planning tools to prepare balanced meals for the week.
+
 Learn More: Explore the educational resources to get tips on nutrition and healthy eating habits.
+
 By following these steps, users can make healthier choices, track their progress, and reach their nutrition goals more effectively.
 
  
