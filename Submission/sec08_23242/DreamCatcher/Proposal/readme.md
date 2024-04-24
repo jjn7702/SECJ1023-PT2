@@ -16,7 +16,9 @@
     <h3>Login Page:</h3>
     <ul>
         <li>
-            New users can sign up using their username and a password. During the registration process, they will be prompted to provide basic personal information such as age, gender, height, and weight. This information is crucial for the app to perform a basic sleep analysis and offer tailored recommendations. Existing users can conveniently log in using their existing credentials.
+            New users: Sign up using their username and a password. During the registration process, they will be prompted to provide basic personal information such as age, gender, height, and weight. This information is crucial for the app to perform a basic sleep analysis and offer tailored recommendations. 
+        <li> 
+          Existing users: Conveniently log in using their existing credentials.
         </li>
     </ul>
     <h3>Menu Page:</h3>
