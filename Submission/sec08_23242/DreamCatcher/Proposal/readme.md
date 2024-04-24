@@ -38,8 +38,6 @@
             <div class="right-align">
               <ul>
             This page invites users to explore and customize alarm options. In the Sleep Symphony section, users can enjoy a personalized relaxation experience before bedtime. This feature enables users to customize their alarm sounds, creating a tranquil atmosphere conducive to starting a new day. Leveraging sophisticated algorithms, such as tracking the number of times a certain alarm is used within the system, it highlights the currently most trending alarm among app users.
-<br><br>
-Users interested in customizing their own alarm sounds can also contribute to the community and stand a chance for their alarm to go viral on the trending table.
             </div>
         </li>
     </ul>
