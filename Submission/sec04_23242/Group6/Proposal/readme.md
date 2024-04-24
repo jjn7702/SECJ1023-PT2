@@ -1,2 +1,2 @@
-## Programming Technique II Assignment Proposal (Fitness Progress Tracker)
+# Programming Technique II Assignment Proposal (Fitness Progress Tracker)
 
