@@ -6,3 +6,39 @@ The Grocery Shopping Assistant system is a user-friendly platform designed to st
 ### System Objectives and/or Purpose and What The User Can Achieve/Do in The System
 Our system, Grocery Shopping Assistant, is designed to assist users and admin. Admin will have access to the system to streamline purchases made by users for company stock reference. For users, it simplifies the entire grocery shopping process, from planning to purchasing and organizing their cart. It provides a platform for users to create and customize shopping lists, optimizing their grocery shopping experience. Additionally, our system helps users set budgets before shopping trips, informing them if they've stayed within budget and tracking spending habits for better insights
 
+### How to use the system
+
+
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-1.jpg" width="600" />
+<details>
+
+<summary>Customer</summary>
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-2.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-3.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-4.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-5.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-6.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use%209.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-8.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use%207.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-10.jpg" width="600" />
+</details>
+
+<details>
+
+<summary>Admin</summary>
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-11.jpg" width="600" />
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-12.jpg" width="600" />
+</details>
+  
+<details>
+
+<summary>Read Me</summary>
+<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/How%20to%20use-13.jpg" width="600" />
+</details>
+
+<details>
+
+<summary>Exit</summary>
+Will exit the whole system
+</details>
