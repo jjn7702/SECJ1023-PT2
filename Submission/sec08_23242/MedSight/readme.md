@@ -1,6 +1,7 @@
 </head>
 <body>
     <h1 align="center">Diesease Management System</h1>
+    <image src = "image/medsight.jpg" width="2000" height="500">
     <h2>🔗Description</h2>
     <p> 
     </p>
