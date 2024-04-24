@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://example.com/logo.png" alt="Logo" width="90" height="90">
+  <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Images/OIG3.jpg="Logo" width="90" height="90">
 </p>
 
 
