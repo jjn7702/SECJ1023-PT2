@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <img src="\Proposal\Image\Food.png" width="7000" height="600"></img>
 <body class="stackedit">
   <div class="stackedit__html">
     <h1 id="synopsis">Synopsis</h1>
