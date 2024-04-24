@@ -2,6 +2,8 @@
 #### By MedSight
 
 ## 📌**Synopsis**
+Our system will identify diseases based on the symptoms that the user enters, however our system will only identify simple ailments that the user faces. Certain conditions may have similar symptoms to other diseases, making a misdiagnosis possible. Not all diseases may be covered.
+
 ## 📌**Objectives**
 
 + Ensure early detection and timely diagnosis
@@ -16,3 +18,5 @@
 + User can take earlier precaution after diagnosing the disease before confirming with doctors or healthcare professionals.
 + The system will provide a dietary plan for each disease being diagnosed to avoid the user from consuming food that will worsen their situation.
 + The user can refer to the healthcare professionals suggested by the system for certain diseases.
+
+## 📌**What the user can do?**
