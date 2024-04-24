@@ -2,7 +2,7 @@
 #### By MedSight
 
 ## 📌**Synopsis**
-Our system will identify diseases based on the symptoms that the user enters, however our system will only identify simple ailments that the user faces. Certain conditions may have similar symptoms to other diseases, making a misdiagnosis possible. Not all diseases may be covered.
+The Disease Diagnose system is a software application designed to diagnose disease based on symptoms enter by user. The application will prompt the user to enter as much symptom as they have and how long they been sick. The main aim of this application is to ensure the users can take early precaution to treat the disease. additionally, this system will also recommend user which medicine they should take to treat the disease.
 
 ## 📌**Objectives**
 
