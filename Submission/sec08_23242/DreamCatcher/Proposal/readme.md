@@ -34,10 +34,12 @@
     </ul>
     <ul>
         <li>
-            <strong>SleepTime Scheduler:</strong><br>
+            <strong>Option 1: Sleepy Symphony</strong><br>
             <div class="right-align">
               <ul>
-            The SleepTime Scheduler feature empowers users to take control of their sleep routines. Users can easily set their preferred sleep time, and the system utilizes advanced algorithms to recommend the optimal sleep schedule based on the user's individual routine and sleep patterns. Furthermore, users have the flexibility to personalize their alarm settings, including choosing alarm tones and adjusting volume levels to create a customized wake-up experience that suits their preferences.
+            This page invites users to explore and customize alarm options. In the Sleep Symphony section, users can enjoy a personalized relaxation experience before bedtime. This feature enables users to customize their alarm sounds, creating a tranquil atmosphere conducive to starting a new day. Leveraging sophisticated algorithms, such as tracking the number of times a certain alarm is used within the system, it highlights the currently most trending alarm among app users.
+<br><br>
+Users interested in customizing their own alarm sounds can also contribute to the community and stand a chance for their alarm to go viral on the trending table.
             </div>
         </li>
     </ul>
