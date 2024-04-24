@@ -1,7 +1,6 @@
-## ABOUT US
+## TEAM MEMBERS
 
-| TEAM MEMBERS             |                                                                 |
-| ----------------- | ------------------------------------------------------------------ |
+
 | CHU CHENG QING | []() |
 | TAN ZHEN LI | ![]()  |
 | TEOW ZI XIAN | ![]()  |
