@@ -28,7 +28,7 @@
 <strong>Main Dashboard:</strong><br>
             <div class="right-align">
               <ul>
-            The main page serves as a comprehensive dashboard, offering a daily summary of previous sleep quality metrics such as sleep duration, efficiency, and the number of awakenings. Additionally, users can delve deeper into their sleep data by accessing extended options, which provide insights into sleep patterns and trends over time. These insights help users gain a better understanding of their sleep habits and make informed decisions to improve their overall sleep quality.
+            The main page serves as a central hub, welcoming users and offering a variety of options for them to explore within the app.
             </div>
         </li>
     </ul>
