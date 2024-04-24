@@ -9,7 +9,7 @@
 | 1  | NUR SYAKIRAH ADILAH BINTI AZRI     | A23CS0159 | `sykiraah`   |
 | 2  | YEO WERN MIN                       | A23CS0285 | `WernMinYeo` |
 | 3  | VIBHUSHA A/P SAMPASIVA RAO         | A23CS0194 | `Vibhushas`  |
-| 4  | JELIZA JUSTINE A/P SEBASTIN        |           | `Jeliza06`   |
+| 4  | JELIZA JUSTINE A/P SEBASTIN        | A21EC0034 | `Jeliza06`   |
 
 
 ## Synopsis
