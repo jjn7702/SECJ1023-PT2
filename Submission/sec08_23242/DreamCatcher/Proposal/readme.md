@@ -17,7 +17,8 @@
     <ul>
         <li>
             New users: Sign up using their username and a password. During the registration process, they will be prompted to provide basic personal information such as age, gender, height, and weight. This information is crucial for the app to perform a basic sleep analysis and offer tailored recommendations. 
-        <li> 
+       <br> <br> 
+      <li> 
           Existing users: Conveniently log in using their existing credentials.
         </li>
     </ul>
