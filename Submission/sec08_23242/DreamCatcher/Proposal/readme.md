@@ -66,6 +66,15 @@ The system processes this data, taking into account user demographics such as ag
                 In the Symphony Customizer, users can personalize their alarm sounds by adding up to five songs to their own list. If the list already contains five songs, users will be prompted to either delete songs from the list or abandon their new additions.
 <br><br>
 Users interested in customizing their own alarm sounds can also contribute to the community. If their alarm becomes popular, it has the chance to go viral on the trending table.
+                </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <strong>Exit</strong><br>
+            <div class="right-align">
+              <ul>
+                After selecting any option, press any key to return to the main dashboard. To exit the program, type 'Q'
             </div>
         </li>
     </ul>
