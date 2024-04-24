@@ -1,6 +1,9 @@
 <img src="https://github.com/CQ0113/Pet-Inventory-Management-System/blob/main/LOGO/OIG3.jpg" alt="Logo" width="75" height="75"  >
 
 # Pet Inventory Management System
+
+### Synopsis and general idea
+
 Our project is about creating a pet inventory management system. This sistem will in total consist of 8 classes in order to manage with the operation of a pet supply store in more streamline and automate method.
 
 This system will be focusing on assisting the shop owners to manage the stores efficiently.It will help the vendors to keep track of every product they sell, including toys and pet food, along with information about their costs and amounts. Everything will be properly organized by category for quick access. The system will mange the supplier information as well in order to provide a streamline reodering process based on the inventory level of each items.
