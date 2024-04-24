@@ -53,13 +53,13 @@ The main aim of this application is to propose food options tailored to users' t
 |5|RATE RESTAURANT|
 |6|EXIT|
 
-• 3.1 Find Restaurant
+• 3.1 Find Restaurant <br>
   &nbsp;&nbsp; - Option 1-4 will display the restaurant list by self typing, or based on the recommendation, type of restaurant, promotion. The recommendation is based on the rating.
 
-• 3.2 Favourite restaurant list
+• 3.2 Favourite restaurant list  <br>
   &nbsp;&nbsp; - Users can add their favourite restaurant in the list. It is convenient for users to retrieve restaurants in the future.
 
-• 3.3 Rate restaurant
+• 3.3 Rate restaurant <br>
   &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list
 
 <b> * User proceed to Step 4 if they choose option 1-5 </b>
