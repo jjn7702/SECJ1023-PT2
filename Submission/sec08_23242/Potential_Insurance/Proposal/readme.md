@@ -31,10 +31,10 @@ The main aim of this application is to propose food options tailored to users' t
 
 ## ***Step 2: User Infomation***
 • User need to complete their personal information or edit at there <br>
-  &nbsp;&nbsp; - If user want to change their location, edit the personal information
-• Subscription
+  &nbsp;&nbsp; - If user want to change their location, edit the personal information  <br>
+• Subscription  <br>
   &nbsp;&nbsp; - User can choose to join the membership, food delivery fee will be free. <br>
-  &nbsp;&nbsp; - Several plans will be provided.
+  &nbsp;&nbsp; - Several plans will be provided.  <br>
 
 ### **Option for subscription plan**
 |Plan|
@@ -54,13 +54,13 @@ The main aim of this application is to propose food options tailored to users' t
 |6|EXIT|
 
 • 3.1 Find Restaurant <br>
-  &nbsp;&nbsp; - Option 1-4 will display the restaurant list by self typing, or based on the recommendation, type of restaurant, promotion. The recommendation is based on the rating.
+  &nbsp;&nbsp; - Option 1-4 will display the restaurant list by self typing, or based on the recommendation, type of restaurant, promotion. The recommendation is based on the rating.  <br>
 
 • 3.2 Favourite restaurant list  <br>
-  &nbsp;&nbsp; - Users can add their favourite restaurant in the list. It is convenient for users to retrieve restaurants in the future.
+  &nbsp;&nbsp; - Users can add their favourite restaurant in the list. It is convenient for users to retrieve restaurants in the future.  <br>
 
 • 3.3 Rate restaurant <br>
-  &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list
+  &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list  <br>
 
 <b> * User proceed to Step 4 if they choose option 1-5 </b>
 
