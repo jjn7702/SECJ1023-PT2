@@ -43,10 +43,14 @@
     </ul>
     <ul>
         <li>
-            <strong>Sleep Symphony:</strong><br>
+            <strong>Option 2: Sleep Report Generator</strong><br>
             <div class="right-align">
               <ul>
-            In the Sleep Symphony section, users can indulge in a personalized relaxation experience before bedtime. This feature allows users to customize their pre-sleep music or sounds, creating a tranquil atmosphere conducive to relaxation and sleep. Leveraging sophisticated algorithms, the system tailors the selection of relaxation sounds to each user's preferences and sleep needs, ensuring an immersive and rejuvenating pre-sleep experience.
+            The system empowers users to generate personalized sleep reports for a specific period by entering the start and end dates. If the entered dates are invalid, the system prompts users to input them again.
+<br><br>
+Upon entering the valid date range, users provide details such as sleep time, wake time, alarm used, and duration of wake after the alarm triggers.
+<br><br>
+The system processes this data, taking into account user demographics such as age and gender, to create a personalized weekly report. This report indicates whether users met the recommended sleep duration, providing valuable insights into their sleep patterns and habits.
             </div>
         </li>
     </ul>
