@@ -76,5 +76,5 @@ This system will have different output based on user selection:
 * User can add or remove movie in their watchlist, the latest watchlist will be updated in the system and showed in watchlist txt file.
 * If user choose to rate the movie, the new rating will be updated in the movie info (movie info is in txt file).
 
-### Youtube link
+### :boom:Youtube link 📹
 [Proposal Video](https://youtu.be/e0ODevNF4NQ)
