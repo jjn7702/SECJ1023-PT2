@@ -15,6 +15,11 @@ Apart from that, our sistem will generate monthly sales reports to visualize bus
 In general, of our pet inventory management system is to make daily operations of pet supply stores easier and more efficient. This will save operating costs and increase customer satisfaction. Our system will help pet businesses prosper in a more competitive market by utilizing technology to automate critical procedures and deliver useful data.
 
 ### System Objectives and Purposes
+Developing a pet supply inventory system serves several critical objectives and purposes within the context of managing a pet store or similar business. Firstly, such a system that aims to streamline and optimize inventory management processes. By providing a centralized platform to track items, quantities, and relevant information like expiration dates, the system empowers staff to efficiently monitor stock levels, make informed purchasing decisions, and avoid stockouts or overstock situations.
+
+Secondly, our system makes customer service and sales management more efficient. The system gives employees the ability to process transactions, keep track of sales history, manage client profiles, and track purchase trends in addition to providing tailored recommendations and ensuring correct and fast order fulfillment. This promotes client happiness and loyalty by improving the total customer experience.
+
+Finally, the system facilitates business expansion and strategic decision-making. The system provides management with significant insights to optimize pricing strategies, supplier alliances, inventory stocking, and sales success by creating extensive reports on these and other indicators. These insights enable the company to grow its services, increase profitability, and adjust to changing market trends in order to better serve its customers.
 
 ### How to Use The System
 
