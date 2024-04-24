@@ -3,7 +3,7 @@
 </p>
 
 
-# Pet Inventory Management System
+# Pet Inventory Management System - PROPOSAL 1
 
 ### Synopsis and General Idea
 
