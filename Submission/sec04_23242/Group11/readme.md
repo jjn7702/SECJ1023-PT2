@@ -11,5 +11,5 @@ As a human it is by default that we crave and love foods, it is essential and ne
 | No | Name                               | Matrix    | GitHub       |
 |----|------------------------------------|-----------|--------------|
 | 1  | Muhammad Zayyad Bin Badrul Hisham | A23CS3015 | `tez0ice`    |
-| 2  | Mahmoud Mustafa Mahmoud Elganzory  |           | `MElganzory` |
-| 3  | Mohamed Omar Mohamed Makhlouf      |           | `Mhdomer`    |
+| 2  | Mahmoud Mustafa Mahmoud Elganzory  | A23CS0291   | `MElganzory` |
+| 3  | Mohamed Omar Mohamed Makhlouf      | A23CS4014   | `Mhdomer`    |
