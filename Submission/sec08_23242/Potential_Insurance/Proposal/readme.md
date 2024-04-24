@@ -76,3 +76,9 @@ The main aim of this application is to propose food options tailored to users' t
 
 
 # Reporting 📙
+The system will produce different output based on the user selection：<br>
+• User options 1 to 4 allow users to choose the restaurant based on several ways of classification. <br>
+• Users can add their favourite restaurant into the list. <br>
+• Users can rate the restaurant and give feedback. <br>
+
+
