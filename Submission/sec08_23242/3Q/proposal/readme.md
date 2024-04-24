@@ -19,8 +19,8 @@ Nowadays, individuals encounter myriads of challenges to manage their finances w
 <p align="justify"> 
 Firstly, the users will enter the main page and they can choose
 <p align="center">
-1.New user
-2.Existing user 
+1. New user
+2. Existing user 
 </p>
 If they are a new user they will have to enter their full name and password for registration. After registration is successfully done, they will be automatically directed to the income page to enter their monthly income.
 If they are existing user, they can enter their username and password to log in. After they have successfully logged in, they will be directed to the page to decide what they want to do. Existing users do not need to record monthly income because they have done it before, but they can edit it on the next page.</p>
