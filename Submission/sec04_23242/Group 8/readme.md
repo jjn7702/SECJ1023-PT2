@@ -1,6 +1,5 @@
 # Sleep Cycle Analyzer System
-![sleep](https://github.com/jjn7702/SECJ1023-PT2/assets/147988542/714bf081-21b7-4154-8d23-b05343e0210a)
-
+![sleep](https://github.com/jjn7702/SECJ1023-PT2/assets/147988542/cd094349-78c5-44d1-8cb2-f05f532d8ff8)
 
 
 ## Group Members
