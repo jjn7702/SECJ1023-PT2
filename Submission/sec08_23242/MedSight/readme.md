@@ -1,7 +1,7 @@
 </head>
 <body>
     <h1 align="center">Diesease Management System</h1>
-    <image src = "image/medsight.jpg" width="2000" height="500">
+    <image src = "https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/8f48ebd8-8433-44d4-a4df-10d850e12dec" width="1000" height="400">
     <h2>🔗Description</h2>
     <p> 
     </p>
@@ -25,6 +25,7 @@
         <tr>
             <td>NUR AYUNI BINTI NOOR AZMAN</td>
             <td>A23CS0257</td>
+
             <td></td>
         </tr>
     </table>
