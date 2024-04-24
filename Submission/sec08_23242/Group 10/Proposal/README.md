@@ -25,6 +25,7 @@ Secondly, our system makes customer service and sales management more efficient.
 Finally, the system facilitates business expansion and strategic decision-making. The system provides management with significant insights to optimize pricing strategies, supplier alliances, inventory stocking, and sales success by creating extensive reports on these and other indicators. These insights enable the company to grow its services, increase profitability, and adjust to changing market trends in order to better serve its customers.
 
 ### How to Use The System 📲
+Users, such as store owners or managers, can effectively utilize the pet supply inventory management system to streamline their business operations and improve overall efficiency. Here's how they can make use of the system's features:
 1. Inventory Management:
 - Users can utilize the system's interface to add new items to the inventory or update existing ones with accurate details such as names, prices, and quantities.
 - They can categorize items for better organization, making it easier to locate specific products when needed.
