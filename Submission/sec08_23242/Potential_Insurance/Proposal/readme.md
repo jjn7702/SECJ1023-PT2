@@ -29,7 +29,15 @@ The main aim of this application is to propose food options tailored to users' t
 • Sign up <br>
   &nbsp;&nbsp; User create their username and password
 
-## ***Step 2: User Option***
+## ***Step 2: User Infomation
+• User need to complete their personal information or edit at there <br>
+  &nbsp;&nbsp; - If user want to change their location, edit the personal information
+• Subscription
+  &nbsp;&nbsp; - User can choose to join the membership, food delivery fee will be free. <br>
+  &nbsp;&nbsp; - Several plans will be provided.
+
+
+## ***Step 3: User Option***
 |Option|Program|
 |---|---|
 |1|SEARCH RESTAURANT by RESTAURANT NAME|
