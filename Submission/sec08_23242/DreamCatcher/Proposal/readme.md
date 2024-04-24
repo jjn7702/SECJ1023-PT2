@@ -54,6 +54,18 @@ The system processes this data, taking into account user demographics such as ag
                 <br><br>
                 Example Output:
                 <img src=https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/8ad45a4c-d993-4794-aa7a-a3854867067f">
+                <br><br>
+                </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <strong>Option 3: Symphony Customizer</strong><br>
+            <div class="right-align">
+              <ul>
+                In the Symphony Customizer, users can personalize their alarm sounds by adding up to five songs to their own list. If the list already contains five songs, users will be prompted to either delete songs from the list or abandon their new additions.
+<br><br>
+Users interested in customizing their own alarm sounds can also contribute to the community. If their alarm becomes popular, it has the chance to go viral on the trending table.
             </div>
         </li>
     </ul>
