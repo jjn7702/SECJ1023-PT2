@@ -5,9 +5,9 @@
 
   <h1>Objective and Purpose :dart:</h1>
   <ul>
-    <li>The system provides the user with a list of allergens they can choose from.</li>
-    <li>User can search for a specific food to identify if it contains allergens.</li>
-    <li>The system recommends the user with foods that are free of allregens they specified.</li>
+    <li>To Help users Avoid Any food that triggers their Allergies. </li>
+    <li>To Help keeping people safe because some Allergies can lead to death.</li>
+    <li>To provide a fast and easy to use Tool that gives specific and concise information about Allergies based on each Unique case.</li>
   </ul>
 
   <h1>System User Guide: 👨‍💻</h1>
@@ -43,9 +43,25 @@
 </head>
 <body>
   <h2>Reporting 📑</h2>
+  
   <ul>
-    <li></li>
-    <li></li>
+    <li>Output based on selected Allergen:
+      <ul>
+        <li>Food that contains allergens.</li>
+        <li>Food that is free of allergens. </li>
+        <li>Restaurant recommendations. </li>
+      </ul>
+      <li>Output based on searched food: 
+        <ul>
+            <li>Will tell the user if the food is safe or not. </li>
+            <li>Will tell the user which allergens are present in the searched food. </li>
+        </ul>
+    <li>Settings output:
+      <ul>
+        <li>User information.</li>
+        <li>Registered allergies. </li>
+        <li>Notifications.  </li>
+      </ul>
   </ul>
 </body>
 </html>
