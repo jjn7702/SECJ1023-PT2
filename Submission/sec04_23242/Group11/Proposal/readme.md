@@ -43,6 +43,6 @@ By following these steps, users can make healthier choices, track their progress
 
 ## program expectation 
 
-Our users expected to do some features that we developed such as food loggong and storing the food items that the user have intake for the day, user will be able to see some nutrietions such as calories and carbs and proteins of such an exicted items we provided such as apples, chickens and other food items, we will also provide a BMI cal to calculate the user Bmi and then recommend a daily calorie intake based on the results from the calculatiuon  also adding a water intake too as for the output the user will experince all the features that we provided and the features we will provide later since the project classes and idea aint finilized yes 
+Our users expected to do some features that we developed such as food loggong and storing the food items that the user have intake for the day, user will be able to see some nutrietions such as calories and carbs and proteins of such an exicted items we provided such as apples, chickens and other food items, we will also provide a BMI cal to calculate the user Bmi and then recommend a daily calorie intake based on the results from the calculatiuon  also adding a water intake too as for the output the user will experince all the features that we provided and the features we will provide later since the project classes and idea aint finilized yet
 
  
