@@ -1,7 +1,7 @@
 <h1 align="center"> 🎥Movie Recommendation System🎥 </h1>
 <image src = "image/MOVIE.jpg" width="2000" height="500">
 
-### Contents || ### Youtube link
+### Contents
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/CineMatch/Proposal/readme.md#synopsis-clapper)
 - [Objective](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/CineMatch/Proposal/readme.md#objective-dart)
 - [How to use the system](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/CineMatch/Proposal#how-to-use-the-system-book)
@@ -75,3 +75,6 @@ This system will have different output based on user selection:
 * Option 1, 2 and 3 will recommend movie to user and user can view movie info (year of release, genre, classification, rating and so on).
 * User can add or remove movie in their watchlist, the latest watchlist will be updated in the system and showed in watchlist txt file.
 * If user choose to rate the movie, the new rating will be updated in the movie info (movie info is in txt file).
+
+### Youtube link
+[Proposal Video](https://youtu.be/e0ODevNF4NQ)
