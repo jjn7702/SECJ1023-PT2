@@ -2,7 +2,7 @@
 
 # Pet Inventory Management System
 
-### Synopsis and general idea
+### Synopsis and General Idea
 
 Our project is about creating a pet inventory management system. This sistem will in total consist of 8 classes in order to manage with the operation of a pet supply store in more streamline and automate method.
 
