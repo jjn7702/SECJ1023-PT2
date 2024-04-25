@@ -19,7 +19,7 @@
     <br><li><strong>Search Bar</strong><br></li>
     - The user can search for specific food items in this section by typing in the name of the food item then the system will highlight the allergens in the ingredients if present.<br>
     <br><li><strong>List of food items</strong><br></li>
-    - if unable to find the food item by searching , he can search it manually by going throught available food items sorted by cuisine and type of course .<br>
+    - if the user is unable to find the food item by searching, they can search it manually by going through the available food items sorted by type(eg. Diary products).<br>
     <br><li><strong>Allergy Information</strong><br></li>
     - Will display the user's allergy profile for easy reference.
   </ul>
