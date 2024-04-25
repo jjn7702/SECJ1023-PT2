@@ -2,6 +2,7 @@
 
 
 **Synopsis and general idea**
+
 The scholarship application system typically involves students who need financial help to support their education. 
 Applicants usually need to submit their application form,the evidence  of  academic results and the award they received . 
 The selection between the applicants will be chosen based on the academic performance , extracurricular activities and 
