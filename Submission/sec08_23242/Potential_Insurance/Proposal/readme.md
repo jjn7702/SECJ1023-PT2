@@ -20,7 +20,7 @@ The main aim of this application is to propose food options tailored to users' t
 • Offer personalised dining suggestions. <br>
 • Enhance user contentment and involvement. <br> <br>
 
-# How to use the system 💻
+# HOW TO USE THE SYSTEM 💻
 
 ## ***Step 1: Sign in/ Sign up*** 🔴 🟢 🟡
 • Sign in <br>
