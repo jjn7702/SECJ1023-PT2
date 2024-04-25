@@ -16,9 +16,11 @@ Overall, the medication scheduler system manages their medications more effectiv
 Medication Scheduler STEP BY STEP USE:
 
 1) Open app
-2) Register you and your private doctor account
+2) Register you and your private doctor account <br>
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147676875/9ca82eac-5b6d-4d3c-b175-74fbc8c54e20)
 3) Click on "ADD MEDICATION" button, this will bring you to the next page
-4) Medication name will be requested. Type the name of your medication, more precise the better. Click "NEXT"
+4) Medication name will be requested. Type the name of your medication, more precise the better. Click "NEXT"<br>
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147676875/61fced65-1a44-4058-8782-2701aa3e672e)
 5) A page to choose the type of your medication will pop up. It is a multiple choice. 
   -CAPSULE, TABLET, LIQUID, CREAM, DROPS, INJECTION, LOTION, GEL, OINTMENT, SPRAY, PATCH
   Choose the one most identical to your medication. Click "NEXT"
