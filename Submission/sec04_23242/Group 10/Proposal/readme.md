@@ -6,8 +6,19 @@ Our project focuses on the development of an Event Scheduler system. An An event
 
 ## Problem of Existing Program
 ### 1. Difficulty in Managing Large Event
-================================
 Managing large events with multiple participants and complex scheduling requirements can be challenging in Google Calendar. The platform lacks advanced features for coordinating large-scale events efficiently, such as robust attendee management or resource allocation capabilities.While Google Calendar allows users to share their calendars with others and schedule meetings with multiple participants, its collaboration features are somewhat limited compared to dedicated team scheduling tools. Collaborative features like team availability overlays or real-time scheduling assistance are not as robust as in some other platforms.
+### 2. Limited offline Functionality
+  Although Google Calendar offers offline access through the Google Calendar app, its offline functionality is somewhat limited compared to its online counterpart. Users may find it challenging to access and manage their events without an internet connection. If you're in an area with poor or no internet access, you may have trouble accessing or updating your calendar, which could lead to missed appointments or scheduling errors.
+### Limited Options for Customization
+  Users may find it challenging to set up events that occur every third Tuesday of the month or every other Friday. Google Calendar doesn't support advanced recurrence features like "the last weekday of the month" or "every first and third Monday." This limitation can be frustrating for users with specific scheduling needs, such as businesses with irregular meeting schedules or individuals with unique event patterns. Plus, advanced customization options like creating custom views or designing event templates are not available at Google Calendar. 
+
+## Solution
+### 1. Advanced event management features
+  Develop features specifically designed for managing large events, such as attendee management tools, resource allocation capabilities, and advanced scheduling algorithms. Provide organizers with the tools they need to coordinate complex events efficiently. Plus, we will improve the team collaboration features of Google Calendar to better support group scheduling and coordination. This could involve introducing features like team availability overlays, real-time collaboration tools, and integrated communication features to facilitate seamless collaboration among team members.
+### 2. Enhance Offline Functionality
+Enhance offline functionality to allow users to access and manage their events more effectively without an internet connection. This could involve optimizing the Google Calendar app for offline use, caching calendar data locally, and providing offline editing capabilities.
+### 3. Enhanced Customization Options
+  Introduce advanced customization features that allow users to tailor their calendar views, create event templates, and personalize their scheduling experience. Providing users with more control over how they organize and view their schedules can improve overall usability. This could involve incorporating user feedback and regularly updating the platform with new customization options.
 
 # System Objectives and/or Purpose and What The User Can Achieve/Do in The System
 1. To allow users to create, schedule and manage a variaty of events, such as meeting, conferences, appointment and so on.
