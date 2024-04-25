@@ -52,10 +52,14 @@ Users, such as store owners or managers, can effectively utilize the pet supply 
 ### Reporting 📄
 This report describes a pet inventory management system that aims to transform pet supply business operations by offering an extensive feature set that improves productivity and streamlines procedures. The system will generate outputs for effective inventory management, customer service, and strategic decision-making.
 
-Inventory Management: One of the system's key outputs is its ability to manage inventory effectively. It will include comprehensive details on every item sold in the store, including toys, pet food, and other supplies. The product characteristics, numbers, prices, and expiration dates will all be included in this data, giving store owners a complete understanding of their inventory levels.
+Inventory Management: 
+One of the system's key outputs is its ability to manage inventory effectively. It will include comprehensive details on every item sold in the store, including toys, pet food, and other supplies. The product characteristics, numbers, prices, and expiration dates will all be included in this data, giving store owners a complete understanding of their inventory levels.
 
-Supplier Management: Additionally, by keeping track of suppliers' details and automating reordering procedures in response to inventory levels, the system will support effective supplier management. By doing this, it will make inventory replenishment easy, reduce stockouts, and optimize stock levels to satisfy consumer demand.
+Supplier Management: 
+Additionally, by keeping track of suppliers' details and automating reordering procedures in response to inventory levels, the system will support effective supplier management. By doing this, it will make inventory replenishment easy, reduce stockouts, and optimize stock levels to satisfy consumer demand.
 
-Alerts and Notifications: When an item runs out of stock or expires, the system will also promptly send out alerts and notifications. Staff will respond quickly as a result of these warnings, guaranteeing that inventory is refilled on time and that consumers are not inconvenienced by out-of-stock items.
+Alerts and Notifications: 
+When an item runs out of stock or expires, the system will also promptly send out alerts and notifications. Staff will respond quickly as a result of these warnings, guaranteeing that inventory is refilled on time and that consumers are not inconvenienced by out-of-stock items.
 
-
+Monthly Sales Reports: 
+In addition, the system will produce thorough sales data every month. These reports will provide information on income produced, popular products, sales trends, and other relevant variables. Store owners can make well-informed judgments to maximize sales techniques and increase profitability by examining these data.
