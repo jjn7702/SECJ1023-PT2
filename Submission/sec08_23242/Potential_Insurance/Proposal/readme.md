@@ -39,7 +39,7 @@ The main aim of this application is to propose food options tailored to users' t
 ### **Option for subscription plan** ❓❔
 |Plan|
 |---|
-|1 month RM4|
+|1 month RM4|  💸
 |3 month RM11|
 |1 year RM45|
 
