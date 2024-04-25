@@ -36,7 +36,7 @@ For the reporting aspect of the Sleep Cycle Analyzer system, several types of re
 
 1. Sleep Cycle Analysis Report: The user's sleep cycles are broken down in detail in the Sleep Cycle Analysis Report. This includes information on how long each stage of sleep lasts (light, deep, REM, and falling asleep), as well as any disruptions or anomalies that were noticed during the night. It may include graphs or visual representations to illustrate the patterns observed. 
 
-2. Sleep Quality Assessment: Based on variables like sleep duration, sleep efficiency, and the existence of any sleep disturbances (e.g., restless sleep, awakenings), this report assesses the user's overall quality of sleep. It might offer suggestions for enhancing the quality of your sleep, like modifying your sleeping environment or engaging in relaxation exercises. 
+2. Sleep Quality Assessment: Based on variables like sleep duration, sleep efficiency, and the existence of any sleep disturbances (e.g., restless sleep, awakenings), this report assesses the user's overall quality of sleep. It might offer suggestions for enhancing the quality of the user's sleep, like modifying their sleeping environment or engaging in relaxation exercises. 
 
 3. Sleep Trends Analysis: This report tracks changes in the user's sleep patterns over time, allowing them to monitor progress and identify any long-term trends or patterns. It may include comparative data from previous sleep sessions or benchmarks for optimal sleep parameters. 
 
