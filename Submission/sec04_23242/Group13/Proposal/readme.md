@@ -1,6 +1,7 @@
 <center>
-# Movie Recommendation Sestem Propsal 
+Movie Recommendation Sestem Propsal
 </center>
+
 
 ## Synopsis and General Idea:
 •	Help users discover new movies aligned with their tastes.
