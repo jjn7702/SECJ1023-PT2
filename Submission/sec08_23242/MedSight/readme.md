@@ -25,7 +25,7 @@
         <tr>
             <td>NUR AYUNI BINTI NOOR AZMAN</td>
             <td>A23CS0257</td>
-            <td></td>
+            <td> <image src = "https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/1767128c-e31d-4bde-a2d3-d4184ee72224" width="200" height="250"></td>
         </tr>
     </table>
     <h2>🔍 Findings</h2>
@@ -33,3 +33,4 @@
 </body>
 
 </html>
+![photo_2023-11-17_00-10-12](https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/1767128c-e31d-4bde-a2d3-d4184ee72224)
