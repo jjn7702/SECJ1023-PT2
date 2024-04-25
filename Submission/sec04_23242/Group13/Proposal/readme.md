@@ -1,3 +1,7 @@
+<center>
+# Movie Recommendation Sestem Propsal 
+</center>
+
 ## Synopsis and General Idea:
 •	Help users discover new movies aligned with their tastes.
 •	Make finding movies easier and more enjoyable.
