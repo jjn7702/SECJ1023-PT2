@@ -1,3 +1,6 @@
+
+![About Us](https://github.com/jjn7702/SECJ1023-PT2/assets/147719131/7cbdcc83-f166-446b-b41b-3bc176247628)
+
 # Programming Technique II Assignment Proposal (Fitness Progress Tracker)
 
 ## Synopsis and General Idea
