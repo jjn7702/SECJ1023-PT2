@@ -1,8 +1,15 @@
 ### PROJECT
-### AJKJ
 
-Synopsis and general idea about the proposed topic/system
-The scholarship application system typically involves students who need financial help to support their education. Applicants usually need to submit their application form,the evidence  of  academic results and the award they received . The selection between the applicants will be chosen based on the academic performance , extracurricular activities and financial needs to determine whether they qualify for this scholarship or not.The system aims to provide the opportunity for students to complete their studies regardless of financial constraints . 
+
+**Synopsis and general idea**
+The scholarship application system typically involves students who need financial help to support their education. 
+Applicants usually need to submit their application form,the evidence  of  academic results and the award they received . 
+The selection between the applicants will be chosen based on the academic performance , extracurricular activities and 
+financial needs to determine whether they qualify for this scholarship or not.The system aims to provide the opportunity 
+for students to complete their studies regardless of financial constraints . 
+
+
+
 System objectives and/or purpose, what the user can achieve/do in the system 
 Student would not miss the scholarship 
 Assigns scholarship that fulfill the requirements based on student’s information (based on faculty/ course/ family income group)
