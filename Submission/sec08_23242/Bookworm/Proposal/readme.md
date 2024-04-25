@@ -1,5 +1,5 @@
 <h1 align="center"> :books: Book Recommendation System :books: </h1>
-<img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/8f809032-e60f-46af-a488-09fec1f3d97d" width="1500"></img>
+<img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/8f809032-e60f-46af-a488-09fec1f3d97d" width="1500" height="500"></img>
 
 # Content :star2:
 <ul>
@@ -9,11 +9,15 @@
   <li><a href="#report">Reporting</a></li>
   <li><a href="#youtube">Youtube link</a></li>
   <li><a href="#canva">Canva slide</a></li>
+
+
   
 <div id="syn">
 <h2> Synopsis and General Idea :memo: </h2>
 A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea   where to start?  Simply select your favorite genre to find books tailored to your tastes. The system also offers random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, we suggests users to enter their ratings for the books that they've read and update in the book lists.
 </div>
+
+
 
 <div id="obj">
 <h2> Objective and Purposes :dart: </h2>
@@ -22,6 +26,8 @@ A good book recommendation system is indispensable for every diligent soul. It m
 - A recommendation list can be customized by user to summarise their interested books.
 - This book recommendation system aims to cultivate and sparks interest of people to indulge in reading habits.
 </div>
+
+
 
 <div id="use">
 <h2>How to use the system :computer: </h2>
@@ -83,12 +89,16 @@ The system will output a book recommendation list which includes:
 </ul>
 </div>
 
+
+
  <div id="youtube">
 <h2>Youtube link :movie_camera:</h2>
 <a href= "https://youtu.be/KgzKN0HR_S4?si=O9nvcjhVkzuBone5"> Youtube Video </a>
  </div>
 
+
+
 <div id="canva">
 <h2>Canva slide :clipboard:</h2>
-<a href= "https://www.canva.com/design/DAGCr457ev8/sL0teFkk_MJnD6WCgALxTQ/edit?utm_content=DAGCr457ev8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> Slide </a>
+<a href= "https://www.canva.com/design/DAGCr457ev8/j4Xxs9-gBl_UyTwq3tl6_Q/view?utm_content=DAGCr457ev8&utm_campaign=designshare&utm_medium=link&utm_source=editor"> Slide </a>
 </div>
