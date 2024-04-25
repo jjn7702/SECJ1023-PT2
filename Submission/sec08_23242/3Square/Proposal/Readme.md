@@ -21,16 +21,16 @@ for students to complete their studies regardless of financial constraints .
 
 - User registration / login
 
-    - User registration 
+    - User registration
 
-            New user need to sign in by using the basic information such       
-            as the name and email  in the scholarship application system 
-            to create an account.
+      New user need to sign in by using the basic information such       
+      as the name and email  in the scholarship application system 
+      to create an account.
       
     - User profile management
     
-            Users need to update their profile information which include age ,
-            full name and profile picture.
+      Users need to update their profile information which include age ,
+      full name and profile picture.
       
 - Home page
     
@@ -64,18 +64,22 @@ for students to complete their studies regardless of financial constraints .
    The users would get different outputs based on the different information they key in. The merit based scholarship will 
    be given to the students based on their CGPA and merit. However, the need based scholarship will be given to students 
    based on family income group especially B40.
+---
 
-How your project will fulfill the project specifications (video only): 
-Array of objects 
-Array: Applicant 
-Example:  Student applicant[100]
-Array: Award
-Example : Scholarship award[4]
-Merit + Under (75%)
-Merit + Post (75%)
-Need + Under (100%)
-Need + Post (100%)
-Encapsulation
+**Array of objects**
+
+- Array: Applicant
+  
+  - Example:  Student applicant[100]
+    
+- Array: Award
+  - Example : Scholarship award[4]
+    - Merit + Under (75%)
+    - Merit + Post (75%)
+    - Need + Under (100%)
+    - Need + Post (100%)
+      
+**Encapsulation**
 Class: Student
 Data: Name, Age, Family Income, Current CGPA, Contact
 Method: enterDetails()
