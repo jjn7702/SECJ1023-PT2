@@ -15,6 +15,9 @@
 ## Synopsis
 
 ## System Objectives & Purposes
+1. Identify sleep stages including falling asleep ,light sleep, deep sleep and REM sleep (Rapid Eye Movement)
+2. Identify sleep needs which will ascertain more concisely when, why, what conditions your sleep improves. For example, adjusting temperature or position of sleeping
+3. Detect sleep anomalies. For instance, sleep disorders such as insomnia or sleep apnea can be identified earlier
 
 ## How to use the system
 1. prompt the user to input basic information such as their name and age within the console
