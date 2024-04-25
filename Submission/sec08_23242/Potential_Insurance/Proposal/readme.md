@@ -59,7 +59,7 @@ The main aim of this application is to propose food options tailored to users' t
 3️⃣.2️⃣ Favourite restaurant list  <br>
   &nbsp;&nbsp; - Users can add their favourite restaurant in the list. It is convenient for users to retrieve restaurants in the future.  <br>
 
-3️⃣. Rate restaurant <br>
+3️⃣.3️⃣ Rate restaurant <br>
   &nbsp;&nbsp; - User can rate the selected restaurant, the feedback and rating will be recorded and use to build the recommended restaurant list  <br>
 
 ## <b> *User proceed to Step 4 if they choose option 1-5 </b>
