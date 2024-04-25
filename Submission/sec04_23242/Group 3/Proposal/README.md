@@ -16,8 +16,8 @@
 <ol>
 <li><strong>User Information:</strong> Fill user information name and identification number.</li>
 <li><strong>Input Allergies:</strong> Input specific allergies</li>
-<li><strong>Receive Alerts: Receive alerts and notifications when potential allergic ingredients are present in recipes, menus, or food labels.</li>
-<li><strong>Explore Recipes and Menus: Browse through recipes and restaurant menus, with allergies information provided.</li>
+<li><strong>Explore Recipes and Menus:</strong> Browse through recipes and restaurant menus, with allergies information provided.</li>
+<li><strong>Receive Alerts:</strong> Receive alerts and notifications when potential allergic ingredients are present in recipes, menus, or food labels.</li>
 </ol>
 <h1 id="reportingoutput">Reporting/Output</h1>
 <p>After all the process done ,the output will display the ingredients that can cause harm to the allergies person in the menu or dishes.</p>
