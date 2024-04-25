@@ -12,20 +12,7 @@
 ### :bookmark: Objectives & Purpose of System
 <body> 
 <p>The suggested reference book exchange system is to offer a comprehensive platform for users to share, borrow, and lend reference books to transform access to academic resources. The system's main goals and aims are listed below:
-</p>
-  <ol type="1">
-    <li>
-      <b>Knowledge Sharing</b>
-      <br> - Encourage the sharing of knowledge and information among society by enabling users to exchange their reference books that are no longer required 
-    </li>
-    <li>
-      <b>Secure Platform </b>
-      <br> - Provide a trusted platform for users interested in sharing and acquiring reference materials
-    </li> 
-  </ol>
-</body>
-<br>
-<br>
+
 
 ### :mega: How To Use The System
 First time users will be directed to the **sign up page**. Users will be requested to enter their email address then create their password. After successfully signing up, users will be directed to the **login page** and requested to login with the credentials provided to the system at the signup page.
