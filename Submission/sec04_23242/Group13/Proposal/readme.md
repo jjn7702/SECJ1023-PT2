@@ -14,7 +14,7 @@
 •	Use clever computer techniques to improve the recommendations over time.
 •	Create a simple and friendly system that anyone can use.
 
-## V.How to Use the System:
+## How to Use the System:
 1.	Sign Up: Users create an account with a username and password.
 2.	Tell Us What You Like: Users pick their favorite movie genres and actors when setting up their profile.
 3.	Explore Movies: Users can search for movies or browse through recommended ones.
