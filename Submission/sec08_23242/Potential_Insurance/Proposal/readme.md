@@ -29,7 +29,7 @@ The main aim of this application is to propose food options tailored to users' t
 • Sign up <br>
   &nbsp;&nbsp; User create their username and password
 
-## ***Step 2: User Infomation***
+## ***Step 2: User Infomation*** 📑
 • User need to complete their personal information or edit at there <br>
   &nbsp;&nbsp; - If user want to change their location, edit the personal information  <br>
 • Subscription  <br>
