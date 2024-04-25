@@ -21,10 +21,12 @@ A good book recommendation system is indispensable for every diligent soul. It m
 
 <div id="obj">
 <h2> Objective and Purposes :dart: </h2>
-- The system could provide personalized book recommendations to users based on the user's favorite genre.
-- User can discover trending books in the system, and explore different genre of books.
-- A recommendation list can be customized by user to summarise their interested books.
-- This book recommendation system aims to cultivate and sparks interest of people to indulge in reading habits.
+<ul>
+<li>The system could provide personalized book recommendations to users based on the user's favorite genre.</li>
+<li>User can discover trending books in the system, and explore different genre of books.</li>
+<li>A recommendation list can be customized by user to summarise their interested books.</li>
+<li>This book recommendation system aims to cultivate and sparks interest of people to indulge in reading habits.</li>
+</ul>
 </div>
 
 
