@@ -36,7 +36,7 @@ The main aim of this application is to propose food options tailored to users' t
   &nbsp;&nbsp; - User can choose to join the membership, food delivery fee will be free. <br>
   &nbsp;&nbsp; - Several plans will be provided.  <br>
 
-### **Option for subscription plan** ❓
+### **Option for subscription plan** ❓❔
 |Plan|
 |---|
 |1 month RM4|
