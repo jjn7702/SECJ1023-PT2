@@ -1,3 +1,11 @@
+
+# Youtube link
+<a href= "https://youtu.be/KgzKN0HR_S4?si=O9nvcjhVkzuBone5"> Youtube Video </a>
+
+# Canva slide
+<a href= "https://www.canva.com/design/DAGCr457ev8/sL0teFkk_MJnD6WCgALxTQ/edit?utm_content=DAGCr457ev8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+> Slide </a>
+
 # Synopsis and General Idea :memo:
 A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea where to start?  Simply select your favorite genre to find books tailored to your tastes. The system also offers random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, we suggests users to enter their ratings for the books that they've read and update in the book lists.
 
