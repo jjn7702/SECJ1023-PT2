@@ -41,7 +41,16 @@ If a user decided a book was needed after finding it in the available book listi
 <br>
 
 ### :chart_with_downwards_trend: Reporting & Output
-->
+<body>
+<p>
+The functionality of our system's reporting and output features is pivotal in fostering user interactions and ensuring a smooth exchange process. Upon registration and login, users are directed to their account pages where they can update personal information such as education level, age, and institution. 
+
+Furthermore, users can utilize the search engine to browse book listings by titles or keywords. The system generates a comprehensive list of relevant books, allowing users to refine their search using filters like publication date, author, edition number, and ISBN code. Additionally, users can contribute to the platform by sharing their owned book listings, providing details about books they're willing to exchange. When users identify a desired book, they can initiate an exchange request with the book owner. 
+
+The system facilitates communication between users and provides real-time notifications about the status of their requests. In instances of multiple requests for the same book, the system automatically prioritizes and processes requests based on submission time, ensuring fair and efficient exchange. Through these reporting and output features, our system aims to streamline the exchange process, foster collaboration among users, and enhance the overall user experience.
+
+</p>
+</body>
 <br>
 <br>
 
