@@ -14,12 +14,12 @@
   <h3 style="font-weight: bold;">Login Page:</h3>
   The user will be prompted to enter their name, email, age range. They are also prompted to enter their allergens by choosing the applicable allergens from the dropdown list.
   <h3 style="font-weight: bold;">Home Screen:</h3>
-  After logging in the user will be directed to the homescreen where they will have 4 main options:<br>
+  After logging in the user will be directed to the homescreen where they will have 3 main options:<br>
   <ul>
     <br><li><strong>Search Bar</strong><br></li>
     - The user can search for specific food items in this section by typing in the name of the food item then the system will highlight the allergens in the ingredients if present.<br>
-    <br><li><strong>Recent Scans/Meals</strong><br></li>
-    - if unable to find the food item by searching , he can search it manually by going throught available food items sorted by cusine and type of course .<br>
+    <br><li><strong>List of food items</strong><br></li>
+    - if unable to find the food item by searching , he can search it manually by going throught available food items sorted by cuisine and type of course .<br>
     <br><li><strong>Allergy Information</strong><br></li>
     - Will display the user's allergy profile for easy reference.
   </ul>
@@ -27,7 +27,7 @@
   <ul>
     <li><strong>Profile</strong><br></li>
     - The user can edit their personal information by entering their new values in the corresponding input field.<br>
-    - The user can also add or remove allergens by pressing on the corresponding allregen.<br>
+    - The user can also add or remove allergens by pressing on the corresponding allergen.<br>
   </ul>
 </body>
 </html>
