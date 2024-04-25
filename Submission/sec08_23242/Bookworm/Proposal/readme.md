@@ -1,14 +1,14 @@
 <h1 align="center"> :books: Book Recommendation System :books: </h1>
 <img src= "https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/8f809032-e60f-46af-a488-09fec1f3d97d" width="1500"></img>
 
-# Content:star2:
+# Content :star2:
 <ul>
-  <li><a id="syn">Synopsis and General Idea</a></li>
-  <li><a id="obj">Objective and Purposes</a></li>
-  <li><a id="use">How to use the system</a></li>
-  <li><a id="report">Reporting</a></li>
-  <li><a id="youtube">Youtube link</a></li>
-  <li><a id="canva">Canva slide</a></li>
+  <li><a href="#syn">Synopsis and General Idea</a></li>
+  <li><a href="#obj">Objective and Purposes</a></li>
+  <li><a href="#use">How to use the system</a></li>
+  <li><a href="#report">Reporting</a></li>
+  <li><a href="#youtube">Youtube link</a></li>
+  <li><a href="#canva">Canva slide</a></li>
   
 <div id="syn">
 <h2> Synopsis and General Idea :memo: </h2>
@@ -84,7 +84,7 @@ The system will output a book recommendation list which includes:
 </div>
 
  <div id="youtube">
-<h2>Youtube link :movie_camera</h2>
+<h2>Youtube link :movie_camera:</h2>
 <a href= "https://youtu.be/KgzKN0HR_S4?si=O9nvcjhVkzuBone5"> Youtube Video </a>
  </div>
 
