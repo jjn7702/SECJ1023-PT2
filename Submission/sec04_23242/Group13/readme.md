@@ -16,7 +16,10 @@ Finding the perfect movie can be a challenge, but our Movie Recommendation Syste
 | 3  | Knan Fadi Dawarh      | A23CS4013   | `KINANFADI`    |
 
 ## iii.Synopsis and General Idea:
- Our project revolves around building a movie recommendation system that helps users find movies they'll enjoy watching. By using smart algorithms, the system suggests movies based on what users like, making their movie-watching experience more fun and personalized.
+•	Help users discover new movies aligned with their tastes.
+•	Make finding movies easier and more enjoyable.
+•	Use clever computer techniques to improve the recommendations over time.
+•	Create a simple and friendly system that anyone can use.
 
 ## IV.System Objectives and/or Purpose:
 •	Help users discover new movies aligned with their tastes.
