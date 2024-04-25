@@ -58,4 +58,4 @@ Supplier Management: Additionally, by keeping track of suppliers' details and au
 
 Alerts and Notifications: When an item runs out of stock or expires, the system will also promptly send out alerts and notifications. Staff will respond quickly as a result of these warnings, guaranteeing that inventory is refilled on time and that consumers are not inconvenienced by out-of-stock items.
 
-Monthly Sales Reports: In addition, the system will produce thorough sales data every month. These reports will provide information on income produced, popular products, sales trends, and other relevant variables. Store owners can make well-informed judgments to maximize sales techniques and increase profitability by examining these data.
+
