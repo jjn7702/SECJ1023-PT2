@@ -16,7 +16,7 @@
 ### 1. Advanced event management features
   Develop features specifically designed for managing large events, such as attendee management tools, resource allocation capabilities, and advanced scheduling algorithms. Provide organizers with the tools they need to coordinate complex events efficiently. Plus, we will improve the team collaboration features of Google Calendar to better support group scheduling and coordination. This could involve introducing features like team availability overlays, real-time collaboration tools, and integrated communication features to facilitate seamless collaboration among team members.
 ### 2. Enhance Offline Functionality
-Enhance offline functionality to allow users to access and manage their events more effectively without an internet connection. This could involve optimizing the Google Calendar app for offline use, caching calendar data locally, and providing offline editing capabilities.
+  Enhance offline functionality to allow users to access and manage their events more effectively without an internet connection. This could involve optimizing the Google Calendar app for offline use, caching calendar data locally, and providing offline editing capabilities.
 ### 3. Enhanced Customization Options
   Introduce advanced customization features that allow users to tailor their calendar views, create event templates, and personalize their scheduling experience. Providing users with more control over how they organize and view their schedules can improve overall usability. This could involve incorporating user feedback and regularly updating the platform with new customization options.
 
