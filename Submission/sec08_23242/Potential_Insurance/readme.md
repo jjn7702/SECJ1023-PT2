@@ -5,7 +5,7 @@
 The restaurant recommendation system is a software application designed to suggest restaurants to users based on their preferences, incorporating a blend of user feedback. The application collects data using a rating system and is developed using the C++ programming language.
 The main aim of this application is to propose food options tailored to users' tastes and habits. Additionally, the application provides convenience for users to order food from their favourite restaurants.
 
-## OUR TEAM MEMBERS
+## OUR TEAM MEMBERS 💁
 <table> 
   <tr> 
     <td width="250px">Name</td> 
