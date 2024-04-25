@@ -4,7 +4,10 @@
 # Synopsis and General Idea About The Proposed Topic/System
 Our project focuses on the development of an Event Scheduler system. An An event scheduler is a software tool designed to facilitate the organization and management of events, appointments, meetings, tasks, or any other time-based activities. It provides users with a centralized platform to schedule, track, and coordinate various activities, ensuring efficient use of time and resources. Similar to popular tools like Google Calendar, our Personal Organiser provides users with a user-friendly interface to create, edit, emphasize, and track various types of events. By offering a centralized hub for organizing tasks, events, notes, and reminders, the event Scheduler empowers users to stay on top of their commitments and achieve their goals effectively.
 
-### Program 
+## Problem of Existing Program
+### 1. Difficulty in Managing Large Event
+================================
+Managing large events with multiple participants and complex scheduling requirements can be challenging in Google Calendar. The platform lacks advanced features for coordinating large-scale events efficiently, such as robust attendee management or resource allocation capabilities.While Google Calendar allows users to share their calendars with others and schedule meetings with multiple participants, its collaboration features are somewhat limited compared to dedicated team scheduling tools. Collaborative features like team availability overlays or real-time scheduling assistance are not as robust as in some other platforms.
 
 # System Objectives and/or Purpose and What The User Can Achieve/Do in The System
 1. To allow users to create, schedule and manage a variaty of events, such as meeting, conferences, appointment and so on.
