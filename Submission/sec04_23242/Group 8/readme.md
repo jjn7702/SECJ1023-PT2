@@ -13,6 +13,11 @@
 
 
 ## Synopsis
+1. The Sleep Cycle Analyzer is a C++ web-based system aimed at analyzing and improving users' sleeping habits.
+2. It collects data such as total time in bed, sleep duration, and physiological markers during sleep.
+3. Once sufficient data is collected, the system analyzes sleep cycles, including patterns and quality of each stage (light, deep, REM).
+4. Suggestions for altering sleep plans, optimizing the sleep environment, or practicing relaxation methods are provided based on the analysis.
+5. It offers a straightforward yet effective approach for understanding and improving healthy sleeping habits.
 
 ## System Objectives & Purposes
 1. Identify sleep stages including falling asleep ,light sleep, deep sleep and REM sleep (Rapid Eye Movement)
