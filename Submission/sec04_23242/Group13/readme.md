@@ -15,17 +15,7 @@ Finding the perfect movie can be a challenge, but our Movie Recommendation Syste
 | 2  | Ali Reda Ali  | A23CS4003   | `aliredaaliabouseada` |
 | 3  | Knan Fadi Dawarh      | A23CS4013   | `KINANFADI`    |
 
-## iii.Synopsis and General Idea:
-•	Help users discover new movies aligned with their tastes.
-•	Make finding movies easier and more enjoyable.
-•	Use clever computer techniques to improve the recommendations over time.
-•	Create a simple and friendly system that anyone can use.
 
-## IV.System Objectives and/or Purpose:
-•	Help users discover new movies aligned with their tastes.
-•	Make finding movies easier and more enjoyable.
-•	Use clever computer techniques to improve the recommendations over time.
-•	Create a simple and friendly system that anyone can use.
 
 ## V.How to Use the System:
 1.	Sign Up: Users create an account with a username and password.
