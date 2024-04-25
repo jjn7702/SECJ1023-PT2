@@ -28,7 +28,7 @@ System Objectives and/or Purpose:
 6.	Stay Updated: Users receive updates on new releases and personalized recommendations.
 
 
-## VI.Reporting:
+## Reporting:
 We'll track:
 
 •	How accurate our recommendations are compared to what users like.
