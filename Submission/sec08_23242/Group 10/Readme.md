@@ -1,3 +1,4 @@
+![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Images/739mp35j.png)
 ## TEAM MEMBERS
 
 - [@zx823](https://github.com/zx823/zx823)
