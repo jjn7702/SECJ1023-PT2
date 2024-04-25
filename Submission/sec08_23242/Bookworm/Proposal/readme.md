@@ -21,7 +21,7 @@ A good book recommendation system is indispensable for every diligent soul. It m
     Users will be able to see a trending list of popular books with the book code, title, genre, publication year, and publisher of the books.
     Users can input the code number of the book that they are interested in, then the book will be added to the users’ personalized book recommendation list.
     <li><b>Option 2: See specific genre book list</b></li>
-    If users enter option 2 on the home page, users will be directed to the genre option list page.
+    If users enter option 2 on the menu page, users will be directed to the genre option list page.
       <ul>
         <li><b>Genre Option List Page:</b></li>
         Users can choose the genre that they are interested in.
@@ -39,7 +39,7 @@ A good book recommendation system is indispensable for every diligent soul. It m
       </ul>
     <li><b>Option 3: See personalize book recommendation list</b></li>
     <ul>
-      If users enter option 3 on the home page, 
+      If users enter option 3 on the menu page, 
       <li>Users will be able to see their personalized book recommendation list</li>
       <li>Inside the list, it will display all the books that the users had chosen before this.</li>
       <li>Users can type Y if they want to add more books </li>
