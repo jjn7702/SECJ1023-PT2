@@ -18,27 +18,52 @@ for students to complete their studies regardless of financial constraints .
 
 ---
 **How to use the system**
-  - User registration / login
+
+*User registration / login*
+
     - User registration 
+
             New user need to sign in by using the basic information such       
             as the name and email  in the scholarship application system 
-            to create an account .
+            to create an account.
       
-User profile management
-Users need to update their profile information which include age , full name and profile picture.
-Home page
-After log in to the scholarship application system, students will come to the home page that include 2 options which are merit based scholarship and need Based scholarship. Students are required to choose which scholarship they wish to apply for.
-Meritbased scholarship 
-Students are able to see the requirement of the merit based scholarship. The scholarship will be given based on the merit we gained at the university .If the student merit is more than the merit targeted by the scholarship organization, the applicant is available to get this scholarship.
+    - User profile management
+    
+            Users need to update their profile information which include age ,
+            full name and profile picture.
+      
+*Home page*
+    
+      After log in to the scholarship application system, students will come to the home page that include 2 options which 
+      are merit based scholarship and need Based scholarship. Students are required to choose which scholarship they wish 
+      to apply for.
+    
 
-Needbased scholarship
-Students are able to see the requirement of need based scholarship. Need Based scholarship will given based on  the family income and category their income into B40,M40 and T20. 
-Application form
-An application form will be provided to the students at the end and students can check whether the information that they filled is correct.
-Application review
-System will check whether the information key in by the students are accurate. Any inaccurate data will cause the application of the student to be withdrawn.
-Reporting, what is the report/output that will be generated in the system.
-The users would get different outputs based on the different information they key in. The merit based scholarship will be given to the students based on their CGPA and merit. However, the need based scholarship will be given to students based on family income group especially B40.
+      - Meritbased scholarship
+        
+        Students are able to see the requirement of the merit based scholarship. The scholarship will be given based on 
+        the merit we gained at the university .If the student merit is more than the merit targeted by the scholarship 
+        organization, the applicant is available to get this scholarship.
+
+      - Needbased scholarship
+        Students are able to see the requirement of need based scholarship. Need Based scholarship will given based on  
+        the family income and category their income into B40,M40 and T20.
+        
+*Application form*
+
+  - An application form will be provided to the students at the end and students can check whether the information that 
+    they filled is correct.
+    
+*Application review*
+
+- System will check whether the information key in by the students are accurate. Any inaccurate data will cause the 
+  application of the student to be withdrawn.
+  
+*Reporting*
+
+ - The users would get different outputs based on the different information they key in. The merit based scholarship will 
+   be given to the students based on their CGPA and merit. However, the need based scholarship will be given to students 
+   based on family income group especially B40.
 
 How your project will fulfill the project specifications (video only): 
 Array of objects 
