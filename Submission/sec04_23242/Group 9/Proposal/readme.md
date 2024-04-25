@@ -24,11 +24,14 @@ Medication Scheduler STEP BY STEP USE:
 5) A page to choose the type of your medication will pop up. It is a multiple choice. 
   -CAPSULE, TABLET, LIQUID, CREAM, DROPS, INJECTION, LOTION, GEL, OINTMENT, SPRAY, PATCH
   Choose the one most identical to your medication. Click "NEXT"
-6) You will be brought to a page to insert your medication strength. Insert it as well as the unit (mg, mcg, g, ml, %). Click 'NEXT'
+6) You will be brought to a page to insert your medication strength. Insert it as well as the unit (mg, mcg, g, ml, %). Click 'NEXT' <br>
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147676875/a371831d-3389-49e1-84ad-4b16b2bced51)
 7) You will be asked the frequency of the use of medication. You also can add the time. Once this is done, you can ensure you
-  will be notified to take your medication. Click "NEXT"
+  will be notified to take your medication. Click "NEXT" <br>
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147676875/eb11f525-e89b-48f6-85a9-3f8c08637b26)
 8) You can opt to insert any additional details or just skip this. Click "DONE"
-9) A calendar will pop up, showing when you must take the medication.
+9) A calendar will pop up, showing when you must take the medication. <br>
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147676875/fff78618-5b4a-47c9-acf0-7131c93a37fc)
 
 ## Reporting, what is the report/output that will be generated in the system
 Example of output in the system:
