@@ -64,7 +64,7 @@ A good book recommendation system is indispensable for every diligent soul. It m
       If users enter option 3 on the menu page, 
       <li>Users will be able to see their personalized book recommendation list</li>
       <li>Inside the list, it will display all the books that the users had chosen before this.</li>
-      <li>Users can type Y if they want to add more books </li>
+      <li>Users can type Y if they want to add more books, then they will be directed back to menu page</li>
       <li>If not, users will exit the system</li>
     </ul>
   </ul>
