@@ -1,5 +1,5 @@
-### PROJECT
-
+### PROJECT PROPOSAL
+---
 
 **Synopsis and general idea**
 
@@ -9,18 +9,21 @@ The selection between the applicants will be chosen based on the academic perfor
 financial needs to determine whether they qualify for this scholarship or not.The system aims to provide the opportunity 
 for students to complete their studies regardless of financial constraints . 
 
+---
+**Objective**
 
+1) Student would not miss the scholarship 
+2) Assigns scholarship that fulfill the requirements based on student’s information 
+3) To encourage students to pursue higher education by providing financial support.
 
-System objectives and/or purpose, what the user can achieve/do in the system 
-Student would not miss the scholarship 
-Assigns scholarship that fulfill the requirements based on student’s information (based on faculty/ course/ family income group)
-To encourage students to pursue higher education by providing financial support.
-How to use the system .
-User registration / login
-User registration 
+---
+**How to use the system**
+  - User registration / login
+    - User registration 
             New user need to sign in by using the basic information such       
             as the name and email  in the scholarship application system 
-            to create an account . 
+            to create an account .
+      
 User profile management
 Users need to update their profile information which include age , full name and profile picture.
 Home page
