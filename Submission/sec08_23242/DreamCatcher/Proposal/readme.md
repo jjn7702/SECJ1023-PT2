@@ -96,7 +96,6 @@ Users interested in customizing their own alarm sounds can also contribute to th
     <li>
       <strong>Personalized Symphony List: </strong> Users are allowed to view their personalized list of alarms they've added or customize their own.
       <br>
-      <br>
     </li>
   </ul>
 </body>
