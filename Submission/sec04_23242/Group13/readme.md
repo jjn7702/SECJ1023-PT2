@@ -32,3 +32,12 @@ Finding the perfect movie can be a challenge, but our Movie Recommendation Syste
 5.	Get Personalized Suggestions: The system uses the ratings and reviews to suggest more movies the user might enjoy.
 6.	Stay Updated: Users receive updates on new releases and personalized recommendations.
 
+## VI.Reporting:
+We'll track:
+
+•	How accurate our recommendations are compared to what users like.
+•	How often users interact with the system and rate movies.
+•	Trends in user preferences t.
+
+Conclusion: Our project aims to make it easier for movie lovers to find their next favorite film. By creating a system that learns from user preferences, we hope to provide a fun and personalized movie-watching experience for everyone. Let's make movie nights even better!
+
