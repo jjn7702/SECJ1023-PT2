@@ -4,7 +4,7 @@
 # Programming Technique II Assignment Proposal (Fitness Progress Tracker)
 
 ## Synopsis and General Idea
-The fitness progress tracker is a platform designed to assist individuals in achieving their fitness goals by monitoring and managing their progress.The system incorporates features such as personalized workout plans, nutrition tracking, goal setting, and recommendations. With its user-friendly interface,robust features and strong security measures, the fitness progress tracker system serves as a virtual fitness companion, guiding users towards sustainable and fulfilling fitness journeys.
+The fitness progress tracker is a platform designed to assist individuals in achieving their fitness goals by monitoring and managing their progress.This system provides features such as workout and exercise as well as nutrition tracking. Not only that, the system also focus goal-setting, at the same time giving some tips and recommendations to make sure users always in the right track and fully motivated. With its friendly user interface,useful features and strong security measures, the fitness progress tracker system will serve as a virtual fitness companion that guiding users towards a sustainable, joyful and fulfilling fitness journey.
 
 ## System objectives/Purpose and What the user can achieve/do in the system
 The fitness progress tracker aim to assist users in:
