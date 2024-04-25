@@ -1,9 +1,4 @@
-h1 {
-    text-align: center;
-}
-</style>
-
-# Movie Recommendation Sestem Propsal
+# Movie Recommendation Sestem Proposal
 
 
 
