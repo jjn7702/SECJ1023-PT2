@@ -3,6 +3,11 @@
 ## Synopsis and General Idea
 
 ## System objectives/Purpose and What the user can achieve/do in the system
+The fitness progress tracker aim to assist users in:
+i) Managing and monitoring their health and fitness goals effectively.
+ii) Providing users a platform to track their fitness activities, nutritional intake, progress and achievements over time.
+iii) Offering users tips, feedback and recommendations, helps users make decisions, stay motivated, and achieve their fitness goals in a good manner.
+
 
 ## How to use the system
 ### 1. Register as user: 
