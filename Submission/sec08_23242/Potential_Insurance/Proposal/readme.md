@@ -1,5 +1,5 @@
 <h1 align="center"> 🍝Restaurant Recommendation System🍝 </h1>
-<image src = "Image/DINING.png" width="2000" height="500">
+<image src = "Image/DINING.png" width="2000" height="500"> 
 
 ### Contents
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
@@ -12,7 +12,7 @@ The restaurant recommendation system is a software application designed to sugge
 The main aim of this application is to propose food options tailored to users' tastes and habits. Additionally, the application provides convenience for users to order food from their favourite restaurants.
 <br>
 
-# Objective 🗒️
+# Objective 🗒️ abc
 • Propose food options tailored to users' tastes and habits. <br>
 • Allow users to evaluate restaurants. <br>
 • Arrange restaurant details efficiently. <br>
