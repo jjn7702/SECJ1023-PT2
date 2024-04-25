@@ -1,6 +1,10 @@
-<center>
-Movie Recommendation Sestem Propsal
-</center>
+h1 {
+    text-align: center;
+}
+</style>
+
+# Movie Recommendation Sestem Propsal
+
 
 
 ## Synopsis and General Idea:
