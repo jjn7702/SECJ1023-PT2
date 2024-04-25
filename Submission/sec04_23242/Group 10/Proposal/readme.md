@@ -29,4 +29,4 @@ Managing large events with multiple participants and complex scheduling requirem
 
 # What is the report/output that will be generated in the system
 1. Event Summary: This report provides an oveerview of all scheduled events within a specified time frame. It includes details such as event title, date, time, location, description, list of participants and RSVP status.
-2. Task progress: This report tracks the progress of tasks related to event planning and execution. It inclueds information such as title, assignmed team member, deadline, priority level and current status.
+2. Task progress: This report tracks the progress of tasks related to event planning and execution. It inclueds information such as title, assignmed team member, deadline, priority level and current status. (eg: pending, in progress, completed)
