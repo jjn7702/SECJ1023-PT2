@@ -24,7 +24,7 @@ The main aim of this application is to propose food options tailored to users' t
   </tr> 
   <tr> 
     <td>ANGIE WONG SIAW THING</td> 
-    <td>A23CS0048</td> 
+    <td>A23CS0094</td> 
     <td><img src= "Image/ANGIE.jpg" height="200" width="150"></td> 
   </tr> 
 </table> 
