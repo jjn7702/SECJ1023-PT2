@@ -1,4 +1,4 @@
-# Scholarship Application System 💰
+[GitHub TIS E-portfolio-26-10-2023 (1) (7).docx](https://github.com/jjn7702/SECJ1023-PT2/files/15107758/GitHub.TIS.E-portfolio-26-10-2023.1.7.docx)# Scholarship Application System 💰
 ---
 ![istockphoto-1366851749-612x612](https://github.com/jjn7702/SECJ1023-PT2/assets/152403691/9b53abea-f5bf-4d33-927b-2993e7f20617)
 
@@ -13,11 +13,12 @@ The scholarship application system typically involves students who need financia
 
 ## Group Member :runner:
 
+
 | Name             | Matric Number | Photo                                                         |
 | :---------------- | :-------------: | :------------------------------------------------------------: |
-| Sioh Ying Yi        | A23CS0180        |     |
-| Yap Kar Ying         | A23CS0200        |  |
-| Yong Jing Wen            | A23CS0202     |     |
+| Sioh Ying Yi        | A23CS0180        | <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/152403691/9175f304-0ca8-4545-a670-2721988d08a7" width="100px">|
+| Yap Kar Ying         | A23CS0200        | <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/152403691/16d60c55-7d75-475c-9332-04fc46fa71da" width="100px">|
+| Yong Jing Wen            | A23CS0202     | <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/152403691/d9e8833b-fddd-4694-a9d4-98debdcaac01" width="100"> |
 
 
 
