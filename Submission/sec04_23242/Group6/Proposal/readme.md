@@ -11,7 +11,6 @@ ii) Providing users a platform to track their fitness activities, nutritional in
 
 iii) Offering users tips, feedback and recommendations, helps users make decisions, stay motivated, and achieve their fitness goals in a good manner.
 
-
 ## How to use the system
 ### 1. Register as user: 
 In order to access your account and use the fitness progress tracker, you need to create a username and password first to make sure that your privacy and security of personal information safe.
@@ -29,7 +28,6 @@ This program will provide you some tips and feedback based on how your progress 
 If necessary, like your goal already achieved, you will need to adjust your fitness goals to ensure that you are always working towards achievable objectives.
 ### 8. Monitor progress continuously:
 You can continue to use this program to monitor your progress and make improvements by time to time. To help you  keep you motivated in your fitness journey, you need to enter your fitness data regularly and keep on checking your progress.
-
 
 ## The report/output that will be generated in the system
 
