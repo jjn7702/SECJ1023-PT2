@@ -1,6 +1,6 @@
 # Movie Recommindation System
 
-![banner]()
+![banner](https://editor.analyticsvidhya.com/uploads/76889recommender-system-for-movie-recommendation.jpg)
 
 
 # i.Description
