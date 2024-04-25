@@ -18,7 +18,7 @@ The Scholarship application system offers a platform where students can easily a
     Admin will need to login first. After login, they will be able to setup scholarship information, review and evaluate applicants.
         <ul>
           <li>Setup Scholarship Information</li>
-          - Admin will be able to view available scholarships or updates current scholarship. 
+          - Admin will be able to set the scholarship details and updates scholarships that currently available. 
           <li>Review and Evaluate Applicants</li>
           - Admin can see the list of applicants, review and evaluate them one by one and change their appplication status (incomplete, processing, interview, completed)
         </ul>
