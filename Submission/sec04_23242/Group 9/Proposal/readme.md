@@ -1,4 +1,4 @@
-# Medication Scheduler
+# Medication Scheduler :anatomical_heart: 
 
 ## Synopsis and general idea about the proposed topic/system
 Our proposed system is the medication scheduler. The general idea of this system is to develop a system which can be used by individuals who have to take medication on a schedule with the accurate dosage, especially for those who have to take different medications with different dosage at a time. This is an upgraded version of the traditional system that uses labeled containers to alert patients on medicine intake. Instead, this system can be integrated into their device and can be accessed at any time.
