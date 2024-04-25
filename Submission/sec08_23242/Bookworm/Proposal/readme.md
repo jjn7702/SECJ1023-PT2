@@ -14,7 +14,7 @@
   
 <div id="syn">
 <h2> Synopsis and General Idea :memo: </h2>
-A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea   where to start?  Simply select your favorite genre to find books tailored to your tastes. The system also offers random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, we suggests users to enter their ratings for the books that they've read and update in the book lists.
+A good book recommendation system is indispensable for every diligent soul. It might be a kick-start point for those who want to pick up reading as a habit. Have no idea   where to start?  Simply select your favorite genre to find books tailored to your tastes. The system also offers random recommendations to the users, exposing them to explore more genres and topics they might like. To make it interactive, users may choose their want-to-read books and the system will generate a personalized recommendation list.
 </div>
 
 
