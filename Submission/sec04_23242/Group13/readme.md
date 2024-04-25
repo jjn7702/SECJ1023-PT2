@@ -39,9 +39,13 @@ Finding the perfect movie can be a challenge, but our Movie Recommendation Syste
 We'll track:
 
 •	How accurate our recommendations are compared to what users like.
+
 •	How often do users interact with the system and rate movies.
+
 •	Trends in user preferences to improve our recommendations.
+
 •	Feedback from users to make the system better.
+
 •	Overall user satisfaction with the system.
 
 
