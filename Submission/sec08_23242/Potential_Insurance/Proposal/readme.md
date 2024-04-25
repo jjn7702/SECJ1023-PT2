@@ -43,7 +43,7 @@ The main aim of this application is to propose food options tailored to users' t
 |3 month RM11|
 |1 year RM45|
 
-## ***Step 3: User Option*** 🍀 ❤️
+## ***Step 3: User Option*** 🍀❤️
 |Option|Program|
 |---|---|
 |1|SEARCH RESTAURANT by RESTAURANT NAME|
