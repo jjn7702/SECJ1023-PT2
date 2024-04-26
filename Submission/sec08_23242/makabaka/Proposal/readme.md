@@ -54,6 +54,4 @@ The system facilitates communication between users and provides real-time notifi
 <br>
 <br>
 
-### :hammer: Project Specifications
-->
 
