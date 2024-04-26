@@ -1,5 +1,5 @@
 # 🩺 **DISEASE DIAGNOSIS SYSTEM** 💉
-#### By MedSight
+### By MedSight
 
 ## 📌**Synopsis**
 The Disease Diagnose system is a software application designed to diagnose disease based on symptoms enter by user. The application will prompt the user to enter as much symptom as they have and how long they been sick. The main aim of this application is to ensure the users can take early precaution to treat the disease. additionally, this system will also recommend user which medicine they should take to treat the disease.
