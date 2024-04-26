@@ -3,7 +3,7 @@
     <h1 align="center">🏥🩺 Diesease Management System⚕️💉</h1>
     <image src = "https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/8f48ebd8-8433-44d4-a4df-10d850e12dec" width="1000" height="400">
     <h2>📚 Description</h2>
-    <p> 
+    <p> " Our system asks the users for symptoms, severity, and duration to determine the disease. It then suggest medicines, nutritional advices, and a list of hospitals and doctors that the user can see for the ailment. However, for critical diseases, our system does not suggest any medicines and instead refers to hospitals and doctors. It also never recommends severe with severe side effects to its users. "
     </p>
     <h2>🔗Team Members: </h2>
     <table>
@@ -31,6 +31,5 @@
     <h2>🔍 Findings</h2>
     <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/MedSight/Proposal">Proposal</a>
 </body>
-
 </html>
-![photo_2023-11-17_00-10-12](https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/1767128c-e31d-4bde-a2d3-d4184ee72224)
+
