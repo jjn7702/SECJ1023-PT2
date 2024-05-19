@@ -42,10 +42,9 @@ Array is used in this system, acting as database. Every data will stored based o
 1. Name of book
 2. Type of book
 3. Genre
-4. Language
-5. Author name
-6. Year publishment
-7. Synopsis
+4. Author name
+5. Year publishment
+6. Synopsis
 
 ## Exception Handling
 
