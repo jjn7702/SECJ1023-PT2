@@ -44,7 +44,6 @@ Array is used in this system, acting as database. Every data will stored based o
 3. Genre
 4. Author name
 5. Year publishment
-6. Synopsis
 
 ## Exception Handling
 
