@@ -70,7 +70,7 @@ The main aim of this application is to propose food options tailored to users' t
 |Restaurant Overview|Users can see the introduction of the restaurant, address, open hours, contact number and price range.|
 |Restaurant Menu|User can see the food offered by the restaurant|
 |Rating & Comment|User can read through the rating and comment to make decision whether they want to order the food or not|
-|Promotion/ free delivery <b> (for user option 4) </b> | Users can easily find the cheaper set of meals.|
+|Promotion/ free delivery <b> (for member which is valid) </b> | Users can easily find the cheaper set of meals.|
 |Exit| Users can exit the program if they do not want to proceed anymore.|
 
 
