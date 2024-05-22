@@ -15,5 +15,5 @@ Our project focuses on the development of an Event Scheduler system. An event sc
 
 
 ## 🔍 Findings 🔎
--[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%2010/Proposal) <br>
--[Proposal Video](https://www.youtube.com/watch?v=563sLJ65-1s&ab_channel=NGJINENA23CS0146)
+[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%2010/Proposal) <br>
+[Proposal Video](https://www.youtube.com/watch?v=563sLJ65-1s&ab_channel=NGJINENA23CS0146)
