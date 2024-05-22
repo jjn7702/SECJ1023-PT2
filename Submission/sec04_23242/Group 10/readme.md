@@ -9,7 +9,7 @@ Our project focuses on the development of an Event Scheduler system. An event sc
 | Name                                     | Matric Number | Photo |
 |------------------------------------------|---------------|-------|
 | JOCELYN WONG YIN XUAN  | A23CS0228     | <image src = "images/" width="200" height="240">|
-| NG JIN EN      | A23CS0146     | <image src = "images/" width="200" height="240">|
+| NG JIN EN      | A23CS0146     | <image src = "images/Ng Jin En.jpeg" width="200" height="240">|
 | LIM EN DHONG                 | A23CS0239    |<image src = "images/" width="200" height="255"> |
 
 
