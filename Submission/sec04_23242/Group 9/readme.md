@@ -8,9 +8,12 @@ The Medication Scheduler project is a simple application that will help you mana
 
 
 
+## Group Members
 
-GROUP MEMBERS:
-1. ALYA QISTINA BINTI AWALUDDIN A23CS0041
-2. NUR ARISHA BINTI AMYRUL NAIM A23CS0154
-3. TANG JASMINE A23CS0277
+| No | Name                               | Matrix    | GitHub       |
+|----|------------------------------------|-----------|--------------|
+| 1  | ALYA QISTINA BINTI AWALUDDIN       | A23CS0041 |`alyaqistiina`|
+| 2  | NUR ARISHA BINTI AMYRUL NAIM       | A23CS0154 | `ar1sha55`   |
+| 3  | TANG JASMINE                       | A23CS0277 | `tjasmiine`  |
+
 
