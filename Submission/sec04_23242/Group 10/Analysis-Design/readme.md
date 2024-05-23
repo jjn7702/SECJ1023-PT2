@@ -3,7 +3,9 @@
 
 ### Table of Contents
 [Flow Chart](##flow-chart)
+
 [Problem Analysis](##problem-analysis)
+
 [Class Diagram](##class-diagram)
 
 ## Section A: Flow Chart
