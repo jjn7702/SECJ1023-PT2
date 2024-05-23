@@ -1,8 +1,13 @@
 # PROJECT PROPOSAL GROUP 10
 ## TOPIC: Event Scheduler
 
-# Section A: Flow Chart
+### Table of Contents
+[Flow Chart](##flow-chart)
+[Problem Analysis](##problem-analysis)
+[Class Diagram](##class-diagram)
 
-# Section B: Problem Analysis
+## Section A: Flow Chart
 
-# Section C: Class Diagram
+## Section B: Problem Analysis
+
+## Section C: Class Diagram
