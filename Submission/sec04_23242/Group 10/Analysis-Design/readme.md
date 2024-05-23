@@ -2,15 +2,15 @@
 ## TOPIC: Event Scheduler
 
 ### Table of Contents
-- [Flow Chart](##section-a-flow-chart)
+- [Flow Chart](##flow-chart)
 - [Problem Analysis](##problem-analysis)
 - [Class Diagram](##class-diagram)
 
-## Section A: Flow Chart
+## 📈 Section A: Flow Chart 📉
 
 
-## Section B: Problem Analysis
+## 📊 Section B: Problem Analysis 📑
 
 
-## Section C: Class Diagram
+## 🧾 Section C: Class Diagram 🗂️
 
