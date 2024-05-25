@@ -178,7 +178,7 @@ Methods :
 - void setPhoneNum(string p) is a mutator that sets the phoneNum of the user
 - void setIcNum(string ic) is a mutator that sets the icNum of the user
 - void displayLogin() is a method to prompt the user to enter their IC number, name, and phone number
-- void displayBooklist() is a method to display the user's list of books.
+- void displayBooklist() is a method to display the user details and user's list of books.
 - void addBookToBooklist(Book* book) is a method that adds the user’s interested book to their booklist
 
 
