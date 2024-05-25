@@ -53,7 +53,7 @@ Methods:
 - ~Publisher() is a destructor
 - string getPublisherName() is an accessor that returns the value of publisherName
 - void setPublisherName(string n) is a mutator that set value for the publisherName
-- string getCountry() is an accessor that returns the value of publisherName
+- string getCountry() is an accessor that returns the value of country
 - void setCountry(string c) is a mutator that set value for the country
 
 
