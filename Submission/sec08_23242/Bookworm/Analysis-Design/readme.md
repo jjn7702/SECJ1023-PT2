@@ -39,6 +39,8 @@ User and Booklist will have a composition relationship. A User consists of a Boo
 </p>
 <p>
 Inheritance Relationships
+
+  
 1. Book, Romance, Fantasy, SciFi
 
 
