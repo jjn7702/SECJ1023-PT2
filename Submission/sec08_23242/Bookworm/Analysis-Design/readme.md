@@ -17,7 +17,7 @@
 ii) class relationships
 
 
-<p style="text-decoration:underline"> Association Relationships </p>
+ Association Relationships
 
 
 1. Book and Publisher
@@ -32,7 +32,7 @@ Booklist and Book will have an aggregation relationship. The Booklist class aggr
 User and Booklist will have a composition relationship. A User consists of a Booklist object, indicating that the Booklist cannot exist independently if no User. Booklist strongly depends on User. If the User object is destroyed, then the Booklist object is also destroyed. 
 
 
-<u>Inheritance Relationships</u>
+Inheritance Relationships
 1. Book, Romance, Fantasy, SciFi
 Inheritance among Book, Romance, Fantasy, and SciFi is suitable for representing an is-a relationship, where each specific genre is a type of book. Inheritance is used because it allows these specific genres to reuse common book attributes and methods defined in the Book class while also specifying their genre during instantiation.
 
