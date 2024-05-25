@@ -21,19 +21,27 @@ ii) class relationships
 
 
 1. Book and Publisher
+
+
 Book and Publisher will have an aggregation relationship. The Book class holds a pointer to a Publisher object. A Book has a Publisher. The Publisher object is created outside the Book and is passed to it, showing a "has-a" relationship. Publisher can exist independently. If the Book object is destroyed, the Publisher object will not be destroyed. 
 
 
 2. Booklist and Book
+
+
 Booklist and Book will have an aggregation relationship. The Booklist class aggregates Book pointers, showing a "has-a" relationship, meaning booklist has a collection of books. Books can exist independently. If the Booklist object is destroyed, the Book object will not be destroyed. 
 
 
 3. User and Booklist
+
+   
 User and Booklist will have a composition relationship. A User consists of a Booklist object, indicating that the Booklist cannot exist independently if no User. Booklist strongly depends on User. If the User object is destroyed, then the Booklist object is also destroyed. 
 
 
 Inheritance Relationships
 1. Book, Romance, Fantasy, SciFi
+
+
 Inheritance among Book, Romance, Fantasy, and SciFi is suitable for representing an is-a relationship, where each specific genre is a type of book. Inheritance is used because it allows these specific genres to reuse common book attributes and methods defined in the Book class while also specifying their genre during instantiation.
 
 <h2 id="classdiagram"> Class Diagram </h2>
