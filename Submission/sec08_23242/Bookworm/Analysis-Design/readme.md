@@ -1,5 +1,5 @@
 <h1 align="center"> Problem Analysis and Design </h1>
-<h1> Contents :star2: </h1>
+<h1> Content :star2: </h1>
 <ul>
   <li><a href="#flowchart"> Flow Chart </a></li>
   <li><a href="#problemanalysis"> Problem Analysis </a></li>
