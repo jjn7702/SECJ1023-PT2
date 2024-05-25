@@ -154,6 +154,7 @@ Methods:
 - int getCount() is an accessor that returns the count of books
 - Book* getBook(int index) is an accessor that returns a pointer that points to the book
 - void addBook(Book* b) is a mutator that adds book objects to the booklist object
+- void setCount(int c) is a mutator that set the value of count
 - bool isBookInList(Book* b) is a method that checks whether the book that the user wants to add is in the book list already
 - void display() is a method that displays the the list of books
 
