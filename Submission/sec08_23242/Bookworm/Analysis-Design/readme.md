@@ -49,7 +49,7 @@ publisherName and country are private member variables of the class. They are ac
 
 Methods:    
 - Publisher()  is a default constructor
-- Publisher(string n, string c) is a parameterized constructor that takes two parameters, n and c, and initializes the member variables publisherName and country with the values of these parameters.
+- Publisher(string n, string c) is a parameterized constructor that initializes publisherName and country with the provided values
 - ~Publisher() is a destructor
 - string getPublisherName() is an accessor that returns the value of publisherName
 - void setPublisherName(string n) is a mutator that set value for the publisherName
