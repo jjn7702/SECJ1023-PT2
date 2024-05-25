@@ -99,7 +99,7 @@ mainCoupleName is a private member variable of the Romance class. mainCoupleName
 
 Methods : 
 - Romance() is a default constructor
-- Romance(string bc, string bt, int yp, Publisher* p, string mc) is a parameterized constructor that initializes the Romance object with the provided values and also initializes the base class Book with appropriate values for a romance book and initializes the mainCoupleName member variable.
+- Romance(string bc, string bt, int yp, Publisher* p, string mc) is a parameterized constructor that initializes the Romance object with the provided values
 - ~Romance() is a destructor
 - string getMainCoupleName() is an accessor that returns the value of mainCoupleName
 - void setMainCoupleName(string mc) is a mutator that sets the value of mainCoupleName
@@ -117,7 +117,7 @@ creatureType is a private member variable of the Fantasy class. creatureType is 
 
 Methods :   
 - Fantasy() is a default constructor
-- Fantasy(string bc, string bt, int yp, Publisher* p, string ct) is a parameterized constructor that initializes the Fantasy object with the provided values. It also initializes the base class Book with appropriate values for a fantasy book and initializes the creatureType member variable.
+- Fantasy(string bc, string bt, int yp, Publisher* p, string ct) is a parameterized constructor that initializes the Fantasy object with the provided values. 
 - ~Fantasy() is a destructor
 - string getCreatureType() is a accessor that returns the value of creatureType
 - void setCreatureType(string ct) is a mutator that sets the value of creatureType
@@ -133,7 +133,7 @@ scientificConcept is a private member variable of the SciFi class. scientificCon
 
 Methods :   
 - SciFi() is a default constructor
-- SciFi(string bc, string bt, int yp, Publisher* p, string sc) is a parameterized constructor that initializes the SciFi object with the provided values. It also calls the constructor of the base class Book with the appropriate values for a science fiction book and initializes the scientificConcept member variable.
+- SciFi(string bc, string bt, int yp, Publisher* p, string sc) is a parameterized constructor that initializes the SciFi object with the provided values. 
 - string getScientificConcept() is an accessor that returns the value of scientificConcept
 - void setScientificConcept(string ct) is a mutator that sets the value of scientificConcept
 
