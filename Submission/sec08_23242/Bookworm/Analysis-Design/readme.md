@@ -42,6 +42,8 @@
 Attributes :   
 - string publisherName
 - string country
+
+
 publisherName and country are private member variables of the class. They are accessible only within the class and its member functions.
 
 
@@ -63,6 +65,8 @@ Attributes :
 - string genre
 - int yearPublish
 - Publisher* publisher
+
+
 All attributes are protected member variables of the class. They are accessible within the class and its derived classes. bookCode, bookTitle, genre, and yearPublish store information about the book, while publisher is a pointer to a Publisher object, indicating the publisher of the book.
 
 
@@ -88,6 +92,8 @@ Methods :
    
 Attributes :
 - string mainCoupleName
+
+
 mainCoupleName is a private member variable of the Romance class. mainCoupleName    
 is accessible only within the class and its member functions.
 
@@ -105,6 +111,8 @@ Methods :
 
 Attributes : 
 - string creatureType
+
+
 creatureType is a private member variable of the Fantasy class. creatureType is accessible only within the class and its member functions.
 
 
@@ -120,6 +128,8 @@ Methods :
 
 Attributes :
 - string scientificConcept
+
+
 scientificConcept is a private member variable of the SciFi class. scientificConcept is accessible only within the class and its member functions.
 
 Methods :   
@@ -128,11 +138,13 @@ Methods :
 - string getScientificConcept() is an accessor that returns the value of scientificConcept
 - void setScientificConcept(string ct) is a mutator that sets the value of scientificConcept
 
-6. Booklist
+6. class Booklist
    
 Attributes :
 - Book* books[100]
 - int count
+
+
 Both attributes are private member variables of the Booklist class. Both attributes  
 are accessible only within the class and its member functions. books is an array of pointers to Book objects. The array can hold up to 100 Book pointers. count is an integer that tracks the number of Book objects currently in the list.
 
@@ -153,6 +165,8 @@ Attributes :
 - string phoneNum
 - string icNum
 - Booklist booklist
+
+
 All attributes are private member variables of the User class. All attributes  
 are accessible only within the class and its member functions. 
 
