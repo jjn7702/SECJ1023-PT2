@@ -78,7 +78,7 @@ Methods :
 - string getBookTitle() is an accessor that returns the value of bookTitle
 - string getGenre() is an accessor that returns the value of genre
 - int getYearPublish() is an accessor that returns the value of yearPublish
-- string getPublisher() is an accessor that returns a pointer that points to the book’s publisher
+- Publisher* getPublisher() is an accessor that returns a pointer that points to the book’s publisher
 - void setBookCode(string bc) is a mutator that sets the value of bookCode
 - void setBookTitle(string bt) is a mutator that sets the value of bookTitle
 - void setGenre(string g) is a mutator that sets the value of genre
