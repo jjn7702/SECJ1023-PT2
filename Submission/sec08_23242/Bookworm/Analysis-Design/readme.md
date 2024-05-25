@@ -1,4 +1,4 @@
-<h1 align="center"> Problem Analysis and Design </h1>
+![Class Diagram (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/0fa0ecdb-b553-4b2b-aa13-1725c57925d2)<h1 align="center"> Problem Analysis and Design </h1>
 <h1> Content :star2: </h1>
 <ul>
   <li><a href="#flowchart"> Flow Chart </a></li>
@@ -175,7 +175,7 @@ Methods :
 - User(string ic, string n, string pn) is a parameterized constructor that initializes a User object with the given IC number, name, and phone number.
 - ~User() is a destructor
 - string getName() is an accessor that return the name of the user
-- string getPhoneNum() is an accessor that returns the phone number of the user
+- string getPhoneNum() is an accessor that returns the phoneNum of the user
 - string getIcNum() is an accessor that return the icNum of the user
 - void setName(string n) is a mutator that sets the name of the user
 - void setPhoneNum(string p) is a mutator that sets the phoneNum of the user
@@ -224,4 +224,4 @@ User and Booklist will have a composition relationship. A User consists of a Boo
 Inheritance among Book, Romance, Fantasy, and SciFi is suitable for representing an is-a relationship, where each specific genre is a type of book. Inheritance is used because it allows these specific genres to reuse common book attributes and methods defined in the Book class while also specifying their genre during instantiation.
 
 <h2 id="classdiagram"> Class Diagram :clipboard: </h2>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/883f4a94-6eba-4e4d-a771-b7f136ef570f"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/7a95d31c-26da-4ba0-bd4b-e0747b8e523d"></img>
