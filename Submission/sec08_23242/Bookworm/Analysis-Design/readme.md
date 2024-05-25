@@ -17,7 +17,7 @@
 ii) class relationships
 
 
-<u>Association Relationships</u>
+<u> Association Relationships
 
 
 1. Book and Publisher
