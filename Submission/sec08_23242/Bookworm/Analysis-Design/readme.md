@@ -12,6 +12,11 @@
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/9ae0f97d-a02f-4ff1-8330-dd9f6bfbdda3"></img>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/b0984dae-b46c-4ae6-9673-e002e0902d9c"></img>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/6925d0a5-426c-4664-babf-6c164f70462b"></img>
+First of all, the user must enter their IC number, name and phone number to use the system. Then, the system presents the main menu with three options (1. See trending book list, 2.See specific genre book list, and 3. View book recommendation list). Selecting ‘1’ displays the trending book list which consists of 5 trending books, and the user can choose which book they are interested in by input number from 1 to 5. 
+
+Besides, Selecting ‘2’ in the main menu will display the genre list (1. Romance, 2. Fantasy and 3. SciFi), and after picking a genre, the system will display a list of 5 books from the chosen genre. Users can also choose which book they are interested in by input number from 1 to 5. To return to the main menu, the user can enter ‘6’. When they choose a book, the system will check whether the book chosen has already been added into the recommendation book list before, if not the details of chosen book will be automatically added to the recommendation list. Users can then choose to add more books from the same list by entering ‘1’ or choose to return to the main menu by entering a different number. 
+
+Selecting ‘3’ in the main menu will display the recommendation list that was created by the user, which includes user details and the details of all the books chosen by the user. After that, the user can choose to exit the system by entering number ‘1’, or choose to return to the main menu by entering any other number.
 
 <h2 id="problemanalysis"> Problem Analysis :round_pushpin: </h2>
 i) 
