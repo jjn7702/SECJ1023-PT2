@@ -121,6 +121,7 @@ Methods :
 - ~Fantasy() is a destructor
 - string getCreatureType() is a accessor that returns the value of creatureType
 - void setCreatureType(string ct) is a mutator that sets the value of creatureType
+- void display() is a function that overrides the display() function of the base class Book. It first calls the display() function of the Book class to display book information, and then prints the creatureType
 
 
 5. class SciFi
@@ -136,6 +137,7 @@ Methods :
 - SciFi(string bc, string bt, int yp, Publisher* p, string sc) is a parameterized constructor that initializes the SciFi object with the provided values. 
 - string getScientificConcept() is an accessor that returns the value of scientificConcept
 - void setScientificConcept(string ct) is a mutator that sets the value of scientificConcept
+- void display() is a function that overrides the display() function of the base class Book. It first calls the display() function of the Book class to display book information, and then prints the scientificConcept
 
 6. class Booklist
    
