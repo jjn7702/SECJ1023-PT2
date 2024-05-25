@@ -13,28 +13,28 @@ Our system, Grocery Shopping Assistant, is designed to assist users and admin. A
 <details>
 
 <summary>Customer</summary>
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-2.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-3.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-4.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-5.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-6.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use 7.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-8.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use 9.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-10.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-2.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-3.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-4.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-5.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-6.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-7.jpg" width="600" />
+<img src="[Submission/sec04_23242/Group4 /Proposal/How to use-8.jpg](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-8.jpg)" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-9.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-10.jpg" width="600" />
 </details>
 
 <details>
 
 <summary>Admin</summary>
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-11.jpg" width="600" />
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-12.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-11.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-12.jpg" width="600" />
 </details>
   
 <details>
 
 <summary>Read Me</summary>
-<img src="Submission/sec04_23242/Group4 /Proposal/How to use-13.jpg" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-13.jpg" width="600" />
 </details>
 
 <details>
