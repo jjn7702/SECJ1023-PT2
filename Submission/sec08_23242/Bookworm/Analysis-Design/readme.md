@@ -15,7 +15,11 @@
 
 <h2 id="problemanalysis"> Problem Analysis </h2>
 ii) class relationships
+
+
 <b>Association Relationships</b>
+
+
 1. Book and Publisher
 Book and Publisher will have an aggregation relationship. The Book class holds a pointer to a Publisher object. A Book has a Publisher. The Publisher object is created outside the Book and is passed to it, showing a "has-a" relationship. Publisher can exist independently. If the Book object is destroyed, the Publisher object will not be destroyed. 
 
