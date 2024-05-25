@@ -7,6 +7,7 @@
 </ul>
 
 <h2 id="flowchart"> Flow Chart </h2>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/d72d0cd0-d4c2-4742-ba21-978cf083611d"></img>
 
 <h2 id="problemanalysis"> Problem Analysis </h2>
 
