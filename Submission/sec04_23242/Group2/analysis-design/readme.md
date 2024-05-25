@@ -1,4 +1,9 @@
 # Section A : Flowchart 
+![](images/flowchart.png)
+![](images/flowchart_fx.png)
+
+The flowchart of the Personal Organizer system illustrates the processes for both users and admins. The process begins with the User Login and Registration, where users login with their credentials(account) or register for a new account. Upon successful login, the Main Menu presents options such as viewing timeline, adding, editing, or removing events, and updating event status. The Event Management process allows users to manage their events by displaying their upcoming events, adding new ones, editing existing ones, removing events, and updating their status. For admin users, the Admin Access and Management process provides additional functionalities. Admins log in and access the admin menu, where they can manage users by resetting their passwords, removing users, and editing user details. In addition, every page is provided with ‘Return’ and ‘Logout’ options which allow users to directly perform the actions without returning to the main menu. Collectively, these processes ensure the Personal Organizer system is functional, user-friendly, and provides essential features for effective personal and administrative management.
+
 
 # Section B : Problem Analysis
 
