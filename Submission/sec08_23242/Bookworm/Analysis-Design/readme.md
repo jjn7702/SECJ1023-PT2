@@ -17,7 +17,7 @@
 ii) class relationships
 
 
-<style="text-decoration:underline"> Association Relationships </style>
+<p style="text-decoration:underline"> Association Relationships </p>
 
 
 1. Book and Publisher
