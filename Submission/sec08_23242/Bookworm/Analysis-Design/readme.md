@@ -26,7 +26,7 @@ Selecting ‘3’ in the main menu will display the recommendation list that was
 2. class Books  
 - Fantasy Class : 5 fantasy objects
 - Romance Class : 5 romance objects
-- SciFi Class : 5 sciFi objects
+- SciFi Class : 5 scifi objects
 
 3. class User  
 - 1 user object
