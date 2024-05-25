@@ -9,7 +9,7 @@ Our system, Grocery Shopping Assistant, is designed to assist users and admin. A
 ### How to use the system
 
 
-<img src="[Submission/sec04_23242/Group4 /Proposal/How to use-1.jpg](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-1.jpg)" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-1.jpg" width="600" />
 <details>
 
 <summary>Customer</summary>
