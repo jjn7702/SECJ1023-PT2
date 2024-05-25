@@ -16,3 +16,4 @@
 <h2 id="problemanalysis"> Problem Analysis </h2>
 
 <h2 id="classdiagram"> Class Diagram </h2>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/883f4a94-6eba-4e4d-a771-b7f136ef570f"></img>
