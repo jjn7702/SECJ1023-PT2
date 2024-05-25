@@ -94,8 +94,7 @@ Attributes :
 - string mainCoupleName
 
 
-mainCoupleName is a private member variable of the Romance class. mainCoupleName    
-is accessible only within the class and its member functions.
+mainCoupleName is a private member variable of the Romance class. mainCoupleName is accessible only within the class and its member functions.
 
 
 Methods : 
@@ -145,8 +144,7 @@ Attributes :
 - int count
 
 
-Both attributes are private member variables of the Booklist class. Both attributes  
-are accessible only within the class and its member functions. books is an array of pointers to Book objects. The array can hold up to 100 Book pointers. count is an integer that tracks the number of Book objects currently in the list.
+Both attributes are private member variables of the Booklist class. Both attributes are accessible only within the class and its member functions. books is an array of pointers to Book objects. The array can hold up to 100 Book pointers. count is an integer that tracks the number of Book objects currently in the list.
 
 Methods: 
 - Booklist() is a constructor
@@ -167,8 +165,7 @@ Attributes :
 - Booklist booklist
 
 
-All attributes are private member variables of the User class. All attributes  
-are accessible only within the class and its member functions. 
+All attributes are private member variables of the User class. All attributes are accessible only within the class and its member functions. 
 
 Methods : 
 - User() is a default constructor
