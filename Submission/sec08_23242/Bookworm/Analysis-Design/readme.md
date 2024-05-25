@@ -19,150 +19,159 @@ Besides, Selecting ‘2’ in the main menu will display the genre list (1. Roma
 Selecting ‘3’ in the main menu will display the recommendation list that was created by the user, which includes user details and the details of all the books chosen by the user. After that, the user can choose to exit the system by entering number ‘1’, or choose to return to the main menu by entering any other number.
 
 <h2 id="problemanalysis"> Problem Analysis :round_pushpin: </h2>
-i) 
-The objects involved in the project
-class Publisher
-5 publisher objects
-class Books
-Fantasy Class : 5 fantasy objects
-Romance Class : 5 romance objects
-SciFi Class : 5 sciFi objects
-class User
-1 user object
-class Booklist
-1 booklist object
+<b>The objects involved in the project</b>    
 
-The classes involved in the project
-class Publisher
-Attributes : 
-string publisherName
-string country
+  
+1. class Publisher  
+- 5 publisher objects
+
+2. class Books  
+- Fantasy Class : 5 fantasy objects
+- Romance Class : 5 romance objects
+- SciFi Class : 5 sciFi objects
+
+3. class User  
+- 1 user object
+  
+4. class Booklist  
+- 1 booklist object
+  
+
+<b>The classes involved in the project</b>    
+  
+1. class Publisher
+
+Attributes :   
+- string publisherName
+- string country
 publisherName and country are private member variables of the class. They are accessible only within the class and its member functions.
 
 
-Methods: 
-Publisher()  is a default constructor
-Publisher(string n, string c) is a parameterized constructor that takes two parameters, n and c, and initializes the member variables publisherName and country with the values of these parameters.
-~Publisher() is a destructor
-string getPublisherName() is an accessor that returns the value of publisherName
-void setPublisherName(string n) is a mutator that set value for the publisherName
-string getCountry() is an accessor that returns the value of publisherName
-void setCountry(string c) is a mutator that set value for the country
+Methods:    
+- Publisher()  is a default constructor
+- Publisher(string n, string c) is a parameterized constructor that takes two parameters, n and c, and initializes the member variables publisherName and country with the values of these parameters.
+- ~Publisher() is a destructor
+- string getPublisherName() is an accessor that returns the value of publisherName
+- void setPublisherName(string n) is a mutator that set value for the publisherName
+- string getCountry() is an accessor that returns the value of publisherName
+- void setCountry(string c) is a mutator that set value for the country
 
 
-class Book
-Attributes : 
-string bookCode
-string bookTitle
-string genre
-int yearPublish
-Publisher* publisher 
+2. class Book
+
+Attributes :
+- string bookCode
+- string bookTitle
+- string genre
+- int yearPublish
+- Publisher* publisher
 All attributes are protected member variables of the class. They are accessible within the class and its derived classes. bookCode, bookTitle, genre, and yearPublish store information about the book, while publisher is a pointer to a Publisher object, indicating the publisher of the book.
 
 
-Methods : 
-Book() is a default constructor
-Book(string bc, string bt, string g, int yp, Publisher* p) is a parameterized constructor that takes 5 parameters, bc , bt , g , yp  and p, then initializes the member variables bookCode, bookTitle, genre, yearPublish and publisher with the values of these parameters.
-~Book() is a destructor 
-string getBookCode() is an accessor that returns the value of bookCode
-string getBookTitle() is an accessor that returns the value of bookTitle
-string getGenre() is an accessor that returns the value of genre
-int getYearPublish() is an accessor that returns the value of yearPublish 
-string getPublisher() is an accessor that returns a pointer that points to the book’s publisher
-void setBookCode(string bc) is a mutator that sets the value of bookCode
-void setBookTitle(string bt) is a mutator that sets the value of bookTitle 
-void setGenre(string g) is a mutator that sets the value of genre 
-void setYearPublish(int yp) is a mutator that sets the value of yearPublish 
-void setPublisher(Publisher *p) is a mutator that sets the value of publisher 
-virtual void display() is a virtual function that displays the information of the book. It is marked as virtual, indicating that it can be overridden by derived classes.
+Methods :  
+- Book() is a default constructor
+- Book(string bc, string bt, string g, int yp, Publisher* p) is a parameterized constructor that takes 5 parameters, bc , bt , g , yp  and p, then initializes the member variables bookCode, bookTitle, genre, yearPublish and publisher with the values of these parameters.
+- ~Book() is a destructor
+- string getBookCode() is an accessor that returns the value of bookCode
+- string getBookTitle() is an accessor that returns the value of bookTitle
+- string getGenre() is an accessor that returns the value of genre
+- int getYearPublish() is an accessor that returns the value of yearPublish
+- string getPublisher() is an accessor that returns a pointer that points to the book’s publisher
+- void setBookCode(string bc) is a mutator that sets the value of bookCode
+- void setBookTitle(string bt) is a mutator that sets the value of bookTitle
+- void setGenre(string g) is a mutator that sets the value of genre
+- void setYearPublish(int yp) is a mutator that sets the value of yearPublish
+- void setPublisher(Publisher *p) is a mutator that sets the value of publisher
+- virtual void display() is a virtual function that displays the information of the book. It is marked as virtual, indicating that it can be overridden by derived classes.
 
+  
 
-class Romance
-Attributes : 
-string mainCoupleName
-	mainCoupleName is a private member variable of the Romance class. mainCoupleName    
+3. class Romance
+   
+Attributes :
+- string mainCoupleName
+mainCoupleName is a private member variable of the Romance class. mainCoupleName    
 is accessible only within the class and its member functions.
 
 
 Methods : 
-Romance() is a default constructor
-Romance(string bc, string bt, int yp, Publisher* p, string mc) is a parameterized constructor that initializes the Romance object with the provided values and also initializes the base class Book with appropriate values for a romance book and initializes the mainCoupleName member variable.
-~Romance() is a destructor 
-string getMainCoupleName() is an accessor that returns the value of mainCoupleName
-void setMainCoupleName(string mc) is a mutator that sets the value of mainCoupleName
-void display() is a function that overrides the display() function of the base class Book. It first calls the display() function of the Book class to display book information, and then prints the mainCoupleName.
+- Romance() is a default constructor
+- Romance(string bc, string bt, int yp, Publisher* p, string mc) is a parameterized constructor that initializes the Romance object with the provided values and also initializes the base class Book with appropriate values for a romance book and initializes the mainCoupleName member variable.
+- ~Romance() is a destructor
+- string getMainCoupleName() is an accessor that returns the value of mainCoupleName
+- void setMainCoupleName(string mc) is a mutator that sets the value of mainCoupleName
+- void display() is a function that overrides the display() function of the base class Book. It first calls the display() function of the Book class to display book information, and then prints the mainCoupleName.
 
 
-class Fantasy 
+4. class Fantasy
+
 Attributes : 
-string creatureType
-	creatureType is a private member variable of the Fantasy class. creatureType    
-is accessible only within the class and its member functions.
+- string creatureType
+creatureType is a private member variable of the Fantasy class. creatureType is accessible only within the class and its member functions.
 
 
-Methods : 
-Fantasy() is a default constructor
-Fantasy(string bc, string bt, int yp, Publisher* p, string ct) is a parameterized constructor that initializes the Fantasy object with the provided values. It also initializes the base class Book with appropriate values for a fantasy book and initializes the creatureType member variable.
-~Fantasy() is a destructor 
-string getCreatureType() is a accessor that returns the value of creatureType
-void setCreatureType(string ct) is a mutator that sets the value of creatureType
+Methods :   
+- Fantasy() is a default constructor
+- Fantasy(string bc, string bt, int yp, Publisher* p, string ct) is a parameterized constructor that initializes the Fantasy object with the provided values. It also initializes the base class Book with appropriate values for a fantasy book and initializes the creatureType member variable.
+- ~Fantasy() is a destructor
+- string getCreatureType() is a accessor that returns the value of creatureType
+- void setCreatureType(string ct) is a mutator that sets the value of creatureType
 
 
-class SciFi 
-Attributes : 
-string scientificConcept
-	scientificConcept is a private member variable of the SciFi class. scientificConcept   
-is accessible only within the class and its member functions.
+5. class SciFi
 
+Attributes :
+- string scientificConcept
+scientificConcept is a private member variable of the SciFi class. scientificConcept is accessible only within the class and its member functions.
 
-Methods : 
-SciFi() is a default constructor
-SciFi(string bc, string bt, int yp, Publisher* p, string sc) is a parameterized constructor that initializes the SciFi object with the provided values. It also calls the constructor of the base class Book with the appropriate values for a science fiction book and initializes the scientificConcept member variable.
-string getScientificConcept() is an accessor that returns the value of scientificConcept
-void setScientificConcept(string ct) is a mutator that sets the value of scientificConcept
+Methods :   
+- SciFi() is a default constructor
+- SciFi(string bc, string bt, int yp, Publisher* p, string sc) is a parameterized constructor that initializes the SciFi object with the provided values. It also calls the constructor of the base class Book with the appropriate values for a science fiction book and initializes the scientificConcept member variable.
+- string getScientificConcept() is an accessor that returns the value of scientificConcept
+- void setScientificConcept(string ct) is a mutator that sets the value of scientificConcept
 
-
-class Booklist
-Attributes : 
-Book* books[100]
-int count
+6. Booklist
+   
+Attributes :
+- Book* books[100]
+- int count
 Both attributes are private member variables of the Booklist class. Both attributes  
 are accessible only within the class and its member functions. books is an array of pointers to Book objects. The array can hold up to 100 Book pointers. count is an integer that tracks the number of Book objects currently in the list.
 
-
 Methods: 
-Booklist() is a constructor
-~Booklist() is a destructor
-int getCount() is an accessor that returns the count of books
-Book* getBook(int index) is an accessor that returns a pointer that points to the book
-void addBook(Book* b) is a mutator that adds book objects to the booklist object
-bool isBookInList(Book* b) is a method that checks whether the book that the user wants to add is in the book list already
-void display() is a method that displays the the list of books
+- Booklist() is a constructor
+- ~Booklist() is a destructor
+- int getCount() is an accessor that returns the count of books
+- Book* getBook(int index) is an accessor that returns a pointer that points to the book
+- void addBook(Book* b) is a mutator that adds book objects to the booklist object
+- bool isBookInList(Book* b) is a method that checks whether the book that the user wants to add is in the book list already
+- void display() is a method that displays the the list of books
 
 
-class User
-Attributes : 
-string name
-string phoneNum
-string icNum
-Booklist booklist
+7. class User
+
+Attributes :
+- string name
+- string phoneNum
+- string icNum
+- Booklist booklist
 All attributes are private member variables of the User class. All attributes  
 are accessible only within the class and its member functions. 
 
-
 Methods : 
-User() is a default constructor
-User(string ic, string n, string pn) is a parameterized constructor that initializes a User object with the given IC number, name, and phone number.
-~User() is a destructor
-string getName() is an accessor that return the name of the user
-string getPhoneNum() is an accessor that returns the phone number of the user 
-string getIcNum() is an accessor that return the icNum of the user
-void setName(string n) is a mutator that sets the name of the user
-void setPhoneNum(string p) is a mutator that sets the phoneNum of the user
-void setIcNum(string ic) is a mutator that sets the icNum of the user 
-void displayLogin() is a method to prompt the user to enter their IC number, name, and phone number
-void displayBooklist() is a method to display the user's list of books.
-void addBookToBooklist(Book* book) is a method that adds the user’s interested book to their booklist
+- User() is a default constructor
+- User(string ic, string n, string pn) is a parameterized constructor that initializes a User object with the given IC number, name, and phone number.
+- ~User() is a destructor
+- string getName() is an accessor that return the name of the user
+- string getPhoneNum() is an accessor that returns the phone number of the user
+- string getIcNum() is an accessor that return the icNum of the user
+- void setName(string n) is a mutator that sets the name of the user
+- void setPhoneNum(string p) is a mutator that sets the phoneNum of the user
+- void setIcNum(string ic) is a mutator that sets the icNum of the user
+- void displayLogin() is a method to prompt the user to enter their IC number, name, and phone number
+- void displayBooklist() is a method to display the user's list of books.
+- void addBookToBooklist(Book* book) is a method that adds the user’s interested book to their booklist
+
 
 
 
