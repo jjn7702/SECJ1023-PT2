@@ -7,11 +7,11 @@
 </ul>
 
 <h2 id="flowchart"> Flow Chart :clipboard:</h2>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/d72d0cd0-d4c2-4742-ba21-978cf083611d"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/80005160-65bc-4fdd-92ca-4f581646cdef"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/9ae0f97d-a02f-4ff1-8330-dd9f6bfbdda3"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/b0984dae-b46c-4ae6-9673-e002e0902d9c"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/6925d0a5-426c-4664-babf-6c164f70462b"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/d35e8e5b-6289-433c-8904-86a63c8aa034"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/763d8d14-60e1-4736-b2ec-ae6c31a4753f"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/035c2553-e37e-4f29-b223-8d06f73bc248"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/84137d16-11d9-4d9c-b806-4f27f7d29e9c"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/19862d15-c3ae-4b0e-afc7-ea5190f5e6f0"></img>
 First of all, the user must enter their IC number, name and phone number to use the system. Then, the system presents the main menu with three options (1. See trending book list, 2.See specific genre book list, and 3. View book recommendation list). Selecting ‘1’ displays the trending book list which consists of 5 trending books, and the user can choose which book they are interested in by input number from 1 to 5. 
 Besides, Selecting ‘2’ in the main menu will display the genre list (1. Romance, 2. Fantasy and 3. SciFi), and after picking a genre, the system will display a list of 5 books from the chosen genre. Users can also choose which book they are interested in by input number from 1 to 5. To return to the main menu, the user can enter ‘6’. When they choose a book, the system will check whether the book chosen has already been added into the recommendation book list before, if not the details of chosen book will be automatically added to the recommendation list. Users can then choose to add more books from the same list by entering ‘1’ or choose to return to the main menu by entering a different number. Selecting ‘3’ in the main menu will display the recommendation list that was created by the user, which includes user details and the details of all the books chosen by the user. After that, the user can choose to exit the system by entering number ‘1’, or choose to return to the main menu by entering any other number.
 
