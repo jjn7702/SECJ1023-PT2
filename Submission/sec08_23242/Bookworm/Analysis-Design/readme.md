@@ -1,4 +1,4 @@
-![Class Diagram (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/0fa0ecdb-b553-4b2b-aa13-1725c57925d2)<h1 align="center"> Problem Analysis and Design </h1>
+<h1 align="center"> Problem Analysis and Design </h1>
 <h1> Content :star2: </h1>
 <ul>
   <li><a href="#flowchart"> Flow Chart </a></li>
