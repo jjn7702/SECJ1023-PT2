@@ -19,7 +19,7 @@ Our system, Grocery Shopping Assistant, is designed to assist users and admin. A
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-5.jpg" width="600" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-6.jpg" width="600" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-7.jpg" width="600" />
-<img src="[Submission/sec04_23242/Group4 /Proposal/How to use-8.jpg](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-8.jpg)" width="600" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-8.jpg" width="600" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-9.jpg" width="600" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Proposal/How%20to%20use-10.jpg" width="600" />
 </details>
