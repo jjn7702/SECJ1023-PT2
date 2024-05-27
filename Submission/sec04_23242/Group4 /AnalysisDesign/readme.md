@@ -2,8 +2,11 @@
 ## SECTION A - Flowchart
 This is our flowcharts that illustrates the whole process of our proposed system.
 
-<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/flowchart22.png" />
-<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/flowchart33.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-28%20000706.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-27%20235125.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-27%20234600.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-27%20234215.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-27%20233709.png" />
 
 
 ### Description
