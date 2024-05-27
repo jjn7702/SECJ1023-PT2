@@ -4,9 +4,9 @@
 
 # Pet Inventory Management System - Problem Analysis and Design
 ## Table of Contents 📖
-- [Flowchart](#Flowchart-💹)
-- [Proble Anaysis](#Problem-Analysis-💡)
-- [UML Class Diagram](#UML-Class-Diagram-🎗️)
+- [Flowchart](#Flowchart💹)
+- [Proble Anaysis](#Problem-Analysis💡)
+- [UML Class Diagram](#UML-Class-Diagram🎗️)
 ### Flowchart 💹
 
 ### Problem Analysis 💡
