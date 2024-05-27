@@ -15,7 +15,7 @@
 
 2. RegularUser(derived class of User class)
 
-3.Nutritionist (derived class of User class)
+3. Nutritionist (derived class of User class)
 
 4. CalorieTracker(class)
 
