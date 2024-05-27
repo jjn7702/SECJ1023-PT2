@@ -142,3 +142,5 @@ This project is an Inventory Management System with the following classes:
 
 
 ### UML Class Diagram
+
+![UML diagram](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Problem%20Analysis%20and%20Design/Images/UML%20CLASS%20DIAGRAM.drawio.png)
