@@ -9,6 +9,10 @@
 - [UML Class Diagram](#UML-Class-Diagram)
 ### Flowchart 
 
+![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Problem%20Analysis%20and%20Design/Images/photo_2024-05-27_20-16-04.jpg)
+![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Problem%20Analysis%20and%20Design/Images/photo_2024-05-27_20-16-08.jpg)
+![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Problem%20Analysis%20and%20Design/Images/photo_2024-05-27_20-24-00.jpg)
+
 ### Problem Analysis 
 This project is an Inventory Management System with the following classes:
 
