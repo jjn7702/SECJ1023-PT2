@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-- [Flow Chart](##flow-chart)
+- [Flow Chart](/Analysis-Design/image/PT2_flowchart.jpg)
 - [Problem Analysis](##problem-analysis)
 - [Class Diagram](##class-diagram)
 
