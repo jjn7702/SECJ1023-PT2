@@ -1,5 +1,4 @@
-# Movie Recommendation System 🎥
-<image src = "Images/Title.jpg">
+# 🎥 Movie Recommendation System 🎥
 
 ## Description 
 Movie recommendation system is a type of information filtering system which attempts to predict the preferences of a user. By analysing users behaviour such as ratings, movie recommendation system aims to offer personalized recommendations that align with individual tastes and interests. It employs algorithms to match users with films that they are likely to enjoy in order to enhancing their overall viewing experience.
