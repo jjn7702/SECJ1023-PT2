@@ -9,7 +9,7 @@
 
 ### Problem Analysis
 There are 10 classes in this program. They work with each other to let this program functionable.
-1.	class Supplier
+class Supplier
 Private attributes:
 - string name
 - string contact
@@ -18,7 +18,7 @@ Public methods:
 - string getName()- accessor to get the name
 - string getContact()-accessor to get the contact
 
-2.	class Item
+class Item
 protected attributes:
 - string id
 - string name
@@ -36,7 +36,7 @@ Public methods:
 - void setQuantity(int)-mutator to set quantity
 - string getDetails()const- virtual method to get the detail of the item
 
-3.class supplier manager
+class SupplierManager
 Private attributes:
 - Supplier* suppliers[100]
 - int supplierCount
@@ -46,7 +46,7 @@ Public methods:
 - Supplier* string findSupplierByName- method to find supplier
 - void viewSuppliers()- method to view supplier list
 
-4.Class inventory
+class Inventory
 Private attributes:
 - Food* foods[100]
 - Toy* toys[100]
@@ -60,59 +60,59 @@ Public methods:
 - void addFood(Food*)- method to add food item
 - void addToy(Toy*)- method to add toy item
 - void addMedicine(Medicine*)- method to add medicine item
-void addOther(Other*)- method to add other item
-void viewItems()- method to check item list
-Item *findItemByID(string)- method to find item id
-5.class sales
+- void addOther(Other*)- method to add other item
+- void viewItems()- method to check item list
+- Item *findItemByID(string)- method to find item id
+class sales
 Private attributes:
-Item*item
-double totalPrice
+- Item*item
+- double totalPrice
 Public methods:
-Sales(Item* x)- constructor of sales that allocate item attribute with x and initialize totalPrice
-double T_Price(int)- accessor to getT_Price
-6.class Food
+- Sales(Item* x)- constructor of sales that allocate item attribute with x and initialize totalPrice
+- double T_Price(int)- accessor to getT_Price
+class Food
 Private attributes:
-Expired expired
-Public methods:
-Food(string,string,int, double string, Supplier)
-sting getExpired()
-string getDetails()
+- Expired expired
+- Public methods:
+- Food(string,string,int, double string, Supplier)
+- sting getExpired()
+- string getDetails()
 
-7.class Toy
+class Toy
 Private attributes:
-Expired expired-
-string material-
-Public methods:
- Toy(string,string,int, double string,string, Supplier)
-string getExpired()-
- string getMaterial()-
- string getDetails()-
-8class Medicine:
+- Expired expired
+- string material
+- Public methods:
+- Toy(string,string,int, double string,string, Supplier)- constructor to initialize teh attributes
+- string getExpired() =- accseesor to get expiry dates
+- string getMaterial()- accessor to get the material of toys
+- string getDetails()- method to get the detail of toys
+class Medicine:
 Private attributes:
-Expired expired
-int dosePD
+- Expired expired
+- int dosePD
 Public methods:
-Medcine(string,string,int, double string,int,Supplier)- constructor to initialize the attributes
-string getExpired()- accessor to get the expiry date
-int getDosePD()- accessor to get dosage of the medicine
-string getDetails()- method to get details for medicine item
+- Medcine(string,string,int, double string,int,Supplier)- constructor to initialize the attributes
+- string getExpired()- accessor to get the expiry date
+- int getDosePD()- accessor to get dosage of the medicine
+- string getDetails()- method to get details for medicine item
 
-9class other
+class other
 Private attributes:
-Expired expired
-string description
+- Expired expired
+- string description
 Public methods:
-Other(string,string,int, double string,string,Supplier) – constructor to initialize the attributes
-string getExpired()- accessor to get expiry date
-string getDescription()- accessor to get the description
-string getDetails()- method to get the details for other item
+- Other(string,string,int, double string,string,Supplier) – constructor to initialize the attributes
+- string getExpired()- accessor to get expiry date
+- string getDescription()- accessor to get the description
+- string getDetails()- method to get the details for other item
 
 
-cass Expired
+class Expired
 Private attributes:
-string expired
+- string expired
 Public methods:
-Expired(string)- constructor to initialize expired
-String getExpired()-accessor to get expiry date
+- Expired(string)- constructor to initialize expired
+- String getExpired()-accessor to get expiry date
 
 ### UML Class Diagram
