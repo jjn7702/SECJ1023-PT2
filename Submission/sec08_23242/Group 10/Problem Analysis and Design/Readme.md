@@ -142,9 +142,13 @@ This project is an Inventory Management System with the following classes:
 - `string getExpired()` - Accessor to get expiry date.
 - 
 #### Class Relation:
-<b>Association Relationships</b>
 
-1.Inventory and Food
+
+
+#### Association
+- Aggregation
+  
+ 1.Inventory and Food
 Inventory and Food will have an aggregation relationship. The Inventory class holds a pointer to a Food object.  The Food object is created outside the Inventory and is passed to it, showing a "has-a" relationship. Food can exist independently.If the Inventory object is destroyed, the Food object will not be destroyed.
 
 2.Inventory and Toy
@@ -162,11 +166,8 @@ Sales and Item will have an aggregation relationship.The Sales class holds a poi
 6.SupplierManager and Supplier
 SupplierManager and Supplier will have an aggregation relationship.The SupplierManager class holds a pointer to a Supplier object. The Supplier object is created outside the SupplierManager and is passed to it, showing a "has-a" relationship. Other can exist independently.If the SupplierManager object is destroyed, the Supplier object will not be destroyed.
 
-#### Association
-- Aggregation
-  1.Inventory and Food
-  Inventory and Food will have an aggregation relationship.The Inventory class 
 - Composition
+  
  1.Item and Supplier
   Item and Supplier have an composition relationship.Both of them are highly dependent on 
   each other,if the Item is destroyed then the Supplier also destroyed and vice versa.
