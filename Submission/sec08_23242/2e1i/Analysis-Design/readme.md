@@ -3,8 +3,8 @@
 ### Table of Contents
 
 - [Flow Chart](image/PT2_flowchart.jpg)
-- [Problem Analysis](##problem-analysis)
-- [Class Diagram](##class-diagram)
+- [Problem Analysis]()
+- [Class Diagram](image/CLASSDIAGRAM.jpg)
 
 ## Flow Chart 📊
 
