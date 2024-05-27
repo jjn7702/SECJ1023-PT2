@@ -8,111 +8,137 @@
 ### Flowchart
 
 ### Problem Analysis
-There are 10 classes in this program. They work with each other to let this program functionable.
-class Supplier
-Private attributes:
-- string name
-- string contact
-Public methods:
-- Supplier(string, string)-constructor to initialize supplier attributes
-- string getName()- accessor to get the name
-- string getContact()-accessor to get the contact
+This project is an Inventory Management System with the following classes:
 
-class Item
-protected attributes:
-- string id
-- string name
-- int quantity
-- double price
-- Supplier sup
-Public methods:
-- Item(string, string, int, double, Supplier) – a constructor that initialize the attribute
-- string getName() – accessor to get the name
-- string getContact() – accessor to get contact 
-- string getID()-accessor to get ID
-- int getQuantity()-accessor to get quantity
-- double getPrice()-accessor to get price
-- Supplier getSupplier()-accessor to get supplier
-- void setQuantity(int)-mutator to set quantity
-- string getDetails()const- virtual method to get the detail of the item
+- `Supplier`
+- `Item`
+- `SupplierManager`
+- `Inventory`
+- `Sales`
+- `Food`
+- `Toy`
+- `Medicine`
+- `Other`
+- `Expired`
 
-class SupplierManager
-Private attributes:
-- Supplier* suppliers[100]
-- int supplierCount
-Public methods:
-- SupplierManager()- constructor to initialize SupplierManager attributes
-- void addSupplier(string,string)- method to add supplier
-- Supplier* string findSupplierByName- method to find supplier
-- void viewSuppliers()- method to view supplier list
+##### 1. Supplier
+##### Private Attributes:
+- `string name`
+- `string contact`
 
-class Inventory
-Private attributes:
-- Food* foods[100]
-- Toy* toys[100]
-- Medicine* medicines[100]
-- Other* others[100]
-- int foodCount
-- int toyCount
-- int medicineCount
-- int otherCount
-Public methods:
-- void addFood(Food*)- method to add food item
-- void addToy(Toy*)- method to add toy item
-- void addMedicine(Medicine*)- method to add medicine item
-- void addOther(Other*)- method to add other item
-- void viewItems()- method to check item list
-- Item *findItemByID(string)- method to find item id
-class sales
-Private attributes:
-- Item*item
-- double totalPrice
-Public methods:
-- Sales(Item* x)- constructor of sales that allocate item attribute with x and initialize totalPrice
-- double T_Price(int)- accessor to getT_Price
-class Food
-Private attributes:
-- Expired expired
-- Public methods:
-- Food(string,string,int, double string, Supplier)
-- sting getExpired()
-- string getDetails()
+##### Public Methods:
+- `Supplier(string name, string contact)` - Constructor to initialize supplier attributes.
+- `string getName()` - Accessor to get the name.
+- `string getContact()` - Accessor to get the contact.
 
-class Toy
-Private attributes:
-- Expired expired
-- string material
-- Public methods:
-- Toy(string,string,int, double string,string, Supplier)- constructor to initialize teh attributes
-- string getExpired() =- accseesor to get expiry dates
-- string getMaterial()- accessor to get the material of toys
-- string getDetails()- method to get the detail of toys
-class Medicine:
-Private attributes:
-- Expired expired
-- int dosePD
-Public methods:
-- Medcine(string,string,int, double string,int,Supplier)- constructor to initialize the attributes
-- string getExpired()- accessor to get the expiry date
-- int getDosePD()- accessor to get dosage of the medicine
-- string getDetails()- method to get details for medicine item
+##### 2. Item
+##### Protected Attributes:
+- `string id`
+- `string name`
+- `int quantity`
+- `double price`
+- `Supplier sup`
 
-class other
-Private attributes:
-- Expired expired
-- string description
-Public methods:
-- Other(string,string,int, double string,string,Supplier) – constructor to initialize the attributes
-- string getExpired()- accessor to get expiry date
-- string getDescription()- accessor to get the description
-- string getDetails()- method to get the details for other item
+##### Public Methods:
+- `Item(string id, string name, int quantity, double price, Supplier sup)` - Constructor to initialize the attributes.
+- `string getName()` - Accessor to get the name.
+- `string getContact()` - Accessor to get contact.
+- `string getID()` - Accessor to get ID.
+- `int getQuantity()` - Accessor to get quantity.
+- `double getPrice()` - Accessor to get price.
+- `Supplier getSupplier()` - Accessor to get supplier.
+- `void setQuantity(int quantity)` - Mutator to set quantity.
+- `string getDetails() const` - Virtual method to get the details of the item.
+
+##### 3. SupplierManager
+##### Private Attributes:
+- `Supplier* suppliers[100]`
+- `int supplierCount`
+
+##### Public Methods:
+- `SupplierManager()` - Constructor to initialize `SupplierManager` attributes.
+- `void addSupplier(string name, string contact)` - Method to add a supplier.
+- `Supplier* findSupplierByName(string name)` - Method to find a supplier by name.
+- `void viewSuppliers()` - Method to view the supplier list.
+
+#### 4. Inventory
+#### Private Attributes:
+- `Food* foods[100]`
+- `Toy* toys[100]`
+- `Medicine* medicines[100]`
+- `Other* others[100]`
+- `int foodCount`
+- `int toyCount`
+- `int medicineCount`
+- `int otherCount`
+
+#### Public Methods:
+- `void addFood(Food* food)` - Method to add a food item.
+- `void addToy(Toy* toy)` - Method to add a toy item.
+- `void addMedicine(Medicine* medicine)` - Method to add a medicine item.
+- `void addOther(Other* other)` - Method to add another item.
+- `void viewItems()` - Method to check the item list.
+- `Item* findItemByID(string id)` - Method to find an item by ID.
+
+#### 5. Sales
+#### Private Attributes:
+- `Item* item`
+- `double totalPrice`
+
+#### Public Methods:
+- `Sales(Item* x)` - Constructor that initializes the `item` attribute with `x` and sets `totalPrice`.
+- `double T_Price(int quantity)` - Method to calculate total price.
+
+#### 6. Food
+#### Private Attributes:
+- `Expired expired`
+
+#### Public Methods:
+- `Food(string id, string name, int quantity, double price, string expired, Supplier sup)` - Constructor to initialize the attributes.
+- `string getExpired()` - Accessor to get expiry date.
+- `string getDetails()` - Method to get the details of the food item.
+
+#### 7. Toy
+#### Private Attributes:
+- `Expired expired`
+- `string material`
+
+#### Public Methods:
+- `Toy(string id, string name, int quantity, double price, string expired, string material, Supplier sup)` - Constructor to initialize the attributes.
+- `string getExpired()` - Accessor to get expiry date.
+- `string getMaterial()` - Accessor to get the material of toys.
+- `string getDetails()` - Method to get the details of the toy item.
+
+#### 8. Medicine
+#### Private Attributes:
+- `Expired expired`
+- `int dosePD`
+
+#### Public Methods:
+- `Medicine(string id, string name, int quantity, double price, string expired, int dosePD, Supplier sup)` - Constructor to initialize the attributes.
+- `string getExpired()` - Accessor to get the expiry date.
+- `int getDosePD()` - Accessor to get dosage of the medicine.
+- `string getDetails()` - Method to get the details of the medicine item.
+
+#### 9. Other
+#### Private Attributes:
+- `Expired expired`
+- `string description`
+
+#### Public Methods:
+- `Other(string id, string name, int quantity, double price, string expired, string description, Supplier sup)` - Constructor to initialize the attributes.
+- `string getExpired()` - Accessor to get expiry date.
+- `string getDescription()` - Accessor to get the description.
+- `string getDetails()` - Method to get the details of the other item.
+
+#### 10. Expired
+#### Private Attributes:
+- `string expired`
+
+#### Public Methods:
+- `Expired(string expired)` - Constructor to initialize `expired`.
+- `string getExpired()` - Accessor to get expiry date.
 
 
-class Expired
-Private attributes:
-- string expired
-Public methods:
-- Expired(string)- constructor to initialize expired
-- String getExpired()-accessor to get expiry date
 
 ### UML Class Diagram
