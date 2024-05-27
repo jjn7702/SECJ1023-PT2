@@ -57,3 +57,6 @@ When an item runs out of stock or expires, the system will also promptly send ou
 
 Monthly Sales Reports: 
 In addition, the system will produce thorough sales data every month. These reports will provide information on income produced, popular products, sales trends, and other relevant variables. Store owners can make well-informed judgments to maximize sales techniques and increase profitability by examining these data.
+
+### Videolink
+[Click Here](https://www.youtube.com/watch?v=7h0dXbHTV-M&t=152s)
