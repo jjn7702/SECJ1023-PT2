@@ -13,8 +13,6 @@ This system will be focusing on assisting the shop owners to manage the stores e
 
 Our sistem will also provide a timely alerts for low stock or expiring items to ensure quick action from the staffs.
 
-Apart from that, our sistem will generate monthly sales reports to visualize business performance and guide future decisions, simplifying business operations and optimizing efficiency.
-
 In general, of our pet inventory management system is to make daily operations of pet supply stores easier and more efficient. This will save operating costs and increase customer satisfaction. Our system will help pet businesses prosper in a more competitive market by utilizing technology to automate critical procedures and deliver useful data.
 
 ### System Objectives and Purposes📖
