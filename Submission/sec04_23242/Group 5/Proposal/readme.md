@@ -30,4 +30,4 @@ A feature within the system that is designed to adapt to users' moods on any giv
 For the output of the system, a list of personalized movies for users based on their preferences and past data. Relevant details such as title, genre, year of release, synopsis, director, and cast will be included. Besides that, in order to refine and improve the future movie recommendation, the user will be asked to rate the recommended movie on a scale of 5. In addition, The system will also display additional information, such as trending movies and upcoming releases.
 
 ### Videolink
-[Click Here]([https://www.youtube.com/watch?v=7h0dXbHTV-M&t=152s](https://youtu.be/x3d3-U1fO6s?si=W9Gs7ogg82IptGdw))
+[Click Here](https://www.youtube.com/watch?v=7h0dXbHTV-M&t=152s](https://youtu.be/x3d3-U1fO6s?si=W9Gs7ogg82IptGdw))
