@@ -136,6 +136,11 @@ This project is an Inventory Management System with the following classes:
 #### 10. Expired
 #### Private Attributes:
 - `string expired`
+#### Class Relation:
+#### Association
+##### Aggregation
+##### Composition
+#### Inherritance
 
 #### Public Methods:
 - `Expired(string expired)` - Constructor to initialize `expired`.
