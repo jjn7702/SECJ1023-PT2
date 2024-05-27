@@ -147,43 +147,54 @@ This project is an Inventory Management System with the following classes:
 - Aggregation
   
  1.Inventory and Food
+ 
 Inventory and Food will have an aggregation relationship. The Inventory class holds a pointer to a Food object.  The Food object is created outside the Inventory and is passed to it, showing a "has-a" relationship. Food can exist independently.If the Inventory object is destroyed, the Food object will not be destroyed.
 
 2.Inventory and Toy
+
 Inventory and Toy will have an aggregation relationship. The Inventory class holds a pointer to a Toy object.  The Toy object is created outside the Inventory and is passed to it, showing a "has-a" relationship.Toy can exist independently. If the Inventory object is destroyed, the Toy object will not be destroyed.
 
 3.Inventory and Medicine
+
 Inventory and Medicine will have an aggregation relationship. The Inventory class holds a pointer to a Medicine object. The Medicine object is created outside the Inventory and is passed to it, showing a "has-a" relationship.Medicine can exist independently. f the Inventory object is destroyed, the Medicine object will not be destroyed.
 
 4.Inventory and Other
+
 Inventory and Other will have an aggregation relationship.The Inventory class holds a pointer to a Other object. The Other object is created outside the Inventory and is passed to it, showing a "has-a" relationship. Other can exist independently.If the Inventory object is destroyed, the Other object will not be destroyed.
 
 5.Sales and Item
+
 Sales and Item will have an aggregation relationship.The Sales class holds a pointer to a Item object. The Item object is created outside the Sales and is passed to it, showing a "has-a" relationship. Other can exist independently.If the Sales object is destroyed, the Item object will not be destroyed.
 
 6.SupplierManager and Supplier
+
 SupplierManager and Supplier will have an aggregation relationship.The SupplierManager class holds a pointer to a Supplier object. The Supplier object is created outside the SupplierManager and is passed to it, showing a "has-a" relationship. Other can exist independently.If the SupplierManager object is destroyed, the Supplier object will not be destroyed.
 
 - Composition
   
  1.Item and Supplier
+ 
   Item and Supplier have an composition relationship.Both of them are highly dependent on 
   each other,if the Item is destroyed then the Supplier also destroyed and vice versa.
   
   2.Expired and Food
+  
   Expired and Food have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Food also destroyed and vice versa.
   
   3.Expired and Toy
+  
   Expired and Toy have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Toy also destroyed and vice versa.
 
   4.Expired and Medicine
+  
   Expired and Medicine have an composition relationship.Both of them are highly 
   dependent on each other,if the Expired is destroyed then the Medicine also destroyed 
   and vice versa.
 
   5.Expired and Other
+  
   Expired and Other have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Other also destroyed and vice versa.
   
