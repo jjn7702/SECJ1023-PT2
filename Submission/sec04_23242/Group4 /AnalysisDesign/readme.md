@@ -1,7 +1,7 @@
 # PROBLEM ANALYSIS AND DESIGN GROUP 4 #
 ## SECTION A - Flowchart
 This is our flowcharts that illustrates the whole process of our proposed system.
-<img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/flowchart1.jpg"/>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/flowchart1a.jpg"/>
 <img src="https://github.com/Manisha040111/PT2-dummy-Proposal/blob/main/flowchart2.jpg"/>
 
 ### Description
