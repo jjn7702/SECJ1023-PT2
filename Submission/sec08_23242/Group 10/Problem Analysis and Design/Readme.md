@@ -143,8 +143,6 @@ This project is an Inventory Management System with the following classes:
 - 
 #### Class Relation:
 
-
-
 #### Association
 - Aggregation
   
@@ -172,17 +170,21 @@ SupplierManager and Supplier will have an aggregation relationship.The SupplierM
   Item and Supplier have an composition relationship.Both of them are highly dependent on 
   each other,if the Item is destroyed then the Supplier also destroyed and vice versa.
   
-  2.Expired and Food have an composition relationship.Both of them are highly dependent 
+  2.Expired and Food
+  Expired and Food have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Food also destroyed and vice versa.
   
-  3.Expired and Toy have an composition relationship.Both of them are highly dependent 
+  3.Expired and Toy
+  Expired and Toy have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Toy also destroyed and vice versa.
 
-  4.Expired and Medicine have an composition relationship.Both of them are highly 
+  4.Expired and Medicine
+  Expired and Medicine have an composition relationship.Both of them are highly 
   dependent on each other,if the Expired is destroyed then the Medicine also destroyed 
   and vice versa.
 
-  5.Expired and Other have an composition relationship.Both of them are highly dependent 
+  5.Expired and Other
+  Expired and Other have an composition relationship.Both of them are highly dependent 
   on each other,if the Expired is destroyed then the Other also destroyed and vice versa.
   
 ##### Inherritance
