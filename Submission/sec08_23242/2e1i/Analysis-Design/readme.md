@@ -7,8 +7,8 @@
 - [Class Diagram](image/CLASSDIAGRAM.jpg)
 
 ## Flow Chart 📊
-<image src = "image/PT2_flowchart.jpg" width="500" height="540">
+<image src = "image/PT2_flowchart.jpg" width="700" height="540">
 ## Problem Analysis 🔍
 
 ## Class Diagram 🗂️
-<image src = "image/CLASSDIAGRAM.jpg" width="500" height="540">
+<image src = "image/CLASSDIAGRAM.jpg" width="700" height="540">
