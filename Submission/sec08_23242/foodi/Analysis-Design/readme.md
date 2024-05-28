@@ -17,3 +17,4 @@ The system also provides detailed reporting based on search results, informing u
 <h2>Problem Analysis 📊</h2>
 
 <h2>Class Diagram 📋</h2>
+<image src=https://github.com/jjn7702/SECJ1023-PT2/assets/122166710/d72734a4-25d4-46da-95d7-2f5c0c6b8ed8>
