@@ -8,7 +8,6 @@
 - [A: Flowchart](#A:Flowchart)
 - [B: Problem Analysis](#B:Problem-Analysis)
 - [C: UML Class Diagram](#C:UML-Class-Diagram)
-- 
 ### A:Flowchart 
 ![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg)
 
@@ -16,10 +15,10 @@
 - #### Objects and Classes
 ##### 1. Objects：
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
-- 'NewUser currentUser;'
-- 'NueUser tempUser(username,"");'
-- 'Time timeInstance;'
-- 'Music m1;'
+- `NewUser currentUser;`
+- `NueUser tempUser(username,"");`
+- `Time timeInstance;`
+- `Music m1;`
 
 ##### 2. Classes
 The following classes in involved in the project:
