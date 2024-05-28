@@ -22,14 +22,17 @@ The user act as an object. When a new user is created, a new object is created. 
     NewUser currentUser;
     
     </li> 
+    
     <li> 
     NewUser tempUser(username,""); 
     
     </li> 
+    
     <li> 
     Time timeInstance;</ul> 
     
     </li>
+    
     <li> 
     Music m1; 
     
