@@ -9,6 +9,23 @@
 ## Section A Flow Chart 📊
 <image src = "image/PT2_flowchart.jpg" width="700" height="550">
 
+### Main Process of the System
+> __i) Login / Sign up:__
+  - Identifying the user type, allowing individuals to choose **Regular User** or **Nutritionist**
+  - Exiting users can login directly
+  - New user must sign up by provoding necessary credentials
+
+> __ii) Regular User__
+  - The main page of regular user contains 3 different sections:
+  - **User Profile**: view nutrition history and generated weekly report
+  - **Nutrition Tracker**: log nutritional intake for different meal categories
+  - **Feedback and Recommendation**: respond user feedback and view recommendations from nutritionist
+
+> __iii) Nutritionist__
+  - able to view user nutriotion history and **calorie catalog**
+  - view user **feedback**
+  - provide **recommendation**
+
 ## Section B Problem Analysis 🔍
 (i)The objects and the classes involved in the project
 ## 1. User (class)
