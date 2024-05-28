@@ -16,33 +16,35 @@
 <h3> Problem Analysis 📝 </h3>
 <h4> Objects and Classes </h4>
 <h5> 1. Objects：</h5>
-  The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
-  <br />
-    <li> `NewUser currentUser;` </li>
-    <li> `NuwUser tempUser(username,"");` </li>
-    <li> `Time timeInstance;` </li>
-    <li> `Music m1;` </li>
+  <ul>
+    The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
+  </ul>
+    <p><li> `NewUser currentUser;` </li>
+    <p><li> `NuwUser tempUser(username,"");` </li>
+    <p><li> `Time timeInstance;` </li>
+    <p><li> `Music m1;` </li>
   <br />
 <h5> 2. Classes: </h5>
+  <ul>
     The following classes in involved in the project:
-  <br />
-    <li> User class </li>
+  </ul>
+    <p><li> User class </li>
       In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions. 
-    <li> NewUser class </li>
-      Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions.
-      In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
-      We also do exception handling about the length of the user’s passwor.  If the length of the password is less than 8 characters 
-    <li> Time class </li>
-      In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user. 
-    <li> Data class </li>
-      Inside the data class, we have the accessor and the mutator
-      And the function to analayze the sleep which receive the sleep time as parameter
-      Beside, we also have the function to display the result after analyzing 
-    <li> Music class </li>
-      Inside the Music class, we have two string to store name of the music and the url of the music.
-      The use of accessor and mutator enable developer to access and change the attributes even outside the class 
-    <li> FavM class </li>
-      In FavM, we have array to save the user defined music and function to display it.
+    <p><li> NewUser class </li>
+      <p><p>Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions.
+      <p><p>In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
+      <p><p>We also do exception handling about the length of the user’s passwor.  If the length of the password is less than 8 characters 
+    <p><li> Time class </li>
+      <p><p>In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user. 
+    <p><li> Data class </li>
+      <p><p>Inside the data class, we have the accessor and the mutator
+      <p><p>And the function to analayze the sleep which receive the sleep time as parameter
+      <p><p>Beside, we also have the function to display the result after analyzing 
+    <p><li> Music class </li>
+      <p><p>Inside the Music class, we have two string to store name of the music and the url of the music.
+      <p><p>The use of accessor and mutator enable developer to access and change the attributes even outside the class 
+    <p><li> FavM class </li>
+      <p><p>In FavM, we have array to save the user defined music and function to display it.
   <br />
 <h4> Relationship between classes: </h4>
 <h5> 1. User class and NewUser class -- Inheritance</h5>
