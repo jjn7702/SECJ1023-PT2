@@ -1,4 +1,10 @@
 <h1 align = "center">Problem Analysis and Design</h1>
+<h2>Content</h2>
+<ul>
+  <li>Flow Chart</li>
+  <li>Problem Analysis</li>
+  <li>Class Diagram</li>
+</ul>
 
 <h2>Flow Chart ⚙️</h2>
 
@@ -142,7 +148,6 @@ All member attributes are private.<br>
         <li>FoodItem and Diet: This is a composition relationship. This means that a Diet cannot exist without a FoodItem,             if a FoodItem is destroyed diet will be destroyed too. This too is done to enhance the experience of the user              while searching for the FoodItem.</li>
       </ul>
 </ul>
-
 
 <h2>Class Diagram 📋</h2>
 <image src=https://github.com/jjn7702/SECJ1023-PT2/assets/122166710/d72734a4-25d4-46da-95d7-2f5c0c6b8ed8>
