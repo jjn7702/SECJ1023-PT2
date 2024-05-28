@@ -34,6 +34,8 @@
     
 ## 📊 Problem Analysis 📑
 
+> __i) Identify the objects and then the classes involved in the project. As for the class members (i.e., attributes and methods), include only the significant ones.__
+
 |No.| Class                      | Attribute          | Method       |
 |-----|----------------------------|--------------------|--------------|
 |1|Profile            |name, age, address, background| inputInfo, updateInfo, viewInfo, getName, getAge, getAddress, getBackground|
