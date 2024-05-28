@@ -82,4 +82,4 @@ Justification: NonFiction books share common features but differ in their specif
 
 ## 🧾 Class Diagram 🗂️
 
-<image src = "File/UML-Diagram.jpg">
+<image src = "File/UML Diagram.jpg">
