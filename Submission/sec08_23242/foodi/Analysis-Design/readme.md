@@ -1,7 +1,8 @@
-![Pt2_A2_flowchart-Page-2 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/1e48388f-09bb-4eaa-adf7-f122fd2f19cf)<h1 align = "center">Problem Analysis and Design</h1>
+<h1 align = "center">Problem Analysis and Design</h1>
 
 <h2>Flow Chart ⚙️</h2>
-![Pt2_A2_flowchart-Page-1 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/dfde94a8-2d14-4c80-946d-e7f68c46e196)
+
+![Pt2_A2_flowchart-Page-1 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/60c9b47e-9ccc-42d3-aed8-d94d89e5d09f)
 
 ![Pt2_A2_flowchart-Page-2 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/c777e7b9-4d85-43a6-ba7e-73ed8729b411)
 
