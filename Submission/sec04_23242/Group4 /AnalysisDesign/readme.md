@@ -16,6 +16,7 @@ This is our flowcharts that illustrates the whole process of our proposed system
 
 ## Section B: Problem Analysis
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/secb.jpg" />
+
 ### Aggregation
 Customer Class has an aggregation relationship with the Bill class, indicating that each customer has one bill.
 
