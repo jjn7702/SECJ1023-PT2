@@ -138,8 +138,8 @@ Class:
   <li> printDetails(): void </li>
 </ul>
 
-<p><b>5. Postgraduate </b><br>
-&nbsp &nbsp Attributes:</p>
+<p><b>5. Postgraduate </b><br></p>
+<p></p>&nbsp &nbsp Attributes:</p>
 <ul>
   <li>degreeProgram: string</li>
 </ul>
