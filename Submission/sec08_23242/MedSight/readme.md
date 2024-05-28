@@ -30,9 +30,10 @@
         </table>
 
    ## FINDINGS :mag_right:
-   [Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/MedSight/Proposal)
-   [Analysis Design](https://github.com/jjn7702/SECJ1023-PT2/files/15470850/FRONT_merged.1.pdf)
-
+   <ul>
+   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/MedSight/Proposal"> Proposal </a> </li>
+   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/files/15470850/FRONT_merged.1.pdf"> Analysis Design </a> </li>
+   </ul>
     
 </body>
 </html>
