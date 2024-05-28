@@ -29,4 +29,4 @@ Overall, the relationships indicate that the system is designed for a customer t
 
 ## Section C: Class Diagram
 This our UML Class Diagram base from our analysis process
-<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-28%20140108.png" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-28%20161729.png" />
