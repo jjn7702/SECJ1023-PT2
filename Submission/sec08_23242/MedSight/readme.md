@@ -32,8 +32,9 @@
     </table>
 
     <h2>🔍 Findings</h2>
-    <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/MedSight/Proposal">Proposal</a>
-    [Problem Analysis and Design](https://github.com/jjn7702/SECJ1023-PT2/files/15470156/FRONT_merged.1.pdf)
+    
+    [FRONT_merged (1).pdf](https://github.com/jjn7702/SECJ1023-PT2/files/15470227/FRONT_merged.1.pdf)
+
     
 </body>
 </html>
