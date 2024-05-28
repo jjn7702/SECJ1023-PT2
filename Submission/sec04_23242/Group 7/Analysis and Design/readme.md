@@ -5,5 +5,39 @@ Under the Student menu, they will have three options available to them which are
 ![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/assets/147961924/635f7317-5ca7-4eca-aa29-2f34240027db)
 
 # Section B: Problem Analysis
+Classes and Objects 
+A couple of principles from Programming Technique II—Inheritance and association (Aggregation and Composition)—were introduced to us in class and are used in our scholarship application system. Hierarchical classifications are made possible by inheritance, which is an "is-a" relationship in which one class (child/subclass) inherits properties and methods from another class (parent/superclass). Associations also use their objects to show links between classes. There are two kinds of associations: Aggregations is the first one. Aggregations represent a "has-a" connection in which a class exists independently of the total while remaining a component of another class. This suggests that a component can exist apart from the whole. The other option is Composition. Composition is a strong type of connection with stringent dependencies. This signifies that the contained object (part) does not exist without the container object (total). If the container is destroyed, so are the contained objects.
+
+Inheritance
+
+The emphasis of the SCHOLARSHIP APPLICATION SYSTEM is on scholarship and academic background. For this reason, we implemented Scholarship (superclass) with UGscholarship (subclass) and AcademicBG (superclass) with UGacadBG (subclass) through an inheritance relationship. An enhanced version of the AcademicBG class is the UGacadBG class. In addition to adding unique qualities (highestQuali and CGPA) pertinent to undergraduate academic background, it inherits AcademicBG's methods and attributes. This link indicates that AcademicBG is more generalized than UGacadBG. Regarding the scholarship and UGscholarship classes, The UGscholarship class extends the Scholarship class by adding the minPreUniCGPA attribute, which is specific to undergraduate scholarships. This suggests that the UGscholarship is an enhanced iteration of the Scholarship, incorporating its attributes while incorporating additional precise standards.
+
+Code :
+
+class UGacadBG: public academicBG {
+};
+
+class UGscholarship: public scholarship {
+};
+
+
+Association
+
+The SCHOLARSHIP APPLICATION SYSTEM also focuses on the Applicant's Academic Background thus the reason we implemented Applicant with an association relationship aggregation type with academic background (academicBG) class. The academicBG class contains an attribute app which is a reference to an Applicant object. This indicates that AcademicBG has an Applicant, but the Applicant can exist independently of AcademicBG. For example, an applicant can exist and later be associated with multiple academic backgrounds. This independence qualifies it as an aggregation relationship.
+
+This system also focused on Applicant’s Status so we use a composition relationship between Applicant and Status. For this concept, the Classes involved are ‘status’ and ‘applicant’. The Applicant class and the Status class are closely related in this relationship. Every applicant has a status, and without an applicant relationship, the status object cannot function as intended. If an Applicant object is deleted, its corresponding Status should also be deleted, signifying a composition relationship.
+
+Aggregation code : 
+class academicBG {
+protected: 
+applicant *app;
+};
+
+Composition code : 
+class Applicant {
+	protected : 
+	Status s;
+};
+
 # Section C: Class Diagram
 ![UML Class Diagram](https://github.com/jjn7702/SECJ1023-PT2/assets/148675818/a41d0368-d966-4568-b8e3-76c2c8333797)
