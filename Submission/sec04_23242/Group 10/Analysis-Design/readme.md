@@ -47,11 +47,19 @@
 |7|Time|hour, minute|getHour, getMinute|
 |8|Venue|name, location|getName, getLocation|
 
-__ii) Identify class relationships.__
+<<<<<<< HEAD
+> __ii) Identify class relationships.__
 
 **1) Association Relationships**
-- Composition
+- **Composition**
+**1. Event and Organizer:**
+Event class has an attribute of organizer of type Organizer. 
 
+Justification: An event needs organizer to enter the detail of the event and later send the invitation and notification to the participants. Thus, it shown that event is associated with organizer. 
+
+**2. RegularUser and NutritionTracker:**
+RegularUser class has an attribute calories of type NutritionTracker.
+Justification: Regular users need to track their calories, and this tracking is managed through the CalorieTracker class, thus associating these two classes.
 
 3)	Class Diagram Justification
 
