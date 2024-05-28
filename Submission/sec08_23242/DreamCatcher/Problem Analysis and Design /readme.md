@@ -5,12 +5,12 @@
 <h1>Sleep Cycle Analyzer - </h1>
 <h1>Problem Analysis and Design 💡</h1>
 <h2>Table of Contents 🧾 </h2>
-- [Flowchart](#Flowchart)
-- [Problem Analysis](#Problem-Analysis)
-- [UML Class Diagram](#UML-Class-Diagram)
+  <li> [Flowchart](#Flowchart) </li>
+  <li> [Problem Analysis](#Problem-Analysis) </li>
+  <li> [UML Class Diagram](#UML-Class-Diagram) </li>
 
 <h3>Flowchart</h3>
-![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg)
+<img src = https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg>
 
 <h3>Problem Analysis 📝 </h3>
 <h4>Objects and Classes</h4>
