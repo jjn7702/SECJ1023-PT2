@@ -1,4 +1,13 @@
-# Section A (Flowchart)
+<h1 align="center"> Problem Analysis and Design </h1>
+<h1>📑 Content </h1>
+<ul>
+  <li><a href="#flowchart"> Flow Chart </a></li>
+  <li><a href="#problemanalysis"> Problem Analysis </a></li>
+  <li><a href="#umlclassdiagram"> Class Diagram </a></li>
+</ul>
+
+<h1 id="flowchart">🔗 Section A (Flowchart) </h1>
+
 ![](images/flowchart1.png)
 ![](images/flowchart2.png)
 ![](images/flowchart3.png)
@@ -7,7 +16,9 @@ The main process in the flowchart is a medical diagnosis and consultation system
 
 Based on the responses, the system identifies the probable diseases by matching symptoms to predefined conditions. Each disease is assigned a unique identifier (disease = 1, 2, 3, etc.) and its corresponding description, medication, and dosage are displayed. If symptoms are indicative of multiple conditions, the system lists all possible diseases. After diagnosing, the system displays medical recommendations and clinics based on the user's state location. The final output includes the disease name, description, prescribed medication, dosage, and local clinic contact information for further consultation. The process ensures the user receives both immediate guidance and local medical support information.
 
-# Section B 
+<h1 id="problemanalysis">🔗 Section B (Problem Analysis) </h1>
 
-# Section C (UML Class Diagram)
+
+<h1 id="umlclassdiagram">🔗 Section C (UML Class Diagram) </h1>
+
 ![](images/UMLclassDiagram.png)
