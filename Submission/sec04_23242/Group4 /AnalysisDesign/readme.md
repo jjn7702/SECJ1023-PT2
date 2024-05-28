@@ -15,7 +15,7 @@ This is our flowcharts that illustrates the whole process of our proposed system
   For the Admin option, the user must enter a username and password. Upon successful login, the admin can search for and view customer receipt files. If the "Read Me" option is selected, the system displays a user manual outlining how to add items, enter quantities, make payments, and log in as an admin. The user manual also explains how to exit the system. When the Exit option is chosen, the system terminates. 
 
 ## Section B: Problem Analysis
-<img src="" />
+<img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/secb.jpg" />
 Aggregation
 Customer Class has an aggregation relationship with the Bill class, indicating that each customer has one bill.
 
