@@ -47,7 +47,11 @@
 |7|Time|hour, minute|getHour, getMinute|
 |8|Venue|name, location|getName, getLocation|
 
+> __ii) Identify class relationships. Here, analyze two things: __
+
 ## 🧾 Class Diagram 🗂️
+> __i) Classes – including attributes and methods __
+> __ii) Class relationship – including association and inheritance__
 <image src = "Image/PT2 Project UML.png">
 
 
