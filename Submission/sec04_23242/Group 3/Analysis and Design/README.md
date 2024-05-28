@@ -44,9 +44,38 @@
   <td>-notificationAlert</td>
         </tr>
 
+<p>The problem analysis outlines the structure and functionality of a system involving four main classes: User, Ingredient, Allergy, and Alert. Each class has specific attributes and methods:
+
+<p>User: Represents a person using the system, with attributes for their Name, Age, and Gender, and methods to input these details.</p>
+<p>Ingredient: Contains an array of ingredients and a count of these ingredients, with methods to input and count them.</p>
+<p>Allergy: Manages allergies, referencing ingredients and tracking their status, with a method to update the allergy status.</p>
+<p>Alert: Generates notifications based on allergies, with a method to trigger alerts when an allergy is detected.</p>
+
 </tr>
 </tbody>
 </table><h1 id="section-c-class-diagram">Section C: Class Diagram</h1>
+<img src="../Proposal/Image/Screenshot 2024-05-28 215950.png" width="7000" height="950">
+ <p>1.Aggregation:
+- The `Allergy` class contains one or more
+`Ingredient` instances, showed by a hollow
+diamond. `Ingredient` can exist independently
+of `Allergy`.</p>
+ <p>2.Association:
+- `User` is associated with `Allergy`, and
+`Allergy` is associated with `Alert`. These
+connections show that a user can have
+allergies, and allergies can trigger alerts. </p>
+ <p>3.Inheritance:
+- `male` and `female` classes inherit
+attributes and methods from a common
+superclass, including `Age`, `Gender`,
+`inputAge()`, and `inputGender()`. </p>
+ <p>4.Composition:
+- The `Allergy` class has a composition
+relationship with the `Alert` class, indicated by
+a filled diamond. `Alert` is integral to `Allergy`
+and cannot exist independently. </p>
+</img>
 </div>
 </body>
 
