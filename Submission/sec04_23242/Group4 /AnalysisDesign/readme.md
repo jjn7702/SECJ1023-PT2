@@ -14,6 +14,19 @@ This is our flowcharts that illustrates the whole process of our proposed system
 
   For the Admin option, the user must enter a username and password. Upon successful login, the admin can search for and view customer receipt files. If the "Read Me" option is selected, the system displays a user manual outlining how to add items, enter quantities, make payments, and log in as an admin. The user manual also explains how to exit the system. When the Exit option is chosen, the system terminates. 
 
+## Section B: Problem Analysis
+<img src="" />
+Aggregation
+Customer Class has an aggregation relationship with the Bill class, indicating that each customer has one bill.
+
+Inheritance
+Menu Class has an inheritance relationship with Vegetable, Fruit, and Meat classes,where the menu is the parent class while Vegetable,Fruit,and Meat is the child class.This indicates a whole-part relationship where vegetables, fruits, and meat are part of the menu.
+
+Composition
+Bill Class has a composition relationship with the Menu class, meaning that the bill is generated based on the items selected from the menu.
+
+Overall, the relationships indicate that the system is designed for a customer to interact with a menu to make selections, which then generates a bill. The admin has privileges to interact with different pages, likely for management purposes. The menu itself is made up of various categories of items such as vegetables, fruits, and meats.
+
 ## Section C: Class Diagram
 This our UML Class Diagram base from our analysis process
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/AnalysisDesign/Screenshot%202024-05-28%20140108.png" />
