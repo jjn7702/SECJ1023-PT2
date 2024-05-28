@@ -34,7 +34,7 @@
     
 ## 📊 Problem Analysis 📑
 
-| ##Class                      | ##Attribute          | ##Method       |
+| #Class                      | #Attribute          | #Method       |
 |----------------------------|--------------------|--------------|
 |Profile            |name, age, address, background| inputInfo, updateInfo, viewInfo, getName, getAge, getAddress, getBackground|
 |User|username, password, profile|getUserName, checkPassword, inputProfile, updateProfile, viewProfile|
