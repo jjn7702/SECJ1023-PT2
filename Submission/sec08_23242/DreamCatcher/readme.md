@@ -33,9 +33,12 @@
         <button style="width: 80px; border: none; background-color: transparent; cursor: pointer;">
         <img alt="Proposal" src="https://img.shields.io/badge/Proposal-%23003366" style="width: 80px;">
         </button>
+</a>
+</body>
+</html>
     <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design%20">
-        <button style="width: 100px; border: none; background-color: transparent; cursor: pointer;">
-        <img alt="Problem Analysis and Design" src="https://img.shields.io/badge/Problem%20analysis%20and%20design-%23003366" style="width: 100px;">
+        <button style="width: 80px; border: none; background-color: transparent; cursor: pointer;">
+        <img alt="Problem Analysis and Design" src="https://img.shields.io/badge/Problem%20analysis%20and%20design-%23003366" style="width: 80px;">
         </button>
 </a>
 </body>
