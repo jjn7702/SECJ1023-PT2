@@ -51,7 +51,9 @@
 
 ## 🧾 Class Diagram 🗂️
 > __i) Classes – including attributes and methods__
+
 > __ii) Class relationship – including association and inheritance__
+
 <image src = "Image/PT2 Project UML.png">
 
 
