@@ -103,37 +103,37 @@ displaying these suggestions and terminating the execution.
 
 ****Aggregation**** 
 
--    Definition: a special type of association which is one way relationship. An aggregation relationship is implemented by objects containing pointers to other objects. 
+-    Definition: a special type of association which is one-way relationship. An aggregation relationship is implemented by objects containing pointers to other objects. 
 
--    The reason for using aggregation is the child objects can exist independently of the parents' object. This means that the lifecycle of the child is not tied to the lifecycle of the parents' class. Second, since the child's object is not tightly coupled with the parents' class, they can be reused in different contexts or with different parents' objects. Third, aggregation allows for building modular systems where components can be easily swapped or replaced without affecting the rest of the coding. Finally, aggregation simplifies maintenance and updates because changes to the part do not necessarily impact the parents.  
+-    The reason for using aggregation is the child's objects can exist independently of the parents' objects. This means that the lifecycle of the child is not tied to the lifecycle of the parents' class. Second, since the child's object is not tightly coupled with the parents' class, it can be reused in different contexts or with different parents' objects. Third, aggregation allows for building modular systems where components can be easily swapped or replaced without affecting the rest of the coding. Finally, aggregation simplifies maintenance and updates because changes to the part do not necessarily impact the parents.  
 
 
--    Class sleepQualityAssessment has a collection of pointers to class SleepData objects sleepData: vector<SleepData*>. This indicates aggregation because class SleepData object can exist independently of the class SleepQualityAssessment object that references them. They are aggregated into SleepQualityAssessment to analyze and assess sleep quality, but their lifecycle is not tied to it. 
+-    Class *sleepQualityAssessment* has a collection of pointers to *class SleepData* objects *sleepData: vector<SleepData*>.* This indicates aggregation because *class SleepData* object can exist independently of the *class SleepQualityAssessment* object that references them. They are aggregated into *SleepQualityAssessment* to analyze and assess sleep quality, but their lifecycle is not tied to it. 
 
  
--    User class has a collection of pointers to class SleepQualityAssessment objects SleepQualityAssessment: SleepQualityAssessment*. This indicates aggregation because class SleepQualityAssessment object can exist independently of the class User object that references them. It can be associated with multiple users and its lifecycle is not managed by the class User. 
+-    *User* class has a collection of pointers to *class SleepQualityAssessment* objects *SleepQualityAssessment: SleepQualityAssessment*.* This indicates aggregation because *class SleepQualityAssessment* object can exist independently of the *class User* object that references them. It can be associated with multiple users and its lifecycle is not managed by the *class User*. 
 
 
--    User class has a collection of pointers to class Suggestion objects suggestions: vector<Suggestion*>. This indicates aggregation because class Suggestion object can exist independently and be shared among different users. 
+-    *User* class has a collection of pointers to *class Suggestion* objects *suggestions: vector<Suggestion*>*. This indicates aggregation because *class Suggestion* object can exist independently and be shared among different users. 
 
 
--    User class has a collection of pointers to class SleepReport objects SleepReport: SleepReport*. This indicates aggregation because class SleepReport object can exist independently of the class User. 
+-    *User* class has a collection of pointers to *class SleepReport* objects *SleepReport: SleepReport**. This indicates aggregation because *class SleepReport* object can exist independently of the *class User*. 
 
 ****Composition**** 
 
 -    Definition: a restricted version of aggregation in which the enclosed and enclosed objects are highly dependent on each other. 
  
 
--    The reason for using composition is that the parents object is responsible for the lifecycle or the child object. The child cannot exist without the parents' class. Second, composition enhances encapsulation by ensuring that the child is tightly bound to the parents' class, making the parents object a single cohesive unit. Third, the child's objects are created, managed, and destroyed by the parents' object, ensuring consistency and integrity withing the parents' class. 
+-    The reason for using composition is that the parents's object is responsible for the lifecycle of the child's object. The child cannot exist without the parents' class. Second, composition enhances encapsulation by ensuring that the child is tightly bound to the parents' class, making the parents's object a single cohesive unit. Third, the child's objects are created, managed, and destroyed by the parents' object, ensuring consistency and integrity within the parents' class. 
 
  
--    The SleepSession class has a collection of class SleepData objects SleepData: vector<SleepData>. This relationship is composition because class SleepData objects are part of a SleepSession class, and their lifecycle is tied to the class SleepSession. 
+-    The *SleepSession* class has a collection of *class SleepData* objects *SleepData: vector<SleepData>.* This relationship is a composition because *class SleepData* objects are part of a *SleepSession* class, and their lifecycle is tied to the *class SleepSession*. 
 
 
--    The class User has a collection of class SleepSession objects sleepSession: vector<SleepSession>. This suggests composition because the SleepSession objects are tightly coupled with the User class and their lifecycle is managed and controlled by the User class. 
+-    The *class User* has a collection of *class SleepSession* objects *sleepSession: vector<SleepSession>.* This suggests composition because the *SleepSession* objects are tightly coupled with the *User* class and their lifecycle is managed and controlled by the *User* class. 
 
  
--    The User class has a class SleepCycleAnalyzer object SleepCycleAnalyzer: SleepCycleAnalyzer. This is a composition relationship because the class SleepCycleAnalyzer is a part of the User class, and its lifecycle is managed by the User class. It is created and destroyed with the class User. 
+-    The *User* class has a *class SleepCycleAnalyzer* object *SleepCycleAnalyzer: SleepCycleAnalyzer*. This is a composition relationship because the *class SleepCycleAnalyzer* is a part of the User class, and its lifecycle is managed by the *User* class. It is created and destroyed with the *class User*. 
 
 
 
