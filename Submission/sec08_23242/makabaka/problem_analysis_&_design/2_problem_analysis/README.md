@@ -57,4 +57,16 @@ On the other hand, methods created in this class are setJob (mutator that allows
 ## 2.2 Objects
 Objects that will be created in this system are book object, dictionary object, encyclopedia object, review object, wishlist object, personalInfo object, user object (that are associated with other book object, review object, and wishlist object), student object and non-student object.
 
+## 2.3 Class Relationships
+### 2.3.1 Aggregation
+- User object has a book array object that stores owned books. It is a one way aggregation relationship and objects involved here are independent. The books that are exchanged to other users still exist even if the original owner deleted its account and cleared his data.
+- User object also has a review object that stores user’s reviews. The relationship between review object and user object is aggregation because even if the user object is destroyed, the review that this user left for any book would still be useful for any other users wishing to exchange the books reviewed in the future.
+- User object has a wishlist array object that stores the title of all the books marked by the user for future reference. It is set as an aggregation relationship because more book titles will be needed to be added into it in the future, and the wishlist array object will undergo as many times of modification as the users like.
+
+### 2.3.2 Composition
+- User object has a personalInfo object. The personalInfo object in user object stores user’s personal information such as username, email, address and phoneNum. If the user object is destroyed, its personal information should also be cleared from the system. Thus it is a composition relationship.
+
+### 2.3.3 Inheritance
+- Dictionary class and Encyclopedia class are inherited from Book class as both are types of books and share certain similar attributes, thus will inherit attributes of title, publisher, publicationYear, ISBN, condition, and status.
+- Student class and NonStudent class are both inherited from User class as both share similar qualities and share similar functions, Thus both student and nonstudent classes inherit all the attributes and methods of User class such as userID, password and others.
 
