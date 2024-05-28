@@ -77,6 +77,92 @@ It represents the scholarship awarded to the students.
 It contains an array that holds details on the type of scholarship that students get and coverage percentage.
 </ul>
 
+Class: 
+<p><b>1. Student</b><br>
+&nbsp &nbsp Attributes:</p>
+<ul>
+  <li>familyIncome: int</li>
+  <li>cgpa: double</li>
+  <li>courseFee: double</li>
+  <li>yearOfStudy: int</li>
+</ul>
+
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li>Student(int, double, double, int)</li>
+  <li>apply(Scholarship): void</li>
+  <li>printDetails(): virtual void</li>
+</ul>
+
+<p><b>2. StudentInfo</b><br>
+&nbsp &nbsp Attributes:</p>
+<ul>
+  <li>name: string</li>
+  <li>age: int</li>
+  <li>studentID: string</li>
+  <li>email: string</li>
+  <li>contactNum: string</li>
+</ul>
+
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li>Information(string, int, string, string, string)</li>
+  <li>getName(): string</li>
+  <li>getAge(): int</li>
+  <li>getStudentID(): string</li>
+  <li>getEmail(): string</li>
+  <li>getContactNum(): string</li>
+  <li>checkEmail(): string</li>
+</ul>
+
+<p><b>3. Scholarship</b><br>
+&nbsp &nbsp Attributes:</p>
+<ul>
+  <li>scholarshipType: int</li>
+  <li>applicationStatus: string</li>
+</ul>
+
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li> Scholarship (int, string)</li>
+  <li> updateStatus(): string </li>
+  <li> scholarshipInfo(): virtual void </li>
+  <li> amountReceive(_fee): virtual int</li>
+</ul>
+
+<p><b>4. Undergraduate </b><br>
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li> Undergraduate (int)</li>
+  <li> printDetails(): void </li>
+</ul>
+
+<p><b>5. Postgraduate </b><br>
+&nbsp &nbsp Attributes:</p>
+<ul>
+  <li>degreeProgram: string</li>
+</ul>
+
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li> Postgraduate(int, string) </li>
+  <li> printDetails(): void </li>
+</ul>
+
+<p><b>6. MeritBased </b><br>
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li> amountReceive(_fee): int </li>
+  <li> scholarshipInfo(): void </li>
+</ul>
+
+<p><b>7. NeedBased </b><br>
+<p> &nbsp &nbsp Methods:</p>
+<ul>
+  <li> amountReceive(_fee): int </li>
+  <li> scholarshipInfo(): void </li>
+</ul>
+
 **2.Class Relationship**
 
 **Association:** <p align="justify">
