@@ -34,10 +34,10 @@
 
 | Class                      | Attribute          | Method       |
 |----------------------------|--------------------|--------------|
-|Profile            |name,age,address,background| inputInfo,updateInfo,viewInfo,getName,getAge,getAddress,getBackground|
-|User|username,password,profile|getUserName,checkPassword,inputProfile,updateProfile,viewProfile|
-|Organizer|organizationName,contactInfo|getOrganizationName,getContactInfo,setOrganizationName ,setContactInfo,createEvent,cancelEvent,viewEvents,updateEvent,sendInvitations,menu|
-|Participant|username,password|viewEvents,viewReminder,trackProgress,feedback,menu|
+|Profile            |name, age, address, background| inputInfo, updateInfo, viewInfo, getName, getAge, getAddress, getBackground|
+|User|username, password, profile|getUserName, checkPassword, inputProfile, updateProfile, viewProfile|
+|Organizer|organizationName, contactInfo|getOrganizationName, getContactInfo, setOrganizationName, setContactInfo, createEvent, cancelEvent, viewEvents, updateEvent, sendInvitations, menu|
+|Participant|username, password|viewEvents, viewReminder, trackProgress, feedback, menu|
 
 ## 🧾 Class Diagram 🗂️
 <image src = "Image/PT2 Project UML.png">
