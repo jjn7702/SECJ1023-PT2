@@ -33,7 +33,6 @@
 
     <h2>🔍 Findings</h2>
     
-    [FRONT_merged (1).pdf](https://github.com/jjn7702/SECJ1023-PT2/files/15470227/FRONT_merged.1.pdf)
 
     
 </body>
