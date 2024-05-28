@@ -13,4 +13,6 @@
 
 
 ## 🧾 Class Diagram 🗂️
+<image src = "Images/PT2 Project UML.png">
+
 
