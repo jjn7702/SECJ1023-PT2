@@ -21,7 +21,7 @@
   - **Create Event**: Create event and write the details of the event such as date, time venue and the descriptions of the event
   - **Manage Event**: Edit event details or cancel the event and send the notification to participants
   - **Update Event Status**: Update event status such as "Pending", "In Progress", "Completed"
-  - **Feedback**:View and respond to participants feedback
+  - **Feedback**:View and respond to participants' feedback
   - **User Profile**: View personal infomation
 
 > __iii) Participant__
