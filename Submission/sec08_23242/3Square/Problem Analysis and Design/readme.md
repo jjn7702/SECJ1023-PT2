@@ -7,6 +7,9 @@
 ![Copy of pt draft3 drawio (1) drawio (1)-Page-4](https://github.com/jjn7702/SECJ1023-PT2/assets/152403691/1edc8533-87fd-4f28-b18b-e978a890c350)
 
 ---
+**SECRION A : DESCRIPTION OF PROCESS**
+
+---
 **SECRION B : PROBLEM ANALYSIS**
 
 
