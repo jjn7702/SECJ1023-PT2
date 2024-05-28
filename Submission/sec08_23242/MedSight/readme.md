@@ -27,11 +27,12 @@
             <td>A23CS0257</td>
             <td> <image src = "https://github.com/jjn7702/SECJ1023-PT2/assets/147675086/1767128c-e31d-4bde-a2d3-d4184ee72224" width="200" height="250"></td>
         </tr>
+        </table>
 
-                
-    </table>
+   ## FINDINGS :mag_right:
+   [Analysis Design](https://github.com/jjn7702/SECJ1023-PT2/files/15470850/FRONT_merged.1.pdf)
+   [ashikin](https://github.com/jjn7702/SECJ1023-PT2/files/15470878/FRONT_merged.1.pdf)
 
-    <h2>🔍 Findings</h2>
     
 
     
