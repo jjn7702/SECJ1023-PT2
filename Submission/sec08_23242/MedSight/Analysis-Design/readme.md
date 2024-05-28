@@ -10,3 +10,4 @@ Based on the responses, the system identifies the probable diseases by matching 
 # Section B 
 
 # Section C (UML Class Diagram)
+![](images/UMLclassDiagram.png)
