@@ -26,6 +26,7 @@ The user act as an object. When a new user is created, a new object is created. 
   </ul>
   <br />
 <h5> 2. Classes: </h5>
+
 The following classes in involved in the project: 
   <ul>
     <li> User class </li> 
