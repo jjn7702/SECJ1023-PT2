@@ -2,7 +2,8 @@
 
 <h2>Flow Chart ⚙️</h2>
 
-![Pt2_A2_flowchart-Page-1 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/60c9b47e-9ccc-42d3-aed8-d94d89e5d09f)
+![realpg1](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/10cf9b15-98a5-4132-93e5-bc1eb1448ecc)
+
 
 ![Pt2_A2_flowchart-Page-2 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/c777e7b9-4d85-43a6-ba7e-73ed8729b411)
 
