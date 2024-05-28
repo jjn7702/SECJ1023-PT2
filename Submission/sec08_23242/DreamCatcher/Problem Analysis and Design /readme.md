@@ -18,7 +18,7 @@
 <h5> 1. Objects：</h5>
  
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
-    <li> NewUser currentUser;</li>
+    <li> <mk>NewUser currentUser;</mk></li>
     <li> NewUser tempUser(username,""); </li> 
     <li> Time timeInstance; </li>
     <li> Music m1; </li> 
