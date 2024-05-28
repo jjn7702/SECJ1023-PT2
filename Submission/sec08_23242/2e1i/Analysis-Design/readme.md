@@ -95,14 +95,14 @@ Method:
 User class has an attribute feedback of type Feedback.
 Justification: A user can provide feedback or recommendation, and thus, there is a direct relationship where each user can be associated with feedback.
 
-**2. RegularUser and CalorieTracker:**
-RegularUser class has an attribute calories of type CalorieTracker.
+**2. RegularUser and NutritionTracker:**
+RegularUser class has an attribute calories of type NutritionTracker.
 Justification: Regular users need to track their calories, and this tracking is managed through the CalorieTracker class, thus associating these two classes.
 
 - ### Aggregation:
-**1. CalorieTracker and Food:**
-CalorieTracker class has an attribute food of type Food.
-Justification: The calorie tracker needs to manage different food items, hence associating it with the Food class.
+**1. NutritionTracker and Food:**
+NutritionTracker class has an attribute food of type Food.
+Justification: The nutrition tracker needs to manage different food items, hence associating it with the Food class.
 
 **2. Nutritionist and RegularUser:**
 Nutritionist class has an attribute regularUser of type RegularUser *.
