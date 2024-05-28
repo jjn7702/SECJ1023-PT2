@@ -49,7 +49,7 @@
   <td>-inputAge<br>-inputGender</td>
         </tr>
 <tr>
-        <td>MFemale</td>
+        <td>Female</td>
 <td>-Age<br>-Gender</td>
   <td>-inputAge<br>-inputGender</td>
         </tr>
