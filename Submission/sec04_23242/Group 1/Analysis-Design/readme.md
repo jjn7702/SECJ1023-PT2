@@ -7,7 +7,7 @@
 - **Section C: Class Diagram**
 
 ## Flow Chart
-<image src = "Image/FlowChart.jpeg">
+### [Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group%201/Analysis-Design/File/Flowchart.pdf#Flowchart)
   
 ### Main process of the system
   
@@ -82,4 +82,4 @@ Justification: NonFiction books share common features but differ in their specif
 
 ## 🧾 Class Diagram 🗂️
 
-<image src = "Image/UMLdiagram.png">
+<image src = "File/UML-Diagram.jpg">
