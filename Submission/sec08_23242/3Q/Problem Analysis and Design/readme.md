@@ -139,33 +139,39 @@ Attributes:</p>
 
 **Aggregation:**
 
-1. **User has an Income**
+1. **User has an Income** <p align="justify">
    - ‘User’ and ‘Income’ are independent where a ‘User’ may not have ‘Income’. The ‘User’ class uses ‘Income’ to get the user’s income details. The ‘Income’ object can be shared or changed without affecting the ‘User’ class.
+</p>
 
-2. **Budget has an Income**
+2. **Budget has an Income** <p align="justify">
    - ‘Budget’ and ‘Income’ are independent where the budget may not have ‘Income’. The ‘Budget’ class uses the ‘Income’ class to calculate the budget. If the ‘Budget’ is destroyed, ‘Income’ remains unaffected. A ‘User’ that has an income does not necessarily have a budget.
+</p>
 
-3. **User has an Expense**
+3. **User has an Expense** <p align="justify">
    - ‘User’ and ‘Expense’ are independent where a user may not have expenses.
+</p>
 
 **Composition:**
 
-1. **User consists of Name**
+1. **User consists of Name** <p align="justify">
    - ‘User’ contains ‘Name’. This means that ‘Name’ objects are part of the ‘User’, and if the ‘User’ object is destroyed, its ‘Name’ objects are also destroyed. A ‘User’ must have a ‘Name’, else the user is not existing.
+</p>
 
 ### Inheritance
 
-**Parent Class:** Income
+**Parent Class:** Income <p align="justify">
 - We chose Income as the parent class because it contains the attributes amount and source which are common to all types of income.
+</p>
 
 **Child Classes:**
 
-1. **ActiveIncome**
+1. **ActiveIncome** <p align="justify">
    - ActiveIncome is a specific type of income that comes with additional attributes and methods that are unique. It inherits the Income to gain the common properties but also adds its specific attributes and methods. We update the amount in the Parent Class using the attributes inside the derived class (ActiveIncome) such as salary, otHours, and rate.
+</p>
 
-2. **PassiveIncome**
+2. **PassiveIncome** <p align="justify">
    - PassiveIncome is a specific type of income that comes with additional attributes and methods that are unique. It inherits the Income to gain the common properties but also adds its own specific attributes and methods. We can display the amount in the Parent Class (that is updated in the User class’s constructor using a for loop to calculate the total passive income).
-
+</p>
 
 
 
