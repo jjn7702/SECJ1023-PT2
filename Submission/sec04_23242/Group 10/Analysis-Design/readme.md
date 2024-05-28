@@ -34,16 +34,16 @@
     
 ## 📊 Problem Analysis 📑
 
-| #Class                      | #Attribute          | #Method       |
-|----------------------------|--------------------|--------------|
-|Profile            |name, age, address, background| inputInfo, updateInfo, viewInfo, getName, getAge, getAddress, getBackground|
-|User|username, password, profile|getUserName, checkPassword, inputProfile, updateProfile, viewProfile|
-|Organizer|organizationName, contactInfo|getOrganizationName, getContactInfo, setOrganizationName, setContactInfo, createEvent, cancelEvent, viewEvents, updateEvent, sendInvitations, menu|
-|Participant|username, password|viewEvents, viewReminder, trackProgress, feedback, menu|
-|Event|title,description,date (pointer to a Date object), time (pointer to a Time object), venue (pointer to a Venue object), status, organizerList, participantList|getTitle, getDescription, getDate, getTime, getVenue, set Status, getStatus, displayEvent, viewUpdateEvent, viewEventFeedback|
-|Date|day, month, year|getDay, getMonth, getYear|
-|Time|hour, minute|getHour, getMinute|
-|Venue|name, location|getName, getLocation|
+|No.| Class                      | Attribute          | Method       |
+|-----|----------------------------|--------------------|--------------|
+|1|Profile            |name, age, address, background| inputInfo, updateInfo, viewInfo, getName, getAge, getAddress, getBackground|
+|2|User|username, password, profile|getUserName, checkPassword, inputProfile, updateProfile, viewProfile|
+|3|Organizer|organizationName, contactInfo|getOrganizationName, getContactInfo, setOrganizationName, setContactInfo, createEvent, cancelEvent, viewEvents, updateEvent, sendInvitations, menu|
+|4|Participant|username, password|viewEvents, viewReminder, trackProgress, feedback, menu|
+|5|Event|title,description,date (pointer to a Date object), time (pointer to a Time object), venue (pointer to a Venue object), status, organizerList, participantList|getTitle, getDescription, getDate, getTime, getVenue, set Status, getStatus, displayEvent, viewUpdateEvent, viewEventFeedback|
+|6|Date|day, month, year|getDay, getMonth, getYear|
+|7|Time|hour, minute|getHour, getMinute|
+|8|Venue|name, location|getName, getLocation|
 
 ## 🧾 Class Diagram 🗂️
 <image src = "Image/PT2 Project UML.png">
