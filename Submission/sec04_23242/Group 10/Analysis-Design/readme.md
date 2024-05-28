@@ -2,9 +2,9 @@
 ## TOPIC: Event Scheduler
 
 ### Table of Contents
-- [Section A: Flow Chart](##flow-chart)
-- [Section B: Problem Analysis](##problem-analysis)
-- [Section C: Class Diagram](##class-diagram)
+- [Section A: Flow Chart](##Flow-Chart)
+- [Section B: Problem Analysis](##Problem-Analysis)
+- [Section C: Class Diagram](##Class-Diagram)
 
 ## 📈 Flow Chart 📉
 <image src = "Image/Flowchart.jpeg">
