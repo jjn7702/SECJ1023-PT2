@@ -17,3 +17,19 @@ The Medication Scheduler project is a simple application that will help you mana
 | 3  | TANG JASMINE                       | A23CS0277 | `tjasmiine`  |
 
 
+
+
+
+## Progress
+- [Flowchart Phase 2](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%9/try-flowchart.drawio)
+
+
+
+
+
+
+
+
+
+
+
