@@ -16,16 +16,20 @@
 
 > __ii) Organizer__
   - The main page of organizer contains 5 different sections:
-  - **Create Event**: view nutrition history and generated weekly report
-  - **Manage Event**: log nutritional intake for different meal categories
-  - **Update Event Status**: respond user feedback and view recommendations from nutritionist
-  - **Feedback**
+  - **Create Event**: Create event and write the details of the event such as date, time venue and the descriptions of the event
+  - **Manage Event**: Edit event details or cancel the event and send the notification to participants
+  - **Update Event Status**: Update event status such as "Pending", "In Progress", "Completed"
+  - **Feedback**:View and respond to participants feedback
+  - **User Profile**: View personal infomation
 
 > __iii) Participant__
-  - Able to view user nutriotion history and **calorie catalog**
-  - View user **feedback**
-  - Provide **recommendation**
-
+   - The main page of organizer contains 5 different sections:
+  - **View Event**: View event details that created by organizer after accept invitation
+  - **View Reminder**: View reminder and turn on notification
+  - **View Progress**: View event status such as "Pending", "In Progress", "Completed"
+  - **Feedback**:Give feedback via the feedback form
+  - **User Profile**: View personal infomation
+    
 ## 📊 Problem Analysis 📑
 
 | Class                      | Attribute          | Method       |
