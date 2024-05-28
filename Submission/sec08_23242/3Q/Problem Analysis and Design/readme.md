@@ -5,6 +5,9 @@
 - Class Diagram
 
 ## Flow Chart
+![pt2_page-0001](https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/872051a2-113a-44cc-9216-631f1c7d806c)
+![pt2 2_page-0001](https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/c442c351-2544-4e00-b06b-8ee9fcb98451)
+![pt2_page-0003](https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/9d291649-92cb-49b2-8299-5aeb86cf27ff)
 
 ## Problem Analysis
 
