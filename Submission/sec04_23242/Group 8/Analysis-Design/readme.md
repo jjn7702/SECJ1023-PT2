@@ -4,9 +4,16 @@
 
 *Figure 1: Flowchart of Sleep Analyzer System* <br>
 
-The flowchart represents a sleep analyzer system that assists users in tracking and analyzing their sleep patterns. The program begins by printing instructions and prompting the user to enter their name. It then asks the user to input various sleep data, including the date, total time in bed, sleep duration, light sleep duration, deep sleep duration, and REM sleep duration. It then enters a loop where the user can decide to add more data collected from different data or stop entering more data. After collecting each set of data, the program adds it to the user's sleep records. <br>
+The flowchart represents a sleep analyzer system that assists users in tracking and analyzing their sleep patterns. <br>
+The program begins by printing instructions and prompting the user to enter their name. It then asks the user to <br>
+input various sleep data, including the date, total time in bed, sleep duration, light sleep duration, deep sleep <br>
+duration, and REM sleep duration. It then enters a loop where the user can decide to add more data collected from <br>
+different data or stop entering more data. After collecting each set of data, the program adds it to the user's sleep records. <br>
 
-Once the data collection phase is complete, the program generates a sleep report summarizing the data entered. It then proceeds to analyze the sleep cycles and assess sleep quality based on the recorded information. Finally, the program generates an improvement plan, offering suggestions to enhance the user's sleep quality. The program concludes by displaying these suggestions and terminating the execution.  
+Once the data collection phase is complete, the program generates a sleep report summarizing the data entered. It then <br>
+proceeds to analyze the sleep cycles and assess sleep quality based on the recorded information. Finally, the program <br>
+generates an improvement plan, offering suggestions to enhance the user's sleep quality. The program concludes by <br>
+displaying these suggestions and terminating the execution.  
 
 # Section B : Problem Analysis
 
