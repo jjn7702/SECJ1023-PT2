@@ -9,11 +9,11 @@
   <li> Problem Analysis </li>
   <li> UML Class Diagram </li>
 
-> <h3> Flowchart </h3>
+<h3> Flowchart </h3>
   <br />
     <img src = https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg>
   <br />
-> <h3> Problem Analysis 📝 </h3>
+<h3> Problem Analysis 📝 </h3>
 <h4> Objects and Classes </h4>
 <h5> 1. Objects：</h5>
  
@@ -29,27 +29,21 @@ The user act as an object. When a new user is created, a new object is created. 
 The following classes in involved in the project: 
   <ul>
     <li> User class </li> 
-    
       In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.
     <li> NewUser class </li>
-    
       Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions. 
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
       We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
     <li> Time class </li>
-    
       In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.
     <li> Data class </li>
-  
       Inside the data class, we have the accessor and the mutator.
       And the function to analayze the sleep which receive the sleep time as parameter.
       Beside, we also have the function to display the result after analyzing.
     <li> Music class </li>
-  
       Inside the Music class, we have two string to store name of the music and the url of the music.
       The use of accessor and mutator enable developer to access and change the attributes even outside the class. 
     <li> FavM class </li>
-    
       In FavM, we have array to save the user defined music and function to display it.
   </ul>
   <br />
@@ -70,7 +64,7 @@ The following classes in involved in the project:
     <h5> 5. Music class and FavM class -- Inheritance </h5>
     FavM class is a Music class. It enable the user to add their favourite music into the program. Instead of there are only 10 classical music in the Music class, user can add up to 50 new music in the FavM class. This two classs is inheritance because the FavM class will print out the classical music in the Music class byu using polymorphiosm method and addition printing the user defined music. 
  </ul>
-> <h3> UML Class Diagram 💻</h3>
+<h3> UML Class Diagram 💻</h3>
 
 ![UML diagram](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/DreamCatcherUMLDiagram.jpg)
 
