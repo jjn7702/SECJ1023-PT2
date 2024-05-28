@@ -18,11 +18,11 @@
 <h5> 1. Objects：</h5>
  
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
-   <ul>
-    <li>  NewUser currentUser;</ul> </li> 
-    <li> <ul> NewUser tempUser(username,"");</ul> </li> 
-    <li> <ul> Time timeInstance;</ul> </li>
-    <li> <ul> Music m1;</ul> </li> 
+  
+    <li> NewUser currentUser;</li> 
+    <li> NewUser tempUser(username,""); </li> 
+    <li> Time timeInstance;</ul> </li>
+    <li> Music m1; </li> 
   </ul>
   <br />
 <h5> 2. Classes: </h5>
@@ -30,26 +30,28 @@ The user act as an object. When a new user is created, a new object is created. 
 The following classes in involved in the project: 
   <ul>
     <li> User class </li> 
-      In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.
     
+      In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.
     <li> NewUser class </li>
+    
       Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions. 
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
       We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
-      
     <li> Time class </li>
+      
       In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.
       
     <li> Data class </li>
+  
       Inside the data class, we have the accessor and the mutator.
       And the function to analayze the sleep which receive the sleep time as parameter.
       Beside, we also have the function to display the result after analyzing.
-      
     <li> Music class </li>
-      Inside the Music class, we have two string to store name of the music and the url of the music.
-      The use of accessor and mutator enable developer to access and change the attributes even outside the class.
       
+      Inside the Music class, we have two string to store name of the music and the url of the music.
+      The use of accessor and mutator enable developer to access and change the attributes even outside the class. 
     <li> FavM class </li>
+      
       In FavM, we have array to save the user defined music and function to display it.
   </ul>
   <br />
