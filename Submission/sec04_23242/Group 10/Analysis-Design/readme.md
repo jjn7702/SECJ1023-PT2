@@ -9,6 +9,8 @@
 ## 📈 Flow Chart 📉
 <image src = "Image/Flowchart.jpeg">
   
+### Main process of the system
+  
 > __i) Login / Sign up:__
   - Identifying the user type, allowing individuals to choose **Organizer** or **Participant**
   - Exiting users can login directly
