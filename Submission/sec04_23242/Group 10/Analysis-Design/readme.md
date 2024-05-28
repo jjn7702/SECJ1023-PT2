@@ -67,6 +67,7 @@ Justification: An event needs a participant list to allow organizer to send the 
 User class has an attribute profile of type Profile. 
 Justification: Users need to enter their personal information such as name, age and address and this information is managed through the Profile class thus associating these two classes.  
 
+
 - **Aggregation**
 
 **1. Event and Venue:**
@@ -84,6 +85,7 @@ Justification: An Event occurs at a specific Time, hence associating it with Tim
 Event class has an attribute venue of type Date. 
 Justification: An Event happens on a specific Date, thereby creating an association relationship. 
 
+
 **2) Inheritance Relationships**
 
 **1. User and Organizer:**
@@ -96,7 +98,8 @@ Justification: An organizer is a specific type of user with additional attribute
 Participant inherits from User. 
 Justification: A participant is a specific type of user with additional functionalities that extend the basic user class that related to username and password, thus inheriting basic user properties.
 
-3)	Class Diagram Justification
+
+**3) Class Diagram Justification**
 
 **User as a Base Class**: Since both Participant and Organizer share common attributes like username and password, it is logical to have a base User class.
   
