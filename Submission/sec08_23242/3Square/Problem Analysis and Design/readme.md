@@ -68,12 +68,12 @@ This is to prompt the applicant to enter the scholarship type that they want to 
 Objects:
 <li>Applicant</li>
 <ul>
-It represents the students who apply for the scholarship.
+<p></p>It represents the students who apply for the scholarship.
 It contains an array that holds students’ personal details, academic information and finance status.
   </ul>
 <li>Award</li>
 <ul>
-It represents the scholarship awarded to the students.
+<p></p>It represents the scholarship awarded to the students.
 It contains an array that holds details on the type of scholarship that students get and coverage percentage.
 </ul>
 
