@@ -19,10 +19,10 @@
  
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
    <ul>
-    <li> `NewUser currentUser;` </li> 
-    <li> `NuwUser tempUser(username,"");` </li> 
-    <li> `Time timeInstance;` </li>
-    <li> `Music m1;` </li> 
+    <li>  NewUser currentUser;</ul> </li> 
+    <li> <ul> NewUser tempUser(username,"");</ul> </li> 
+    <li> <ul> Time timeInstance;</ul> </li>
+    <li> <ul> Music m1;</ul> </li> 
   </ul>
   <br />
 <h5> 2. Classes: </h5>
