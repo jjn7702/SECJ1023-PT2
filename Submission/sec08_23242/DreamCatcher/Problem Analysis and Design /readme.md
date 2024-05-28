@@ -17,7 +17,7 @@
 <h4> Objects and Classes </h4>
 <h5> 1. Objects：</h5>
   <ul>
-    The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
+The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
   </ul>
     <li> `NewUser currentUser;` </li> 
     <li> `NuwUser tempUser(username,"");` </li> 
@@ -26,7 +26,7 @@
   <br />
 <h5> 2. Classes: </h5>
   <ul>
-    The following classes in involved in the project: 
+The following classes in involved in the project: 
   </ul>
     <li> User class </li> 
       In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.
