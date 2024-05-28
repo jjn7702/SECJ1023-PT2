@@ -63,7 +63,7 @@ This is to prompt the applicant to enter the scholarship type that they want to 
 ---
 ### SECTION B : PROBLEM ANALYSIS
 
-**1.Object and Classes**
+**Part 1: Object and Classes**
 
 Objects:
 <li>Applicant</li>
@@ -163,7 +163,7 @@ Class:
   <li> scholarshipInfo(): void </li>
 </ul>
 
-**2.Class Relationship**
+**Part 2: Class Relationship**
 
 **Association:** <p align="justify">
    - Relationships between Student and Scholarship could be done by aggregation. This is because a Student can have a Scholarship but Scholarship does not necessarily need to have a Student. 
