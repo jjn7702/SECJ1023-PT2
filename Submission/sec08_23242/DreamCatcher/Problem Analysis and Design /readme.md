@@ -48,16 +48,24 @@ The following classes in involved in the project:
   </ul>
   <br />
 <h3> Relationship between classes: </h3>
-    <ul>
       <h4> 1. User class and NewUser class -- Inheritance</h4>
+    <ul>
       User class is is a general class with basic user attributes where NewUser class is a more specific class that inherits from User time, adding additional personal details for example weight and height. Thus, NewUser is a User. 
+    </ul>
       <h4> 2. Data class and Time class -- Aggregation</h4>
+    <ul>
       User object has a Time object because when we create the existence of user object and time object are independent. One of them destroyed will not affect the other one. We set this relationship is because the user can work independently without the time class and vice versa. This Time object doesn’t affect the user object, we just use the Time object to calculate the duration of the cycle by using the input data (start date and end date of cycle). Thus, it doesn’t require to destroy Time object when the User object destroy. 
+    </ul>
       <h4> 3. NewUser class and Data class -- Composition </h4>
+    <ul>
       NewUser object consists of Data object, both are dependent. When Data class object is destroyed. The NewUser object will also be destroyed. The data object cannot work independently without the presence of use object. We established this relationship to protect the data of the new user, and the data class object requires attributes from the new user to generate the sleep cycle report. 
+    </ul>
       <h4> 4. NewUser class and Music class -- Aggregation </h4>
+    <ul>
       NewUser object has a Music object. When the newuser object is destroyed, the Music object doesn’t affect. This is because the Music object provides a list of music tracks that help the user fall asleep faster and doesn’t require any data from the new user. Since the user able to add their favorite music but this is directly added to the music library. That means that when the newuser added musics the other newuser will share the same library. Thus, the Music cannot be destroyed when the newuser object destroyed. 
+    </ul>
       <h4> 5. Music class and FavM class -- Inheritance </h4>
+    <ul>
       FavM class is a Music class. It enable the user to add their favourite music into the program. Instead of there are only 10 classical music in the Music class, user can add up to 50 new music in the FavM class. This two classs is inheritance because the FavM class will print out the classical music in the Music class byu using polymorphiosm method and addition printing the user defined music. 
     </ul>
 <h2> UML Class Diagram 💻</h2>
