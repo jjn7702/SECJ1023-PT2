@@ -47,19 +47,54 @@
 |7|Time|hour, minute|getHour, getMinute|
 |8|Venue|name, location|getName, getLocation|
 
-<<<<<<< HEAD
 > __ii) Identify class relationships.__
 
 **1) Association Relationships**
 - **Composition**
-**1. Event and Organizer:**
-Event class has an attribute of organizer of type Organizer. 
 
+**1. Event and Organizer:**
+
+Event class has an attribute of organizer of type Organizer. 
 Justification: An event needs organizer to enter the detail of the event and later send the invitation and notification to the participants. Thus, it shown that event is associated with organizer. 
 
-**2. RegularUser and NutritionTracker:**
-RegularUser class has an attribute calories of type NutritionTracker.
-Justification: Regular users need to track their calories, and this tracking is managed through the CalorieTracker class, thus associating these two classes.
+**2. Event and Participant:**
+
+Event class has an attribute of participant list of type Participant. 
+Justification: An event needs a participant list to allow organizer to send the invitation thus there is a direct relationship where each event can associate with participant.  
+
+**3. User and Profile:**
+
+User class has an attribute profile of type Profile. 
+Justification: Users need to enter their personal information such as name, age and address and this information is managed through the Profile class thus associating these two classes.  
+
+- **Aggregation**
+
+**1. Event and Venue:**
+
+Event class has an attribute venue of type Venue. 
+Justification: An Event needs a venue to carry out programs, thereby there is an association relationship.  
+
+**2. Event and Time:**
+
+Event class has an attribute venue of type Time. 
+Justification: An Event occurs at a specific Time, hence associating it with Time class. 
+
+**3. Event and Date:**
+
+Event class has an attribute venue of type Date. 
+Justification: An Event happens on a specific Date, thereby creating an association relationship. 
+
+**2) Inheritance Relationships**
+
+**1. User and Organizer:**
+
+Organizer inherits from User. 
+Justification: An organizer is a specific type of user with additional attributes and methods related to username and password, thus inheriting basic user properties. 
+
+**2. User and Participant:**
+
+Participant inherits from User. 
+Justification: A participant is a specific type of user with additional functionalities that extend the basic user class that related to username and password, thus inheriting basic user properties.
 
 3)	Class Diagram Justification
 
