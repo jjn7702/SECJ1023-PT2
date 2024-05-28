@@ -16,7 +16,6 @@
 <h3> Problem Analysis 📝 </h3>
 <h4> Objects and Classes </h4>
 <h5> 1. Objects：</h5>
-  <br />
   The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
   <br />
     <li> `NewUser currentUser;` </li>
@@ -25,7 +24,6 @@
     <li> `Music m1;` </li>
   <br />
 <h5> 2. Classes: </h5>
-  <br />
     The following classes in involved in the project:
   <br />
     <li> User class </li>
