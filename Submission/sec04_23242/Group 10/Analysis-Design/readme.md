@@ -7,7 +7,7 @@
 - [Section C: Class Diagram](##Class-Diagram)
 
 ## 📈 Flow Chart 📉
-<image src = "Image/Flowchart.jpeg">
+<image src = "Image/FlowChart.jpeg">
   
 ### Main process of the system
   
@@ -63,6 +63,6 @@ These relationships model real-world interactions between users, event progress 
 
 ## 🧾 Class Diagram 🗂️
 
-<image src = "Image/PT2 Project UML.png">
+<image src = "Image/UMLdiagram.png">
 
 
