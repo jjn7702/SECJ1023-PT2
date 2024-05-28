@@ -7,7 +7,7 @@
 - [Section C: Class Diagram](##class-diagram)
 
 ## 📈 Flow Chart 📉
-
+<image src = "Image/Flowchart.jpeg">
 
 ## 📊 Problem Analysis 📑
 
