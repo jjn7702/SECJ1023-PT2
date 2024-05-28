@@ -63,14 +63,11 @@ Justification: Regular users need to track their calories, and this tracking is 
 
 3)	Class Diagram Justification
 
-**User as a Base Class**
-- Since both Participant and Organizer share common attributes like username and password, it is logical to have a base User class.
+**User as a Base Class**: Since both Participant and Organizer share common attributes like username and password, it is logical to have a base User class.
   
-**Participant and Organizer Inheritance**
-- Inheriting from User allows code reuse for common functionalities
+**Participant and Organizer Inheritance**: Inheriting from User allows code reuse for common functionalities
   
-**Association Relationship**
-- These relationships model real-world interactions between users, event progress tracking, and feedback mechanisms, ensuring that the design is intuitive and maintainable.
+**Association Relationship**: These relationships model real-world interactions between users, event progress tracking, and feedback mechanisms, ensuring that the design is intuitive and maintainable.
 
 
 ## 🧾 Class Diagram 🗂️
