@@ -43,13 +43,23 @@
 <td>-Allergy from class Allergy</td>
   <td>-notificationAlert</td>
         </tr>
+  <tr>
+        <td>Male</td>
+<td>-Age<br>-Gender</td>
+  <td>-inputAge<br>-inputGender</td>
+        </tr>
+<tr>
+        <td>MFemale</td>
+<td>-Age<br>-Gender</td>
+  <td>-inputAge<br>-inputGender</td>
+        </tr>
 
-<p>The problem analysis outlines the structure and functionality of a system involving four main classes: User, Ingredient, Allergy, and Alert. Each class has specific attributes and methods:
+<p>The problem analysis presents a system designed to manage user information, ingredients, allergies, and alerts through four main classes: User, Ingredient, Allergy, and Alert. The User class represents individuals using the system and includes attributes for their name, age, and gender, with methods to input these details (inputName, inputGender, and inputAge). The Ingredient class handles a collection of ingredients with attributes for an array of ingredients and a count of these ingredients, and includes methods to input and count the ingredients (inputIngredient and countIngredient).
 
-<p>User: Represents a person using the system, with attributes for their Name, Age, and Gender, and methods to input these details.</p>
-<p>Ingredient: Contains an array of ingredients and a count of these ingredients, with methods to input and count them.</p>
-<p>Allergy: Manages allergies, referencing ingredients and tracking their status, with a method to update the allergy status.</p>
-<p>Alert: Generates notifications based on allergies, with a method to trigger alerts when an allergy is detected.</p>
+<p>The Allergy class is responsible for managing allergies. It includes attributes for an array of allergies, a reference to the Ingredient class to indicate which ingredients are involved, and an array to track the status of each allergy. This class has a method (statusAllergy) to update the allergy status based on the given ingredients. Finally, the Alert class generates notifications when an allergy is detected. It has an attribute referencing the Allergy class to determine which allergies to monitor and includes a method (notificationAlert) to trigger these alerts.</p>
+
+<p>This detailed system structure ensures that users can input their personal details, manage and count ingredients, track and update allergy statuses, and receive notifications about potential allergic reactions, providing a comprehensive solution for allergy management.</p>
+
 
 </tr>
 </tbody>
