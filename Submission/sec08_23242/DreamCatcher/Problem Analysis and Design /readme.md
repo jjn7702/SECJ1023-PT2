@@ -16,18 +16,18 @@
 <h3> Problem Analysis 📝 </h3>
 <h4> Objects and Classes </h4>
 <h5> 1. Objects：</h5>
-  <ul>
+ 
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
-  </ul>
+   <ul>
     <li> `NewUser currentUser;` </li> 
     <li> `NuwUser tempUser(username,"");` </li> 
     <li> `Time timeInstance;` </li>
     <li> `Music m1;` </li> 
+  </ul>
   <br />
 <h5> 2. Classes: </h5>
-  <ul>
 The following classes in involved in the project: 
-  </ul>
+  <ul>
     <li> User class </li> 
       In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.
     <li> NewUser class </li>
@@ -45,6 +45,7 @@ The following classes in involved in the project:
       The use of accessor and mutator enable developer to access and change the attributes even outside the class.
     <li> FavM class </li>
       In FavM, we have array to save the user defined music and function to display it.
+  </ul>
   <br />
 <h4> Relationship between classes: </h4>
 <h5> 1. User class and NewUser class -- Inheritance</h5>
