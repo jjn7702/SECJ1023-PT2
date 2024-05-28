@@ -13,7 +13,7 @@
   <br />
     <img src = https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg>
   <br />
-<h2> Problem Analysis 📝 </h2>
+<h2> Section B: Problem Analysis 📝 </h2>
 <h3> Objects and Classes </h3>
 <h4> 1. Objects：</h4>
  
@@ -27,23 +27,33 @@ The user act as an object. When a new user is created, a new object is created. 
 <h4> 2. Classes: </h4>
 
 The following classes in involved in the project: 
-  <ul>
-    i. User class  
+  i. User class  
+    <ul>
      <li> In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.</li>
-    ii. NewUser class 
+    </ul>
+  ii. NewUser class 
+    <ul>
       <li> Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions. </li>
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
       We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
-    iii. Time class 
+    </ul>
+  iii. Time class 
+    <ul>
       <li> In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
-    iv. Data class 
+    </ul>
+  iv. Data class 
+    <ul>
       <li>Inside the data class, we have the accessor and the mutator.</li>
       <li>And the function to analayze the sleep which receive the sleep time as parameter.</li>
       <li>Beside, we also have the function to display the result after analyzing.</li>
-    v. Music class 
+    </ul>
+  v. Music class 
+    <ul>
       <li> Inside the Music class, we have two string to store name of the music and the url of the music.</li>
       <li>The use of accessor and mutator enable developer to access and change the attributes even outside the class. </li>
-    vi. FavM class 
+    </ul>
+  vi. FavM class 
+    <ul>
       <li> In FavM, we have array to save the user defined music and function to display it.</li>
   </ul>
   <br />
