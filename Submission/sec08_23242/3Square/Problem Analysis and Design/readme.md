@@ -78,8 +78,9 @@ It contains an array that holds details on the type of scholarship that students
 </ul>
 
 Class: 
-<p><b>1. Student</b><br>
-&nbsp &nbsp Attributes:</p>
+
+<p><b>1. Student</b><br></p>
+<p></p>&nbsp &nbsp Attributes:</p>
 <ul>
   <li>familyIncome: int</li>
   <li>cgpa: double</li>
@@ -94,8 +95,8 @@ Class:
   <li>printDetails(): virtual void</li>
 </ul>
 
-<p><b>2. StudentInfo</b><br>
-&nbsp &nbsp Attributes:</p>
+<p><b>2. StudentInfo</b><br></p>
+<p></p>&nbsp &nbsp Attributes:</p>
 <ul>
   <li>name: string</li>
   <li>age: int</li>
@@ -115,8 +116,8 @@ Class:
   <li>checkEmail(): string</li>
 </ul>
 
-<p><b>3. Scholarship</b><br>
-&nbsp &nbsp Attributes:</p>
+<p><b>3. Scholarship</b><br></p>
+<p>&nbsp &nbsp Attributes:</p>
 <ul>
   <li>scholarshipType: int</li>
   <li>applicationStatus: string</li>
