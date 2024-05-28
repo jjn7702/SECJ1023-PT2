@@ -59,7 +59,7 @@ Methods:
 - void viewUsersCatalog()
 ```
 
-### 4. CalorieTracker(class)
+### 4. NutritionTracker(class)
 ```
 Attributes:
 - food: Food*
