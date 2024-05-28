@@ -30,10 +30,7 @@
         </table>
 
    ## FINDINGS :mag_right:
-   [Analysis Design](https://github.com/jjn7702/SECJ1023-PT2/files/15470850/FRONT_merged.1.pdf)
-   [ashikin](https://github.com/jjn7702/SECJ1023-PT2/files/15470878/FRONT_merged.1.pdf)
-
-    
+   [Analysis Design](https://github.com/jjn7702/SECJ1023-PT2/files/15470850/FRONT_merged.1.pdf)   
 
     
 </body>
