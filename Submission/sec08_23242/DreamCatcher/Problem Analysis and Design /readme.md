@@ -5,13 +5,13 @@
 # Sleep Cycle Analyzer
 # Problem Analysis and Design
 ## Table of Contents
-- [A: Flowchart](#A:Flowchart)
-- [B: Problem Analysis](#B:Problem-Analysis)
-- [C: UML Class Diagram](#C:UML-Class-Diagram)
-### A:Flowchart 
+- [A: Flowchart](#Flowchart)
+- [B: Problem Analysis](#Problem-Analysis)
+- [C: UML Class Diagram](#UML-Class-Diagram)
+### A: ### Flowchart 
 ![Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg)
 
-### B:Problem Analysis 
+### B: ### Problem Analysis 
 - #### Objects and Classes
 ##### 1. Objects：
 The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
@@ -56,7 +56,7 @@ NewUser object has a Music object. When the newuser object is destroyed, the Mus
 ##### 5. Music class and FavM class -- Inheritance 
 FavM class is a Music class. It enable the user to add their favourite music into the program. Instead of there are only 10 classical music in the Music class, user can add up to 50 new music in the FavM class. This two classs is inheritance because the FavM class will print out the classical music in the Music class byu using polymorphiosm method and addition printing the user defined music. 
 
-### C:UML Class Diagram 
+### C: ### UML Class Diagram 
 
 ![UML diagram](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/DreamCatcherUMLDiagram.jpg)
 
