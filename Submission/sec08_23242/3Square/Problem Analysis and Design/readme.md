@@ -25,3 +25,4 @@
 ---
 
 **SECTION C : CLASS DIAGRAM**
+![uml diagram pt2 drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/148684518/198daeb5-9d8d-4cb9-94b8-64ae78e9a195)
