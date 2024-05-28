@@ -22,9 +22,9 @@
   - **Feedback and Recommendation**: respond user feedback and view recommendations from nutritionist
 
 > __iii) Nutritionist__
-  - able to view user nutriotion history and **calorie catalog**
-  - view user **feedback**
-  - provide **recommendation**
+  - Able to view user nutriotion history and **calorie catalog**
+  - View user **feedback**
+  - Provide **recommendation**
 
 ## Section B Problem Analysis 🔍
 > ### (i) The objects and the classes involved in the project
