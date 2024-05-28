@@ -42,7 +42,7 @@
 |2|User|username, password, profile|getUserName, checkPassword, inputProfile, updateProfile, viewProfile|
 |3|Organizer|organizationName, contactInfo|getOrganizationName, getContactInfo, setOrganizationName, setContactInfo, createEvent, cancelEvent, viewEvents, updateEvent, sendInvitations, menu|
 |4|Participant|username, password|viewEvents, viewReminder, trackProgress, feedback, menu|
-|5|Event|title,description,date (pointer to a Date object), time (pointer to a Time object), venue (pointer to a Venue object), status, organizer, participant|getTitle, getDescription, getDate, getTime, getVenue, set Status, getStatus, displayEvent, viewUpdateEvent, viewEventFeedback|
+|5|Event|title, description, date (pointer to a Date object), time (pointer to a Time object), venue (pointer to a Venue object), status, organizer, participant|getTitle, getDescription, getDate, getTime, getVenue, set Status, getStatus, displayEvent, viewUpdateEvent, viewEventFeedback|
 |6|Date|day, month, year|getDay, getMonth, getYear|
 |7|Time|hour, minute|getHour, getMinute|
 |8|Venue|name, location|getName, getLocation|
