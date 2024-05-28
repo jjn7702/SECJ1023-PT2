@@ -48,6 +48,8 @@
 |8|Venue|name, location|getName, getLocation|
 
 > __ii) Identify class relationships. Here, analyze two things:__
+> __ · which classes that involve in any association relationship, and__
+> —— · which classes that involve inheritance relationships.__
 
 ## 🧾 Class Diagram 🗂️
 > __i) Classes – including attributes and methods__
