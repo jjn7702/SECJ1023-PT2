@@ -95,31 +95,48 @@ Method: amountReceive(), printEligible()
 **Association**
 
 <li>Aggregation</li>
-
+<p></p>
+<ul>
 The contained objects are said to be part of the containing object, but they can exist independently of the containing object. If the containing object is destroyed, the contained objects are not automatically destroyed along with it.
+</ul>
 
 
 <li>Composition </li>
-
-an object of one class being contained within another class. The contained object is said to be a part of the containing object, and it cannot exist independently of the containing object. If the containing object is destroyed, the contained object is automatically destroyed along with it.
+<p></p>
+<ul>
+An object of one class being contained within another class. The contained object is said to be a part of the containing object, and it cannot exist independently of the containing object. If the containing object is destroyed, the contained object is automatically destroyed along with it.
+</ul>
 
 
 **Inheritance**
 
-Base class: Student
-Derived class: Undergraduate, Postgraduate
-Base class: Scholarship
-Derived class: MeritBase, NeedBased
-Polymorphism 
-enterDetails() const override {
-Undergraduate
-Postgraduate
-printEligible()
-Merit + Under (75%)
-Merit + Post (75%)
-Need + Under (100%)
-Need + Post (100%)
-Exception handling 
+-Base class: Student
+
+-Derived class: Undergraduate, Postgraduate
+
+-Base class: Scholarship
+
+-Derived class: MeritBase, NeedBased
+
+**Polymorphism**
+
+-enterDetails() const override {
+
+-Undergraduate
+
+-Postgraduate
+
+-printEligible()
+
+-Merit + Under (75%)
+
+-Merit + Post (75%)
+
+-Need + Under (100%)
+
+-Need + Post (100%)
+
+-Exception handling 
 
 
 
