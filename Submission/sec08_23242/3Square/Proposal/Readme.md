@@ -110,33 +110,33 @@ An object of one class being contained within another class. The contained objec
 
 **Inheritance**
 
--Base class: Student
+<li>Base class: Student</li>
 
--Derived class: Undergraduate, Postgraduate
+<li>Derived class: Undergraduate, Postgraduate</li>
 
--Base class: Scholarship
+<li>Base class: Scholarship</li>
 
--Derived class: MeritBase, NeedBased
+<li>Derived class: MeritBase, NeedBased</li>
 
 **Polymorphism**
 
--enterDetails() const override {
+<li>enterDetails() const override</li>
 
--Undergraduate
+<li>Undergraduate</li>
 
--Postgraduate
+<li>Postgraduate</li>
 
--printEligible()
+<li>printEligible()</li>
 
--Merit + Under (75%)
+<li>Merit + Under (75%)</li>
 
--Merit + Post (75%)
+<li>Merit + Post (75%)</li>
 
--Need + Under (100%)
+<li>Need + Under (100%)</li>
 
--Need + Post (100%)
+<li>Need + Post (100%)</li>
 
--Exception handling 
+<li>Exception handling</li> 
 
 
 
