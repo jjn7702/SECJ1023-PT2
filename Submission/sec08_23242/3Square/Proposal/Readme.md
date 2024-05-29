@@ -117,6 +117,7 @@ An object of one class being contained within another class. The contained objec
 <li>Base class: Scholarship</li>
 
 <li>Derived class: MeritBase, NeedBased</li>
+<p></p>
 
 **Polymorphism**
 
