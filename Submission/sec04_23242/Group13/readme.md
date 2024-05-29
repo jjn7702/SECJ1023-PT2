@@ -14,7 +14,7 @@ Finding the perfect movie can be a challenge, but our Movie Recommendation Syste
 | 1  | Mohammed Moqbel Ali| A23CS4016 | `Moqbelali`    |
 | 2  | Ali Reda Ali  | A23CS4003   | `aliredaaliabouseada` |
 | 3  | Knan Fadi Dawarh      | A23CS4013   | `KINANFADI`    |
-
+| 4  | Fouad Mahmoud Fouad   | A23CS0017   | `fouadmahmoud12345` |
 
 
 
