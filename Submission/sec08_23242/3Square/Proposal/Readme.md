@@ -33,26 +33,27 @@ for students to complete their studies regardless of financial constraints .
       full name and profile picture.
       
 - Home page
-    
-      After log in to the scholarship application system, students will come to the home page that include 2 options which 
-      are merit based scholarship and need Based scholarship. Students are required to choose which scholarship they wish 
-      to apply for.
+  <p></p>  
+  After log in to the scholarship application system, students will come to the home page that include 2 options which 
+  are merit based scholarship and need Based scholarship. Students are required to choose which scholarship they wish 
+  to apply for.
     
 
-      - Meritbased scholarship
+- Meritbased scholarship
         
-        Students are able to see the requirement of the merit based scholarship. The scholarship will be given based on 
-        the merit we gained at the university .If the student merit is more than the merit targeted by the scholarship 
-        organization, the applicant is available to get this scholarship.
+  Students are able to see the requirement of the merit based scholarship. The scholarship will be given based on 
+  the merit we gained at the university .If the student merit is more than the merit targeted by the scholarship 
+  organization, the applicant is available to get this scholarship.
 
-      - Needbased scholarship
-        Students are able to see the requirement of need based scholarship. Need Based scholarship will given based on  
-        the family income and category their income into B40,M40 and T20.
+- Needbased scholarship
+  
+  Students are able to see the requirement of need based scholarship. Need Based scholarship will given based on  
+  the family income and category their income into B40,M40 and T20.
         
 - Application form
 
-  - An application form will be provided to the students at the end and students can check whether the information that 
-    they filled is correct.
+  An application form will be provided to the students at the end and students can check whether the information that 
+  they filled is correct.
     
 - Application review
 
@@ -80,6 +81,7 @@ for students to complete their studies regardless of financial constraints .
     - Need + Post (100%)
       
 **Encapsulation**
+
 Class: Student
 Data: Name, Age, Family Income, Current CGPA, Contact
 Method: enterDetails()
@@ -90,16 +92,20 @@ Data: ScholarshipName, Amount
 Method: amountReceive(), printEligible()
 
 
-Association
-Aggregation
+**Association**
+
+<li>Aggregation</li>
+
 The contained objects are said to be part of the containing object, but they can exist independently of the containing object. If the containing object is destroyed, the contained objects are not automatically destroyed along with it.
 
 
-Composition 
+<li>Composition </li>
+
 an object of one class being contained within another class. The contained object is said to be a part of the containing object, and it cannot exist independently of the containing object. If the containing object is destroyed, the contained object is automatically destroyed along with it.
 
 
-Inheritance 
+**Inheritance**
+
 Base class: Student
 Derived class: Undergraduate, Postgraduate
 Base class: Scholarship
