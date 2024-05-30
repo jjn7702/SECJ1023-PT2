@@ -1,7 +1,9 @@
 #ifndef ORGANISER_H
 #define ORGANISER_H
 #include "Time.h"
+#include <iostream>
 #include <string>
+using namespace std;
 
 class Organiser{
     protected:
