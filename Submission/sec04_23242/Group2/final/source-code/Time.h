@@ -8,6 +8,7 @@ class Time : public Date{
         int hour, minute;
 
     public:
+    Time();
     Time(bool, int, int ,int, int, int);
 
     void dateExtract(std::string);
@@ -15,6 +16,7 @@ class Time : public Date{
     void printTime();
     void print();
     void diffPrint();
+    Time getCurrentTime();
 
     Time operator-(const Time&);
 };
