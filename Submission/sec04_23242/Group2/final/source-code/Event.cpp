@@ -14,7 +14,8 @@ Event :: Event(Time *s, Time *e, string name, string desc, bool status = false):
 }
 
 ostream& operator<<(ostream &strm, const Event& e){
-    strm << e;
+    Organiser o = e;
+    strm << 0;
     strm << left << setw(20) << "Event Type" << ":" << "Event" << endl;
     strm << left << setw(20) << "Starting Time" << ":";
     e.start->print();
