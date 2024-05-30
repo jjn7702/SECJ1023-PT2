@@ -1,4 +1,5 @@
 #include "Reminder.h"
+#include "Reminder.h"
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -12,15 +13,17 @@ Reminder :: Reminder(Time *s , string name, string desc, bool status): Organiser
 void Reminder :: notify(){
     Time current;
     Time diff;
-    current.getCurrentTime();
+    Time temp = *start;
+    current = current.getCurrentTime();
 
-    diff = *start - current;
+    diff = temp - current;
     cout << eventName << " is starting in: " << endl;
     diff.diffPrint();
 }
 
 ostream& operator<<(ostream &strm, const Reminder &r){
-    strm << r;
+    Organiser o = r;
+    strm << o;
     strm << left << setw(20) << "Event Type" << ":" << "Reminder" << endl;
     strm << left << setw(20) << "Starting Time" << ":";
     r.start->print();
