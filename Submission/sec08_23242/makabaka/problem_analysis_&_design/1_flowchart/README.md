@@ -11,3 +11,12 @@ In the process of profile updating, the system will display the user's profile. 
 
 ## 1.3 Update Profile Subroutine Flow Chart
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/151102097/692c2115-6f32-4591-9568-63a074c2dee6)
+
+## 1.4 Explore Book Listing Subroutine Flow Chart
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/151102097/b3e64d91-777f-4e81-8fbe-e6066b6262bd)
+
+## 1.5 Update Owned Boom Subroutine Flow Chart
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/151102097/648040a4-b89d-47f6-9c3c-b10751e17923)
+
+## 1.6 Review Book Subroutine Flow Chart
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/151102097/43aea3eb-020d-4ba4-b706-a6a96cd3ec1a)
