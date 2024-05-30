@@ -3,7 +3,9 @@
 #include "Time.h"
 using namespace std;
 
-Time :: Time(bool s = true, int y = 0, int m = 0, int d = 0, int h = 0, int min = 0): hour(h), minute(m), Date(s, y, m, d) {}
+Time :: Time(): hour(0), minute(0), Date(0,0,0,0) {}
+    
+Time :: Time(bool s, int y, int m, int d = 0, int h, int min): hour(h), minute(m), Date(s, y, m, d) {}
 
 void Time :: dateExtract(string d){
     string monthArr[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
@@ -38,7 +40,6 @@ void Time :: print(){
 }
 
 void Time :: diffPrint(){
-    cout << "Difference: ";
         if (year)
             cout << year << " year(s) ";
 
@@ -93,4 +94,15 @@ Time Time :: operator-(const Time &t){
             temp.year--;
         }
         return temp;
+}
+
+Time Time :: getCurrentTime()
+{
+    struct tm* ptr;
+    time_t t;
+    t = time(NULL);
+    ptr = localtime(&t);
+    Time temp;
+    temp.dateExtract(asctime(ptr));
+    return temp;
 }
