@@ -11,7 +11,7 @@
 
 <h2> Section A: Flowchart </h2>
   <br />
-    <img src = https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/DreamCatcher/Problem%20Analysis%20and%20Design/flowchart(updated).jpg>
+    <img src =https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/056c1c23-4c10-45cf-bfaf-24193e629c00>
   <br />
 <h2> Section B: Problem Analysis 📝 </h2>
 <h3> Objects and Classes </h3>
