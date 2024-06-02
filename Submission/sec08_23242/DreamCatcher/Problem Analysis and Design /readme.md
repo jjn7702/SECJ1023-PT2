@@ -61,7 +61,7 @@ The following classes in involved in the project:
     We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.
   </li>
   
-      void chechPassword(const srd::straight password){
+      void checkPassword(const srd::straight password){
           if (password.length() < 8) {
               throw stf::invalid_argument("Password musy be at least 8 characters long! ");
           }
