@@ -39,7 +39,9 @@ The following classes in involved in the project:
     
   ii. NewUser class 
     <ul>
-      <li> This class include get input from the user and store the private data by using mutator functions. </li>
+  <li> 
+      This class include get input from the user and store the private data by using mutator functions. 
+  </li>
     </ul>
     
       void setAge(int _age) { age = _age;}
@@ -47,9 +49,9 @@ The following classes in involved in the project:
       void setHeight(double _height) { height = _height;}
       void setWegiht(double _weight) { weight = _weight}
 
-    <li> 
+  <li> 
       We also applied excecption handling for the user’s password. The user have to double confirm the password.
-    </li> 
+  </li> 
     
       void samePassword(const std::string& password1, const std::string& password2) {
           if (password1 != password2) {
