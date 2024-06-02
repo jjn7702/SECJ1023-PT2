@@ -1,18 +1,18 @@
 <h1 align="center">Problem Analysis and Design 💡</h1>
-<h1>Table of Contents 🧾 </h1>
+<h2>Table of Contents 🧾 </h2>
   <li><a href="#flowchart"> Section A: Flowchart </a></li>
   <li><a href="#problemanalysis"> Section B: Problem Analysis </a></li>
   <li><a href="#uml"> Section C: UML Class Diagram </li>
 
-<h2 id="flowchart"> Section A: Flowchart </h2>
-  <br />
+<h1 id="flowchart"align="center"> Section A: Flowchart </h1>  <br />
     <img src =https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/66490e32-ac60-4f48-bf40-71c04bb78116>
   <br />
+
   
-<h2 id="problemanalysis"> Section B: Problem Analysis 📝 </h2>
-<h3> Objects and Classes </h3>
-<h4> 1. Objects：</h4>
- 
+<h1 id="problemanalysis" align="center"> Section B: Problem Analysis 📝 </h1>
+<h2> Objects and Classes </h2>
+<h3> 1. Objects：</h3>
+
 The user act as an object. When a new user is created, a new object is created. Thus, inside program,there are  multiple objects for multiple class such as:
     <li> ```NewUser currentUser;```</li>
     <li> ```NewUser tempUser(username,"");``` </li> 
@@ -20,21 +20,22 @@ The user act as an object. When a new user is created, a new object is created. 
     <li> ```Music m1;``` </li> 
     
   </ul>
-<h4> 2. Classes: </h4>
+<h3> 2. Classes: </h3>
 
 The following classes in involved in the project: 
 <br />
 
-  i. User class  
+  <h4> i. User class </h4> 
     <ul>
      <li> This class have two protected data which is username and password. </li>
      <li> Get the input from the user and store it by using mutator functions.</li>
     </ul>
+    
      void setUsername(string _username) { username = _username;}
      void setPassword(string _password) { password = _password;}
 
     
-  ii. NewUser class 
+  <h4> ii. NewUser class </h4>
     <ul>
   <li> 
       This class include get input from the user and store the private data by using mutator functions. 
@@ -70,7 +71,7 @@ The following classes in involved in the project:
           }
       }
       
-  iii. Time class 
+  <h4> iii. Time class </h4>
   <ul>
   <li> In this class, there are multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
   </ul>
@@ -81,7 +82,7 @@ The following classes in involved in the project:
           int startTimes [30][2];
           int endTimes [30][2];
     
-  iv. Data class 
+  <h4> iv. Data class </h4>
   <ul>
   <li>
     Inside the data class, there are the accessor and the mutator.
@@ -107,7 +108,7 @@ The following classes in involved in the project:
 
       void calculateSleepDiff(int);
   
-  v. Music class 
+  <h4> v. Music class </h4> 
   <ul>
   <li> 
     In this class, there are two string to store name and the url of the music.
@@ -121,7 +122,7 @@ The following classes in involved in the project:
       string urlcList;                 // Store Url of the Music
       virtual void dispClist(int i)    // Polymorphism involved
   
-  vi. ClassicM class 
+  <h4> vi. ClassicM class </h4>
   <ul>
   <li> 
     There is an extra attribute compare to Music class which is the composer of the classical music. There are 10 classical music that aid the user to sleep.
@@ -131,18 +132,18 @@ The following classes in involved in the project:
       string composer;    // Store the composer of the classical music
       void dispClist()    // override function
   
-  vi. WhiteNoise class 
+  <h4> vi. WhiteNoise class </h4>
   <ul>
   <li>
     There are 10 white noise that predefined in the program. Same as ClassicM class, there is an extra attribute to store the type of the white noise.
   </li>
   </ul>
 
-    string typeW;              // Used to store the type of White Noise such as fire, waves and so on
-    void dispClist(int i)      // override function
+      string typeW;              // Used to store the type of White Noise such as fire, waves and so on
+      void dispClist(int i)      // override function
 
   
-  vi. FavM class 
+  <h4> vi. FavM class </h4>
   <ul>
   <li> 
     The FavM class is used to store the user defined music and there are an extra attribute more than the parent class which is the type of Music such as classical, white noise or so on fot the user to enter.
@@ -151,8 +152,9 @@ The following classes in involved in the project:
 
       string typeF;            // Used to store the type of music that defined by the user
       void dispClist(int i)    // Override function 
+
  
-<h3> Relationship between classes: </h3>
+<h2> Relationship between classes: </h2>
       <h4> 1. User class and NewUser class -- Inheritance</h4>
     <ul>
     <li>
@@ -187,7 +189,8 @@ The following classes in involved in the project:
     <ul>
       ClassicalM class, WhiteNoise class and FavM class are Music classes. These classes are use to store and display different type of music list that predefined in the program. There are total 20 predefined music in the program and there are 50 free slot for the user to add their favorite music into the class. These few classes inherit both string clist and string urlclist from the Music class which store the name of the classical music and the link of the music.
     </ul>
-<h2 id="uml"> UML Class Diagram 💻</h2>
+
+<h1 id="uml"align="center"> Section C :UML Class Diagram 💻</h1>
 <img src= https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/d4c54abe-d254-4902-a768-e6bae2b6aa5a>
 
 
