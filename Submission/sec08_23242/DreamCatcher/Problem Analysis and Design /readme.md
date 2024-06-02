@@ -43,7 +43,10 @@ The following classes in involved in the project:
       ```void setGender (char a) { gender = a;)```
       <br />
       ```void setHeight(double _height) { height = _height;}```
-      
+      <br />
+      ```void setWegiht(double _weight) { weight = _weight}```
+      <br />
+      <br />
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
       We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
     </ul>
