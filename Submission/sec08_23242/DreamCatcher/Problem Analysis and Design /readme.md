@@ -79,7 +79,7 @@ The following classes in involved in the project:
   </ul>
 
       protected:
-          int shour, sminute, ehoru, eminute;
+          int shour, sminute, ehour, eminute;
           int averageSleepMinute;
           int startTimes [30][2];
           int endTimes [30][2];
@@ -124,18 +124,34 @@ The following classes in involved in the project:
       string urlcList[N];
   
   vi. ClassicalM class 
-    <ul>
-      <li> In ClassicalM, there is an extra attribute compare to Music class which is the composer of the classical music. There are 10 classical music that aid the user to sleep.</li>
+  <ul>
+  <li> 
+    There is an extra attribute compare to Music class which is the composer of the classical music. There are 10 classical music that aid the user to sleep.
+  </li>
   </ul>
+
+      
+  
   vi. WhiteNoise class 
-    <ul>
-      <li> In WhiteNoise, there are 10 white noise that predefined in the program. Same as ClassicalM class, there is an extra attribute to store the type of the white noise such as fire,waves and so on.</li>
+  <ul>
+  <li>
+    There are 10 white noise that predefined in the program. Same as ClassicalM class, there is an extra attribute to store the type of the white noise.
+  </li>
   </ul>
+
+
+  
   vi. FavM class 
-    <ul>
-      <li> The FavM class is used to store the user defined music and there are an extra attribute more than the parent class which is the type of Music such as classical, white noise or so on fot the user to enter.</li>
+  <ul>
+  <li> 
+    The FavM class is used to store the user defined music and there are an extra attribute more than the parent class which is the type of Music such as classical, white noise or so on fot the user to enter.
+  </li>
   </ul>
-  <br />
+
+      string userM[N];
+
+      void dispClist(){
+ 
 <h3> Relationship between classes: </h3>
       <h4> 1. User class and NewUser class -- Inheritance</h4>
     <ul>
