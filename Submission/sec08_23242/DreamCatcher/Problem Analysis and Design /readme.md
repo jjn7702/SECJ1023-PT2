@@ -61,11 +61,11 @@ The following classes in involved in the project:
           }
       }
 
-    <ul>
-    <li>
+  <ul>
+  <li>
       We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.
-    </li>
-    </ul>
+  </li>
+  </ul>
   
       void checkPassword(const srd::straight password){
           if (password.length() < 8) {
