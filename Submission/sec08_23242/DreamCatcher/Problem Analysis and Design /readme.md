@@ -111,10 +111,18 @@ The following classes in involved in the project:
       void calculateSleepDiff(int);
   
   v. Music class 
-    <ul>
-      <li> Inside the Music class, there are two string to store name of the music and the url of the music.</li>
-      <li>The use of accessor and mutator enable developer to access and change the attributes even outside the class. </li>
-    </ul>
+  <ul>
+  <li> 
+    In this class, there are two string to store name and the url of the music.
+  </li>
+  <li>
+    The use of accessor and mutator enable developer to access and change the attributes even outside the class. 
+  </li>
+  </ul>
+  
+      string clist[N];
+      string urlcList[N];
+  
   vi. ClassicalM class 
     <ul>
       <li> In ClassicalM, there is an extra attribute compare to Music class which is the composer of the classical music. There are 10 classical music that aid the user to sleep.</li>
