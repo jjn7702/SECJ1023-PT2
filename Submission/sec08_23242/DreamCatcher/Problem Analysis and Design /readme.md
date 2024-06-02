@@ -39,33 +39,33 @@ The following classes in involved in the project:
   ii. NewUser class 
     <ul>
       <li> This class include get input from the user and store the private data by  using mutator functions. </li>
-      
+    </ul>
+    
       void setAge(int _age) { age = _age;}
       void setGender (char a) { gender = a;)
       void setHeight(double _height) { height = _height;}
       void setWegiht(double _weight) { weight = _weight}
-      
+
+    <ul>
       <li> We also applied excecption handling for the user’s password. The user have to double confirm the password.</li>
-      
+    </ul>  
+    
       void samePassword(const std::string& password1, const std::string& password2) {
           if (password1 != password2) {
               throw stf::invalid_argument("Passwords do not match ! ");
           }
       }
-      
+
+    <ul>
       <li>We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.</li>
-      ```void chechPassword(const srd::straight password){```
-      <br />
-      ```    if (password.length() < 8) {```
-      <br />
-      ```        throw stf::invalid_argument("Password musy be at least 8 characters long! ");```
-      <br />
-      ```    }```
-      <br />
-      ```}```
-      <br />
-      <br />
     </ul>
+  
+      void chechPassword(const srd::straight password){
+          if (password.length() < 8) {
+              throw stf::invalid_argument("Password musy be at least 8 characters long! ");
+          }
+      }
+      
   iii. Time class 
     <ul>
       <li> In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
