@@ -31,6 +31,7 @@ The following classes in involved in the project:
     <ul>
      <li> This class have two protected data which is username and password. </li>
      <li> Get the input from the user and store it by using mutator functions.</li>
+     
      ```void setUsername(string _username) { username = _username;}```
      <br />
      ```void setPassword(string _password) { password = _password;}```
