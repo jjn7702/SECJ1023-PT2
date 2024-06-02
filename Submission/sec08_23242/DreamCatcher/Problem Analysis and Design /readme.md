@@ -29,11 +29,18 @@ The user act as an object. When a new user is created, a new object is created. 
 The following classes in involved in the project: 
   i. User class  
     <ul>
-     <li> In User class, there two protected data which is username and password. We get the input from the user and store it by using mutator functions.</li>
+     <li> This class have two protected data which is username and password. </li>
+     <li> Get the input from the user and store it by using mutator functions.</li>
+     ```void setUsername(string _username) { username = _username;}```
+     ```void setPassword(string _password) { password = _password;}```
     </ul>
   ii. NewUser class 
     <ul>
-      <li> Inside the NewUser class, we include get input from the user such as name, gender, weight and height, store the private data by  using mutator functions. </li>
+      <li> This class include get input from the user and store the private data by  using mutator functions. </li>
+      ```void setAge(int _age) { age = _age;}```
+      ```void setGender (char a) { gender = a;)```
+      ```void setHeight(double _height) { height = _height;}```
+      
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
       We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
     </ul>
