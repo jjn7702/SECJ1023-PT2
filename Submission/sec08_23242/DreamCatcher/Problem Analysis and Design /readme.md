@@ -32,13 +32,16 @@ The following classes in involved in the project:
      <li> This class have two protected data which is username and password. </li>
      <li> Get the input from the user and store it by using mutator functions.</li>
      ```void setUsername(string _username) { username = _username;}```
+     <br />
      ```void setPassword(string _password) { password = _password;}```
     </ul>
   ii. NewUser class 
     <ul>
       <li> This class include get input from the user and store the private data by  using mutator functions. </li>
       ```void setAge(int _age) { age = _age;}```
+      <br />
       ```void setGender (char a) { gender = a;)```
+      <br />
       ```void setHeight(double _height) { height = _height;}```
       
       In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
