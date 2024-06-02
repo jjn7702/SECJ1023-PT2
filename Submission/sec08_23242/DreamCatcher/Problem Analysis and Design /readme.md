@@ -27,6 +27,7 @@ The user act as an object. When a new user is created, a new object is created. 
 <h4> 2. Classes: </h4>
 
 The following classes in involved in the project: 
+<br />
   i. User class  
     <ul>
      <li> This class have two protected data which is username and password. </li>
@@ -38,7 +39,7 @@ The following classes in involved in the project:
     
   ii. NewUser class 
     <ul>
-      <li> This class include get input from the user and store the private data by  using mutator functions. </li>
+    <li> This class include get input from the user and store the private data by  using mutator functions. </li>
     </ul>
     
       void setAge(int _age) { age = _age;}
@@ -47,7 +48,7 @@ The following classes in involved in the project:
       void setWegiht(double _weight) { weight = _weight}
 
     <ul>
-      <li> We also applied excecption handling for the user’s password. The user have to double confirm the password.</li>
+    <li> We also applied excecption handling for the user’s password. The user have to double confirm the password.</li>
     </ul>  
     
       void samePassword(const std::string& password1, const std::string& password2) {
@@ -57,7 +58,7 @@ The following classes in involved in the project:
       }
 
     <ul>
-      <li>We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.</li>
+    <li>We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.</li>
     </ul>
   
       void chechPassword(const srd::straight password){
