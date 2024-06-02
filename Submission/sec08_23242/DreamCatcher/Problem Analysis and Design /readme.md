@@ -47,8 +47,30 @@ The following classes in involved in the project:
       ```void setWegiht(double _weight) { weight = _weight}```
       <br />
       <br />
-      In this class, we also applied excecption handling for the user’s password. We let the user to double confirm the password.
-      We also do exception handling about the length of the user’s password.  If the length of the password is less than 8 characters.
+      <li> We also applied excecption handling for the user’s password. The user have to double confirm the password.</li>
+      ```void samePassword(const std::string& password1, const std::string& password2) {```
+      <br />
+      ```    if (password1 != password2) {```
+      <br />
+      ```        throw stf::invalid_argument("Passwords do not match ! ");```
+      <br />
+      ```    }```
+      <br />
+      ```}```
+      <br />
+      <br />
+      <li>We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.</li>
+      ```void chechPassword(const srd::straight password){```
+      <br />
+      ```    if (password.length() < 8) {```
+      <br />
+      ```        throw stf::invalid_argument("Password musy be at least 8 characters long! ");```
+      <br />
+      ```    }```
+      <br />
+      ```}```
+      <br />
+      <br />
     </ul>
   iii. Time class 
     <ul>
