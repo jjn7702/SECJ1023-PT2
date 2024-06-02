@@ -17,7 +17,7 @@
 <h3> Objects and Classes </h3>
 <h4> 1. Objects：</h4>
  
-The user act as an object. When a new user is created, a new object is created. Thus, inside our program we have multiple objects for multiple class such as:
+The user act as an object. When a new user is created, a new object is created. Thus, inside program,there are  multiple objects for multiple class such as:
     <li> ```NewUser currentUser;```</li>
     <li> ```NewUser tempUser(username,"");``` </li> 
     <li> ```Time timeInstance;``` </li>
@@ -51,7 +51,7 @@ The following classes in involved in the project:
 
   <ul>
   <li> 
-      We also applied excecption handling for the user’s password. The user have to double confirm the password.
+      Excecption handling for the user’s password. The user have to double confirm their password.
   </li>
   </ul>
     
@@ -63,7 +63,7 @@ The following classes in involved in the project:
 
   <ul>
   <li>
-      We also do exception handling about the length of the user’s password if the length of the password is less than 8 characters.
+      Exception handling about the length of the user’s password if the length of the password is less than 8 characters.
   </li>
   </ul>
   
@@ -75,7 +75,7 @@ The following classes in involved in the project:
       
   iii. Time class 
   <ul>
-  <li> In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
+  <li> In this class, there are multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
   </ul>
 
       protected:
@@ -87,7 +87,7 @@ The following classes in involved in the project:
   iv. Data class 
   <ul>
   <li>
-    Inside the data class, we have the accessor and the mutator.
+    Inside the data class, there are the accessor and the mutator.
   </li>
   </ul>
 
@@ -104,7 +104,7 @@ The following classes in involved in the project:
   
   <ul>
   <li>
-    Beside, we also have the function to display the result after analyzing.
+    Beside, also have the function to display the result after analyzing.
   </li>
   </ul>
 
@@ -112,12 +112,20 @@ The following classes in involved in the project:
   
   v. Music class 
     <ul>
-      <li> Inside the Music class, we have two string to store name of the music and the url of the music.</li>
+      <li> Inside the Music class, there are two string to store name of the music and the url of the music.</li>
       <li>The use of accessor and mutator enable developer to access and change the attributes even outside the class. </li>
     </ul>
+  vi. ClassicalM class 
+    <ul>
+      <li> In ClassicalM, there is an extra attribute compare to Music class which is the composer of the classical music. There are 10 classical music that aid the user to sleep.</li>
+  </ul>
+  vi. WhiteNoise class 
+    <ul>
+      <li> In WhiteNoise, there are 10 white noise that predefined in the program. Same as ClassicalM class, there is an extra attribute to store the type of the white noise such as fire,waves and so on.</li>
+  </ul>
   vi. FavM class 
     <ul>
-      <li> In FavM, we have array to save the user defined music and function to display it.</li>
+      <li> The FavM class is used to store the user defined music and there are an extra attribute more than the parent class which is the type of Music such as classical, white noise or so on fot the user to enter.</li>
   </ul>
   <br />
 <h3> Relationship between classes: </h3>
@@ -137,7 +145,11 @@ The following classes in involved in the project:
     <ul>
       NewUser object has a Music object. When the newuser object is destroyed, the Music object doesn’t affect. This is because the Music object provides a list of music tracks that help the user fall asleep faster and doesn’t require any data from the new user. Since the user able to add their favorite music but this is directly added to the music library. That means that when the newuser added musics the other newuser will share the same library. Thus, the Music cannot be destroyed when the newuser object destroyed. 
     </ul>
-      <h4> 5. Music class and FavM class -- Inheritance </h4>
+      <h4> 5. Music class and ClassicalM class -- Inheritance </h4>
+    <ul>
+      ClassicalM class is a Music class. This class are use to store and display the classical Music list that predefined in the program. This class inherit the both string that uses to contain the name of the classical music and the link to hyperlink to the classical music from the music class.
+      </ul>
+      <h4> 6. Music class and FavM class -- Inheritance </h4>
     <ul>
       FavM class is a Music class. It enable the user to add their favourite music into the program. Instead of there are only 10 classical music in the Music class, user can add up to 50 new music in the FavM class. This two classs is inheritance because the FavM class will print out the classical music in the Music class byu using polymorphiosm method and addition printing the user defined music. 
     </ul>
