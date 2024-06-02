@@ -193,5 +193,5 @@ The following classes in involved in the project:
       FavM class is a Music class. It enable the user to add their favourite music into the program. Instead of there are only 10 classical music in the Music class, user can add up to 50 new music in the FavM class. This two classs is inheritance because the FavM class will print out the classical music in the Music class byu using polymorphiosm method and addition printing the user defined music. 
     </ul>
 <h2> UML Class Diagram 💻</h2>
-<img src= https://github.com/jjn7702/SECJ1023-PT2/assets/150900178/ad4ee6aa-53e6-4317-8ec7-6815a7b9524d>
+<img src= https://i.im.ge/2024/06/02/K0zHo9.DreamCatcherUMLDiagram.jpeg>
 
