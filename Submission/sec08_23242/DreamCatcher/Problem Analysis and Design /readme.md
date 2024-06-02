@@ -34,7 +34,7 @@ The following classes in involved in the project:
      
      void setUsername(string _username) { username = _username;}
      void setPassword(string _password) { password = _password;}
-     
+     <br />
     </ul>
   ii. NewUser class 
     <ul>
