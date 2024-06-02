@@ -155,14 +155,30 @@ The following classes in involved in the project:
 <h3> Relationship between classes: </h3>
       <h4> 1. User class and NewUser class -- Inheritance</h4>
     <ul>
-      User class is is a general class with basic user attributes where NewUser class is a more specific class that inherits from User time, adding additional personal details for example weight and height. Thus, NewUser is a User. 
+    <li>
+      User class: a general class with basic user attributes
+    </li>
+    <li>
+      NewUser class: a more specific class that inherits from User time, and adding addtional personal details.
+    </li> 
     </ul>
       <h4> 2. Data class and Time class -- Aggregation</h4>
     <ul>
-      User object has a Time object because when we create the existence of user object and time object are independent. One of them destroyed will not affect the other one. We set this relationship is because the user can work independently without the time class and vice versa. This Time object doesn’t affect the user object, we just use the Time object to calculate the duration of the cycle by using the input data (start date and end date of cycle). Thus, it doesn’t require to destroy Time object when the User object destroy. 
+    <li>
+      User object has a Time object. It is because both of them are independent when we create the existence of them. One of them destroyed will not affect the other one.
+    </li>
+    <li>
+      This relationship is to allowed the user work independently without time class and vise versa.
+    </li>
+      <li>
+        We use Time object to calculate the duration of cycle by using input data (start and end date of cycle). 
+      </li>
     </ul>
       <h4> 3. NewUser class and Data class -- Composition </h4>
     <ul>
+    <li>
+      
+    </li>
       NewUser object consists of Data object, both are dependent. When Data class object is destroyed. The NewUser object will also be destroyed. The data object cannot work independently without the presence of use object. We established this relationship to protect the data of the new user, and the data class object requires attributes from the new user to generate the sleep cycle report. 
     </ul>
       <h4> 4. NewUser class and Music class -- Aggregation </h4>
