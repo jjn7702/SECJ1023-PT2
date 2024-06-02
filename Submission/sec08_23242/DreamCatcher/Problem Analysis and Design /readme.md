@@ -177,7 +177,6 @@ The following classes in involved in the project:
       <h4> 3. NewUser class and Data class -- Composition </h4>
     <ul>
     <li>
-      
     </li>
       NewUser object consists of Data object, both are dependent. When Data class object is destroyed. The NewUser object will also be destroyed. The data object cannot work independently without the presence of use object. We established this relationship to protect the data of the new user, and the data class object requires attributes from the new user to generate the sleep cycle report. 
     </ul>
