@@ -74,15 +74,42 @@ The following classes in involved in the project:
       }
       
   iii. Time class 
-    <ul>
-      <li> In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
-    </ul>
+  <ul>
+  <li> In this class, we multiple attributes to calculate the duration of time that the sleep cylce of the user.</li>
+  </ul>
+
+      protected:
+          int shour, sminute, ehoru, eminute;
+          int averageSleepMinute;
+          int startTimes [30][2];
+          int endTimes [30][2];
+    
   iv. Data class 
-    <ul>
-      <li>Inside the data class, we have the accessor and the mutator.</li>
-      <li>And the function to analayze the sleep which receive the sleep time as parameter.</li>
-      <li>Beside, we also have the function to display the result after analyzing.</li>
-    </ul>
+  <ul>
+  <li>
+    Inside the data class, we have the accessor and the mutator.
+  </li>
+  </ul>
+
+      void setCategory(char _category) { category = _category;}
+      char getCategory() { return category;}
+
+  <ul>
+  <li>
+    And the function to analayze the sleep which receive the sleep time as parameter.
+  </li>
+  </ul>
+
+      void analyzeSleep(int);
+  
+  <ul>
+  <li>
+    Beside, we also have the function to display the result after analyzing.
+  </li>
+  </ul>
+
+      void calculateSleepDiff(int);
+  
   v. Music class 
     <ul>
       <li> Inside the Music class, we have two string to store name of the music and the url of the music.</li>
