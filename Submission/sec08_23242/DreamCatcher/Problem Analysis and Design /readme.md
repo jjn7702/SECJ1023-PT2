@@ -47,7 +47,9 @@ The following classes in involved in the project:
       void setHeight(double _height) { height = _height;}
       void setWegiht(double _weight) { weight = _weight}
 
-    <li> We also applied excecption handling for the user’s password. The user have to double confirm the password.</li> 
+  <li> 
+  We also applied excecption handling for the user’s password. The user have to double confirm the password.
+  </li> 
     
       void samePassword(const std::string& password1, const std::string& password2) {
           if (password1 != password2) {
