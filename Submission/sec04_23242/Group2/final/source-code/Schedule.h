@@ -6,7 +6,12 @@ class Schedule{
 
     public:
         Schedule(bool);
+        ~Schedule();
+
+        //mutators
         void setStatus(bool);
+
+        //accessors
         void printStatus();
 };
 
