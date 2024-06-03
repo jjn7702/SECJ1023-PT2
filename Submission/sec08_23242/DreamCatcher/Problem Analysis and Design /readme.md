@@ -191,6 +191,7 @@ The following classes in involved in the project:
     </ul>
 
 <h1 id="uml"align="center"> Section C :UML Class Diagram 💻</h1>
-<img src= https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/d4c54abe-d254-4902-a768-e6bae2b6aa5a>
+<img src= https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/693bae90-f2c7-4cf2-b307-5b90ec41a612>
+
 
 
