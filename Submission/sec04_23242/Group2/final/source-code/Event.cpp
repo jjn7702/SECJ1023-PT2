@@ -9,13 +9,21 @@ Event :: Event(): Organiser(){
     end = new Time();
 }
 
-Event :: Event(Time *s, Time *e, string name, string desc, bool status = false): Organiser(s, name, desc, status){
+Event :: Event(Time *s, Time *e, string n, string d, bool st = NULL): Organiser(s, n, d, st){
     end = e;
 }
 
+Event :: ~Event()
+{
+    delete end;
+}
+
+//mutators
+void Event :: setEndTime(Time *e) { end = e;}
+
 ostream& operator<<(ostream &strm, const Event& e){
-    Organiser o = e;
-    strm << 0;
+    Organiser temp = e;
+    strm << temp;
     strm << left << setw(20) << "Event Type" << ":" << "Event" << endl;
     strm << left << setw(20) << "Starting Time" << ":";
     e.start->print();
