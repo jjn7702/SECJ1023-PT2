@@ -1,11 +1,23 @@
 #include <iostream>
 #include <string>
+#include <time.h>
 #include "Time.h"
 using namespace std;
 
-Time :: Time(): hour(0), minute(0), Date(0,0,0,0) {}
+Time :: Time(): hour(0), minute(0), Date(NULL,0,0,0) {}
     
-Time :: Time(bool s, int y, int m, int d = 0, int h, int min): hour(h), minute(m), Date(s, y, m, d) {}
+Time :: Time(bool s, int y, int m, int d, int h, int min): hour(h), minute(m), Date(s, y, m, d) {}
+
+Time :: ~Time() {}
+
+//mutators
+void Time :: setHour(int h) { hour = h;}
+void Time :: setMinute(int m) { minute = m;}
+
+//accessors
+int Time :: getHour() const { return hour;}
+int Time :: getMinute() const { return minute;}
+
 
 void Time :: dateExtract(string d){
     string monthArr[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
@@ -31,6 +43,19 @@ void Time :: readInput(){
         cin >> day >> month >> year;
         cout << "Enter time(HH MM): ";
         cin >> hour >> minute;
+}
+void Time :: printTime()
+    {
+        cout << "Time: ";
+        if (hour < 10)
+            cout << "0";
+
+        cout << hour << ":";
+
+        if (minute < 10)
+            cout << "0";
+
+        cout << minute << endl;
 }
 
 void Time :: print(){
@@ -93,16 +118,15 @@ Time Time :: operator-(const Time &t){
             temp.month += 12;
             temp.year--;
         }
+        temp.setStatus(status);
         return temp;
 }
 
-Time Time :: getCurrentTime()
+void Time :: getCurrentTime()
 {
     struct tm* ptr;
     time_t t;
     t = time(NULL);
     ptr = localtime(&t);
-    Time temp;
-    temp.dateExtract(asctime(ptr));
-    return temp;
+    dateExtract(asctime(ptr));
 }
