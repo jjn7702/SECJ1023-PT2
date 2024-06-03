@@ -7,7 +7,20 @@ class Date: public Schedule{
         int year, month, day;
 
     public:
+        Date();
         Date(bool, int, int, int);
+        ~Date();
+
+        //mutators
+        void setYear(int);
+        void setMonth(int);
+        void setDay(int);
+
+        //accessors
+        int getYear() const;
+        int getMonth() const;
+        int getDay() const;
+
         void printDate();
 };
 
