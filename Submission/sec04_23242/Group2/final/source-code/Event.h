@@ -11,6 +11,9 @@ class Event: public virtual Organiser{
     public:
         Event();
         Event(Time*, Time*, string, string, bool);
+        ~Event();
+
+        void setEndTime(Time *);
 
         friend ostream& operator<<(ostream&, const Event&);
 };

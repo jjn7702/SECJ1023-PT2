@@ -15,9 +15,19 @@ class Organiser{
     public:
         Organiser();
         Organiser(Time *, std::string, std::string, bool);
+        ~Organiser();
+
+        //mutators
         void setEventStatus(int);
-        int getStatus();
-        
+        void setEventName( string);
+        void setEventDesc (string);
+        void setStartTime(Time *);
+
+        //accessors
+        int getStatus() const;
+        string getEventName() const;
+        string getEventDesc() const;
+
         friend ostream& operator<<(ostream&, const Organiser&);
 };
 
