@@ -63,12 +63,13 @@ int main ()
     cout << "\n**Remove user**" << endl;
     a.removeUser(users, userCount);
     cout << "\nUpdated users:\n";
-    for (int i = 0; i < MAX_USERS; i++) {
+    for (int i = 0; i < 100; i++) {
         if (users[i].getID()!=0)
             cout << users[i].getID() << ". " << users[i].getUsername() << endl;
     }    
-    cout << "\n**Edit Username**" << endl;
+    cout << "\n**Edit username**" << endl;
     a.editUser(users);
+    
     system("pause");
     system("cls");
 
@@ -118,6 +119,10 @@ int main ()
     dt.print();
     dt = t - dt;
     dt.diffPrint();
+
+    cout << "\n\ninput time from keyboard:\n";
+    t.readInput();
+    t.print();
 
     system("pause");
     system("cls");
