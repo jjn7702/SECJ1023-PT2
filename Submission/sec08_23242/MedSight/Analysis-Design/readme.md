@@ -18,7 +18,65 @@ Based on the responses, the system identifies the probable diseases by matching 
 
 <h2 id="problemanalysis">🔗 Section B (Problem Analysis) </h2>
 
-| Classes             | Attributes          | Method                  |
+| Classes             | Attributes            | Method                  |
+|---------------------|-----------------------|-------------------------|
+| UserInfo            | - Name                | displayInfo()           |
+|                     | - Age                 |                         |
+|                     | - Gender              |                         |
+|                     | - phone number        |                         |
+|                     | - email               |                         |
+|                     |                       |                         |
+| MedHistory          | - exist disease       | addMedHistory()         |
+|                     | - medicine            | displayMedHistory()     |
+|                     | - allergic            |                         |
+|                     |                       |                         |
+| Symptoms            | - Fever               |                         |
+|                     | - Cough               |                         |
+|                     | - Sore Throat         |                         |
+|                     | - Nausea and vomiting |                         | 
+|                     | - Watery stool        |                         |
+|                     | - Diarrhea            |                         |
+|                     | - Muscle pain         |                         |
+|                     | - Cough up blood      |                         |
+|                     | - Chest pain          |                         |
+|                     | - Redness             |                         |
+|                     | - Red spot            |                         |
+|                     | - Swelling            |                         |
+|                     | - Blister             |                         |
+|                     | - Headache            |                         |
+|                     | - Neck pain           |                         |
+|                     | - Stuffy nose         |                         |
+|                     | - Shortness of breath |                         |
+|                     | - Rapid breathing     |                         |
+|                     |                       |                         |
+| Disease             | - Diarrhea            | setDisease()            |
+|                     | - Malaria             | getDisease()            |
+|                     | - common cold         | displayDisease()        |
+|                     | - TB                  | addDisease()            | 
+|                     | - Pneumonia           |                         |
+|                     | - Influenza           |                         |
+|                     | - Cellulitis          |                         | 
+|                     | - Chicken Pox         |                         | 
+|                     | - Migraine            |                         | 
+|                     | - Food Poisoning      |                         |
+|                     | - Asthma              |                         | 
+|                     |                       |                         |
+| Suggestions         | - Suggested_Medicine  |                         |
+|                     | - Nutritional_Advice  |                         |
+|                     | - Clinic              |                         |
+|                     |                       |                         |
+| Suggested_Medicine  | - medicine            | display()               |
+|                     | - duration            |                         |
+|                     |                       |                         |
+| Nutritional_Advice  | - mealSuggest()       | display()               |
+|                     | - mealAvoid()         |                         |
+|                     |                       |                         |
+| Clinic              | - state               | display()               |
+|                     | - stateName           |                         |
+|                     | - clinicName          |                         |
+|                     | - availability        |                         |
+|                     | - clinic_number       |                         |
+
 
 <h2 id="umlclassdiagram">🔗 Section C (UML Class Diagram) </h2>
 
