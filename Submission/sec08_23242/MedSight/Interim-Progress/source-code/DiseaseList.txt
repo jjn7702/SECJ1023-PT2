@@ -1,0 +1,11 @@
+Diarrhea,  frequent, loose, or watery bowel movements caused by infections, food intolerances, or medications. Symptoms include cramps, urgency, and dehydration. Treatment focuses on rehydration and addressing the underlying cause. /4mg Loperamide /2 times a day
+Malaria, a mosquito-borne disease causing fever, chills, and flu-like symptoms. It requires prompt treatment to prevent severe complications.  /Artemether Lumefantrine /2 times a day
+Common cold, an infection causing nasal congestion, sore throat, and cough. Symptoms typically resolve within a week with rest and symptomatic relief. /60mg Pseudophedrine /4 times a day
+TB, a bacterial infection primarily affecting the lungs, causing cough, fever, and weight loss. It can be serious if left untreated. /300mg isoniazid /once a day
+Pneumonia, an infection causing inflammation in the lungs, leading to symptoms like cough, fever, and difficulty breathing. It requires medical attention for treatment. /500mg Amoxicillin /2 times a day
+Influenza, a viral respiratory infection causing fever, body aches, and fatigue. It spreads easily and can lead to complications in vulnerable populations. /75mg Oseltamivir /2 times a day
+Cellulitis, a bacterial skin infection causing redness, swelling, and tenderness. It can spread rapidly and may require antibiotics for treatment. /500mg Cephalexin /4 times a day
+Chicken Pox, a highly contagious viral infection characterized by itchy red spots or blisters. It typically occurs in childhood and can cause discomfort but usually resolves on its own without serious complications. /50mg Diphenhydramine /4 times a day
+Migraine, a neurological condition causing severe headaches, often accompanied by nausea, sensitivity to light, and sound. It can significantly impair daily functioning. /200mg Ibuprofen /4 times a day
+Food Poisoning, illness from contaminated food causing symptoms like nausea, vomiting, and diarrhea. /4mg Lopramide /2 times a day
+Asthma,  a chronic respiratory condition causing breathing difficulties, wheezing, and coughing, often triggered by allergies or environmental factors. /albutero /2 puffs every 4 hours
