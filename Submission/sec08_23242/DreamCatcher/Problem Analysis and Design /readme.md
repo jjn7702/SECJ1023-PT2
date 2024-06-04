@@ -199,7 +199,15 @@ The following classes in involved in the project:
     </ul>
       <h4> 5. Music class, ClassicM class, WhiteNoise class and FavM class -- Inheritance </h4>
     <ul>
-      ClassicalM class, WhiteNoise class and FavM class are Music classes. These classes are use to store and display different type of music list that predefined in the program. There are total 20 predefined music in the program and there are 50 free slot for the user to add their favorite music into the class. These few classes inherit both string clist and string urlclist from the Music class which store the name of the classical music and the link of the music.
+    <li>
+      These classes used to store and display different type of music list that predefined in program. 
+    </li>
+    <li>
+      There are total 20 predefined music and 50 fress slot for user to add their favourite music. 
+    </li>
+    <li>
+      These classes inherit both string clist and string urlclist from Music class which store name of classical music and link of music.
+    </li>
     </ul>
 
 <h1 id="uml"align="center"> Section C :UML Class Diagram 💻</h1>
