@@ -18,6 +18,7 @@ Based on the responses, the system identifies the probable diseases by matching 
 
 <h2 id="problemanalysis">🔗 Section B (Problem Analysis) </h2>
 
+| Classes             | Attributes          | Method                  |
 
 <h2 id="umlclassdiagram">🔗 Section C (UML Class Diagram) </h2>
 
