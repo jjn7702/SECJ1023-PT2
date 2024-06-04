@@ -51,7 +51,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `void registerUser(User users[], int userCount)`
         - `bool login(User users[], int userCount)`
 
-
 2. **Profile**
     - **Attributes:**
         - `Goal* goals`
@@ -68,7 +67,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `void updateProfile(double currentWeight, double goalWeight, string fitnessGoal)`
         - `void displayProfile()`
 
-
 3. **Goal**
     - **Attributes:**
         - `string description`
@@ -81,7 +79,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `void updateGoal(string desc, bool isAchieved)`
         - `void checkGoalStatus()`
 
-
 4. **ProgressTracker**
     - **Attributes:**
         - `Activity* activities[]`
@@ -91,7 +88,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `void addNutrition(Nutrition &nutrition)`
         - `void showProgress()`
         - `void giveFeedback()`
-
 
 5. **Activity**
     - **Attributes:**
@@ -105,7 +101,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `virtual void displayActivity()`
         - `virtual double calculateCaloriesBurned(Profile &profile)`
 
-
 6. **SportsActivity (inherited from Activity)**
     - **Attributes:**
         - `string sportType`
@@ -114,7 +109,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `void setSportType(string Stype)`
         - `double calculateCaloriesBurned(Profile &profile)`
         - `void displayActivity()`
-
 
 7. **CardioActivity (inherited from Activity)**
     - **Attributes:**
@@ -128,7 +122,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `double calculateCaloriesBurned(Profile &profile)`
         - `void displayActivity()`
 
-
 8. **StrengthActivity (inherited from Activity)**
     - **Attributes:**
         - `int repsPerSet`
@@ -138,7 +131,6 @@ Once logged in, users interact with the system by choosing menu options includin
         - `int getSets()`
         - `void setReps(int reps)`
         - `void setSets(int sets)`
-
 
 9. **BodyweightExercises (inherited from StrengthActivity, indirectly from Activity)**
     - **Attributes:**
@@ -201,3 +193,4 @@ Once logged in, users interact with the system by choosing menu options includin
 - **Justification:** Activity will be the base class and StrengthActivity will be the intermediate class. Then, the BodyWeightExercises and WeightExercises are inherited from the StrengthActivity and through it, indirectly from Activity. By inheriting from StrengthActivity, they not only gain the general attributes of Activity (duration, intensity) but also the specialized attributes of StrengthActivity (sets, repsPerSet).
 
 ## Section C: Class Diagram
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/55b2c1f4-61c4-4b56-896c-7ac76081a26d)
