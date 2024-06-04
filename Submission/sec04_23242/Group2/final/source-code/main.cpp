@@ -63,13 +63,12 @@ int main ()
     cout << "\n**Remove user**" << endl;
     a.removeUser(users, userCount);
     cout << "\nUpdated users:\n";
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < MAX_USERS; i++) {
         if (users[i].getID()!=0)
             cout << users[i].getID() << ". " << users[i].getUsername() << endl;
     }    
-    cout << "\n**Edit username**" << endl;
+    cout << "\n**Edit Username**" << endl;
     a.editUser(users);
-    
     system("pause");
     system("cls");
 

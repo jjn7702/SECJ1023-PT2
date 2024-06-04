@@ -13,7 +13,8 @@ class Admin {
     public:
         Admin();
         Admin(string, string);
-
+        
+        //mutators
         void resetPassword(User user[]);
         void removeUser(User user[], int &);
         void editUser(User []);

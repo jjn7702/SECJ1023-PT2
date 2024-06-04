@@ -14,10 +14,11 @@ void Admin :: resetPassword(User user[]) {
     int _id;
     cout << "Enter user ID: ";
     cin >> _id;
+    cin.ignore();
     for (int i = 0; i < 100; i++) {
         if (user[i].getID() == _id) {
             cout << "New password for user (" << user[i].getUsername() << "): ";
-            cin >> newP;
+            getline(cin, newP);
             user[i].setPassword(newP);
             cout << "Password reset successfully." << endl;
             break;
@@ -46,10 +47,11 @@ void Admin :: editUser(User user[]) {
     int _id;
     cout << "Enter user ID: ";
     cin >> _id;
+    cin.ignore();
     for (int i = 0; i < 100; i++) {
         if (user[i].getID() == _id) {
             cout << "New username for user (" << user[i].getUsername() << "): ";
-            cin >> newN;
+            getline(cin, newN);
             user[i].setUsername(newN);
             cout << "User" << _id << " username are updated: " << endl
                  << "Username: " << user[i].getUsername() << endl;

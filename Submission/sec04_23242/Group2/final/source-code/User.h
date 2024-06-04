@@ -16,13 +16,14 @@ public:
     User();
     User(string, string, Schedule, int);
 
-    void newUser();
+    //accessor
     bool checkPassword(string);
-
     string getUsername() const;
     int getID() const;
     Schedule getSchedule() const;
-
+    
+    //mutators
+    void newUser();
     void setUsername(string);
     void setPassword(string);
     void setSchedule(Schedule);
