@@ -61,7 +61,7 @@ Once logged in, users interact with the system by choosing menu options includin
         - `double getCurrentWeight()`
         - `double getGoalWeight()`
         - `string getFitnessGoal()`
-        - `void setCurrentWeight(double weight)
+        - `void setCurrentWeight(double weight)`
         - `void setGoalWeight(double weight)`
         - `void setFitnessGoal(string goal)`
         - `void updateProfile(double currentWeight, double goalWeight, string fitnessGoal)`
