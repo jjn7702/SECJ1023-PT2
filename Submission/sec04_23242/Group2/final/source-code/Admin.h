@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-class Admin {
+class Admin: public User{
     private:
         string adminUsername;
         string adminPassword;
@@ -13,8 +13,15 @@ class Admin {
     public:
         Admin();
         Admin(string, string);
-        
+
+        //accessor
+        string getAdminUsername() const;
+        string getAdminPassword() const;
+
         //mutators
+        void setAdminUsername(string);
+        void setAdminPassword(string);
+
         void resetPassword(User user[]);
         void removeUser(User user[], int &);
         void editUser(User []);

@@ -9,15 +9,23 @@ Admin :: Admin() : adminUsername(""), adminPassword("") {}
 
 Admin :: Admin(string n, string p) : adminUsername(n), adminPassword(p) {}
 
+void Admin :: setAdminUsername(string a){adminUsername = a;}
+
+void Admin :: setAdminPassword(string p){adminPassword = p;}
+
+string Admin :: getAdminUsername() const {return adminUsername;}
+
+string Admin :: getAdminPassword() const {return adminPassword;}
+
 void Admin :: resetPassword(User user[]) {
     string newP;
     int _id;
     cout << "Enter user ID: ";
     cin >> _id;
-    cin.ignore();
     for (int i = 0; i < 100; i++) {
         if (user[i].getID() == _id) {
             cout << "New password for user (" << user[i].getUsername() << "): ";
+            cin.ignore();
             getline(cin, newP);
             user[i].setPassword(newP);
             cout << "Password reset successfully." << endl;
@@ -47,10 +55,10 @@ void Admin :: editUser(User user[]) {
     int _id;
     cout << "Enter user ID: ";
     cin >> _id;
-    cin.ignore();
     for (int i = 0; i < 100; i++) {
         if (user[i].getID() == _id) {
             cout << "New username for user (" << user[i].getUsername() << "): ";
+            cin.ignore();
             getline(cin, newN);
             user[i].setUsername(newN);
             cout << "User" << _id << " username are updated: " << endl
