@@ -42,6 +42,7 @@ The following classes in involved in the project:
   </li>
     </ul>
     
+      void setName(string _name) {name = _name;}
       void setAge(int _age) { age = _age;}
       void setGender (char a) { gender = a;)
       void setHeight(double _height) { height = _height;}
@@ -78,9 +79,10 @@ The following classes in involved in the project:
 
       protected:
           int shour, sminute, ehour, eminute;
-          int averageSleepMinute;
-          int startTimes [30][2];
-          int endTimes [30][2];
+          int averageSleepMinutes;
+          int day;
+          int startTimes [30][2] = {0};
+          int endTimes [30][2] = {0};
     
   <h4> iv. Data class </h4>
   <ul>
@@ -98,7 +100,7 @@ The following classes in involved in the project:
   </li>
   </ul>
 
-      void analyzeSleep(int);
+      void analyzeSleep(int, int);
   
   <ul>
   <li>
@@ -106,7 +108,7 @@ The following classes in involved in the project:
   </li>
   </ul>
 
-      void calculateSleepDiff(int);
+      void calculateSleepDiff(int, int);
   
   <h4> v. Music class </h4> 
   <ul>
