@@ -172,18 +172,30 @@ The following classes in involved in the project:
     <li>
       This relationship is to allowed the user work independently without time class and vise versa.
     </li>
-      <li>
-        We use Time object to calculate the duration of cycle by using input data (start and end date of cycle). 
-      </li>
+    <li>
+      We use Time object to calculate the duration of cycle by using input data (start and end date of cycle). 
+    </li>
     </ul>
       <h4> 3. NewUser class and Data class -- Composition </h4>
     <ul>
+    <li>
+      NewUser object consists of Data object, both are dependent. 
     </li>
-      NewUser object consists of Data object, both are dependent. When Data class object is destroyed. The NewUser object will also be destroyed. The data object cannot work independently without the presence of use object. We established this relationship to protect the data of the new user, and the data class object requires attributes from the new user to generate the sleep cycle report. 
+    <li>
+      The NewUser object will be destryed when Data class object is destroyed. It can't work independently withour presence of use object.
+    </li>
+    <li>
+      This relationship is to protect the data of new user, and the data class object requires attributes from them to generate sleep cycle report.
+    </li>
     </ul>
       <h4> 4. NewUser class and Music class -- Aggregation </h4>
     <ul>
-      NewUser object has a Music object. When the newuser object is destroyed, the Music object doesn’t affect. This is because the Music object provides a list of music tracks that help the user fall asleep faster and doesn’t require any data from the new user. Since the user able to add their favorite music but this is directly added to the music library. That means that when the newuser added musics the other newuser will share the same library. Thus, the Music cannot be destroyed when the newuser object destroyed. 
+    <li>
+      NewUser object has a Music object. The Music object doesn't affect when NewUser object is destroyed because it provides a list of music tracks that help user to fall asleep faster and doesn't require any data from user.
+    </li>
+    <li>
+      User able to add their facourite music but it is directly added to the music library, which means the other newuser will share the same library when they added musics.
+    </li>
     </ul>
       <h4> 5. Music class, ClassicM class, WhiteNoise class and FavM class -- Inheritance </h4>
     <ul>
