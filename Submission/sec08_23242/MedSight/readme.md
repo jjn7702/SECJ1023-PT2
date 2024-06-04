@@ -20,7 +20,7 @@
         <tr>
             <td align="center">ANISA CHOWDHURY</td>
             <td>A23CS0288</td>
-            <td><img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/MedSight/images/PassportSizedPhoto.jpg"  width="200" height="250"</td>
+            <td><img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/MedSight/Analysis-Design/images/PassportSizedPhoto.jpg"  width="200" height="250"</td>
         </tr>
         <tr>
             <td>NUR AYUNI BINTI NOOR AZMAN</td>
