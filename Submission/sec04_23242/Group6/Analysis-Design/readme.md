@@ -192,7 +192,9 @@ Once logged in, users interact with the system by choosing menu options includin
 #### Inheritance Relationships
 
 1. SportsActivity, CardioActivity, StrengthActivity BodyweightExercises and WeightExercises inherit from Activity
+
 **Relationship:** Inheritance
+
 **Justification:** These classes are specialized forms of Activity, each with unique attributes and behaviors that extend the base class Activity. Inheritance is used here to promote code reuse and polymorphic behavior. Each subclass extends the functionality of the base class and introduces specialized behaviors without duplicating code. For example are specific calorie burning calculations and  activity-specific attributes. 
 
 2. BodyweightExercises and WeightExercises inherit from StrengthActivity, indirectly from Activity
