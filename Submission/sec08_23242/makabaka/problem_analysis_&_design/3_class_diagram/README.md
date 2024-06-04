@@ -1,4 +1,4 @@
-<strong>UML CLASS DIAGRAM</strong>
+<br>UML CLASS DIAGRAM</br>
 <hr/>
 <img 
     src="images/pt2phase2.png" 
