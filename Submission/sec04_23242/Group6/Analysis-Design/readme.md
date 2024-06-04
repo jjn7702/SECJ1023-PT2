@@ -1,6 +1,7 @@
 # Fitness Progress Tracker System
 
 ## Section A: Flowchart
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/b5e78a8e-8556-44df-bd4c-d20e16e4257f)
 
 ### Brief Description of the Main Process:
 
