@@ -173,32 +173,30 @@ Once logged in, users interact with the system by choosing menu options includin
 #### Association Relationships
 
 1. **User and ProgressTracker**
-**Relationship:** Composition
-**Justification:** The relationship between User and ProgressTracker is a composition because it demonstrates that each User must have a ProgressTracker to monitor and manage their fitness activities and nutrition. The ProgressTracker is a part of the user's fitness management system and its existence is dependent on the User. If the User is deleted, the associated ProgressTracker is also deleted. This ensures that the tracking of fitness progress is inherently linked to the user and cannot function independently. 
+- **Relationship:** Composition
+- **Justification:** The relationship between User and ProgressTracker is a composition because it demonstrates that each User must have a ProgressTracker to monitor and manage their fitness activities and nutrition. The ProgressTracker is a part of the user's fitness management system and its existence is dependent on the User. If the User is deleted, the associated ProgressTracker is also deleted. This ensures that the tracking of fitness progress is inherently linked to the user and cannot function independently. 
 
 2. **ProgressTracker and Nutrition**
-**Relationship:** Aggregation
-**Justification:** ProgressTracker aggregates Nutrition. This relationship suggests that while ProgressTracker tracks multiple nutritional records, the existence of Nutrition objects is not dependent on the ProgressTracker. This means Nutrition entries can exist independently of the ProgressTracker even if one party is destroyed.
+- **Relationship:** Aggregation
+- **Justification:** ProgressTracker aggregates Nutrition. This relationship suggests that while ProgressTracker tracks multiple nutritional records, the existence of Nutrition objects is not dependent on the ProgressTracker. This means Nutrition entries can exist independently of the ProgressTracker even if one party is destroyed.
 
 3. **User and Profile**
-**Relationship:**  Composition
-**Justification:** The relationship between User and Profile is a composition, indicating that each User must have a Profile to manage personal fitness goals and related information. This ensures that the lifecycle of the Profile is tightly coupled with the User. For example if the User (whole) is deleted, the associated Profile (part) is also deleted. This composition relationship models the real-world scenario where a user's profile, which includes their goals, current weight, and fitness targets, is inherently a part of the user’s overall data and cannot exist independently.
+- **Relationship:**  Composition
+- **Justification:** The relationship between User and Profile is a composition, indicating that each User must have a Profile to manage personal fitness goals and related information. This ensures that the lifecycle of the Profile is tightly coupled with the User. For example if the User (whole) is deleted, the associated Profile (part) is also deleted. This composition relationship models the real-world scenario where a user's profile, which includes their goals, current weight, and fitness targets, is inherently a part of the user’s overall data and cannot exist independently.
  
 
 4. **Profile and Goal**
-**Relationship:** Aggregation
-**Justification:** Similar to Nutrition, Profile has aggregation with Goal. This means Profile manages Goal objects but does not strictly control their lifecycle. Profile objects (enclosing objects) do not necessarily have Goal objects (enclosed objects). Both of them can exist independently regardless of if one party is destroyed.
+- **Relationship:** Aggregation
+- **Justification:** Similar to Nutrition, Profile has aggregation with Goal. This means Profile manages Goal objects but does not strictly control their lifecycle. Profile objects (enclosing objects) do not necessarily have Goal objects (enclosed objects). Both of them can exist independently regardless of if one party is destroyed.
 
 #### Inheritance Relationships
 
 1. SportsActivity, CardioActivity, StrengthActivity BodyweightExercises and WeightExercises inherit from Activity
+- **Relationship:** Inheritance
+- **Justification:** These classes are specialized forms of Activity, each with unique attributes and behaviors that extend the base class Activity. Inheritance is used here to promote code reuse and polymorphic behavior. Each subclass extends the functionality of the base class and introduces specialized behaviors without duplicating code. For example are specific calorie burning calculations and  activity-specific attributes. 
 
-**Relationship:** Inheritance
-**Justification:** These classes are specialized forms of Activity, each with unique attributes and behaviors that extend the base class Activity. Inheritance is used here to promote code reuse and polymorphic behavior. Each subclass extends the functionality of the base class and introduces specialized behaviors without duplicating code. For example are specific calorie burning calculations and  activity-specific attributes. 
-
-3. BodyweightExercises and WeightExercises inherit from StrengthActivity, indirectly from Activity
-   
-**Relationship:** Inheritance
-**Justification:** Activity will be the base class and StrengthActivity will be the intermediate class. Then, the BodyWeightExercises and WeightExercises are inherited from the StrengthActivity and through it, indirectly from Activity. By inheriting from StrengthActivity, they not only gain the general attributes of Activity (duration, intensity) but also the specialized attributes of StrengthActivity (sets, repsPerSet).
+3. BodyweightExercises and WeightExercises inherit from StrengthActivity, indirectly from Activity  
+- **Relationship:** Inheritance
+- **Justification:** Activity will be the base class and StrengthActivity will be the intermediate class. Then, the BodyWeightExercises and WeightExercises are inherited from the StrengthActivity and through it, indirectly from Activity. By inheriting from StrengthActivity, they not only gain the general attributes of Activity (duration, intensity) but also the specialized attributes of StrengthActivity (sets, repsPerSet).
 
 ## Section C: Class Diagram
