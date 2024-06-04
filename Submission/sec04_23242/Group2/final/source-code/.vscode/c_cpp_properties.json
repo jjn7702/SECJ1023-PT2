@@ -1,0 +1,29 @@
+{
+    "configurations": [{
+        "name": "MinGW",
+        "intelliSenseMode": "clang-x64",
+        "compilerPath": "C:/MinGW/bin/gcc.exe",
+        "includePath": [
+            "${workspaceFolder}",
+            "C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include"
+        ],
+
+        "defines": [
+            "_DEBUG"
+        ],
+        "browse": {
+            "path": [
+                "C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include",
+                "C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
+                
+                "C:/MinGW/include/*",
+                "${workspaceFolder}"
+            ],
+            "limitSymbolsToIncludedHeaders": true,
+            "databaseFilename": ""
+        },
+        "cStandard": "c11",
+        "cppStandard": "c++17"
+    }],
+    "version": 4
+}
