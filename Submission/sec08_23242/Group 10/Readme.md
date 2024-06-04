@@ -4,6 +4,7 @@ In today's competitive retail environment, efficient inventory management is cru
 ## Findings
 - [Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Group%2010/Proposal)
 - [Problem Analysis and Design](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Group%2010/Problem%20Analysis%20and%20Design)
+- [Interim Progress](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Group%2010/Interim%20Progress)
 ## TEAM MEMBERS
 - [@zx823](https://github.com/zx823/zx823)
 - [@CQ0113](https://github.com/CQ0113)
