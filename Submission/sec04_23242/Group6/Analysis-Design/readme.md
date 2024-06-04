@@ -1,7 +1,7 @@
 # Fitness Progress Tracker System
 
 ## Section A: Flowchart
-
+![Alt text](Submission/sec04_23242/Group6/Analysis-Design/Flowchart.png "Optional title")
 ### Brief Description of the Main Process:
 
 The Fitness Progress Tracker System initiates interaction with new users through a user-friendly registration process where they input essential information to create an account. After successfully creating an account, users are guided to log in by authenticating their credentials in order to ensure secure access to their account. Then, the users need to update their health metrics profile such as current weight, goal weight, and fitness goals which the system uses to tailor recommendations and monitor progress. This integration of registration, authentication, and profile updates is crucial for personalizing user experiences and ensuring that each user's fitness journey is aligned with their specific goals and preferences.
