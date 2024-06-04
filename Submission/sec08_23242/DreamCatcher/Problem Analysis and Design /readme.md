@@ -134,7 +134,7 @@ The following classes in involved in the project:
       string composer;    // Store the composer of the classical music
       void dispClist()    // override function
   
-  <h4> vi. WhiteNoise class </h4>
+  <h4> vii. WhiteNoise class </h4>
   <ul>
   <li>
     There are 10 white noise that predefined in the program. Same as ClassicM class, there is an extra attribute to store the type of the white noise.
@@ -145,7 +145,7 @@ The following classes in involved in the project:
       void dispClist(int i)      // override function
 
   
-  <h4> vi. FavM class </h4>
+  <h4> viii. FavM class </h4>
   <ul>
   <li> 
     The FavM class is used to store the user defined music and there are an extra attribute more than the parent class which is the type of Music such as classical, white noise or so on fot the user to enter.
