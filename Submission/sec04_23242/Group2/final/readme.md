@@ -1,2 +1,1 @@
-**Phase 3 Video
-https://youtu.be/z0KFlTBWlkY
+Phase 3 Video: https://youtu.be/z0KFlTBWlkY
