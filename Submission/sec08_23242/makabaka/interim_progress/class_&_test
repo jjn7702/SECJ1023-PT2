@@ -1,1 +1,366 @@
+class Book{};
 
+class PersonalInfo{}
+
+class User {
+    protected: 
+        int userID;
+        string password;
+        PersonalInfo pI;
+        Book *owned;
+        Book *exchanged;
+        Review *re;
+        Wishlist *wish;
+    
+    public: 
+        int booknum;
+        int wishnum;
+        int exnum;
+
+        User(int ID=0, string pass="", PersonalInfo _pI = PersonalInfo()){
+            userID = ID;
+            password = pass;
+            pI = _pI;
+            owned = NULL;
+            re = NULL;
+            wish = NULL;
+            booknum = 0;
+            wishnum = 0;
+            exnum = 0;
+            owned = new Book[5];
+            exchanged = new Book[5];
+            re = new Review[5];
+            wish = new Wishlist[5];
+        }
+
+        virtual ~User() {
+            delete[] owned;
+            delete[] exchanged;
+            delete[] re;
+            delete[] wish;
+        }
+
+        void setPass(string p) {
+            password = p;
+        }
+        
+
+        void dispBookList() {
+            cout << setw(11) << "Book ID" 
+                 << setw(10) << "Title" 
+                 << setw(13) << "Publisher" 
+                 << setw(8) << "Year" 
+                 << setw(8) << "ISBN" 
+                 << setw(15) << "Condition" 
+                 << setw(10) << "Status" << endl;
+
+            for (int i=0; i < booknum; i++){
+                owned[i].dispBookDetails();
+            }      
+            cout << "\n";
+        }
+
+        void updateBookInfo() {
+            int temp;
+            int select;
+
+            cout << "Enter book ID to update book info: ";
+            cin >> temp;
+
+            for (int i=0; i<booknum; i++){
+                if (temp == owned[i].getID()){
+                    select = i;
+                    int opup;
+                    string New;
+                    cout << "1. Update book title\n"
+                         << "2. Update author\n"
+                         << "3. Update language\n"
+                         << "4. Update condition\n"
+                         << "5. Update status\n"
+                         << "6. Remove book\n";
+                    cout << "Enter book detail option to update: ";
+                    cin >> opup;
+
+                    if (opup == 1){
+                        cin.ignore();
+                        cout << "Enter new title: ";
+                        getline(cin,New);
+                        owned[select].setTitle(New); 
+                        cout << "Book #" << temp << " succefully updated.\n";
+
+                    }else if (opup == 2){
+                        cin.ignore();
+                        cout << "Enter new author: ";
+                        getline(cin,New);
+                        owned[select].setAut(New); 
+                        cout << "Book #" << temp << " succefully updated.\n";
+                    
+                    }else if (opup == 3){
+                        cin.ignore();
+                        cout << "Enter new language or pair language: ";
+                        getline(cin,New);
+                        owned[select].setAut(New);
+                        cout << "Book #" << temp << " succefully updated.\n";
+                    
+                    }else if (opup == 4){
+                        cin.ignore();
+                        cout << "Enter latest condition: ";
+                        getline(cin,New);
+                        owned[select].setCon(New);
+                        cout << "Book #" << temp << " succefully updated.\n";
+                    
+                    }else if (opup == 5){
+                        cin.ignore();
+                        cout << "Enter current status (A/NA): ";
+                        getline(cin,New);
+                        owned[select].setStat(New);
+                        cout << "Book #" << temp << "succefully updated.\n";
+                    
+                    }else{
+                        cout << "**Invalid update option" << endl;
+                    }
+                }
+            }
+
+        }
+
+        void removeBook() {
+            int del;
+            int s;
+            cout << "Enter book ID to remove: ";
+            cin >> del;
+            for (int i=0; i<booknum; i++){
+                if (del == owned[i].getID()){
+                        s = i;
+                }
+            }
+            for (int i=s; s<booknum; s++){
+                owned[i] = owned[i+1];
+            }
+            booknum -= 1;
+            cout << "Book #" << owned[s].getID() << " removed from owned book list\n";
+        }
+
+        void addBook(int count){
+            int type;
+            cout << "Is your book a dictionary (1) or encyclopedia (2)?  ";
+            cin >> type;
+
+            //cout<<owned[booknum].getID();
+
+            if (type == 1){
+                owned[booknum] = Dictionary();
+            }else{
+                owned[booknum] = Encyclopedia();
+            }
+
+            owned[booknum].setID(count);
+
+            string tempT,tempA,tempL,tempC,tempPS,tempISBN;
+            int tempPY;
+
+            cout << "Enter new book title: ";
+            cin.ignore();
+            getline(cin,tempT);
+            owned[booknum].setTitle(tempT);
+
+            cout << "Enter new book author: ";
+            getline(cin,tempA);
+            owned[booknum].setAut(tempA);
+
+            cout << "Enter new book language: ";
+            cin >> tempL;
+            owned[booknum].setLang(tempL);
+
+            cout << "Enter publisher: ";
+            cin >> tempPS;
+            owned[booknum].setPS(tempPS);
+
+            cout << "Enter publisher year: ";
+            cin >> tempPY;
+            owned[booknum].setPY(tempPY);
+            cin.ignore();
+
+            cout << "Enter ISBN code: ";
+            cin >> tempISBN;
+            owned[booknum].setISBN(tempISBN);
+
+            cout << "Enter new book condition: ";
+            cin.ignore();
+            getline(cin,tempC);
+            owned[booknum].setCon(tempC);
+            owned[booknum].setStat("Available");
+            booknum++;
+            
+            cout << "New book successfully added.\n";
+        
+        }
+
+        void exchange(Book a){
+            exchanged[exnum] = a;
+            //cout << exchanged[exnum].bookID;
+            exnum++;
+        }
+
+        void addReview() {
+            int ID;
+            string temp;
+            cout << "Enter book ID of desired book to review: ";
+            cin >> ID;
+
+            for (int i=0; i<exnum; i++){
+                if (ID == exchanged[i].getID()){
+                        cin.ignore();
+                        cout << "Write your review: ";
+                        getline(cin,temp);
+                        exchanged[i].setCon(temp);
+                        break;
+                }else{
+                    cout << "You are not allowed to review books that you have not exchanged.\n";
+                }
+            }
+        }
+
+        void dispEx() {
+            cout << "EXCHANGE BOOK LIST:\n";
+            for (int i=0;i<exnum;i++){
+                exchanged[i].dispBookDetails();
+            }
+        }
+
+        void updateWishList() {
+            int choice;
+            cout << "Choose:\n"
+                 << "1 - to add new book into personal wish list" << endl
+                 << "2 - to remove exisiting book in wishlist" << endl;
+            cin >> choice;
+
+            if (choice == 1){
+                int temp;
+                string wb;
+
+                cout << "Enter book ID to add: ";
+                cin >>temp;
+                wish[wishnum].setID(temp);
+
+                cin.ignore();
+                cout << "Enter book title to add: ";
+                getline(cin,wb);
+                wish[wishnum].setWBook(wb);
+                wishnum++;
+            }else if (choice == 2){
+                int del;
+                cout << "Enter book ID to delete: ";
+                cin >> del;
+
+                for (int i=0; i<wishnum; i++){
+                    if (del == wish[i].getID()){
+                        for (int i=0; i<wishnum; i++){
+                            wish[i] = wish[i+1];
+                        }
+                        wishnum --;
+                        break;
+                    }
+                }
+            }else{
+                cout << "**Invalid choice.\n";
+            }
+        }
+
+        void disWish(){
+            cout << "\nWISHLIST:\n";
+            cout << setw(8) << "Book ID" << setw(10) << "Title\n";
+            for (int i=0;i<wishnum;i++){
+                cout << left << setw(8) << wish[i].getID()
+                     << left << setw(10) << wish[i].getWBook() << endl;
+            }
+        }
+
+        void disProfile() {
+            cout << setw(11) << "User ID : " << userID << endl;
+            cout << setw(11) << "Password: " << password << endl;
+            pI.disProfile();
+        }
+
+        virtual void disUser(){}
+
+        void addWishBook(Book a) {
+            wish[wishnum].setID(a.getID());
+            wish[wishnum].setWBook(a.getTitle());
+            wishnum++;
+        }
+
+        int getID() {return userID;}
+        string getPass() {return password;}
+        string getUN() {return pI.getUsername();}
+        string getEM() {return pI.getEmail();}
+        string getAD() {return pI.getAdd();}
+        string getPH() {return pI.getPhone();}
+
+        void updateP() {pI.updateProfile();}
+
+};
+
+class Student: public User {
+    private:
+        string edulvl;
+        string eduIns;
+    
+    public:
+        Student(int id=0, string pass="", PersonalInfo pI=PersonalInfo(), string lvl="", string ins=""): User(id,pass,pI){
+            edulvl = lvl;
+            eduIns = ins;
+        }
+
+        ~Student() {}
+
+        void seteduLvl(string lvl) {
+            edulvl = lvl;
+        }
+
+        void seteduIns(string ins) {
+            eduIns = ins;
+        }
+
+        string getEduLvl() {return edulvl;}
+        string getEduIns() {return eduIns;}
+
+        virtual void disUser() override {
+            pI.disProfile();
+            cout << setw(11) << "Education level: " << edulvl << endl
+                 << setw(11) << "Education Institution: " << eduIns << endl;
+        }
+
+};
+class NonStudent: public User {
+    private: 
+        string job;
+        string field;
+
+    public:
+        NonStudent(int id=0, string pass="", PersonalInfo pI=PersonalInfo(), string j="", string f=""): User(id, pass, pI) {
+            job = j;
+            field = f;
+        }
+
+         ~NonStudent() {}
+
+        void setJob(string j) {
+            job = j;
+        }
+
+        void setField(string f) {
+            field = f;
+        }
+
+        string getJob() {return job;}
+        string getField() {return field;}
+
+        virtual void disUser() override {
+            pI.disProfile();
+            cout << setw(11) << "Job: " << job << endl
+                 << setw(11) << "Interested Field: " << field << endl;
+        }
+
+        
+};
