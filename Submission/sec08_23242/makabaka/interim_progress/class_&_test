@@ -364,3 +364,71 @@ class NonStudent: public User {
 
         
 };
+
+int main() {
+
+    cout << "Test for Book class\n\n";
+
+    ...
+
+
+    cout << "\n\nTest for PersonalInfo class\n\n";
+    ...
+
+    cout << "\n\nTest for Wishlist class\n\n";
+    ...
+
+
+    cout << "\n\nTest for Review class\n\n";
+    ... 
+
+
+    cout << "\n\nTest for User class\n\n";
+    cout << endl;
+    PersonalInfo p1("Ahmad","ahmad@gmail.com","Jalan Maju Jaya","012-6145896");
+    User u1(1,"hi",p1);
+
+    u1.disProfile();
+    cout << endl;
+
+    u1.setPass("HELLO");
+    cout << "UPDATED:\n";
+    u1.disProfile();
+
+    cout << endl;
+    u1.updateP();
+    u1.disProfile();
+
+    cout << endl;
+    u1.addBook(10);
+    cout << endl;
+    u1.dispBookList();
+
+    cout << endl;
+    u1.updateBookInfo();
+    cout << endl;
+    u1.dispBookList();
+    
+    u1.removeBook();
+    cout << "\nREMOVED BOOK:\n";
+    u1.dispBookList();
+
+    Book b3(11, "Maths", "pelangi2", 2021, "old", "12356789");
+    cout << setw(11) << "Book ID" << setw(10) << "Title" << setw(13) << "Publisher" << setw(8) << "Year" << setw(8) << "ISBN" << setw(15) << "Condition" << setw(10) << "Status" << endl;
+    b1.dispBookDetails();
+    u1.exchange(b1);
+    
+    cout << "\nADD REVIEW:\n";
+    u1.addReview();
+    u1.dispEx();
+    
+    cout << endl;
+    Book b4(12, "Science Fiction", "pelangi3", 2016, "New", "8569568");
+    u1.updateWishList();  //add
+    u1.disWish();
+    u1.addWishBook(b2);
+    u1.disWish();
+    u1.updateWishList();  //remove
+    u1.disWish();
+
+}
