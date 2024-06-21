@@ -454,18 +454,13 @@ class Report
         string b = startDate.substr(0,2);
         d = stoi(b);
         
-        if(m > 13 || d > 31 ) // notification pop up if month/day entered is invalid
+        if(m > 12 || d > 31 || m <= 0 || d <= 0) // notification pop up if month/day entered is invalid
         cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(m > 13 || d > 31);
+        } while(m > 12 || d > 31 || m <= 0 || d <= 0);
         return m;
 
     }
 
-    // Extract year from user
-    /*string setYear()
-    { 
-        return startDate.substr(6,4);
-    }*/
 
     void setEdate()
     {
@@ -476,17 +471,15 @@ class Report
         cout << "(DD/MM) : ";
         getline (cin, eD);
         endDate = eD;
-        size_t pos1 = endDate.find('-');
-        size_t pos2 = endDate.find('-', pos1 + 1);
-        string c = endDate.substr(pos1-1);
+        string c = endDate.substr(3,2);
         n = stoi(c);
 
-        string f = endDate.substr(pos2+1);
+        string f = endDate.substr(0,2);
         e = stoi(f);
         
-        if((n>12 && n<=0) || (e>31 && e<=0) ) // notification pop up if month entered is invalid
+        if(n > 12 || e > 31 || n <= 0 || e <= 0 ) // notification pop up if month entered is invalid
         cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(n > 13 || e > 31);
+        } while(n > 12 || e > 31 || n <= 0 || e <= 0);
         endDate = eD;
     }
 
@@ -584,7 +577,7 @@ void case4(int numMed, Medication med[], Report report[], Patient patient, MedTy
 
 int main() {
 
-    int addMedNum, removeMedNum, numMed=0;
+    int addMedNum=0, removeMedNum=0, numMed=0;
     string addMed[20]; //store name of meds added 
     string removeMed[20];  //store name of meds removed
 
@@ -618,11 +611,11 @@ int main() {
     if(age < 13 || age > 70) {
         cout << "\n\t\tYOU NEED A GUARDIAN." << endl;
         sPatient.getData(); //for special patient
-        patient = &sPatient;
+        sPatient.printDetails();
         system("cls");
     }
-    
-        patient->printDetails();
+
+    patient->printDetails();
 
     bool exit = 0;
 
@@ -635,9 +628,9 @@ int main() {
     {
          case 1: 
         {
-            cout << "\nYou have chosen to ADD MEDICATION" << endl;
+            cout << "\n\t\tYou have chosen to ADD MEDICATION" << endl;
             displayLine();
-            cout << "How many medications do you want to add? [   ]\b\b\b";
+            cout << "\t\tHow many medications do you want to add? [   ]\b\b\b";
             cin >> numMed;
             system("cls");
 
@@ -650,8 +643,8 @@ int main() {
                     addMed[addMedNum++] = medname;
                     system("cls");
                 }
-
-
+            med->output();
+            med->outputMed();
             int c = returnorexit();
             if(c==2)
             case4(numMed, med, report, *patient, mt);
