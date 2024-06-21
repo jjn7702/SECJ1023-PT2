@@ -1,734 +1,831 @@
 #include <iostream>
-#include <iomanip>
 #include <string>
-#include <ctime>
+#include <time.h>
+#include <tuple>
+#include <fstream>
 
 using namespace std;
 
-class Frequency
-{
-    // so that child class have access
-    protected:
-        int freqVal;
+
+
+class FoodItem{
+    string name;
+    float calories;
+    float sugar;
+    float sodium;
+    float fats;
+    float carbs;
+    float protein;
 
     public:
-        Frequency() : freqVal(1){}
-        Frequency(int freqVal):freqVal(freqVal){}
-
-        // MUTATOR
-        void setFreq()
-        {
-            cout << "\nNumber of doses you need to take at one time : ";
-            cin >> freqVal;
+        FoodItem(string n = "",float c = 0.0, float s = 0.0, float sod = 0.0, float fat = 0.0, float carb = 0.0,float pro = 0.0){
+            name = n;
+            calories = c;
+            sugar = s;
+            sodium = sod;
+            fats = fat;
+            carbs = carb;
+            protein = pro;
         }
 
-        // ACCESSOR
-        int getFreq() const { return freqVal; }
-
-        //POLYMORPHISM
-        // default print from parent class
-        virtual void printFreq()
-        {
-            cout << "Frequency : " << freqVal << " each time\n";
+        void setName(string n){
+            name = n;
         }
 
-        // Destructor
-        ~Frequency(){}
+        void setKcal(float cal){
+            calories = cal;
+        }
+
+        void setSugar(float sug){
+            sugar = sug;
+        }
+
+        void setSodium(float sod){
+            sodium = sod;
+        }
+
+        void setFats(float fat){
+            fats = fat;
+        }
+
+        void setCarbs(float carb){
+            carbs = carb;
+        }
+
+        void setProtein(float pro){
+            protein = pro;
+        }
+
+
+        string getName(){
+             return name;
+        }
+
+        float getKcal(){
+             return calories;
+        }
+
+        float getSugar(){
+             return sugar;
+        }
+
+        float getSodium(){
+             return sodium;
+        }
+
+        float getFats(){
+            return fats;
+        }
+
+        float getCarbs(){
+            return carbs;
+        }
+
+        float getProtein(){
+            return protein;
+        }
+
+        string getItemInfo(){
+            string info;
+            info += "Calories: " + to_string(calories) + " kcal\n";
+            info += "Sugar: " +to_string(sugar) + "g\n";
+            info += "Sodium: " +to_string(sodium) + "mg\n";
+            info += "Fats: " +to_string(fats) + "g\n";
+            info += "Carbs: " + to_string(carbs) + "g\n";
+            info += "Protein: " + to_string(protein) + "g\n";
+            return info;
+        }
+
+        void getItemInput(){
+            cout << "Item name: ";
+            getline(cin,name);
+
+            cout << "Calories: ";
+            cin >> calories;
+            cin.ignore();
+
+            cout << "Sodium: ";
+            cin >> sodium;
+            cin.ignore();
+
+            cout << "Fats: ";
+            cin >> fats;
+            cin.ignore();
+
+            cout << "Carbs: ";
+            cin >> carbs;
+            cin.ignore();
+
+            cout << "Sugar: ";
+            cin >> sugar;
+            cin.ignore();
+
+            cout << "Protein: ";
+            cin >> protein;
+            cin.ignore(); 
+        }
+
+
+
 
 };
 
-//------------------------------
-
-class dailyFreq : public Frequency
-{
-    
-    int dailyIntake;
-    double time[10];
+class Meal{
+    string mealName;
+    FoodItem foodItems[100];
+    int foodItemsCount {0};
+    double totalCalories {0.0};
 
     public:
-        dailyFreq(): Frequency(1), dailyIntake(1), time() {}
-        dailyFreq(int f, int d, double t): Frequency(f), dailyIntake(d) 
-        {
-            if(d > 1)
-            {
-                for(int i = 0; i < d; i++)
-                {
-                    time[i] = t;   
-                }
+        Meal(string n = "") : mealName(n){}
+
+        string getMealName(){
+            return mealName;
+        }
+
+        void printMeal(){
+            cout << "Meal : " << mealName << endl;
+            cout << "------------------------------------------" << endl;
+
+
+            for (int i = 0; i < foodItemsCount; i++){
+                cout << foodItems[i].getItemInfo() << endl;
+                cout << "------------------------------------------" << endl;
             }
         }
 
+        string getMealInfo(){
+            return "Meal: " + mealName + " Total Calories: " + to_string(totalCalories);
+        }
 
-        //DAILY FREQUENCY DESTRUCTOR
-        ~dailyFreq(){}
+        void addFoodItems(FoodItem *fooditem){
+            foodItems[foodItemsCount]  = *fooditem;
+            foodItemsCount++;
+            calculateCalorie();
+        }
 
-
-        //AQCUIRE DAILY INTAKE FROM USER
-        void setdailyIntake()
-        {
-
-        // setting daily intake
-            cout << "\nHow many times do you need to take the the medicine in a day?\n";
-            cin >> dailyIntake;
-        
-        // setting time for user
-            for(int i = 0; i < dailyIntake; i++)
-            {
-            cout << "\nWhat's the time no." << i+1 << " you need to take the medication in a day? \n";
-            cout << "24hrs system (hh.mm) : ";
-            cin >> time[i];
+        void calculateCalorie(){
+            double sumCalories {0.0};
+            for (int i = 0; i < foodItemsCount; i++){
+                sumCalories += foodItems[i].getKcal();
             }
-        }
-
-        //ACCESSORS
-        int getdailyIntake() const { return dailyIntake; }
-        double getTime(int i) const{ return time[i]; }
-        
-
-        //PRINT DAILY FREQUENCY (POLYMORPHISM)
-        void printFreq() override
-        {
-            cout << fixed << setprecision(2);
-            cout << "\nYou need to take " << dailyIntake << " per day.\n";
-            cout << "Time: " ;
-            for(int i = 0; i < dailyIntake; i++)
-            {
-                cout << time[i] << "\n" << setw(11) << endl;
-            }
-            Frequency :: printFreq();
-        }
-
-};
-
-//----------------------------------------------------------
-
-class weeklyFreq : public Frequency  //inheritance
-{
-    int dayPerWeek;
-
-    public:
-        weeklyFreq(): Frequency(1), dayPerWeek(1){}
-        weeklyFreq(int f, int dpw): Frequency(f), dayPerWeek(dpw){}
-
-        //WEEKLY FRQUENCY DESTRUCTOR
-        ~weeklyFreq(){}
-
-        //AQCUIRE DAYPERWEEK FROM USER
-        void setdayPerWeek()
-        {
-            cout << "\nHow many times do you need to take the medication per week?\n";
-            cin >> dayPerWeek;
-        }
-
-        //ACCESSOR
-        int getdayPerWeek() const{ return dayPerWeek; }
-        
-
-        //PRINT WEEKLY FREQUENCY (POLYMORPHISM)
-        void printFreq() override
-        {
-            cout << "\nThis medicine needs to be taken " << dayPerWeek << " day(s) per week, and\n";
-            //Frequency :: printFreq(); // print also the general frequency
+            totalCalories = sumCalories;
         }
 };
 
-//----------------------------------------------------
-
-class MedType {
-    string form, shape, color;
-
-    public:
-        //constructor
-        MedType(){}
-        MedType(string f, string s, string c): form(f), shape(s), color(c){}
 
 
-        //accessor
-        string getMedForm() const {return form;}
-        string getMedShape() const {return shape;}
-        string getMedColor() const {return color;}
-
-        //mutators
-        void setMedForm(const string &f) {form = f;}
-        void setMedShape(const string &s) {shape = s;}
-        void setMedColor(const string &c) {color = c;}
-
-        //functions
-        void read()
-        {
-        cout << "Enter form (tablet, capsule, powder, liquid): ";
-        
-        getline(cin, form);
-        setMedForm(form);
-
-        if (form=="tablet" || form=="capsule")
-        {
-            cout << "Enter shape (round, oval): ";
-            getline(cin, shape);
-            setMedShape(shape);
-        }
-        
-        else if(form == "powder" || form == "liquid")
-        {
-            shape = "None";
-        }
-
-        else shape = "-";
-
-        cout << "Enter color: ";
-        
-        getline(cin, color);
-        setMedColor(color);
-        }
-
-        void printMedType()
-        {
-            cout << "Form" << setw(10) << ":  " << form << "\n";
-            cout << "Shape" << setw(9) << ":  " << shape << "\n";
-            cout << "Color" << setw(9) << ":  " << color << "\n";        
-        }
-
-        //destructor
-        ~MedType(){}
-};
-
-//-----------------------------------------------
-
-class Medication {
-    string medName, dosage;
-    MedType medType;//composition
-    Frequency frequency; //composition
-    dailyFreq dFreq;
-    weeklyFreq wFreq;
+class Goal{
+    string goalName;
+    string goalDesc;
+    bool goalStatus {false};
+    tm setDate;
 
     public:
-    //constructor
-    Medication(){}
-    //Medication(string n, string d): medName(n), dosage(d) {}
-    Medication(string n, string d, string s, string c, string f): medName(n), dosage(d), medType(s,c,f){}
+        Goal(string gN = "", string gD = "") : goalName(gN),goalDesc(gD){}
 
-    //accessors
-    string getMedName() {return medName;}
-    string getMedDosage() {return dosage;}
-
-    //functions
-    void input()
-    {
-        cout << "Enter medication name: ";
-        cin.ignore();
-        getline(cin, medName); 
-        cout << "Enter dosage(500mg, 5ml): ";
-        getline(cin, dosage);
-        medType.read();
-        frequency.setFreq();
-        dFreq.setdailyIntake();
-        wFreq.setdayPerWeek();
-    }
-
-    void freqOutput() 
-    {
-        wFreq.printFreq();
-        dFreq.printFreq();
-        cout << "\n\n";
-    }
-
-    void medtypeOutput()
-    {
-        medType.printMedType();
-    }
-
-    void output(int num)
-    {
-        if(num==0){
-            cout << "No medication available.\n" << endl;
-        }else{
-            cout << left;
-            cout << setw(20) << "MEDICATION"<< setw(10) << "DOSAGE" << setw(10) << "FORM" << setw(10) << "SHAPE" << setw(10) << "COLOR" << endl;
-        }
-    }
-    void outputMed(){
-        cout << setw(20) << medName << setw(10) << dosage << setw(10) << medType.getMedForm() << setw(10)<< medType.getMedShape() << setw(10) << medType.getMedColor() << "\n";
-    }
-
-    //destructor
-    ~Medication(){}
-};
-
-//----------------------------------------------------
-
-class Patient {
-    protected:
-    string patientID,  fullname, password, dob, sex;
-    Medication *med = nullptr; //aggregation with Medication class
-
-    public:
-    Patient(string id=" ", string _name=" ", string pw=" ", string _dob=" ", string _sex=" "): 
-    patientID(id), fullname(_name), password(pw), dob(_dob), sex(_sex) {} //argument constructor
-
-    //mutators
-    void setID(const string &id) {patientID = id;}
-    void setname(const string &n) {fullname = n;}
-    void setpassword(const string &pw) {password = pw;}
-    void setdob(const string &d) {dob = d;}
-    void setsex(const string &s) {sex = s;}
-
-    //accessors
-    string getID() const{return patientID;}
-    string getname() const{return fullname;}
-    string getpassword() const{return password;}
-    string getdob() const{return dob;}
-    string getsex() const{
-        if(sex=="f") return "Female";
-        else if(sex=="m") return "Male";
-        return "";} //M=Male, F=Female
-
-    virtual void getData() { //for first time
-        cout << "\t\t<< ENTER DETAILS >>" << endl
-             << "\t\t<< TO REGISTER >>" << endl << endl;
-        cout << "\t\tPatient ID: ";
-        getline(cin, patientID);
-        setID(patientID);
-        cout << "\t\tFull Name: ";
-        getline(cin, fullname);
-        cout << "\t\tPassword: ";
-        getline(cin, password);
-        setpassword(password);
-        cout << "\t\tDate of Birth (DD/MM/YYYY): ";
-        getline(cin, dob);
-        cout << "\t\tGender (M/F): ";
-        getline(cin, sex);
-        for(int i = 0; i < sex.length(); i++){
-            sex = tolower(sex[i]);
+        string getGoalName(){
+            return goalName;
         } 
+        string getGoalDesc(){
+            return goalDesc;
+        }
+        string getGoalStatus(){
+            if (goalStatus){
+                return "Goal Achieved";
+            }
+            else{
+                return "Unfinished Goal";
+            }
+        }
+        void setGoalStatus(){
+            goalStatus = !goalStatus;
+        }
+
+        void setGoal(){
+            cout  << "Goal Name: ";
+            getline(cin,goalName);
+
+            cout << "Goal Description: ";
+            getline(cin,goalDesc);
+        }
+};
+
+//---------------------------------------------------------------------------------------------
+// Exercise Class
+class Exercise {
+private:
+    string exerciseName;
+    string exerciseType;
+    double timeSpent;  // in minutes
+    double caloriesBurnt;
+
+public:
+    // Constructors
+    Exercise() : exerciseName(""), exerciseType(""), timeSpent(0), caloriesBurnt(0) {}
+    Exercise(string name, string type, double time, double calories)
+        : exerciseName(name), exerciseType(type), timeSpent(time), caloriesBurnt(calories) {}
+
+    // Getters
+    string getExerciseName() const { return exerciseName; }
+    string getExerciseType() const { return exerciseType; }
+    double getTimeSpent() const { return timeSpent; }
+    double getCaloriesBurnt() const { return caloriesBurnt; }
+
+    // Setters
+    void setExerciseName(string name) { exerciseName = name; }
+    void setExerciseType(string type) { exerciseType = type; }
+    void setTimeSpent(double time) { timeSpent = time; }
+    void setCaloriesBurnt(double calories) { caloriesBurnt = calories; }
+
+    // Virtual Print method
+    virtual void printInfo() const {
+        cout << "Exercise Name: " << exerciseName << endl;
+        cout << "Exercise Type: " << exerciseType << endl;
+        cout << "Time Spent: " << timeSpent << " minutes" << endl;
+        cout << "Calories Burnt: " << caloriesBurnt << endl;
     }
 
-    //method to calculate age (assume DD/MM/YYYY format)
-    int getAge() const {
-            int year;
-            int age = 0;
-            try {
-                if(dob.length() > 7) {
-                    size_t pos1 = dob.find('/');
-                    size_t pos2 = dob.find('/', pos1 + 1);
-                    year = stoi(dob.substr(pos2 + 1, 4)); 
-                    age = 2024 - year;
-                } else {
-                    throw(age);
-                }
+    virtual void setExerciseInput(){
+        cout << "Exercise Name: " << endl;
+        getline(cin,exerciseName);
+        cout << "Time Spent: " << endl;
+        cin >> timeSpent;
+        cin.ignore();
+        cout << "Calorie Burnt: " << endl;
+        cin >> caloriesBurnt;
+        cin.ignore();
+    }
 
-            } catch (...) {
-                cout << "Sorry, cannot extract your age from DOB." << endl;
+    // Virtual destructor
+    virtual ~Exercise() = default;
+};
+
+// Cardio Class (inherits from Exercise)
+class Cardio : public Exercise {
+private:
+    string intensity;
+    double distance;  // in kilometers
+
+public:
+    // Constructors
+    Cardio() : Exercise(), intensity(""), distance(0) {}
+    Cardio(string name, string type, double time, double calories, string intensity, double distance)
+        : Exercise(name, type, time, calories), intensity(intensity), distance(distance) {}
+
+    // Getters
+    string getIntensity() const { return intensity; }
+    double getDistance() const { return distance; }
+
+    // Setters
+    void setIntensity(string intensity) { this->intensity = intensity; }
+    void setDistance(double distance) { this->distance = distance; }
+
+    // Override Print method
+    void printInfo() const override {
+        Exercise::printInfo();
+        cout << "Intensity: " << intensity << endl;
+        cout << "Distance: " << distance << " km" << endl;
+    }
+
+    void setExerciseInput(){
+        Exercise::setExerciseInput();
+        cout << "Intensity: " << endl;
+        cin >> intensity;
+        cin.ignore();
+
+        cout << "Distance: " << endl;
+        cin >> distance;
+        cin.ignore();
+    }
+};
+
+// StrengthTraining Class (inherits from Exercise)
+class StrengthTraining : public Exercise {
+private:
+    int setsCount;
+    int repsCount;
+    double weight;  // in kilograms
+
+public:
+    // Constructors
+    StrengthTraining() : Exercise(), setsCount(0), repsCount(0), weight(0) {}
+    StrengthTraining(string name, string type, double time, double calories, int sets, int reps, double weight)
+        : Exercise(name, type, time, calories), setsCount(sets), repsCount(reps), weight(weight) {}
+
+    // Getters
+    int getSetsCount() const { return setsCount; }
+    int getRepsCount() const { return repsCount; }
+    double getWeight() const { return weight; }
+
+    // Setters
+    void setSetsCount(int sets) { setsCount = sets; }
+    void setRepsCount(int reps) { repsCount = reps; }
+    void setWeight(double weight) { this->weight = weight; }
+
+    // Override Print method
+    void printInfo() const override {
+        Exercise::printInfo();
+        cout << "Sets Count: " << setsCount << endl;
+        cout << "Reps Count: " << repsCount << endl;
+        cout << "Weight: " << weight << " kg" << endl;
+    }
+
+
+    void setExerciseInput(){
+        Exercise::setExerciseInput();
+        cout << "Sets Count: " << endl;
+        cin >> setsCount;
+        cin.ignore();
+
+        cout << "Repts Count: " << endl;
+        cin >> repsCount;
+        cin.ignore();
+
+        cout << "Weight: " << endl;
+        cin >> weight;
+        cin.ignore();
+    }
+};
+
+
+//---------------------------------------------------------------------------------------------
+
+class DailyLog{
+    string logName;
+    Meal *dailyMeals[100];   
+    Exercise *dailyExercie[100];
+    int exerciseCount { 0 };
+    int mealCount { 0 };
+    // add exercise array here
+
+    public:
+        DailyLog(){
+            logName = "Log : " + to_string(rand()) ;
+        }
+
+        void addMeal(Meal *meal){
+            dailyMeals[mealCount] = meal;
+            dailyMeals[mealCount]->calculateCalorie();
+            mealCount++;
+        }
+
+        string getLogName(){
+            return logName;
+        }
+
+        void printAllMeals(){
+            for (int i = 0; i < mealCount ; i++){
+                cout << "#" << i+1 << " " << dailyMeals[i]->getMealInfo() << endl;
             }
+        }
 
+        void addExercise(Exercise *exercise){
+            dailyExercie[exerciseCount] = exercise;
+            exerciseCount++;
+        }
+
+        int getExerciseCount(){
+            return exerciseCount;
+        }
+
+        void printAllExercise(){
+            for (int i = 0; i < exerciseCount ; i++){
+                dailyExercie[i]->printInfo();
+            }
+        }
+
+
+};
+
+
+class User{
+    string userID;
+    string name;
+    int age;
+    double height;
+    double weight;
+    double bmi;
+    string password;
+    DailyLog userLog[100];
+    Goal userGoal[100];
+    int userLogCount {0}; // remember to change to zero back
+    int userGoalCount {0};
+
+    public:
+        User(string n = "",string p = "",int a = 0,double w = 0.0,double h = 0.0) : name(n),password(p),height(h),weight(w),age(a){
+            userID = "User" + to_string(rand());
+            calculateBMI();
+        }
+
+        string getName(){
+            return name;
+        }
+
+        string getUserID(){
+            return userID;
+        }
+
+        void setUserID(string UID){
+            userID = UID;
+        } // temporary 
+
+        int getAge(){
             return age;
         }
+        double getHeight(){
+            return height;
+        }
+        double getWeight(){
+            return weight;
+        }      
+        void setPassword(string p){
+            password = p;
+        }
+        void displayInfo(){
+            cout << "-------------------------------------------------------------" << endl;
+            cout << "User Information: " << endl;
+            cout << "Name : " << name << endl << "Age: "  << age << endl << "Height: " << height  << endl << "Weight: " << weight << endl << "BMI: " << bmi << endl;
+            // below here would be the dailyLog
+            // below here world be goals
+            cout << "-------------------------------------------------------------" << endl;
+        }
+
+        void calculateBMI(){
+            bmi = weight/((height*height/100));
+        }
+
+        bool checkUserName(string uID){
+            if (userID == uID){
+                return true;
+            }
+            return false;
+        }
+
+        bool checkPassword(string pass){
+            if (password == pass){
+                return true;
+            }
+            return false;
+        }
+
+        DailyLog* getCurrLog(){
+            return &userLog[userLogCount];
+        }
+
+        void displayAllDailyLog(){
+            for (int i = 0; i < userLogCount + 1;i++){
+                cout << "#" << i + 1 << " Daily Log" << endl;
+                userLog[i].printAllMeals();
+                userLog[i].printAllExercise();
+
+            }
+        }
+
+        void addDailyLog(){
+            userLogCount++;
+            // we dont need to create new log all log object exist and constructor already execute
+        }        
+
+        void displayAllGoals(){
+            for ( int i = 0; i < userGoalCount; i++){
+                cout << "\n#" << i + 1 << " Goal" << "\nUser Goal: " << userGoal[i].getGoalName()  << "\nGoalDesc: " << userGoal[i].getGoalDesc() << "\nGoalStatus: " << userGoal[i].getGoalStatus() << endl;   
+            }
+        }
+
+        void createGoal(){
+            userGoal[userGoalCount].setGoal();
+            userGoalCount++;
+        }
+
+        void setGoalStatus(int goalNum){
+            if (goalNum - 1 < userGoalCount){
+                userGoal[goalNum - 1].setGoalStatus();
+                cout << "Goal Successfully Changed" << endl;
+            }
+            else{
+                cout << "No Particular Goal";
+            }
+        }
+
+};
 
 
-  void login() {
-    string pt, pw;
+class UserRecord{
+    User *userProfile[100];
+    int userProfileCount {0};
 
-    cout << "\n\t\t<< LOGIN >>" << endl << endl;
+    public:
+        UserRecord(){}
+        void addUser(User *user){
+            userProfile[userProfileCount] = user;
+            userProfileCount++;
+        }
+        void removeUser(string userID){
+            for (int i = 0; i < userProfileCount; i++){
+                if (userProfile[i]->getUserID() == userID){
+                    userProfile[i] = nullptr;
+                    userProfileCount--;
+                    break;
+                }
+            }
+        }
+        int getUserCount(){
+            return userProfileCount;
+        }   
+        User* getUser(int i){
+            return userProfile[i];
+        }
+};
 
-    cout << "\t\tPatient ID: ";
-    getline(cin, pt);
-    cout << "\t\tPassword: ";
-    getline(cin, pw);
 
-    //login credentials
-    if (pt == getID() && pw == getpassword()) {
-        cout << "\t\tLOGIN SUCCESSFUL." << endl;
-    } else {
-        cout << "\t\t!Invalid ID or Password!" << endl;
-        cout << "\t\tEnter again." << endl;
-        login(); 
+
+
+void registerUser(UserRecord *data){
+    string name;
+    int age;
+    double height;
+    double weight;
+    string password;
+
+    cout << "Name:";
+    getline(cin,name);
+
+    cout << "Age:";
+    cin >> age;
+    cin.ignore();
+
+    cout << "Height:";
+    cin >> height;
+    cin.ignore();
+
+    cout << "Weight:";
+    cin >> weight; 
+    cin.ignore();
+
+    cout << "Your Password:";
+    getline(cin,password);
+
+    try {
+        User *userRegistered  = new User(name,password,age,height,weight);
+        cout << "Successfully Registered" << endl;
+        cout << "Please Remember your ID" << endl;
+        cout << "Your ID: " << userRegistered->getUserID() << endl;
+        data->addUser(userRegistered);
+    }
+    catch(...){
+        cout << "Invalid input somewhere kindly register again";
     }
 }
 
-     virtual void printDetails() const{
-        cout << "---PATIENT DETAILS---" << endl;
-        cout << "NAME          : " << getname() << endl
-             << "DATE OF BIRTH : " << getdob() << endl
-             << "GENDER        : " << getsex() << endl 
-             << "AGE           : " << getAge() << endl << endl;
+
+
+
+tuple <bool,User*> log_in(UserRecord *data){
+
+    string userID;
+    string password;
+
+    cout << "------------------------" << endl;
+    cout << "Your UserID: ";
+    getline(cin,userID);
+    cout << "Your Password: ";
+    getline(cin,password);
+    cout << "-------------------------" << endl;
+
+    for (int i = 0; i < data->getUserCount(); i++){
+        if (data->getUser(i)->checkUserName(userID)){
+            if(data->getUser(i)->checkPassword(password)){
+                return make_tuple(true,data->getUser(i));
+            }
+            else{
+                cout << "Invalid Password Try Again" << endl;
+            }
+        }
+        else{
+            cout << "User not found" << endl;
+        }
     }
+    return make_tuple(false,nullptr);
 
-    //method to prescribe med (mutator)
-    void setMed(Medication *m) {
-        med = m;
+}
+
+void displayFoodItems(FoodItem foodItems[], int count) { //ADDED 
+    for (int i = 0; i < count; i++) {
+        cout << i + 1 << ". " << foodItems[i].getName() << " (" << foodItems[i].getKcal() << " kcal)" << endl;
     }
+}
 
-    ~Patient() {} //destructor
-};
 
-//------------------------------------------------------
 
-class RegularPatient : public Patient{
-    private:
-    string contactInfo, emergencyContact;
+void mealFeature(DailyLog* currLog, FoodItem foodItems[], int foodItemCount) { // CORECTED to give the user choice either to add himself of choose 
+    int numOfFoodItems{0};
+    string mealName;
+    cout << "----------Add Meals------------" << endl;
 
-    public:
-    RegularPatient(string contact=" ", string emergency=" "): 
-    contactInfo(contact), emergencyContact(emergency) {}
- 
-    //mutators
-    void setcontactInfo(const string &cont) {contactInfo = cont;}
-    void setemergencyContact(const string &emercon) {emergencyContact = emercon;}
+    cout << "Name of the Meal: ";
+    getline(cin, mealName);
+    Meal* newMeal = new Meal(mealName);
 
-    //accessors
-    string getcontactInfo() const{return contactInfo;}
-    string getemergencyContact() const{return emergencyContact;}
+    int choice;
+    cout << "How would you like to add food items?\n1. Choose from the file\n2. Enter manually\n";
+    cin >> choice;
+    cin.ignore();
 
-    //using polymorphism
-    void getData() {
-        Patient::getData();
-        cout << "\t\tContact Info (+60): ";
-        getline(cin, contactInfo);
-        cout << "\t\tEmergency Contact (+60): ";
-        getline(cin, emergencyContact);
-    }
-
-    ~RegularPatient() {} //destructor
-};
-
-//-------------------------------------------------------
-
-class SpecialPatient: public Patient {
-    private:
-    string guardianName, relationship, guardianContact;
-
-    public:
-    SpecialPatient(string g = " ", string r = " ", string gc =" "): 
-    guardianName(g), relationship(r), guardianContact(gc) {}
- 
-    //mutators
-    void setguardianName(const string &g) {guardianName = g;}
-    void setrelationship(const string &r) {relationship = r;}
-    void setguardianContact(const string &gc) {guardianContact = gc;}
-
-    //accessors
-    string getguardianName() const{return guardianName;}
-    string getrelationship() const{return relationship;}
-    string getguardianContact() const{return guardianContact;}
-
-    void getData() {
-        cout << "\t\tGuardian Name: ";
-        getline(cin, guardianName);
-        cout << "\t\tRelationship with Patient: ";
-        getline(cin, relationship);
-        cout << "\t\tGuardian Contact Info (+60): ";
-        getline(cin, guardianContact);
-    }
-
-    ~SpecialPatient() {} //destructor
-};
-
-//----------------------------------------------
-
-class Report
-{
-    string startDate, endDate;
-    Medication *medication[20]; 
-    Patient *patient;           
-    MedType *medtype[20];
-    Frequency *freq[20];
-
-   public:
-    Report() : startDate(""), endDate(""){}
-    Report(string s, string e) : startDate(s), endDate(e) {}
-
-    // MUTATORS
-    int setSdate()
-    {
-        int m,d;
-        string sD;
-        
-        // Extract month from user
-        do{
-        cout << "(DD/MM) : ";
+    if (choice == 1) {
+        cout << "How many items do you want to add from the list?: ";
+        cin >> numOfFoodItems;
         cin.ignore();
-        getline (cin, sD);
-        startDate = sD;
-        string a = startDate.substr(3,2);
-        m = stoi(a);
 
-        string b = startDate.substr(0,2);
-        d = stoi(b);
-        
-        if(m > 12 || d > 31 || m <= 0 || d <= 0) // notification pop up if month/day entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(m > 12 || d > 31 || m <= 0 || d <= 0);
-        return m;
+        for (int i = 0; i < numOfFoodItems; i++) {
+            int itemChoice;
+            displayFoodItems(foodItems, foodItemCount);
+            cout << "Choose an item by number: ";
+            cin >> itemChoice;
+            cin.ignore();
 
-    }
+            if (itemChoice > 0 && itemChoice <= foodItemCount) {
+                newMeal->addFoodItems(&foodItems[itemChoice - 1]);
+            } else {
+                cout << "Invalid choice, try again." << endl;
+                i--; // Retry the current item
+            }
+        }
+    } else if (choice == 2) {
+        cout << "How many items do you want to add manually?: ";
+        cin >> numOfFoodItems;
+        cin.ignore(); //  assume the right input is given;
 
-
-    void setEdate()
-    {
-        int n, e;
-        string eD;
-        
-        do{
-        cout << "(DD/MM) : ";
-        getline (cin, eD);
-        endDate = eD;
-        string c = endDate.substr(3,2);
-        n = stoi(c);
-
-        string f = endDate.substr(0,2);
-        e = stoi(f);
-        
-        if(n > 12 || e > 31 || n <= 0 || e <= 0 ) // notification pop up if month entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(n > 12 || e > 31 || n <= 0 || e <= 0);
-        endDate = eD;
-    }
-
-
-    // ACCESSORS
-    string getSdate(){return startDate;}
-    string getEdate(){return endDate;}
-
-
-     void displayReport(Patient *p)
-    { 
-
-        cout << "\n\n" << setw(35) << 2024 << " MEDICATION REPORT SCHEDULE\n\n";
-
-        p->printDetails();
-    }
-
-    // Display medication (Aggregation)
-    void displayMed(Medication *m, MedType *mt) const 
-    {
-        
-        cout << "Date Start - Date End : " << startDate << " - " <<  endDate << "\n";
-        cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
-        cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
-
-        if (mt!=NULL) m->medtypeOutput();
-        
-        m->freqOutput();
-    }
-
-    ~Report(){}
-    
-};
-
-//-------------------------------------------------------
-
-void displayLine() {
-    cout << "\t\t";
-    for(int i = 0; i < 30; i++) {
-        cout << "-";
-    }
-    cout << endl;
-}
-
-int userOption() {
-    int useropt;
-     cout << "\n\t\tWelcome to MEDICATION SCHEDULER!" << endl
-         << "\t\tChoose your task for today." << endl;
-    cout << "\t\t[OPTION 1] => Add medication" << endl
-         << "\t\t[OPTION 2] => Remove medication" << endl
-         << "\t\t[OPTION 3] => View history" << endl
-         << "\t\t[OPTION 4] => View report and exit system." << endl << endl;
-    cout << "\t\tOPTION => [ ]\b\b";
-    cin >> useropt;
-    system("cls");
-    return useropt;
-}
-
-int returnorexit() {
-    int choose;
-    cout << "\n\t\tPress [1] to return to menu, [2] to exit system [ ]\b\b";
-    cin >> choose;
-    return choose;
-    system("cls");
-}
-
-void case4(int numMed, Medication med[], Report report[], Patient patient, MedType mt[]) {
-    cout << "\t\tYou have chosen to VIEW REPORT and EXIT SYSTEM.\n\n";
-    displayLine();
-
-    if (numMed == 0) {
-        report[0].displayReport(&patient);
-        cout << "\n\n *You have no medication scheduled.\n\n";
+        for (int i = 0; i < numOfFoodItems; i++) {
+            FoodItem newItem;
+            cout << "Enter details for item " << i + 1 << ":\n";
+            newItem.getItemInput();
+            newMeal->addFoodItems(&newItem);
+        }
     } else {
-        for (int i = 0; i < numMed; i++) {
-            cout << "DATES FOR MEDICATION " << i + 1 << " : " << med[i].getMedName() << "\n";
-            cout << "When would you like to start your medication " << i + 1 << " ? ";
-            report[i].setSdate();
-
-            cout << "When does this medication " << i + 1 << " end? ";
-            report[i].setEdate();
-
-            system("cls");
-        }
-
-        report[0].displayReport(&patient); // Display report, display patient's information
-        for (int i = 0; i < numMed; ++i) {
-            cout << "\nMEDICATION " << i + 1 << endl;
-            report[0].displayMed(&med[i], &mt[i]);
-        }
+        cout << "Invalid choice, returning to menu.\n";
+        return;
     }
 
-    system("pause");
+    currLog->addMeal(newMeal);
+    cout << "Meals Added Successfully!!" << endl;
 }
 
-int main() {
 
-    int addMedNum=0, removeMedNum=0, numMed=0;
-    string addMed[20]; //store name of meds added 
-    string removeMed[20];  //store name of meds removed
 
-    Patient* patient;
-    RegularPatient rPatient;
-    SpecialPatient sPatient;
-    Medication *med = new Medication[50];
-    MedType *mt = new MedType[50];
-    Report *report = new Report[50];
-    Frequency *freq = new Frequency[50];
 
-    //TIME-FOR MEDICATION INTAKE 
-    time_t now = time(nullptr);
+void menu(User *user,FoodItem foodItems[], int foodItemCount){
+    int choice {0};
+    int goalChoice {0};
+    int exerciseChoice {0};
+    DailyLog *currLog {user->getCurrLog()};
+    Exercise *newExercise;
+    cout << "WELCOME TO NUTRACKERAPP" << endl;
 
-    displayLine();
-    cout << "\t\t|       HI!! WELCOME TO        |" << endl;
-    cout << "\t\t| 2024 MEDICATION SCHEDULER :) |" << endl;
-    displayLine();
-    // Print the current time
-    cout << "\t\tCURRENT TIME: " << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S") << endl << endl;
+    while(choice != 9){
+        cout << "-------------------------------------------------------nuTrackerApp HomePage-------------------\n";
+        cout << "1.Add Meals\t2.Add Exercise\t3.Add Goals\t4.View Goals\t5.Set Goals\t6.View Daily Log\n7.Add Daily Log\t\t8.Display User Info\t9.Exit" << endl;
+        cout << "------------------------------------------------------------------------------------------------\n";
+        cin >> choice;
+        cin.ignore();
 
-    rPatient.getData(); //get patient data
-    patient = &rPatient;
-
-    system("cls");
-
-    patient->login(); //authenticate login process
-
-    int age = patient->getAge();
-
-    if(age < 13 || age > 70) {
-        cout << "\n\t\tYOU NEED A GUARDIAN." << endl;
-        sPatient.getData(); //for special patient
-        sPatient.printDetails();
-        system("cls");
-    }
-
-    patient->printDetails();
-
-    bool exit = 0;
-
-    while(!exit)
-    {
-
-    //int optionUser = userOption(); //for user option
-
-    switch(userOption()) 
-    {
-         case 1: 
-        {
-            cout << "\n\t\tYou have chosen to ADD MEDICATION" << endl;
-            displayLine();
-            cout << "\t\tHow many medications do you want to add? [   ]\b\b\b";
-            cin >> numMed;
-            system("cls");
-
-                for (int i = 0; i < numMed; ++i) 
-                {
-                    cout << "\n\nMEDICATION " << i+1 << " : \n\n";
-                    med[i].input();
-                    patient->setMed(med); //point to med
-                    string medname = med[i].getMedName();
-                    addMed[addMedNum++] = medname;
-                    system("cls");
-                }
-            med->output();
-            med->outputMed();
-            int c = returnorexit();
-            if(c==2)
-            case4(numMed, med, report, *patient, mt);
-            break;
-
-        }
-
-        case 2: 
-        {
-            if(numMed == 0){
-                cout << "\n\t\t! ERROR !" << endl
-                << "\t\tYou have no record of medication to remove" << endl 
-                << "\t\tPress 1 to add medication" << endl << endl;
-            }
-            else
-            {
-                string mdname;
-        
-                cout << "\t\tYou have chosen REMOVE MEDICATION" << endl;
-                displayLine();
-                cout << "\t\tEnter the medication name that you would like to delete from the list : ";
+        switch(choice){
+            case 1:
+                mealFeature(currLog,foodItems, foodItemCount);
+                break;
+            case 2:
+                cout << "------------------------------- ADD EXERCISE ------------------------------------" << endl;
+                cout << "Type of Exercise:" << "\n1.Cardio\n2.Strength " << endl;
+                cin >> exerciseChoice;
                 cin.ignore();
-                getline(cin, mdname);
 
-                bool found = false;
-                for(int i=0; i<numMed; i++)
-                {
-                    if(mdname == med[i].getMedName())
-                    {
-                        removeMed[removeMedNum++] = med[i].getMedName();
-                        patient->setMed(med);
-                        numMed--;
-                        found = true;
-                        break;
-                    }
+                if (exerciseChoice == 1){
+                    newExercise = new Cardio();
+                    newExercise->setExerciseInput();
+                }
+                else if(exerciseChoice == 2){
+                    newExercise = new StrengthTraining();
+                    newExercise->setExerciseInput();
+                }
+                else{
+                    cout << "Invalid Input " << endl;
+                    break;
                 }
 
-                if(!found) cout << "\n\t\tError! Medicine cannot be found.\n\n";
+                currLog->addExercise(newExercise);
+                // cout << "\n" << currLog->getExerciseCount();
+                break;
 
-            }
-                int c = returnorexit();
-                if(c==2)
-                case4(numMed, med, report, *patient, mt);
+            case 3:
+                user->createGoal();
+                cout << "Goal Successfully Created" << endl;
+                break;
+            case 4:
+                cout << "Displaying All Goals" << endl;
+                cout << "-----------------------------" << endl;
+                user->displayAllGoals();
+                cout << "-----------------------------" << endl;
+                break;
+            case 5:
+                cout << "Change Goal Status" << endl;
+                cout << "-----------------------------" << endl;
+                user->displayAllGoals();
+                cout << "-----------------------------" << endl;
+                cout << "Which Goals you have finished ? :";
+                cin >> goalChoice;
+                user->setGoalStatus(goalChoice);
+                break;
+            case 6:
+                cout << "Displaying All Daily Logs" << endl;
+                cout << "-----------------------------" << endl;
+                user->displayAllDailyLog();
+                cout << "-----------------------------" << endl;
+                break;
+            case 7:
+                user->addDailyLog();
+                currLog = user->getCurrLog();
+                cout << "Successfully Created New Daily Log" << endl;
+                break;
+            case 8:
+                user->displayInfo();
                 break;
         }
 
-        case 3: 
-       {system("cls");
-        cout << "\t\tYou have chosen VIEW HISTORY" << endl;
-        displayLine();
-
-        cout << "\t\tLIST OF MEDICINE(S) ADDED: " << endl;
-        for(int k = 0; k < addMedNum; k++) {
-            cout << k+1 << ". " << addMed[k] << endl << endl;
-        }
-        
-        cout << "\t\tLIST OF MEDICINE(S) REMOVED: " << endl;
-        for(int j = 0; j < removeMedNum; j++) {
-            cout << j+1 << ". " << removeMed[j] << endl << endl;
-        }
-
-        int c = returnorexit();
-            if(c==2)
-            case4(numMed, med, report, *patient, mt);
-            break;}
-
-        case 4:{case4(numMed, med, report, *patient, mt);}
-
-        default: 
-        {
-            cout << "\t\tInvalid option!" << endl
-                 << "\t\tChoose between [1] to [4]" << endl << endl;
-            int c = returnorexit();
-            if(c==2)
-            exit = 1;
-        }
-        break; 
     }
+}
+
+void loadFoodItems(FoodItem foodItems[], int& count) { // ADDED 
+    ifstream file("food_items.txt");
+    if (!file) {
+        cout << "Error: Unable to open food items file." << endl;
+        return;
     }
 
-    delete[] freq;
-    delete[] report;
-    delete[] mt;
-    delete[] med;
-    system("pause");
-    return 0; 
+    string name;
+    float calories, sugar, sodium, fats, carbs, protein;
+    count = 0;
+
+    while (file >> name >> calories >> sugar >> sodium >> fats >> carbs >> protein) {
+        foodItems[count] = FoodItem(name, calories, sugar, sodium, fats, carbs, protein);
+        count++;
+    }
+
+    file.close();
+}
+
+
+
+int main(){
+
+    UserRecord AllData;
+    FoodItem foodItems[100];
+    int foodItemCount{0};
+
+    loadFoodItems(foodItems, foodItemCount);
+
+
+    User *userTest = new User("Zayyad","123",21,45.0,170.0);
+    userTest->setUserID("user123");
+    // userTest->setPassword("123");
+    AllData.addUser(userTest);
+
+    int status {1};
+    int choice {0};
+
+    bool logged_in {false};
+    User *userInfo{nullptr};
+
+
+    while (status == 1){
+
+        cout << "1. Log In\t 2.Register\t 3.Exit:";
+        cin >> choice;
+        cin.ignore();
+
+        switch(choice){
+            case 1:
+                tie(logged_in,userInfo) = log_in(&AllData);
+
+                if (logged_in){
+                    menu(userInfo,foodItems,foodItemCount);
+                    logged_in = false;
+                    status = 2;
+                }
+                break;
+            case 2:
+                registerUser(&AllData);
+                break;
+            case 3:
+                status = 2;
+                break;
+            default:
+                status = 1; 
+        }
+    }
+
+    // if (logged_in){
+    //     menu(userInfo);
+    //     logged_in = false;
+    // }
+    return 0;
 }
