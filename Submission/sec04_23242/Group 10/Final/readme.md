@@ -49,6 +49,7 @@ Justification: In both Participant class and Organizer class, the Feedback objec
    Composition is restricted version of aggregation in which the enclosing and enclosed objects are highly dependent on each other. If the parent object is destroyed, the child object is also destroyed. Composition is implemented by the nested objects. 
 Justification: In code, Address should not exist outside Profile. The Profile class contains an Address object directly, meaning the Address object is created and destroyed with the Profile object.
 
+<image src = "Image/FlowChart.jpeg">
 
 
 ## 📈 Conclusion 📉
