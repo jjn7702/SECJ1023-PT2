@@ -308,7 +308,6 @@ class Patient {
     int getAge() const {
             int year;
             int age = 0;
-            string a = "UNDEFINED";
             try{
                 if(dob.length() > 7) {
                     size_t pos1 = dob.find('/');
