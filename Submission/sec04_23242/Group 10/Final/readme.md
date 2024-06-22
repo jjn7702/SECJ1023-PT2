@@ -16,14 +16,20 @@
 ## 🎯 Objective and Purpose of The System 📌
 ### 💡Objectives of The System 💡
 •	Better time management: Automate the process of event management including scheduling the event and maintaining a calendar of activities. 
+
 •	Enhance productivity: Allow organizers to promote events on our platform and the participants can choose their interested events. This system also gives the convenience to company or organization for arranging and managing their upcoming and past events.
+
 •	Improve organization: Provide a structured way to manage and view events, enhancing the user's ability to stay organized and on top of their schedule.
+
 •	User Convenience: The user-friendly interface and flexible features are designed to make the system easy to use for individuals and organizations alike, catering to various scheduling needs.
 
 ### 🚩Purpose of The System 🚩
 •	To create, schedule and manage events such as book fairs, circus shows and so on which will be arranged in ascending order based on the date and time.
+
 •	To see an overview of the events such as the date, time, venue and description of an event.
+
 •	To view their scheduled events for managing their time and events better.
+
 •	To search and add the interested event into wish list.
 
 ## 📑Flow Chart and UML Class Diagram	🗒️
