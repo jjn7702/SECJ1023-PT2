@@ -27,7 +27,11 @@
 •	To search and add the interested event into wish list.
 
 ## 📑Flow Chart and UML Class Diagram	🗒️
-<image src = "Images/Title.jpg">
+1. Flow Chart
+   <image src = "Image/FlowChart.jpeg">
+
+2. UML Class Diagram
+   <image src = "Image/UMLClassDiagram.jpeg">
 
 ## 📚 Implementation of The Concept 📚
 1. Encapsulation
