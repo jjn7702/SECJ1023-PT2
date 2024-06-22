@@ -26,6 +26,9 @@
 •	To view their scheduled events for managing their time and events better.
 •	To search and add the interested event into wish list.
 
+## 📑Flow Chart and UML Class Diagram	🗒️
+<image src = "Images/Title.jpg">
+
 ## 📚 Implementation of The Concept 📚
 1. Encapsulation
 
