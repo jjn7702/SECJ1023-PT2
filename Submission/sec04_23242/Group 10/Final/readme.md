@@ -26,6 +26,24 @@
 •	To view their scheduled events for managing their time and events better.
 •	To search and add the interested event into wish list.
 
+## 📚 Implementation of The Concept 📚
+1. Encapsulation
+
+   Encapsulation combines attributes and methods in one package and hides the implementation of data from the user of the object. It restricts direct access to some of the object's components, which can prevent the accidental modification of data.
+Justification: Address class encapsulates the data members and provides public methods to access and modify these members.
+
+2. Aggregation
+
+   Aggregation is a special type of association which is one way relationship. Aggregation represents a "has-a" relationship where the child can exist independently of the parent. Aggregation is implemented by objects contain pointer to other object.
+Justification: In both Participant class and Organizer class, the Feedback object is an example of aggregation. The Feedback class is a part of the Participant and Organizer class, but it can exist independently.
+
+3. Composition
+
+   Composition is restricted version of aggregation in which the enclosing and enclosed objects are highly dependent on each other. If the parent object is destroyed, the child object is also destroyed. Composition is implemented by the nested objects. 
+Justification: In code, Address should not exist outside Profile. The Profile class contains an Address object directly, meaning the Address object is created and destroyed with the Profile object.
+
+
+
 ## 📈 Conclusion 📉
   To put in nutshell, event scheduler is a valuable tool for enhancing personal productivity and time management. It simplifies the process of managing commitments and helps users stay on top of their schedules, ensuring that no important event is overlooked. This tool can be especially beneficial in both personal and professional setttings, where efficient time management is crucial for success.
   
