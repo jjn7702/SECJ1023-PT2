@@ -37,17 +37,38 @@
 1. Encapsulation
 
    Encapsulation combines attributes and methods in one package and hides the implementation of data from the user of the object. It restricts direct access to some of the object's components, which can prevent the accidental modification of data.
+
 Justification: Address class encapsulates the data members and provides public methods to access and modify these members.
 
 2. Aggregation
 
    Aggregation is a special type of association which is one way relationship. Aggregation represents a "has-a" relationship where the child can exist independently of the parent. Aggregation is implemented by objects contain pointer to other object.
+
 Justification: In both Participant class and Organizer class, the Feedback object is an example of aggregation. The Feedback class is a part of the Participant and Organizer class, but it can exist independently.
 
 3. Composition
 
    Composition is restricted version of aggregation in which the enclosing and enclosed objects are highly dependent on each other. If the parent object is destroyed, the child object is also destroyed. Composition is implemented by the nested objects. 
+
 Justification: In code, Address should not exist outside Profile. The Profile class contains an Address object directly, meaning the Address object is created and destroyed with the Profile object.
+
+4. Inheritance
+
+   Inheritance provides a way to create a new class from an existing class. The new class is a specialized version of the existing class. Inheritance allows a derived class to inherit attributes and methods from base class.
+
+Justification: In code, both Participant class and Organizer class is inherited from User class. This shown by the scope resolution operator( :: ), class Participant :: public User.
+
+5. Polymorphism
+
+   Polymorphism is the ability of objects to perform the same actions differently. Polymorphism allows methods to do different things based on the object it is acting upon, typically using method overriding or interfaces.
+
+Justification: In code, virtual void menu() = 0 exists in User class and void menu() override exists in both Participant class and Organizer class. 
+
+6. Array of Object
+
+   An array of objects means storing multiple objects of a class in a single array.
+
+Justification: In code, vector<Event>selectedEvents means vector of Event is created, which can store multiple selected events.
 
 <image src = "Image/Highlighted Event Schedular System Code_page-0001.jpg">
 <image src = "Image/Highlighted Event Schedular System Code_page-0002.jpg">
