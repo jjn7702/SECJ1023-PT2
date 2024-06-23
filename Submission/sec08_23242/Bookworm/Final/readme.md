@@ -6,7 +6,11 @@
 <h2>Analysis and Design</h2>
 <h2>Flow Chart</h2>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/deb9f064-640d-4980-a23f-e0d1efa6e6c8"></img>
+
+
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/03d43c6f-3eb7-4c49-8a49-099edbbeff94"></img>
+
+
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/95fdf40e-3c6a-4571-aa27-ee7a0326fd27"></img>
 
 <h2>UML Class Diagram</h2>
@@ -18,9 +22,10 @@
 <h2>Aggregation</h2>
 
 <h2>Inheritance</h2>
-<p>&ensp;Inheritance allows derived classes to inherit properties and behaviors from the base class.  In this project, inheritance is demonstrated through the Book class and its derived classes: Romance, Fantasy, and SciFi.</p>
-<p>&ensp; When an object of the Romance, Fantasy, or SciFi class is created, each object will contain all the attributes and methods of the Book class, plus any additional attributes and methods specific to the derived class. Each derived class object, for example: Romance class object, Fantasy class object and SciFi class object can access the protected and public members of the Book class directly. 
+<p>&ensp;&ensp;Inheritance allows derived classes to inherit properties and behaviors from the base class.  In this project, inheritance is demonstrated through the Book class and its derived classes: Romance, Fantasy, and SciFi.</p>
+<p>&ensp;&ensp;When an object of the Romance, Fantasy, or SciFi class is created, each object will contain all the attributes and methods of the Book class, plus any additional attributes and methods specific to the derived class. Each derived class object, for example: Romance class object, Fantasy class object and SciFi class object can access the protected and public members of the Book class directly. 
 </p>
+
 <p><b>Base Class: Book</b></p>
 <p>The Book class contains attributes and methods that are common to all types of books. </p>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/75f27bdc-798d-419c-99e6-4113a9808edf"></img>
@@ -38,11 +43,15 @@
 <p>The SciFi class inherits from Book and adds an attribute specific to sci-fi books. The attribute specific to the SciFi class is scientificConcept. </p>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/111c067c-b6bb-4f5e-baea-57b4fc95debe"></img>
 
+
+
+
+
 <h2>Polymorphism</h2>
-<p>&ensp; In this project, polymorphism is applied using a virtual function. In the Book class, the display() function is declared as virtual void display() const. This means that derived classes which are Romance, Fantasy, SciFi can override this function with their specific implementations. 
+<p>&ensp;&ensp;In this project, polymorphism is applied using a virtual function. In the Book class, the display() function is declared as virtual void display() const. This means that derived classes which are Romance, Fantasy, SciFi can override this function with their specific implementations. 
 </p>
 
-<p>&ensp;Each derived class overrides the display function in the Book class to display all the common book attributes and every derived class specific attribute. This allows each genre of book to display additional details, for example mainCoupleName for Romance books,  creatureType for Fantasy books and scientificConcept for Sci-Fi books while still leveraging common behavior defined in the Book class.
+<p>&ensp;&ensp;Each derived class overrides the display function in the Book class to display all the common book attributes and every derived class specific attribute. This allows each genre of book to display additional details, for example mainCoupleName for Romance books,  creatureType for Fantasy books and scientificConcept for Sci-Fi books while still leveraging common behavior defined in the Book class.
 </p>
 
 <p><b>Base Class: Book</b></p>
@@ -61,13 +70,21 @@
 <p>SciFi class overrides the display() function to display genre-specific information which is scientificConcept in addition to the general book details.</p>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/cdd8e005-8761-4e29-aa30-ecd104b6aa8d"></img>
 
+
+
+
+
 <h2>Array of objects</h2>
-<p>&ensp;In this project, arrays of objects are initialized directly in the main function. Arrays of objects in this code are used to manage collections of books and publishers. For example, p is an array of Publisher objects, trending is an array of Book objects, romance is an array of Romance objects, fantasy is an array of Fantasy objects and scifi is an array of SciFi objects. Each element in these arrays represents an instance of the respective class. </p>
+<p>&ensp;&ensp;In this project, arrays of objects are initialized directly in the main function. Arrays of objects in this code are used to manage collections of books and publishers. For example, p is an array of Publisher objects, trending is an array of Book objects, romance is an array of Romance objects, fantasy is an array of Fantasy objects and scifi is an array of SciFi objects. Each element in these arrays represents an instance of the respective class. </p>
 
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/8af0c9da-6959-4fa8-94a3-b9e58f3f752d"></img>
 
+
+
+
+
 <h2>Exception handling</h2>
-<p>&ensp;In this project, exception handling is used to manage errors related to user input phone number. In the User class, exception handling is applied specifically to validate the phone number input. This is to ensure that the phone number entered consists only of digits. </p>
-<p>&ensp;The try block attempts to read and validate the phone number. If the phone number contains any alphabetic characters (isalpha(c)), an invalid_argument exception is thrown with a descriptive message. The catch block catches the exception (invalid_argument) and displays an error message, prompting the user to retry entering the phone number. The loop continues until a valid phone number (containing only digits) is entered.
+<p>&ensp;&ensp;In this project, exception handling is used to manage errors related to user input phone number. In the User class, exception handling is applied specifically to validate the phone number input. This is to ensure that the phone number entered consists only of digits. </p>
+<p>&ensp;&ensp;The try block attempts to read and validate the phone number. If the phone number contains any alphabetic characters (isalpha(c)), an invalid_argument exception is thrown with a descriptive message. The catch block catches the exception (invalid_argument) and displays an error message, prompting the user to retry entering the phone number. The loop continues until a valid phone number (containing only digits) is entered.
 </p>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/f2c21782-7504-4513-9df0-3aa5f499b38c"></img>
