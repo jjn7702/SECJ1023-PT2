@@ -32,4 +32,5 @@ Reading is a good habit that nourishes creativity and broadens one's horizon. Ho
 <ul>
   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Bookworm/Proposal"> Proposal </a></li>
   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Bookworm/Analysis-Design">Problem Analysis and Design </a></li>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Bookworm/Final">Final</a></li>
 </ul>
