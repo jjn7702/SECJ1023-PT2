@@ -1,17 +1,18 @@
 <h1 align="center"> Final </h1>
 <h1>Project description</h1>
-Nowadays, there are more books available than ever before, which can make it hard for people to find books they will enjoy. Traditional ways of recommending books, like suggestions from friends or bestseller lists, often don't meet the varied tastes of readers. To solve this problem, creating a smart book recommendation system is essential.
+<p>Nowadays, there are more books available than ever before, which can make it hard for people to find books they will enjoy. Traditional ways of recommending books, like suggestions from friends or bestseller lists, often don't meet the varied tastes of readers. To solve this problem, creating a smart book recommendation system is essential. <br />
 
-The book recommendation system suggests books to the users that they might like based on their preferred genre. The main goal of this project is to design a book recommendation system that can accurately match books to a user's preferences, helping them find new and interesting reads. 
+            
+The book recommendation system suggests books to the users that they might like based on their preferred genre. The main goal of this project is to design a book recommendation system that can accurately match books to a user's preferences, helping them find new and interesting reads. </p>
 
 This report explains our book recommendation system, including its goals and purposes. It covers the analysis and design process, including flow charts and UML class diagrams, as well as the steps taken to create the system. Additionally, it includes the implementation of the concepts.
 
    By developing a reliable and user-friendly book recommendation system, we aim to make reading more enjoyable and help people discover books they might otherwise miss. This project benefits readers by saving them time and effort, and also supports authors and publishers by increasing the visibility of their books.
 
 <h2>Objectives of the system </h2>
-The main objective of this book recommendation system is to create a user-friendly platform that could provide personalized book recommendations to users based on the users' favorite genres. The system leverages user preferences to suggest books that align with their interests, ensuring a tailored reading experience. This approach helps users to discover the books that match their taste. Enhancing their experience on finding the book they are interested in.
+<p>The main objective of this book recommendation system is to create a user-friendly platform that could provide personalized book recommendations to users based on the users' favorite genres. The system leverages user preferences to suggest books that align with their interests, ensuring a tailored reading experience. This approach helps users to discover the books that match their taste. Enhancing their experience on finding the book they are interested in. <br />
 
-   Additionally, the system enables users to explore trending books and various genres. By providing popular books in different genres, users can stay updated with the reading trends. These features ensure that users have access to a diverse range of books, encouraging exploration of new genres.
+   Additionally, the system enables users to explore trending books and various genres. By providing popular books in different genres, users can stay updated with the reading trends. These features ensure that users have access to a diverse range of books, encouraging exploration of new genres.</p>
   
    Moreover, the system also provides functionality for users to create and customize their own book list. This allows them to save their personalized collections of books they are interested in, providing a convenient way to organize and manage their reading choice.
    
