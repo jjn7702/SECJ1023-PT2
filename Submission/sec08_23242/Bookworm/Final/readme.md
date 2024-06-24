@@ -6,19 +6,11 @@
 <h2>Analysis and Design</h2>
 <h2>Flow Chart</h2>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/deb9f064-640d-4980-a23f-e0d1efa6e6c8"></img>
-
-
-
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/03d43c6f-3eb7-4c49-8a49-099edbbeff94"></img>
-
-
-
-
-
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/95fdf40e-3c6a-4571-aa27-ee7a0326fd27"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/849c5b12-bc94-44d0-b44c-89b88e0fede9"></img>
 
 <h2>UML Class Diagram</h2>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/779cdf3b-c25a-4712-8729-9814cbaf1745"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/555a91d7-8e0f-45e3-b146-a42cd422161f"></img>
 
 <h1>Implementation of the Concepts</h1>
 <h2>Encapsulation</h2>
