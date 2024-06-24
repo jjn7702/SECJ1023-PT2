@@ -6,7 +6,7 @@ The book recommendation system suggests books to the users that they might like 
 
 This report explains our book recommendation system, including its goals and purposes. It covers the analysis and design process, including flow charts and UML class diagrams, as well as the steps taken to create the system. Additionally, it includes the implementation of the concepts.
 
-   	By developing a reliable and user-friendly book recommendation system, we aim to make reading more enjoyable and help people discover books they might otherwise miss. This project benefits readers by saving them time and effort, and also supports authors and publishers by increasing the visibility of their books.
+   By developing a reliable and user-friendly book recommendation system, we aim to make reading more enjoyable and help people discover books they might otherwise miss. This project benefits readers by saving them time and effort, and also supports authors and publishers by increasing the visibility of their books.
 
 <h2>Objectives of the system </h2>
 The main objective of this book recommendation system is to create a user-friendly platform that could provide personalized book recommendations to users based on the users' favorite genres. The system leverages user preferences to suggest books that align with their interests, ensuring a tailored reading experience. This approach helps users to discover the books that match their taste. Enhancing their experience on finding the book they are interested in.
