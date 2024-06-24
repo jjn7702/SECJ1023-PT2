@@ -68,6 +68,8 @@ All attributes are protected member variables of the class. They are accessible 
 - `void setYearPublish(int yp)` - mutator that sets the value of `yearPublish`
 - `void setPublisher(Publisher* p)` - mutator that sets the value of `publisher`
 - `virtual void display()` - virtual function that displays the information of the book. It is marked as virtual, indicating that it can be overridden by derived classes.
+- `int getBookAge()` -  a function to calculate the book age
+- `bool isClassic()` - a function to check whether the book is a classic book
 
 **Class `Romance`**
 
@@ -125,9 +127,9 @@ Both attributes are private member variables of the `Booklist` class. Both attri
 - `Booklist()` - constructor
 - `~Booklist()` - destructor
 - `int getCount()` - accessor that returns the count of books
+- - `void setCount(int c)` - mutator that sets the value of `count`
 - `Book* getBook(int index)` - accessor that returns a pointer that points to the book
 - `void addBook(Book* b)` - mutator that adds book objects to the `booklist` object
-- `void setCount(int c)` - mutator that sets the value of `count`
 - `bool isBookInList(Book* b)` - method that checks whether the book that the user wants to add is in the book list already
 - `void display()` - method that displays the list of books
 - `void removeBook(int index)` - method to remove the book from `booklist`
@@ -158,6 +160,8 @@ All attributes are private member variables of the `User` class. All attributes 
 - `void addBookToBooklist(Book* book)` - method that adds the user’s interested book to their `booklist`
 - `void removeBookFromBooklist(int index)` - method that removes a book from the user’s personal `booklist`
 - `void saveUserBooklist()` - method that saves user personalized `booklist` to a txt file
+- `int getBooklistCount()` is a method to get the total count of books in user booklist
+- `Book* getBookFromBooklist(int index)` is a method to access a book in user booklist
 
 <h2>Composition</h2>
 
@@ -207,8 +211,8 @@ In this project, the `Booklist` and `Book` classes will have an aggregation rela
 
 <p><b>Base Class: Book</b></p>
 <p>The Book class contains attributes and methods that are common to all types of books. </p>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/75f27bdc-798d-419c-99e6-4113a9808edf"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/5a4c56cf-d1fe-48d8-a62f-7771a18abaf4"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/1058c697-7957-4e81-a34c-d7bae682ee19"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/fa7f04d3-635c-4c6b-94e2-f8ee5caad426"></img>
 
 <p><b>Derived Class: Romance</b></p>
 <p>The Romance class inherits from Book and adds an attribute specific to romance books. The attribute specific to the Romance class is mainCoupleName. </p>
@@ -252,14 +256,10 @@ In this project, the `Booklist` and `Book` classes will have an aggregation rela
 
 
 
-
 <h2>Array of objects</h2>
 <p>&emsp;In this project, arrays of objects are initialized directly in the main function. Arrays of objects in this code are used to manage collections of books and publishers. For example, p is an array of Publisher objects, trending is an array of Book objects, romance is an array of Romance objects, fantasy is an array of Fantasy objects and scifi is an array of SciFi objects. Each element in these arrays represents an instance of the respective class. </p>
 
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/8af0c9da-6959-4fa8-94a3-b9e58f3f752d"></img>
-
-
-
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/4d0d597e-32d2-4c03-8244-b8b8c4dc5f96"></img>
 
 
 <h2>Exception handling</h2>
