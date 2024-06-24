@@ -205,7 +205,7 @@ In this project, the `Booklist` and `Book` classes will have an aggregation rela
 <p><b>Base Class: Book</b></p>
 <p>The Book class contains attributes and methods that are common to all types of books. </p>
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/1058c697-7957-4e81-a34c-d7bae682ee19"></img>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/d9cc3c93-0d4b-4251-b6e0-ff8f0fc7ebde"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/94f16d62-783b-426a-ac77-f67799b02445"></img>
 
 <p><b>Derived Class: Romance</b></p>
 <p>The Romance class inherits from Book and adds an attribute specific to romance books. The attribute specific to the Romance class is mainCoupleName. </p>
