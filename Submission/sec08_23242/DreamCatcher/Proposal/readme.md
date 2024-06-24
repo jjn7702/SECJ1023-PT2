@@ -37,7 +37,7 @@
             <strong>Option 1: Sleepy Symphony</strong><br>
             <div class="right-align">
               <ul>
-            This page invites users to explore and customize alarm options. In the Sleep Symphony section, users can enjoy a personalized relaxation experience before bedtime. This feature enables users to customize their alarm sounds, creating a tranquil atmosphere conducive to starting a new day. Leveraging sophisticated algorithms, such as tracking the number of times a certain alarm is used within the system, it highlights the currently most trending alarm among app users.
+            In the Sleep Symphony section, users can enjoy a personalized relaxation experience before bedtime. There are twenty predefined music, ten classical music and ten white noise inside the Sleep Symphony. Besides this twenty music, user also alllowed to add their favorite music into the Sleep Symphony. The music that added will be classified into FavM class.
             </div>
         </li>
     </ul>
@@ -59,14 +59,6 @@ The system processes this data, taking into account user demographics such as ag
         </li>
     </ul>
     <ul>
-        <li>
-            <strong>Option 3: Symphony Customizer</strong><br>
-            <div class="right-align">
-              <ul>
-                In the Symphony Customizer, users can personalize their alarm sounds by adding up to five songs to their own list. If the list already contains five songs, users will be prompted to either delete songs from the list or abandon their new additions.
-<br><br>
-Users interested in customizing their own alarm sounds can also contribute to the community. If their alarm becomes popular, it has the chance to go viral on the trending table.
-                </div>
         </li>
     </ul>
     <ul>
