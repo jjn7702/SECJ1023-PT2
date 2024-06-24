@@ -11,7 +11,7 @@ This report explains our book recommendation system, including its goals and pur
 <h2>Objectives of the system </h2>
 The main objective of this book recommendation system is to create a user-friendly platform that could provide personalized book recommendations to users based on the users' favorite genres. The system leverages user preferences to suggest books that align with their interests, ensuring a tailored reading experience. This approach helps users to discover the books that match their taste. Enhancing their experience on finding the book they are interested in.
 
-    Additionally, the system enables users to explore trending books and various genres. By providing popular books in different genres, users can stay updated with the reading trends. These features ensure that users have access to a diverse range of books, encouraging exploration of new genres.
+   Additionally, the system enables users to explore trending books and various genres. By providing popular books in different genres, users can stay updated with the reading trends. These features ensure that users have access to a diverse range of books, encouraging exploration of new genres.
   
    Moreover, the system also provides functionality for users to create and customize their own book list. This allows them to save their personalized collections of books they are interested in, providing a convenient way to organize and manage their reading choice.
    
