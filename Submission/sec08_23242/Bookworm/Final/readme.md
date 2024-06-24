@@ -22,8 +22,183 @@
 
 <h1>Implementation of the Concepts</h1>
 <h2>Encapsulation</h2>
+
+In this project, all classes have applied the concept of encapsulation, in which the classes bind the attributes and data into one entity and define itself and the scope of its operations. Encapsulation is demonstrated through the use of classes with private and public access specifiers.
+
+**Class `Publisher`**
+
+**Attributes**:
+- `string publisherName`
+- `string country`
+
+`publisherName` and `country` are private member variables of the class. They are accessible only within the class and its member functions.
+
+**Methods**:
+- `Publisher()` - default constructor
+- `Publisher(string n, string c)` - parameterized constructor that initializes `publisherName` and `country` with the provided values
+- `~Publisher()` - destructor
+- `string getPublisherName()` - accessor that returns the value of `publisherName`
+- `void setPublisherName(string n)` - mutator that sets the value for `publisherName`
+- `string getCountry()` - accessor that returns the value of `country`
+- `void setCountry(string c)` - mutator that sets the value for `country`
+
+**Class `Book`**
+
+**Attributes**:
+- `string bookCode`
+- `string bookTitle`
+- `string genre`
+- `int yearPublish`
+- `Publisher* publisher`
+
+All attributes are protected member variables of the class. They are accessible within the class and its derived classes. `bookCode`, `bookTitle`, `genre`, and `yearPublish` store information about the book, while `publisher` is a pointer to a `Publisher` object, indicating the publisher of the book.
+
+**Methods**:
+- `Book()` - default constructor
+- `Book(string bc, string bt, string g, int yp, Publisher* p)` - parameterized constructor that initializes `bookCode`, `bookTitle`, `genre`, `yearPublish`, and `publisher` with the provided values
+- `~Book()` - destructor
+- `string getBookCode()` - accessor that returns the value of `bookCode`
+- `string getBookTitle()` - accessor that returns the value of `bookTitle`
+- `string getGenre()` - accessor that returns the value of `genre`
+- `int getYearPublish()` - accessor that returns the value of `yearPublish`
+- `Publisher* getPublisher()` - accessor that returns a pointer that points to the book’s publisher
+- `void setBookCode(string bc)` - mutator that sets the value of `bookCode`
+- `void setBookTitle(string bt)` - mutator that sets the value of `bookTitle`
+- `void setGenre(string g)` - mutator that sets the value of `genre`
+- `void setYearPublish(int yp)` - mutator that sets the value of `yearPublish`
+- `void setPublisher(Publisher* p)` - mutator that sets the value of `publisher`
+- `virtual void display()` - virtual function that displays the information of the book. It is marked as virtual, indicating that it can be overridden by derived classes.
+
+**Class `Romance`**
+
+**Attributes**:
+- `string mainCoupleName`
+
+`mainCoupleName` is a private member variable of the `Romance` class. `mainCoupleName` is accessible only within the class and its member functions.
+
+**Methods**:
+- `Romance()` - default constructor
+- `Romance(string bc, string bt, int yp, Publisher* p, string mc)` - parameterized constructor that initializes the `Romance` object with the provided values
+- `~Romance()` - destructor
+- `string getMainCoupleName()` - accessor that returns the value of `mainCoupleName`
+- `void setMainCoupleName(string mc)` - mutator that sets the value of `mainCoupleName`
+- `void display()` - function that overrides the `display()` function of the base class `Book`. It first calls the `display()` function of the `Book` class to display book information, and then prints the `mainCoupleName`.
+
+**Class `Fantasy`**
+
+**Attributes**:
+- `string creatureType`
+
+`creatureType` is a private member variable of the `Fantasy` class. `creatureType` is accessible only within the class and its member functions.
+
+**Methods**:
+- `Fantasy()` - default constructor
+- `Fantasy(string bc, string bt, int yp, Publisher* p, string ct)` - parameterized constructor that initializes the `Fantasy` object with the provided values
+- `~Fantasy()` - destructor
+- `string getCreatureType()` - accessor that returns the value of `creatureType`
+- `void setCreatureType(string ct)` - mutator that sets the value of `creatureType`
+- `void display()` - function that overrides the `display()` function of the base class `Book`. It first calls the `display()` function of the `Book` class to display book information, and then prints the `creatureType`.
+
+**Class `SciFi`**
+
+**Attributes**:
+- `string scientificConcept`
+
+`scientificConcept` is a private member variable of the `SciFi` class. `scientificConcept` is accessible only within the class and its member functions.
+
+**Methods**:
+- `SciFi()` - default constructor
+- `SciFi(string bc, string bt, int yp, Publisher* p, string sc)` - parameterized constructor that initializes the `SciFi` object with the provided values
+- `string getScientificConcept()` - accessor that returns the value of `scientificConcept`
+- `void setScientificConcept(string ct)` - mutator that sets the value of `scientificConcept`
+- `void display()` - function that overrides the `display()` function of the base class `Book`. It first calls the `display()` function of the `Book` class to display book information, and then prints the `scientificConcept`.
+
+**Class `Booklist`**
+
+**Attributes**:
+- `Book* books[100]`
+- `int count`
+
+Both attributes are private member variables of the `Booklist` class. Both attributes are accessible only within the class and its member functions. `books` is an array of pointers to `Book` objects. The array can hold up to 100 `Book` pointers. `count` is an integer that tracks the number of `Book` objects currently in the list.
+
+**Methods**:
+- `Booklist()` - constructor
+- `~Booklist()` - destructor
+- `int getCount()` - accessor that returns the count of books
+- `Book* getBook(int index)` - accessor that returns a pointer that points to the book
+- `void addBook(Book* b)` - mutator that adds book objects to the `booklist` object
+- `void setCount(int c)` - mutator that sets the value of `count`
+- `bool isBookInList(Book* b)` - method that checks whether the book that the user wants to add is in the book list already
+- `void display()` - method that displays the list of books
+- `void removeBook(int index)` - method to remove the book from `booklist`
+- `void saveBooklist()` - method to save book list to a txt file
+
+**Class `User`**
+
+**Attributes**:
+- `string name`
+- `string phoneNum`
+- `string icNum`
+- `Booklist booklist`
+
+All attributes are private member variables of the `User` class. All attributes are accessible only within the class and its member functions.
+
+**Methods**:
+- `User()` - default constructor
+- `User(string ic, string n, string pn)` - parameterized constructor that initializes a `User` object with the given IC number, name, and phone number.
+- `~User()` - destructor
+- `string getName()` - accessor that returns the name of the user
+- `string getPhoneNum()` - accessor that returns the `phoneNum` of the user
+- `string getIcNum()` - accessor that returns the `icNum` of the user
+- `void setName(string n)` - mutator that sets the name of the user
+- `void setPhoneNum(string p)` - mutator that sets the `phoneNum` of the user
+- `void setIcNum(string ic)` - mutator that sets the `icNum` of the user
+- `void displayLogin()` - method to prompt the user to enter their IC number, name, and phone number
+- `void displayBooklist()` - method to display the user details and user's list of books
+- `void addBookToBooklist(Book* book)` - method that adds the user’s interested book to their `booklist`
+- `void removeBookFromBooklist(int index)` - method that removes a book from the user’s personal `booklist`
+- `void saveUserBooklist()` - method that saves user personalized `booklist` to a txt file
+
 <h2>Composition</h2>
+
+Composition is a "has-a" relationship between objects, where one object contains or is composed of another. In this project, the `User` class consists of a `Booklist` object, which is created by the `Booklist` class. 
+
+**User-Booklist Relationship**
+
+In this case, composition is applied as follows:
+- In the book recommendation system, the user can choose the books they are interested in.
+- Hence, the user must have a personalized booklist to which they can add books.
+- Employing composition means that the `User` class can also access the public methods of the `Booklist` class.
+- A `User` consists of a `Booklist` object, indicating that the `Booklist` cannot exist independently if there is no `User`.
+- The `Booklist` strongly depends on the `User`. If the `User` object is destroyed, then the `Booklist` object is also destroyed.
+
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/133843320/cc39c495-9292-4cd2-a291-1fb870bbf943"></img>
+
+
 <h2>Aggregation</h2>
+
+Aggregation implies a relationship where the child can exist independently of the parent.
+
+**1. Book and Publisher Relationship**
+
+In this project, the `Book` and `Publisher` classes will have an aggregation relationship:
+- The `Book` class holds a pointer to a `Publisher` object.
+- A `Book` has a `Publisher`. The `Publisher` object is created outside the `Book` and is passed to it, showing a "has-a" relationship.
+- The `Publisher` can exist independently. If the `Book` object is destroyed, the `Publisher` object will not be destroyed.
+
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/133843320/c3f486a7-cc65-4bd6-9f04-91b3bc6bb7a9"></img>
+
+**2. Booklist and Book Relationship**
+
+In this project, the `Booklist` and `Book` classes will have an aggregation relationship:
+- The `Booklist` class aggregates `Book` pointers, showing a "has-a" relationship, meaning a `Booklist` has a collection of `Books`.
+- `Books` can exist independently. If the `Booklist` object is destroyed, the `Book` objects will not be destroyed.
+
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/133843320/40e7b316-1edc-47e9-a1c3-7c39f0327138"></img>
+
+
+
+
 
 <h2>Inheritance</h2>
 <p>&emsp;Inheritance allows derived classes to inherit properties and behaviors from the base class.  In this project, inheritance is demonstrated through the Book class and its derived classes: Romance, Fantasy, and SciFi.</p>
