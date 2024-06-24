@@ -122,7 +122,7 @@ The following classes in involved in the project:
   
       string clist;                    // Store Name of Music
       string urlcList;                 // Store Url of the Music
-      virtual void dispClist(int i)    // Polymorphism involved
+      virtual void dispClist()         // Polymorphism involved
   
   <h4> vi. ClassicM class </h4>
   <ul>
@@ -142,7 +142,7 @@ The following classes in involved in the project:
   </ul>
 
       string typeW;              // Used to store the type of White Noise such as fire, waves and so on
-      void dispClist(int i)      // override function
+      void dispClist()           // override function
 
   
   <h4> viii. FavM class </h4>
@@ -153,7 +153,7 @@ The following classes in involved in the project:
   </ul>
 
       string typeF;            // Used to store the type of music that defined by the user
-      void dispClist(int i)    // Override function 
+      void dispClist()         // Override function 
 
  
 <h2> Relationship between classes: </h2>
@@ -205,10 +205,10 @@ The following classes in involved in the project:
       These classes used to store and display different type of music list that predefined in program. 
     </li>
     <li>
-      There are total 20 predefined music and 50 fress slot for user to add their favourite music. 
+      There are total 20 predefined music and 50 free slot for user to add their favourite music. 
     </li>
     <li>
-      These classes inherit both string clist and string urlclist from Music class which store name of classical music and link of music.
+      These classes inherit both string clist and string urlclist from Music class which store name of music and link of music.
     </li>
     </ul>
 
