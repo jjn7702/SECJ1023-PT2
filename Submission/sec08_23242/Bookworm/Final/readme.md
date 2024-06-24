@@ -1,8 +1,6 @@
 <h1 align="center"> Final </h1>
 <h1>Project description</h1>
 Nowadays, there are more books available than ever before, which can make it hard for people to find books they will enjoy. Traditional ways of recommending books, like suggestions from friends or bestseller lists, often don't meet the varied tastes of readers. To solve this problem, creating a smart book recommendation system is essential.
-
-
 The book recommendation system suggests books to the users that they might like based on their preferred genre. The main goal of this project is to design a book recommendation system that can accurately match books to a user's preferences, helping them find new and interesting reads. 
 
 This report explains our book recommendation system, including its goals and purposes. It covers the analysis and design process, including flow charts and UML class diagrams, as well as the steps taken to create the system. Additionally, it includes the implementation of the concepts.
