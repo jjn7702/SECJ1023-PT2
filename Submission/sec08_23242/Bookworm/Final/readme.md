@@ -251,8 +251,7 @@ In this project, the `Booklist` and `Book` classes will have an aggregation rela
 <h2>Array of objects</h2>
 <p>&emsp;In this project, arrays of objects are initialized directly in the main function. Arrays of objects in this code are used to manage collections of books and publishers. For example, p is an array of Publisher objects, trending is an array of Book objects, romance is an array of Romance objects, fantasy is an array of Fantasy objects and scifi is an array of SciFi objects. Each element in these arrays represents an instance of the respective class. </p>
 
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/4d0d597e-32d2-4c03-8244-b8b8c4dc5f96"></img>
-
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/91107d0f-9dd0-4844-8c1e-760c89a8ed9d"></img>
 
 <h2>Exception handling</h2>
 <p>&emsp;In this project, exception handling is used to manage errors related to user input phone number. In the User class, exception handling is applied specifically to validate the phone number input. This is to ensure that the phone number entered consists only of digits. </p>
