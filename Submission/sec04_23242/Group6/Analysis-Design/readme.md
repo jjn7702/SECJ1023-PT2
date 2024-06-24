@@ -173,12 +173,16 @@ Once logged in, users interact with the system by choosing menu options includin
 - **Relationship:** Aggregation
 - **Justification:** ProgressTracker aggregates Nutrition. This relationship suggests that while ProgressTracker tracks multiple nutritional records, the existence of Nutrition objects is not dependent on the ProgressTracker. This means Nutrition entries can exist independently of the ProgressTracker even if one party is destroyed.
 
-3. **User and Profile**
+3. **ProgressTracker and Activity**
+- **Relationship:** Aggregation
+- **Justification:** The relationship between ProgressTracker and Activity is aggregation where both enclosing objects and enclosed objects can exist independently. In this context, the ProgressTracker class “has-a” and manages multiple Activity objects, but these Activity objects can exist independently of the ProgressTracker. The ProgressTracker class is designed to keep track of a user's fitness progress by recording various activities they perform. It holds arrays of Activity objects to store and manage these activities.
+
+4. **User and Profile**
 - **Relationship:**  Composition
 - **Justification:** The relationship between User and Profile is a composition, indicating that each User must have a Profile to manage personal fitness goals and related information. This ensures that the lifecycle of the Profile is tightly coupled with the User. For example if the User (whole) is deleted, the associated Profile (part) is also deleted. This composition relationship models the real-world scenario where a user's profile, which includes their goals, current weight, and fitness targets, is inherently a part of the user’s overall data and cannot exist independently.
- 
 
-4. **Profile and Goal**
+
+5. **Profile and Goal**
 - **Relationship:** Aggregation
 - **Justification:** Similar to Nutrition, Profile has aggregation with Goal. This means Profile manages Goal objects but does not strictly control their lifecycle. Profile objects (enclosing objects) do not necessarily have Goal objects (enclosed objects). Both of them can exist independently regardless of if one party is destroyed.
 
