@@ -213,7 +213,7 @@ The following classes in involved in the project:
     </ul>
 
 <h1 id="uml"align="center"> Section C :UML Class Diagram 💻</h1>
-<img src= https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/693bae90-f2c7-4cf2-b307-5b90ec41a612>
+<img src= https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/988a373a-dca9-4727-8b92-5a9704f3888a >
 
 
 
