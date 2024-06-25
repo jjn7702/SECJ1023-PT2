@@ -110,3 +110,58 @@ class Book {
 	        return getBookAge() > 50;
 	    }
 };
+
+class Booklist {
+    private:
+        Book* books[100]; // aggregation
+        int count;
+
+    public:
+        Booklist(){
+            count = 0;
+            for(int i=0; i<100; i++){
+                books[i] = NULL;
+            }
+        }
+
+        ~Booklist(){}
+
+        int getCount(){ return count; }
+		
+		void setCount(int c){ count = c; }
+        
+        Book* getBook(int index){
+            return books[index];
+        }
+
+        void addBook(Book *b){
+            for (int i=0; i<100; i++){
+                if (books[i] == nullptr){
+                    books[i] = b;
+                    count++;
+                    cout << "This book is successfully added into your personalized booklist!" << endl << endl;
+                    break;
+                }
+            }
+        }
+
+        bool isBookInList(Book *b){
+            for(int i=0; i<count; i++){
+                if (books[i] == b)
+                    return true;
+            }
+            return false;
+        }
+
+        void display(){
+            cout << left << setw(11) << "Book Code" << setw(25) << "Book Title" << setw(10) << "Genre" << setw(14) << "Year Publish" << setw(31) <<"Publisher" << endl;
+            for (int i=0; i<count; i++){
+                if (books[i] != nullptr)
+                {
+                	cout << i + 1 << ") ";
+                    books[i]->display();
+                    cout << endl;
+                }
+        	}
+		}
+};
