@@ -64,7 +64,7 @@
 </tr>
 </tbody>
 </table><h1 id="section-c-class-diagram">Section C: Class Diagram</h1>
-<img src="../Proposal/Image/Screenshot 2024-05-28 215950.png" width="7000" height="950">
+<img src="../Proposal/Image/UML CLASS DIAGRAM.jpg" width="7000" height="950">
  <p>1.Aggregation:
 - The `Allergy` class contains one or more
 `Ingredient` instances, showed by a hollow
