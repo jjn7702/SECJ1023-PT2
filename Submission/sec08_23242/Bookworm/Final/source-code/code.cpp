@@ -165,3 +165,114 @@ class Booklist {
         	}
 		}
 };
+
+class User{
+    private:
+        string name;
+        string phoneNum;
+        string icNum;
+        Booklist booklist; // composition
+
+    public:
+        User(){}
+        
+        ~User(){}
+        
+        User(string ic, string n, string pn){
+            icNum = ic;
+            name = n;
+            phoneNum = pn;
+        }
+
+        string getName() {
+            return name;
+        }
+
+        string getPhoneNum() {
+            return phoneNum;
+        }
+
+        string getIcNum() {
+            return icNum;
+        }
+
+        void setName(string n) {
+            name = n;
+        }
+
+        void setPhoneNum(string pn) {
+            phoneNum = pn;
+        }
+
+        void setIcNum(string ic) {
+            icNum = ic;
+        }
+
+        void displayLogin() {
+        	do {
+	            cout << "Please enter your ic number   : ";
+	            getline(cin, icNum);
+				if (icNum.empty()) {
+					cout << "Ic cannot be empty. Please try again.\n";
+				}
+			} while (icNum.empty());
+			
+			do {
+            	cout << "Please enter your name        : ";
+            	getline(cin, name);
+	            if (name.empty()) {
+					cout << "Name cannot be empty. Please try again.\n";
+				}
+            } while (name.empty());
+            
+            bool valid = false;
+
+            while (!valid) {
+            	// exception handling
+                try {
+                    cout << "Please enter your phone number: ";
+                    getline(cin, phoneNum);
+					
+					if (phoneNum.empty()) {
+           				cout << "Phone cannot be empty. Please try again.\n";
+            			continue; // Restart the loop if phone number is empty
+       				}				
+					
+                    for (char c : phoneNum) {
+                        if (isalpha(c)) {
+                            throw invalid_argument("Phone number contains invalid characters");
+                        }
+                    }
+
+                    valid = true; 
+                }
+                catch (const invalid_argument &e){
+                    cout << e.what() << endl;
+                    cout << "Please re-enter your phone number and only number digits allowed!" << endl << endl;
+                }
+            }
+        }
+
+        void displayBooklist(){
+            cout << "------------------------------------------------------------------------------------------------------------------\n";
+            cout << "\t\t\t\t\t       User details   \t\t\t\t\t" << endl;
+            cout << "------------------------------------------------------------------------------------------------------------------\n";
+            cout << left << setw(20) << "Name " << ": " << name << endl;
+            cout << left << setw(20) << "Phone Number " << ": " << phoneNum << endl;
+            cout << left << setw(20) << "IC Number " << ": " << icNum << endl << endl;
+            cout << "------------------------------------------------------------------------------------------------------------------\n";
+            cout << "\t\t\t\t\t       " << name << "'s  booklist \t\t\t\t\t" << endl;
+            cout << "------------------------------------------------------------------------------------------------------------------\n";
+            booklist.display();
+
+        }
+
+        void addBookToBooklist(Book* book){
+            int y = booklist.isBookInList(book);
+            if(y==0)
+                booklist.addBook(book);
+            else if(y==1)
+                cout << "This book is already in your personalized book list! :)" << endl << endl;
+
+        }
+};
