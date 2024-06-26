@@ -252,7 +252,45 @@ class Booklist {
                     books[i]->display();
                     cout << endl;
                 }
-        	}
+             }
+	}
+
+        void removeBook(int index) {
+	        if (index >= 0 && index < count && books[index] != nullptr) {
+	            books[index] = nullptr;
+	            for (int i = index; i < count - 1; i++) {
+	                books[i] = books[i + 1];
+	            }
+	            books[count - 1] = nullptr;
+	            count--;
+	            cout << "Book removed successfully." << endl;
+	        } else {
+	            cout << "Invalid book index." << endl;
+	        }
+	    }
+	    
+	    void saveBooklist() {
+		    string filename = "user_booklist.txt";
+		    ofstream file(filename);
+		    if (!file) {
+		        cerr << "Failed to open file for saving." << endl;
+		        return;
+		    }
+		    file << "------------------------------------------------------------------------------------------------------------------\n";
+		    file << "\t\t\t\t\t       Personal Book List   \t\t\t\t\t" << endl;
+			file << "------------------------------------------------------------------------------------------------------------------\n";
+			file << left << setw(15) << "Book Code" << setw(25) << "Book Title" << setw(20) << "Genre" << setw(20) << "Year Publish" << setw(31) << "Publisher" << endl;
+			file << "------------------------------------------------------------------------------------------------------------------\n";
+		    for (int i = 0; i < count; i++) {
+		        if (books[i] != nullptr) {
+		        	Publisher* publisher = books[i]->getPublisher();
+		            file << i + 1 << ") " << left << setw(12) << books[i]->getBookCode()  
+						 << setw(25) << books[i]->getBookTitle() << setw(20) << books[i]->getGenre() << setw(20) 
+						 << books[i]->getYearPublish() << setw(31) << publisher->getPublisherName() + ", " + publisher->getCountry() << endl;
+		        }
+		    }
+		    file.close();
+		    cout << "Booklist saved to " << filename << "." << endl;
 		}
 };
 
@@ -364,5 +402,21 @@ class User{
             else if(y==1)
                 cout << "This book is already in your personalized book list! :)" << endl << endl;
 
+        }
+
+	void removeBookFromBooklist(int index) {
+	        booklist.removeBook(index);
+	    }
+	    
+	    void saveUserBooklist() {
+		    booklist.saveBooklist();
+		}
+		
+		int getBooklistCount() const {
+            return booklist.getCount();
+        }
+
+        Book* getBookFromBooklist(int index) {
+            return booklist.getBook(index);
         }
 };
