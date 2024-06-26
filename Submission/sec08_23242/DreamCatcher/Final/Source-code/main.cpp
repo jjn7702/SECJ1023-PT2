@@ -291,8 +291,8 @@ void loadMusic(){
                 if(!typeF.empty())
                 fm.push_back(FavM(list,url,typeF));        
 
-            else
-                break;
+                else
+                    break;
             }
         }
     }
