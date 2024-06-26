@@ -15,7 +15,6 @@
             "path": [
                 "C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include",
                 "C:/MinGW/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
-                
                 "C:/MinGW/include/*",
                 "${workspaceFolder}"
             ],
