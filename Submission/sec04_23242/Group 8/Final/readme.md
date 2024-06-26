@@ -1,5 +1,5 @@
 # Section A : 
-** OBJECTIVES & PURPOSES **
+**OBJECTIVES & PURPOSES**
 
 **FLOW CHART**
 
