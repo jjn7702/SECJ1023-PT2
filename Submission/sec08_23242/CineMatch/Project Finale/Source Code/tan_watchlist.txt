@@ -1,0 +1,10 @@
+Toy Story
+1995 10 8.27 G animation
+Interstellar
+2014 41 9.71 G sci-fi
+The Lion King
+1994 90 8.5 G animation
+Toy Story 3
+2010 103 8.3 G animation
+Indiana Jones and the Raiders of the Lost Ark
+1981 115 8.4 PG action

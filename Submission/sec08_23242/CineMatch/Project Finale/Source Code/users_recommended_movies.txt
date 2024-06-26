@@ -1,0 +1,10 @@
+Interstellar
+2014 400 9.7 G sci-fi
+The Black Phone
+2021 230 9.5 R horror
+The Godfather
+1972 175 9.2 R crime
+The Dark Knight
+2008 152 9 PG-13 action
+Jurassic World
+2015 124 7 PG-13 adventure

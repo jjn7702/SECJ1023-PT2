@@ -1,0 +1,144 @@
+Interstellar
+2014 41 9.71 G sci-fi
+IT
+1990 52 9.03 PG-13 horror
+The Black Phone
+2021 23 9.50 R horror
+Toy Story
+1995 10 8.27 G animation
+The Lion King
+1994 90 8.50 G animation
+Harry Potter and the Philosopher's Stone
+2001 152 7.60 PG fantasy
+Spider-Man: Into the Spider-Verse
+2018 117 8.40 PG animation
+Jurassic Park
+1993 128 8.11 PG-13 adventure
+The Dark Knight
+2008 152 9.00 PG-13 action
+Logan
+2017 137 8.10 R action
+The Matrix
+1999 136 8.70 R sci-fi
+Deadpool
+2016 108 8.00 R comedy
+The Godfather
+1972 175 9.20 R crime
+Titanic
+1997 195 7.80 PG-13 romance
+Frozen
+2013 102 7.50 PG animation
+The Terminator
+1984 107 8.10 R sci-fi
+Schindler's List
+1993 195 9.00 R drama
+Saving Private Ryan
+1998 169 8.60 R war
+The Shining
+1980 146 8.40 R horror
+Alien
+1979 117 8.50 R sci-fi
+The Exorcist
+1973 122 8.00 R horror
+Finding Nemo
+2003 101 8.03 G animation
+Up
+2009 96 8.20 PG animation
+Inception
+2010 148 8.80 PG-13 sci-fi
+Avatar
+2009 162 7.80 PG-13 sci-fi
+Pulp Fiction
+1994 154 8.90 R crime
+The Avengers
+2012 143 8.00 PG-13 action
+Star Wars: Episode IV - A New Hope
+1977 121 8.60 PG sci-fi
+Joker
+2019 122 8.50 R drama
+Psycho
+1960 109 8.50 R horror
+Mad Max: Fury Road
+2015 120 8.10 R action
+Casablanca
+1942 102 8.50 PG romance
+The Incredibles
+2004 115 8.00 PG animation
+The Silence of the Lambs
+1991 118 8.60 R thriller
+A Clockwork Orange
+1971 136 8.30 R drama
+American Psycho
+2000 101 7.60 R thriller
+Blade Runner
+1982 117 8.10 R sci-fi
+Fight Club
+1999 139 8.80 R drama
+The Shawshank Redemption
+1994 142 9.30 R drama
+Goodfellas
+1990 146 8.70 R crime
+The Sixth Sense
+1999 107 8.10 PG-13 thriller
+Forrest Gump
+1994 142 8.80 PG-13 drama
+E.T. the Extra-Terrestrial
+1982 115 7.90 PG sci-fi
+Rocky
+1976 120 8.10 PG drama
+The Sound of Music
+1965 174 8.00 G musical
+Die Hard
+1988 132 8.20 R action
+Black Swan
+2010 108 8.00 R drama
+La La Land
+2016 128 8.00 PG-13 musical
+Indiana Jones and the Raiders of the Lost Ark
+1981 115 8.40 PG action
+Shrek
+2001 90 7.90 PG animation
+Toy Story 3
+2010 103 8.30 G animation
+Guardians of the Galaxy
+2014 121 8.00 PG-13 sci-fi
+The Godfather: Part II
+1974 202 9.00 R crime
+The Wizard of Oz
+1939 102 8.10 G fantasy
+Jurassic World
+2015 124 7.00 PG-13 adventure
+Gladiator
+2000 155 8.50 R action
+Beauty and the Beast
+1991 84 8.00 G animation
+Scarface
+1983 170 8.30 R crime
+Django Unchained
+2012 165 8.40 R western
+The Conjuring
+2013 112 7.50 R horror
+The Social Network
+2010 120 7.70 PG-13 drama
+Coco
+2017 105 8.40 PG animation
+Showgirls
+1995 128 4.90 NC-17 drama
+Blue Is the Warmest Color
+2013 180 7.71 NC-17 romance
+Bad Lieutenant
+1992 96 7.10 NC-17 crime
+Shame
+2011 104 7.21 NC-17 drama
+Henry & June
+1990 136 6.30 NC-17 biography
+The Dreamers
+2003 115 7.10 NC-17 drama
+Killer Joe
+2011 102 6.70 NC-17 crime
+Lust, Caution
+2007 159 7.52 NC-17 drama
+A Serbian Film
+2010 106 5.20 NC-17 horror
+Crash
+1996 106 6.47 NC-17 drama
