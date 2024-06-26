@@ -38,6 +38,7 @@
   <div class="stackedit__html"><h1 id="section-a-flowchart">Section A: Flowchart</h1>
     <img src="../Proposal/Image/PT2.png" width="9300" height="1000">
 <h1 id="UML Class Diagram">UML Class Diagram</h1>
+<img src="../Proposal/Image/UML CLASS DIAGRAM.jpg" width="7000" height="950">
 
 </html>
 
