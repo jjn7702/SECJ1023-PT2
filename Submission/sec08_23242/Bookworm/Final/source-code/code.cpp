@@ -117,7 +117,7 @@ class Romance : public Book { // inheritance
 
 	public:
 	    Romance() { 
-			mainCoupleName = ""; 
+		mainCoupleName = ""; 
 		}
 		
 	    Romance(string bc, string bt, int yp, Publisher *p, string mc) : Book(bc, bt, "Romance", yp, p) {
@@ -127,11 +127,11 @@ class Romance : public Book { // inheritance
 	    ~Romance() {}
 	    
 	    string getMainCoupleName() { 
-			return mainCoupleName; 
+		return mainCoupleName; 
 		}
 		
 	    void setMainCouple(string mc) { 
-			mainCoupleName = mc; 
+		mainCoupleName = mc; 
 		}
 		
 	    // override display function in Book class to display main couple name
@@ -164,7 +164,7 @@ class Fantasy : public Book { // inheritance
 	        creatureType = ct;
 	    }
 	
-		// override display function in Book class to display creature type
+	    // override display function in Book class to display creature type
 	    void display() {
 	        Book::display();
 	        cout << left << setw(25) << creatureType << endl;
@@ -194,7 +194,7 @@ class SciFi : public Book { // inheritance
 	        scientificConcept = sc;
 	    }
 	
-		// override display function in Book class to display scientific concept
+	    // override display function in Book class to display scientific concept
 	    void display() {
 	        Book::display();
 	        cout << left << setw(25) << scientificConcept << endl;
