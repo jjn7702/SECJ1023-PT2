@@ -144,13 +144,14 @@ interference and misuse of the methods and data.
 ● Example: The Allergen and User classes demonstrate encapsulation. Data members such
 as name and email in the User class are private and can only be accessed through public
 getter and setter methods.
-
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/6a22fc0e-53e4-45b3-aa9c-d3aeafd24d0f)
 
 ## Composition
 Composition represents a "has-a" relationship where one class contains objects of another class.
 
 ● Example: The User class has a vector of Allergen objects, indicating that a user can have
 multiple allergies. Here, User is composed of Allergen objects.
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/8fa00c07-ae1a-4942-aa14-a7168690ae28)
 
 
 ## Aggregation
@@ -160,6 +161,9 @@ part can exist independently of the whole.
 ● Example: The FoodItem class aggregates FoodCategory objects through a pointer. This
 indicates that while FoodItem includes a FoodCategory, FoodCategory can exist
 independently.
+
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/ddbe5550-21c4-4ef8-bc87-71e2681bd41b)
+
 
 
 ## Inheritance
@@ -172,6 +176,11 @@ functionalities.
 ● FoodCategory is another example, where Dessert, Breakfast, Lunch, and Dinner classes
 inherit from the FoodCategory interface.
 
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/76f3b8e7-c2e4-45fb-a2c9-cd5f6543da98)
+
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/412f3e5c-ae80-45b7-8ab2-860e2267fbae)
+
+
 
 ## Polymorphism
 Polymorphism allows objects of different classes to be treated as objects of a common base class,
@@ -181,6 +190,8 @@ particularly useful for dynamic method binding.
 from FoodCategory implement the getCategory method, allowing FoodItem to treat
 different FoodCategory objects uniformly
 
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/b328f24d-11a1-42ab-9df0-ae746c8f9785)
+
 
 ## Array of Objects
 An array of objects is a data structure where each element is an object. This allows storing and
@@ -188,5 +199,9 @@ managing a collection of objects in a structured way.
 
 ● Example: The system uses vector containers to store multiple Allergen objects within a
 User and multiple FoodItem objects to manage food data.
+
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/b2779b8c-34a2-46cc-b47c-87b9f784f66f)
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/724a8f78-5f51-4e02-aff3-96a0f9b08da9)
+
 
 
