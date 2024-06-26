@@ -1,6 +1,250 @@
-class Book{};
+class Book {
+    protected: 
+        int bookID;
+        string title;
+        string publisher;
+        int publicationYear;
+        string ISBN;
+        string condition;
+        string status;
 
-class PersonalInfo{}
+    public:
+        Book(int ID=0, string tt="", string ps="", int py=0, string con="", string isbn="") {
+            bookID = ID;
+            title = tt;
+            publisher = ps;
+            publicationYear = py;
+            condition = con;
+            ISBN = isbn;
+            status = "Available";
+        }
+
+        virtual ~Book() {}
+
+        virtual void dispBookDetails() const {
+            cout << setw(11) << setprecision(6) << bookID
+                << setw(20) << title
+                << setw(13) << publisher
+                << setw(8) << publicationYear
+                << setw(15) << ISBN
+                << setw(15) << condition
+                << setw(15) << status;
+        }
+
+        void changeStatus(){
+            if (status == "Available") {
+                status = "Unavailable";
+            }else {
+                status = "Available";
+            }
+        }
+
+        int getID() const {return bookID;}
+        string getTitle() const {return title;}
+        string getPS() const {return publisher;}
+        int getPY() const {return publicationYear;}
+        string getISBN() const {return ISBN;}
+        string getCon() const {return condition;}
+        string getStat() const {return status;}
+        virtual string getAut() const {return "";}
+        virtual string getLang() const{return "";}
+
+        void setTitle(string t) {
+            title = t;
+        }
+        void setPS(string ps) {
+            publisher = ps;
+        }
+        void setPY(int py) {
+            publicationYear = py;
+        }
+        void setISBN(string isbn) {
+            ISBN = isbn;
+        }
+        void setCon(string c) {
+            condition = c;
+        }
+        void setStat(string s) {
+            if (s == "A") {
+                status = "Available";
+            }else{
+                status == "Unavailable";
+            }
+        }
+        void setID(int id){
+            bookID = id;
+        }
+
+        virtual void setAut(string) {}
+        virtual void setLang(string) {}
+
+        friend class User;
+
+};
+
+
+class Dictionary: public Book {
+    private:
+        string pair_language;
+        string authorTeam;
+
+    public:
+        Dictionary(int ID=0, string tt="", string ps="", int py=0, string con="", string isbn="", string auT="", string pl=""): Book(ID, tt, ps, py, con, isbn) {
+            pair_language = pl;
+            authorTeam = auT;
+        }
+
+        ~Dictionary() {}
+
+        string getLang() const override {return pair_language;}
+        string getAut() const override {return authorTeam;}
+
+        void dispBookDetails() const override {
+            Book::dispBookDetails();
+            cout << setw(15) << authorTeam
+                 << setw(15) << pair_language
+                 << endl;
+        }
+        virtual void setAut(string a){authorTeam = a;}
+        virtual void setLang(string l) {pair_language = l;}
+};
+
+
+class Encyclopedia: public Book {
+    private: 
+        string author;
+        string language;
+
+    public:
+        Encyclopedia(int ID=0, string tt="", string ps="", int py=0, string con="", string isbn="", string aut="", string lang=""): Book(ID, tt, ps, py, con, isbn) {
+            author = aut;
+            language = lang;
+        }
+
+        ~Encyclopedia() {}
+
+        string getAut() const override {return author;}
+        string getLang() const override {return language;}
+        virtual void setAut(string a){author = a;}
+        virtual void setLang(string l) {language = l;}
+
+        void dispBookDetails() const override {
+            Book::dispBookDetails();
+            cout << setw(15) << author
+                 << setw(15) << language
+                 << endl;
+        }
+};
+
+class PersonalInfo {
+    protected:
+        string username;
+        string email;
+        string address;
+        string phoneNum;
+    
+    public:
+        PersonalInfo(string un="", string em="", string add="", string phone="") {
+            username = un;
+            email = em;
+            address = add;
+            phoneNum = phone;
+        }
+
+        string getUsername() {return username;}
+        string getEmail() {return email;}
+        string getAdd() {return address;}
+        string getPhone() {return phoneNum;}
+
+        void setUsername(string un) {username = un;}
+        void setEmail(string em) {email = em;}
+        void setAdd(string ad) {address = ad;}
+        void setPhone(string ph) {phoneNum = ph;}
+
+        void disProfile() {
+            cout << left << setw(11) << "Username:" << username << endl
+                 << left << setw(11) << "Email: " << email << endl
+                 << left << setw(11) << "Address: " << address << endl
+                 << left << setw(11) << "Phone Num: " << phoneNum << endl;
+        }
+
+        void updateProfile() {
+            int option;
+
+            cout << ">>> UPDATE PROFILE INFO <<<" << endl;
+            cout << "1. Update username " << endl
+                 << "2. Update email " << endl
+                 << "3. Update address " << endl
+                 << "4. Update phone number " << endl;
+            cout << "Enter desired category to update (1-4): ";
+            cin >> option;
+
+            if (option == 1){
+                cout << "\nEnter new username: ";
+                cin >> username;
+            }else if (option ==2){
+                cout << "\nEnter new email: ";
+                cin >> email;
+            }else if (option == 3){
+                cin.ignore();
+                cout << "\nEnter new address: ";
+                getline(cin,address);
+            }else if (option == 4){
+                cout << "\nEnter new phone number: ";
+                cin >> phoneNum;
+            }else{
+                throw "**Invalid option number";
+            }
+        }
+
+    friend class User;
+};
+
+class Review {
+    private:
+        string comment;
+        int _bookID;
+    
+    public:
+        Review(int id=0,string c=""): _bookID(id), comment(c) {}
+
+        void setReview() {
+            cout << "Enter book ID: ";
+            cin >> _bookID;
+            cout << "Write your review: ";
+            getline(cin, comment);
+        }
+
+        string getReview(){
+            return comment;
+        }
+};
+
+class Wishlist {
+    private:
+        int wishID;
+        string wishBook;
+    
+    public:
+        Wishlist(int id=0, string wb=""): wishID(id), wishBook(wb) {}
+
+        void dispWishBook() {
+            cout << left << setw(11) << wishID
+                 << setw(20) << wishBook << endl;
+        }
+
+        int getID() {return wishID;}
+        string getWBook() {return wishBook;}
+
+        void setID(int id) {
+            wishID = id;
+        }
+        void setWBook(string b) {
+            wishBook = b;
+        }
+
+        friend class User;
+};
 
 class User {
     protected: 
@@ -332,6 +576,7 @@ class Student: public User {
         }
 
 };
+
 class NonStudent: public User {
     private: 
         string job;
