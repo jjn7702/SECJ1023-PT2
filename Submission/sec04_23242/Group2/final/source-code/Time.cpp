@@ -140,19 +140,31 @@ bool Time :: operator<(const Time &t){
     if((year - t.year) < 0)
         return true;
 
+    else if (year - t.year > 0)
+        return false;
+
     if((month - t.month) < 0)
         return true;
 
+    else if (month - t.month > 0)
+        return false;
+
     if((day - t.day) < 0)
         return true;
+
+    else if (day - t.day > 0)
+        return false;
     
     if((hour - t.hour) < 0)
         return true;
 
+    else if (hour - t.hour > 0)
+        return false;
+
     if((minute - t.minute) < 0)
         return true;
 
-    return false;
+    return false; 
 }
 
 bool timeCompareForEvent(Time &a, Time &t)
