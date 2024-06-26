@@ -1,3 +1,7 @@
+
+#ifndef REGULARPATIENT_H
+#define REGULARPATIENT_H
+
 class RegularPatient : public Patient{
     private:
     string contactInfo, emergencyContact;
@@ -25,5 +29,7 @@ class RegularPatient : public Patient{
 
     ~RegularPatient() {} //destructor
 };
+
+#ENDIF
 
 //-------------------------------------------------------
