@@ -4,7 +4,7 @@
 
 - [Section A Flow Chart](image/PT2_flowchart.jpg)
 - [Section B Problem Analysis]()
-- [Section C Class Diagram](image/CLASSDIAGRAM.jpg)
+- [Section C Class Diagram](image/PT2_CD.jpg)
 
 ## Section A Flow Chart 📊
 <image src = "image/PT2_flowchart.jpg" width="700" height="550">
@@ -19,11 +19,10 @@
   - The main page of regular user contains 3 different sections:
   - **User Profile**: view nutrition history and generated weekly report
   - **Nutrition Tracker**: log nutritional intake for different meal categories
-  - **Feedback and Recommendation**: respond user feedback and view recommendations from nutritionist
+  - **Feedback**: view recommendations from nutritionist
 
 > __iii) Nutritionist__
   - Able to view user nutriotion history and **calorie catalog**
-  - View user **feedback**
   - Provide **recommendation**
 
 ## Section B Problem Analysis 🔍
@@ -33,30 +32,45 @@
 ### 1. User (class)
 ```
 Attributes:
-- username :string
-- password :string
+- string username;
+- string password;
+- Feedback feedback;
+- bool login;
 
 Methods:
-- bool LogIn(string username, string password)
+-User(string, string, string)
+-~User()
+-Feedback& getFeedback()
+-virtual void signUp(vector<User*>& users) = 0
+-virtual bool logIn(const vector<User*>& users) = 0
+-virtual string getUserType() const = 0
 ```
 
 
 ### 2. RegularUser(derived class of User class)
 ```
 Attributes:
-- dailyHistory[] :double
+- NutritionTracker nutrition
+- double cal_budget
+- int activityLvl
 
 Methods:
-- void viewDailySummary()
+- void setInfo()
+- void setTarget()
+- void recommendation()
+- void viewProfile()
 ```
 
 ### 3. Nutritionist (derived class of User class)
 ```
 Attributes:
-- regularUser:RegularUser * 
+- regularUser[MAX]:RegularUser *
+- int userCount
 
 Methods:
-- void viewUsersCatalog()
+- void viewUsersReport();
+- void writeFeedback();
+
 ```
 
 ### 4. NutritionTracker(class)
@@ -82,15 +96,20 @@ Methods:
 ### 6. Food(class)
 ```
 Attributes:
-- foodName:string
+- string feedbackText
 
 Method:
-- void printFoodList()
+- void setFeedback(string);
+- string getFeedback() const;
+- void display();
 ```
 
 > ### (ii) Identify Class Relationships
+
 ### Association Relationships:
+
 - ### Composition:
+  
 **1. User and Feedback:**
 User class has an attribute feedback of type Feedback.
 Justification: A user can provide feedback or recommendation, and thus, there is a direct relationship where each user can be associated with feedback.
