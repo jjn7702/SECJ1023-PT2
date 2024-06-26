@@ -614,7 +614,46 @@ int main() {
 
     cout << "Test for Book class\n\n";
 
-    ...
+    cout << "------------------------------Book Listing Details--------------------------------" << endl;
+    cout<< setw(11)<< "Book ID" << setw(10) << "Title" << setw(14) << "Author" << setw(15) << "Language" << setw(13) << "Condition" << setw(10) << "Status" << endl;
+    Dictionary d1("English", "Sabrina", 1, "Dictionary", "Oxford", 2021, "Good", "123456", "Available");
+    Encyclopedia e1("Amanda", "English", 2, "Encyclopedia", "Oxford", 2021, "Good", "123456", "Available");
+    d1.dispBookDetails();
+    e1.dispBookDetails();
+
+    cout << endl;
+
+    cout << "--------------------------------Book Details--------------------------------" << endl;
+    cout << setw(11) << "Book ID" << setw(10) << "Title" << setw(13) << "Publisher" << setw(8) << "Year" << setw(8) << "ISBN" << setw(15) << "Condition" << setw(10) << "Status" << endl;
+    Book b1(1, "C++ OOP", "Oxford", 2021, "Good", "135467", "Available");
+
+    b1.dispBookDetails();
+
+    cout << endl;    
+    
+    Book b2(2, "Java OOP", "Oxford", 2021, "Good", "184874", "Available");
+
+    //Access and display details using getter methods
+    cout << "-------------------Book Details----------------------- " << endl;
+    cout << "Book ID: " << b2.getBookID() << endl;
+    cout << "Title: " << b2.getTitle() << endl;
+    cout << "Publisher: " << b2.getPS() << endl;
+    cout << "Publication Year: " << b2.getPY() << endl;
+    cout << "ISBN: " << b2.getISBN() << endl;
+    cout << "Condition: " << b2.getCondition() << endl;
+    cout << "Status: " << b2.getStatus() << endl;
+
+    //display updated details
+    cout << "\nUpdated Book Details: " << endl;
+    cout << "--------------------------------Book Details--------------------------------" << endl;
+    cout << setw(11) << "Book ID" << setw(10) << "Title" << setw(13) << "Publisher" << setw(8) << "Year" << setw(8) << "ISBN" << setw(15) << "Condition" << setw(10) << "Status" << endl;
+    b2.dispBookDetails();
+
+    //Change status of the book
+    b2.changeStatus();
+    cout << "\n>>>>> After changing status <<<<<" << endl;
+    cout << "Updated Status: " << b2.getStatus() << endl;
+
 
 
     cout << "\n\nTest for PersonalInfo class\n\n";
