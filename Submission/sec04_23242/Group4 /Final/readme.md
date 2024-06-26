@@ -103,10 +103,10 @@ Inheritance is a fundamental concept in object-oriented programming that allows 
 #### Menu Class
 Inheritance is applied in the Menu class, where it serves as a base class for different types of menu items. Derived classes such as Vegetable, Fruit, and Meat inherit common properties and behaviors from the Menu class but also extend it by adding specific attributes and methods. This promotes code reusability and extensibility, allowing new types of menu items to be added with minimal changes to existing code, thereby enhancing the system's maintainability.
 
-*Menu.h*
+### *Menu.h*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232535.png" />
 
-*Menu.cpp*
+### *Menu.cpp*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232557.png" />
 
 ### Polymorphism
@@ -115,10 +115,10 @@ Polymorphism is the ability of different objects to respond, each in its own way
 #### Menu Class
 Polymorphism is demonstrated in the Menu class and its derived classes. The system uses polymorphic behavior to treat objects of different Menu derived classes uniformly. For example, a function that processes menu items can work on any derived class of Menu without needing to know the specific type of the menu item. This is achieved through method overriding, where derived classes provide specific implementations of methods defined in the Menu class, enabling dynamic method dispatch and enhancing the system's flexibility and extensibility.
 
-*Menu.h*
+### *Menu.h*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232718.png" />
 
-*Menu.cpp*
+### *Menu.cpp*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232557.png" />
 
 ### Array of Objects
@@ -127,10 +127,10 @@ An array of objects is a data structure in programming that stores multiple inst
 #### Bill Class
 The menu array declared as `Menu menu[arrSize];` in the Bill class represents an array of Menu objects. Each element (`menu[i]`) in this array holds data for a specific menu item, such as its name, count, and price. This array is integral to the functionality of the Bill class, facilitating operations like adding items (addToCart), calculating totals (total), and displaying contents (`operator<<`).
 
-*Bill.h*
+### *Bill.h*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232809.png" />
 
-*Bill.cpp*
+### *Bill.cpp*
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232847.png" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232931.png" />
 <img src="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group4%20/Final/images/Screenshot%202024-06-26%20232954.png" />
