@@ -14,39 +14,15 @@
 |**Classes**|**Objects**|
 |---|---|
 |User|Username <br> Password <br> Name <br> Address|
-|Address|Unit
-Road
-*City|
-|City|Postcode
-CityName|
-|Restaurant|RestaurantName
-AddRating()
-DisplayMenu()
-CalculateAvg()
-DisplayRating()
-numR
-AvgRating
-Rating
-Address
-Menu|
-|Menu|Food
-Dessert
-Beverage
-DisplayMenu()|
-|Fastfood|DisplayMenu()
-Menu|
-|Cafe|DisplayMenu()
-Menu|
-|Western|DisplayMenu()
-Menu|
-|Rating|Feedback
-Rating|
-|Date|Day
-Month
-Year
-DisplayDay()
-DisplayMonth()
-PrintDate()|
+|Address|Unit <br> Road <br> *City|
+|City|Postcode <br> CityName|
+|Restaurant|RestaurantName <br> AddRating() <br> DisplayMenu() <br> CalculateAvg() <br> DisplayRating() <br> numR <br> AvgRating <br> Rating <br> Address <br> Menu|
+|Menu|Food  <br> Dessert <br> Beverage <br> DisplayMenu()|
+|Fastfood|DisplayMenu() <br> Menu|
+|Cafe|DisplayMenu() <br> Menu|
+|Western|DisplayMenu() <br> Menu|
+|Rating|Feedback <br> Rating|
+|Date|Day <br> Month <br> Year <br> DisplayDay() <br> DisplayMonth() <br> PrintDate()|
 
 # CLASS DIAGRAM 💻
 
