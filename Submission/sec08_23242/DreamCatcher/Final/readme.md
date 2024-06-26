@@ -11,6 +11,7 @@
   <li><a href="#flowchart"> Section A: Flowchart </a></li>
   <li><a href="#problemanalysis"> Section B: Problem Analysis </a></li>
   <li><a href="#uml"> Section C: UML Class Diagram </li>
+  <li>a href="#reference" Reference </li>
 
 <h1 id="flowchart"align="center"> Section A: Flowchart </h1>  <br />
     <img src =https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/66490e32-ac60-4f48-bf40-71c04bb78116>
