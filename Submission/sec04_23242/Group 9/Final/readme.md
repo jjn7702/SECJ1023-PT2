@@ -46,5 +46,5 @@ The concept of polymorphism is applied in class Frequency as the parent class. p
 Based on the code below, we’ve created a static array where variables addMed and removeMed are able to hold 20 data.
 We also implemented an array of objects where we use pointers to dynamically allocate the objects.
 
-# Codes
-[Code](Final/source-code)
+# 3.0 Section C:  Codes
+[Code](source-code)
