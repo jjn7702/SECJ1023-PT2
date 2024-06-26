@@ -1,3 +1,5 @@
+#ifndef SPECIALPATIENT_H
+#define SPECIALPATIENT_H
 class SpecialPatient: public Patient {
     private:
     string guardianName, relationship, guardianContact;
@@ -27,5 +29,7 @@ class SpecialPatient: public Patient {
 
     ~SpecialPatient() {} //destructor
 };
+
+#ENDIF
 
 //----------------------------------------------
