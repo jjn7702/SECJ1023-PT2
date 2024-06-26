@@ -732,3 +732,40 @@ int main() {
 			 } while (genreChoice < 1 || genreChoice > 3);
 		}
 
+	// if user choose option 3 in menu page
+	    else if (choice == 3) {
+	    	// Display Personalize Book List Page
+	    	system("cls");
+	        cout << "******************************************************************************************************************\n";
+			cout << "*                                                                                                                *\n";
+			cout << "*                                   Bookworm Book Recommendation System                                          *\n";
+	        cout << "*                                        Personal Book List Page                                                 *\n";
+	        cout << "*                                                                                                                *\n";
+	       	cout << "******************************************************************************************************************\n";
+	        
+	        // display user personal booklist
+	        user1.displayBooklist();
+	        cout << endl;
+	        
+	        bool validChoice = false;
+		    while (!validChoice) {
+		        // choice10 user can input 1 to exit, or input other number to go back main menu
+		        cout << "Enter 1 to exit, enter other number to go back to main menu: ";
+		        cin >> choice10;
+		        
+		        if(cin.fail()){
+                	cin.clear(); // Clear the error flag
+        			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+        			cout << "Invalid input. Please enter an integer value.\n";
+        		} 
+				else if (choice10 == 1) {
+		            cout << endl << "Thank you for using Bookworm book recommendation system !" << endl;
+		            cout << "Hope to see you again!" << endl;
+		            system("pause");
+		            exit(0);
+		        } 
+		        else {
+		        	validChoice = true;
+				}
+			}
+	    }
