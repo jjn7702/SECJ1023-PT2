@@ -29,18 +29,11 @@
 
 
 # PROBLEM ANALYSIS 🗒️ 
-|**Classes**|**Objects**|
-|---|---|
-|User|Username <br> Password <br> Name <br> Address|
-|Address|Unit <br> Road <br> *City|
-|City|Postcode <br> CityName|
-|Restaurant|RestaurantName <br> AddRating() <br> DisplayMenu() <br> CalculateAvg() <br> DisplayRating() <br> numR <br> AvgRating <br> Rating <br> Address <br> Menu|
-|Menu|Food  <br> Dessert <br> Beverage <br> DisplayMenu()|
-|Fastfood|DisplayMenu() <br> Menu|
-|Cafe|DisplayMenu() <br> Menu|
-|Western|DisplayMenu() <br> Menu|
-|Rating|Feedback <br> Rating|
-|Date|Day <br> Month <br> Year <br> DisplayDay() <br> DisplayMonth() <br> PrintDate()|
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-26%20131458.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-26%20131510.png">
+<br>
 <br>
 <image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-06%20070755.png">
 <br>
@@ -50,4 +43,6 @@
 <br>
 
 # CLASS DIAGRAM 💻
-
+<br>
+<image src = "">
+<br>
