@@ -33,4 +33,4 @@ The main aim of this application is to propose food options tailored to users' t
 <ul>
   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal"> Proposal </a></li>
 </ul>
-
+  <li><a href="https://youtu.be/Ka1DC2lmKRg"> Proposal Video </a></li>
