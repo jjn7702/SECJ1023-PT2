@@ -27,7 +27,7 @@ The system design follows an object-oriented approach with the following key com
 ## 4.0 Flowchart and UML Class Diagram
 
 **UML Class Diagram**
-![PT2UML drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/148675768/651c6e84-20ac-4689-a5f3-e790f225709e)
+[PT2UML drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/148675768/a96aa356-ee8b-4ee8-a392-cd85e3d3f595)
 
 
 ## 5.0 Class Details
@@ -58,3 +58,46 @@ The **Ratings** class handles book ratings. It associates a rating value with a 
 **BookRecommendationSystem Class**
 
 The **BookRecommendationSystem** class is the core class that integrates all functionalities. It maintains arrays of books, publications, and ratings, along with counters to track the number of entries. The class provides methods to add books, publications, and ratings to the system, recommend books based on user preferences, and retrieve genres based on user choices.
+
+## 6.0 Implementation of Concept
+1. **Encapsulation**
+
+Explanation: Encapsulation in object-oriented programming bundles data (attributes) and methods (functions) that operate on the data into a single unit (class). It hides the internal state of objects from direct access by clients and allows controlled access via public methods.
+
+Justification: The Book class encapsulates attributes such as name, author, genre, and booktype, providing public methods like getName(), getAuthor(), getGenre() to access these attributes. This prevents direct modification of internal data and ensures data integrity
+
+2. **Aggregation**
+
+Explanation: Aggregation represents a "has-a" relationship where one class (the container or aggregator) contains references to objects of another class (the aggregate). The aggregated objects can exist independently of the container.
+
+Justification: The Ratings class aggregates a Book object using a pointer (Book* book). It maintains a relationship where Ratings can refer to a Book object without owning it, allowing flexibility in object relationships and data management
+
+3. **Composition**
+Explanation: Composition is a stronger form of aggregation where the lifetime of the contained object is managed by the container. If the container object is destroyed, all contained objects are also destroyed.
+Justification: In your design, the Publish class demonstrates composition with Book as a member object (Book book). The Publish object owns its associated Book object, ensuring that a Publish instance cannot exist without a corresponding Book instance
+
+4. **Inheritance**
+
+Explanation: Inheritance allows one class (derived class) to inherit properties and behaviors from another class (base or parent class). It promotes code reuse and supports the "is-a" relationship.
+
+Justification: Both Fiction and NonFiction classes inherit from the Book class. They inherit attributes and methods such as printBookDetails() from Book, enabling specialization (e.g., specific genre handling) while leveraging common functionality defined in Book
+
+5. **Polymorphism**
+
+Explanation: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables methods to be defined in multiple derived classes with the same name but different implementations.
+
+Justification: The printBookDetails() method in the Book class is declared as virtual, allowing Fiction and NonFiction classes to override this method with their specific implementations (void printBookDetails() const). This supports dynamic method binding at runtime based on the actual object type.
+
+6. **Array of Object**
+
+Explanation: An array of objects refers to storing multiple instances of a class in a contiguous block of memory, allowing efficient access and manipulation of objects as a group.
+
+Justification: In BookRecommendationSystem, arrays (adbooks[], addpublications[], addrating[]) store multiple instances of Book, Publish, and Ratings objects respectively. This facilitates managing and accessing collections of related objects (e.g., books, publication details, ratings) within the system.
+
+In main(), we use BookRecommendationSystem to populate these arrays
+
+7. **File handling **
+
+Explanation: File handling in C++ provides mechanisms to read from and write to files. It allows data to be stored persistently and retrieved as needed by the program.
+
+Justification: The User class utilizes file handling (fstream) in methods like login()to read and write user credentials (username and password) to a file (users.txt). This enables user authentication and registration functionalities while persisting user data across program executions.
