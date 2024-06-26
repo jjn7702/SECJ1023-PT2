@@ -17,13 +17,8 @@ The Medication Scheduler project is a simple application that will help you mana
 | 3  | TANG JASMINE                       | A23CS0277 | `tjasmiine`  |
 
 
-
-
-
 ## Progress
-
-
-
+1. [Proposal](Group9/Proposal/readme.md)
 
 
 
