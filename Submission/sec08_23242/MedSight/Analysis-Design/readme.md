@@ -1,4 +1,6 @@
-<h1 align="center"> Problem Analysis and Design </h1>
+<h1 align="center"> 🩺 DISEASE DIAGNOSIS SYSTEM 💉 </h1>
+<h2> By MedSight </h2>
+<h1>Phase 3 Problem Analysis and Design </h1>
 <h2>📑 Content </h2>
 <ul>
   <li><a href="#flowchart"> Flow Chart </a></li>
