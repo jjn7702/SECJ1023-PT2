@@ -1,3 +1,7 @@
+
+#ifndef MEDICATION_H
+#define MEDICATION_H
+
 class Medication {
     string medName, dosage;
     MedType medType;//composition
@@ -53,3 +57,5 @@ class Medication {
     //destructor 
     ~Medication(){}
 };
+
+#ENDIF
