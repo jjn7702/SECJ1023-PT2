@@ -80,15 +80,22 @@ Once logged in, users will navigate to the home screen, which features three pri
 
 - Displays user information and the list of registered allergies for verification and updates.
 
+
+
+
 ###  Proposed Flowchart
 
 ![realpg1](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/10cf9b15-98a5-4132-93e5-bc1eb1448ecc)
 
 ![Pt2_A2_flowchart-Page-2 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/c777e7b9-4d85-43a6-ba7e-73ed8729b411)
+
+
 ### 1.6 UML
 [UML link:](https://app.creately.com/d/yvJ5es1K2eW/view).
 
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/122166710/25d469f4-8874-4a65-aa4f-32da849bab66)
+
+
 
 ###  objects
 
@@ -122,13 +129,8 @@ Once logged in, users will navigate to the home screen, which features three pri
 
 ## 2.0 Section B
 
+
 ### 2.1 OOP Implementation
 
-The object-oriented approach used to build the system included the following principles:
-
-- **Encapsulation**: Encapsulation was achieved by making class attributes private and providing public methods for accessing and modifying these attributes.
-- **Abstraction**: Abstract classes were used to represent generalized food categories that could be inherited by more specific food items.
-- **Inheritance**: The FoodItem class inherited attributes and methods from the Cuisine class to represent different types of food.
-- **Polymorphism**: Polymorphism was used in the FoodCategory class to allow different types of food items to be treated as instances of the FoodCategory class.
 
 
