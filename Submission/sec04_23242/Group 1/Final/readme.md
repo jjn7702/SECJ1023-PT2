@@ -69,7 +69,7 @@ The **BookRecommendationSystem** class is the core class that integrates all fun
 ## 6.0 Implementation of Concept
 1. **Encapsulation**
 
-
+![encapsulation](https://github.com/jjn7702/SECJ1023-PT2/assets/147811435/ff4d7f32-f5d1-4c72-b7fb-94c6d6738589)
 
 Explanation: Encapsulation in object-oriented programming bundles data (attributes) and methods (functions) that operate on the data into a single unit (class). It hides the internal state of objects from direct access by clients and allows controlled access via public methods.
 
