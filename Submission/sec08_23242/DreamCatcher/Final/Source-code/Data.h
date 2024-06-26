@@ -67,7 +67,7 @@ void Data::analyzeSleep(int minutes, int age) {
             } else {
                 category = 'A';
             }
-        } else if (age >= 65) {
+        } else if (age >= 18) {
             if (minutes < 7*60) {
                 category = 'B';
             } else if (minutes > 8*60) {
