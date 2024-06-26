@@ -13,10 +13,7 @@
 # PROBLEM ANALYSIS 🗒️ 
 |**Classes**|**Objects**|
 |---|---|
-|User|Username
-Password
-Name
-Address|
+|User|Username <br> Password <br> Name <br> Address|
 |Address|Unit
 Road
 *City|
