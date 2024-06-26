@@ -74,6 +74,20 @@
      - Has a method `displaySuggestions()` that takes a vector of `Suggestion` objects.
      - Can handle objects of type `ImprovementPlan` or any other subclass of `Suggestion`.
      - Reduces coupling between classes, making it easier to change one class without affecting others.
+       
+4. **Composition**
+   - The `SleepReport` class:
+     - Utilizes `SleepSession` objects to generate sleep reports.
+     - `generateSummary` method:
+       - Iterates through the vector of `SleepSession` objects.
+       - Calculates total and average sleep durations, including deep sleep, light sleep, and REM sleep.
+     - `generateRecommendations` method:
+       - Analyzes average sleep duration from `SleepSession` objects.
+       - Provides tailored sleep recommendations.
+     - `printReport` method:
+       - Calls `generateSummary` and `generateRecommendations`.
+       - Compiles a complete sleep report based on data from `SleepSession` objects.
+   - This composition relationship indicates that `SleepReport` "has" `SleepSession` objects, meaning `SleepReport` relies on the `SleepSession` objects to fulfill its responsibilities.
      
 **(iv) Module 4 : User**
 
