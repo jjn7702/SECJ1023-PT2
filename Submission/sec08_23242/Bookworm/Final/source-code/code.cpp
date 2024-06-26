@@ -756,10 +756,10 @@ int main() {
         			cout << "Invalid input. Please enter an integer value.\n";
         		} 
 			else if (choice10 == 1) {
-		            cout << endl << "Thank you for using Bookworm book recommendation system !" << endl;
-		            cout << "Hope to see you again!" << endl;
-		            system("pause");
-		            exit(0);
+		        	cout << endl << "Thank you for using Bookworm book recommendation system !" << endl;
+		            	cout << "Hope to see you again!" << endl;
+		            	system("pause");
+		            	exit(0);
 		        } 
 		        else {
 		        	validChoice = true;
