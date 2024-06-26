@@ -127,4 +127,4 @@ Association Relationships: These relationships model real-world interactions bet
 
 
 ## Section C Class Diagram 🗂️
-<image src = "image/CLASSDIAGRAM.jpg" width="800" height="550">
+<image src = "image/PT2_CD.jpg" width="800" height="550">
