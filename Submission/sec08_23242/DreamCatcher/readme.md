@@ -41,7 +41,7 @@
         <br />
     <a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/DreamCatcher/Final">
         <button style="width: 230px; border: none; background-color: transparent; cursor: pointer;">
-        <img alt="Final" src="https://img.shields.io/badge/Final" style="width: 230px;">
+        <img alt="Final" src="https://img.shields.io/badge/Final-%23003366" style="width: 50px;">
         </button>
 </a>
 </body>
