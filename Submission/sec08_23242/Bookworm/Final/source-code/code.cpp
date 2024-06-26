@@ -562,3 +562,162 @@ int main() {
 				cout << "3. Sci-Fi" << endl;
 				cout << "Enter your genre choice (1-3): ";
 	            		cin >> genreChoice;
+
+  // if user choose romance for genre choice
+	            if (genreChoice == 1) {
+	                do {
+	                	// Romance Book List Page
+	                    system("cls");
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\t\t\t\t\t Romance Book List \t\t\t\t\n";
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\nHere is our Romance list of books: \n\n";
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << left << setw(11) << "Code" << setw(25) << "Title" << setw(10) << "Genre" 
+							 << setw(14) << "Year Publish" << setw(31) << "Publisher" << setw(25) << "Main couple"<< endl;
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    
+	                    // display romance books
+	                    for (int i = 0; i < 5; i++) {
+	                        cout << (i + 1) << ". ";
+	                        romance[i].display();
+	                    }
+	                    
+	                    // choice4 user can input the number of romance book they want, or input 6 to go back main menu
+	                    cout << "\nPlease kindly input the number (1-5) of the romance book you are interested in, press 6 to back to main menu: ";
+	                    cin >> choice4;
+	                    
+	                    if (choice4 >= 1 && choice4 <= 5) {
+	                        user1.addBookToBooklist(&romance[choice4 - 1]);
+	                        
+	                        bool validChoice = false;
+		            		while (!validChoice) {
+			                    // choice5 user can input 1 if want add more book, or input other number to go back main menu
+			                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
+			                    cin >> choice5;
+			                    
+			                    if(cin.fail()){
+			                    	cin.clear(); // Clear the error flag
+			            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+			            			cout << "Invalid input. Please enter an integer value.\n";
+		                		} else {
+		                    		validChoice = true;
+		                		}
+							}
+	                        	
+	                    } else if (choice4 == 6) {
+	                        break;
+	                    } else {
+	                    	cin.clear(); // Clear the error flag
+            				cin.ignore(INT_MAX, '\n'); // Discard invalid input
+	                    	cout << "Invalid input\n";
+	                    	system("pause");
+	                    }
+	                } while (choice4 < 1 || choice4 > 5 || choice5 == 1);
+	            } 
+				
+				// if user choose fantasy for genre choice
+				else if (genreChoice == 2) {
+	                do {
+	                	// Fantasy Book List Page
+	                    system("cls");
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\t\t\t\t\t Fantasy Book List \t\t\t\t\n";
+	                   	cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\nHere is our Fantasy list of books: \n\n";
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << left << setw(11) << "Code" << setw(25) << "Title" << setw(10) << "Genre" 
+							 << setw(14) << "Year Publish" << setw(31) << "Publisher" << setw(25) << "Creature Type" << endl;
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    
+	                    // display fantasy book
+	                    for (int i = 0; i < 5; i++) {
+	                        cout << (i + 1) << ". ";
+	                        fantasy[i].display();
+	                    }
+	                    
+	                    // choice6 user can input the number of fantasy book they want, or input 6 to go back main menu
+	                    cout << "\nPlease kindly input the number (1-5) of the book you are interested in, press 6 to back to main menu: ";
+	                    cin >> choice6;
+	                    
+	                    if (choice6 >= 1 && choice6 <= 5) {
+	                        user1.addBookToBooklist(&fantasy[choice6 - 1]);
+	                        
+	                        bool validChoice = false;
+		            		while (!validChoice) {
+			                    // choice7 user can input 1 if want add more book, or input other number to go back main menu
+			                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
+			                    cin >> choice7;
+			                    
+			                    if(cin.fail()){
+			                    	cin.clear(); // Clear the error flag
+			            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+			            			cout << "Invalid input. Please enter an integer value.\n";
+		                		} else {
+		                    		validChoice = true;
+		                		}
+							}
+							
+	                    } else if (choice6 == 6) {
+	                        break;
+	                    } else {
+	                    	cin.clear(); // Clear the error flag
+            				cin.ignore(INT_MAX, '\n'); // Discard invalid input
+	                        cout << "Invalid input\n";
+	                        system("pause");
+	                    }
+	                } while (choice6 < 1 || choice6 > 5 || choice7 == 1);
+	            } 
+				
+				// if user choose sci-fi for genre choice
+				else if (genreChoice == 3) {
+	                do {
+	                	// Sci-Fi Book List Page
+	                    system("cls");
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\t\t\t\t\t Sci-Fi Book List \t\t\t\t\n";
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << "\nHere is our Sci-Fi list of books: \n\n";
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    cout << left << setw(11) << "Code" << setw(25) << "Title" << setw(10) << "Genre" 
+						<< setw(14) << "Year Publish" << setw(31) << "Publisher" << setw(25) << "Scientific Concept" << endl;
+	                    cout << "------------------------------------------------------------------------------------------------------------------\n";
+	                    
+	                    // display sci-fi book
+	                    for (size_t i = 0; i < 5; i++) {
+	                        cout << (i + 1) << ". ";
+	                        scifi[i].display();
+	                    }
+	                    
+	                    // choice8 user can input the number of sci-fi book they want, or input 6 to go back main menu
+	                    cout << "\nPlease kindly input the number (1-5) of the book you are interested in, press 6 to back to main menu: ";
+	                    cin >> choice8;
+	                    
+	                    if (choice8 >= 1 && choice8 <= 5) {
+	                        user1.addBookToBooklist(&scifi[choice8 - 1]);
+	                        
+	                        bool validChoice = false;
+		            		while (!validChoice) {
+			                    // choice9 user can input 1 if want add more book, or input other number to go back main menu
+			                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
+			                    cin >> choice9;
+			                    
+			                    if(cin.fail()){
+			                    	cin.clear(); // Clear the error flag
+			            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+			            			cout << "Invalid input. Please enter an integer value.\n";
+		                		} else {
+		                    		validChoice = true;
+		                		}
+							}
+							
+	                    } else if (choice8 == 6) {
+	                        break;
+	                    } else {
+	                    	cin.clear(); // Clear the error flag
+            				cin.ignore(INT_MAX, '\n'); // Discard invalid input
+	                        cout << "Invalid input\n";
+	                        system("pause");
+	                    }
+	                } while (choice8 < 1 || choice8 > 5 || choice9 == 1);
+	            } 
