@@ -1,5 +1,10 @@
 # Section A : 
 **OBJECTIVES & PURPOSES**
+-To provide users with a platform to track and monitor their sleep patterns.
+-To analyze sleep data and provide insights into sleep quality, duration, and stages (deep sleep, light sleep, and REM sleep).
+-To offer personalized recommendations for improving sleep quality based on the user's sleep data.
+-To educate users on the importance of sleep and provide resources for better sleep habits.
+
 
 **FLOW CHART**
 
@@ -57,7 +62,7 @@
      - Has a method `displaySuggestions()` that takes a vector of `Suggestion` objects.
      - Can handle objects of type `ImprovementPlan` or any other subclass of `Suggestion`.
      - Reduces coupling between classes, making it easier to change one class without affecting others.
-     - 
+     
 **(iv) Module 4 : User**
 
 
