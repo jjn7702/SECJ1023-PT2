@@ -1,8 +1,11 @@
 # Section A : 
 **OBJECTIVES & PURPOSES**
 -To provide users with a platform to track and monitor their sleep patterns.
+
 -To analyze sleep data and provide insights into sleep quality, duration, and stages (deep sleep, light sleep, and REM sleep).
+
 -To offer personalized recommendations for improving sleep quality based on the user's sleep data.
+
 -To educate users on the importance of sleep and provide resources for better sleep habits.
 
 
