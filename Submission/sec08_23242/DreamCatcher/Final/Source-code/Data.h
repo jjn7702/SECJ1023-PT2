@@ -26,7 +26,6 @@ class Data {
         void calculateSleepDiff(int, int);
 };
 
-
 void Data::analyzeSleep(int minutes, int age) {
         if (age < 1) {
             if (minutes < 12*60) {
@@ -132,10 +131,6 @@ void Data::calculateSleepDiff(int averageTime, int age) {
             cout << "Invalid category." << endl;
             break;
     }
-
-
 }
-
-
 
 #endif
