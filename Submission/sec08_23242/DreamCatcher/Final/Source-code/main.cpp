@@ -17,7 +17,6 @@
 #include <vector>
 using namespace std;
 
-
 void mainMenu(NewUser&);
 void Quit();
 
@@ -27,7 +26,7 @@ void printLines() {
     cout << endl;
 }
 
-//! Login Page
+// Login Page
 void const loginPage() {
     printLines();
     cout << setw(62) << "Welcome to Dream Catcher: " << endl;
@@ -35,7 +34,7 @@ void const loginPage() {
     cout << "Please select the user type: " << "\t\t1 - New User" << "\t\t2 - Existing User\t\t";
 }
 
-//! New User Page
+// New User Page
 NewUser newUserPage(map<string, NewUser>& users) {
     string username, password, password2;
     int age;
@@ -121,7 +120,7 @@ NewUser newUserPage(map<string, NewUser>& users) {
 }
 
 
-//! Existing User Page
+// Existing User Page
 NewUser existingUser(map<string, NewUser>& users) {
     string username, password;
 
@@ -162,7 +161,7 @@ NewUser existingUser(map<string, NewUser>& users) {
 }
 
 
-//! Sleep Analyzer Page
+// Sleep Analyzer Page
 void sleepAnalyzer(NewUser& user) {
     char choice;
     do {
@@ -221,12 +220,12 @@ void sleepAnalyzer(NewUser& user) {
     }
 }
 
-//! To check whether the User Defined Music is empty or not
+// To check whether the User Defined Music is empty or not
 bool checkEmpty(Music m){
     return (m.getcList().empty());
 }
 
-//! Add Music
+// Add Music
 void addMusic(){
     ofstream outFile("musicList.txt",ios::app);
     char option;
@@ -247,11 +246,11 @@ void addMusic(){
     outFile.close();
 }
 
-//! Load Music 
+// Load Music 
 void loadMusic(){
     ifstream inFile;
     inFile.open("musicList.txt");
-    string list,url,composer,typeW,typeF;
+    string list, url, composer, typeW, typeF;
     vector <ClassicM> cm;
     vector <WhiteNoise> wn;
     vector <FavM> fm;
