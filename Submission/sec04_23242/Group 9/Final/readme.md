@@ -1,4 +1,4 @@
-# 1.0 Section A :  project description & analysis and design (UML Class Diagram, Flowchart)
+# 1.0  Section A :  project description & analysis and design
 Our proposed system is the medication scheduler. The general idea of this system is to develop a system which can be used by individuals who have to take medication on a schedule with the accurate dosage, especially for those who have to take different medications with different dosage at a time. This is an upgraded version of the traditional system that uses labeled containers to alert patients on medicine intake. Instead, this system can be integrated into their device and can be accessed at any time.
 
 Our system objectives are:
@@ -16,4 +16,6 @@ Hiding password by using getch() and include <conio.h>
 Displaying the past and current medicine(s) that students have to take by using time function and include <ctime>
 
 ## 1.1 Flowchart
+![Flowchart](images/PT2_Proj_Flowchart.png)
 ## 1.2 UML Class Diagram
+![UML_Class_Diagram](images/PT2_Proj_UML.png)
