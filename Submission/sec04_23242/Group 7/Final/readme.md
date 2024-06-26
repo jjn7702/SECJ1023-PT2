@@ -1,7 +1,10 @@
 **1.0 Project Description**
+
+
 **INTRODUCTION**
 
 In the current era of globalization, there are a lot of people who want to apply for scholarships, especially for teenagers. Hence, we created the “Scholarship Application” system using C++. The Scholarship application system offers a platform where students can easily access scholarship information, submit applications, track status, and receive the offer. It's a user-friendly system that simplifies the application process, making it accessible to a wide range of applicants.The application offers a dependable, and user-friendly interface for managing different tasks in order to guarantee flexibility and convenience of use by utilizing the capabilities of object-oriented programming principles in C++. 
+
 
 **Objectives of the system**
 
@@ -13,7 +16,9 @@ In the current era of globalization, there are a lot of people who want to apply
 
 -Store all applications securely in one place.
 
+
 **2.0 Analysis and Design**
+
 
 Flowchart
 
@@ -25,6 +30,7 @@ UML Class Diagram
 
 
 **3.0 Concepts Implementation**
+
 
 Encapsulation
 
@@ -111,11 +117,12 @@ For the array of objects, dynamic memory allocation (DMA) is utilized to create 
 
 
 **4.0 Summary**
-	
-	In summary, all parties involved will find the process more efficient and transparent thanks to the Scholarship Application System. It makes things easier administratively, minimizes mistakes and enhances the overall experience for both applicants and administrators.
-	
-	We can add a lot of functionality to our system using OOP, which will save admin and applicants a great deal of time and make the system easier to grasp. Additionally, our system gives candidates a comprehensive explanation of the requirements, procedures, and deadlines. Additionally, this framework guarantees that future improvements will be possible if necessary.
 
-    We owe a huge debt of gratitude to Dr. Lizawati for her direction and help during the program's development. This initiative improves our capacity to design systems and is very valuable for the future.
+ 
+In summary, all parties involved will find the process more efficient and transparent thanks to the Scholarship Application System. It makes things easier administratively, minimizes mistakes and enhances the overall experience for both applicants and administrators.
+	
+We can add a lot of functionality to our system using OOP, which will save admin and applicants a great deal of time and make the system easier to grasp. Additionally, our system gives candidates a comprehensive explanation of the requirements, procedures, and deadlines. Additionally, this framework guarantees that future improvements will be possible if necessary.
+
+We owe a huge debt of gratitude to Dr. Lizawati for her direction and help during the program's development. This initiative improves our capacity to design systems and is very valuable for the future.
 
 
