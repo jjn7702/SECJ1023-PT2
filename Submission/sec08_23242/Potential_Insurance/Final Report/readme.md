@@ -9,7 +9,7 @@ The main aim of this application is to propose food options tailored to users' t
 habits. Additionally, the application provides convenience for users to order food from their 
 favourite restaurants.
 
-# OBJECTIVES 🗒️ 
+# Objectives 🗒️ 
 • Propose food options tailored to users' tastes and habits. <br>
 • Allow users to evaluate restaurants. <br>
 • Arrange restaurant details efficiently. <br>
@@ -34,7 +34,7 @@ a dining venue. By offering a comprehensive view of available options, we hope t
 the dining experience, making it easier for people to discover and enjoy new culinary delights 
 in their vicinity
 
-## Flowchart 
+# Flowchart 
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/de81eefa-40f1-4488-9fd8-af1263b355ba)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/fb3e967f-79f7-40b5-84bd-65bf062fa153)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/69b8297d-9ee5-4f35-9428-c3146ae3ccf8)
@@ -44,24 +44,24 @@ in their vicinity
 
 
 
-## UML Class Diagram
+# UML Class Diagram
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/40ecf4a4-13b4-4c09-bf42-8c51c65e32b8)
 
 
-## Encapsulation
+# Encapsulation
 Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the 
 data into a single unit, known as a class. It also restricts direct access to some of an object's components, which is a means of preventing accidental interference and misuse of the data.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/e4e6ed98-80f1-4217-aa32-5e3d36bd818e)
 
 
-## Composition
+# Composition
 Composition is a design principle where a class is composed of one or more objects of other 
 classes, implying a "has-a" relationship.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/4b85fdd8-60e5-4169-bbfb-7a33f77f83e3)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/7afc7810-951f-4f08-a8a6-a6a87e4a0d41)
 
 
-## Aggregation
+# Aggregation
 Aggregation is a specialized form of composition where the lifetime of the contained objects 
 does not depend on the lifetime of the container object, implying a "part-of" relationship but 
 with independent lifetimes.
@@ -69,12 +69,12 @@ with independent lifetimes.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/0be46de9-4ce2-49cf-ae5c-1ade5fa72a39)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/6b7db99c-9108-4e5b-9f55-0297afb0240f)
 
-## Inheritance 
+# Inheritance 
 Inheritance is a mechanism where a new class (child class) is derived from an existing class 
 (parent class). The child class inherits attributes and methods from the parent class and can also have additional attributes and methods.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/45c48f7b-c6d8-47ee-9271-f0fbd2a530ed)
 
-## Polymorphism
+# Polymorphism
 Polymorphism allows objects of different classes to be treated as objects of a common 
 superclass. It is often used to perform a single action in different ways.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/78b01949-0268-4b18-b4ea-4819f05b881c)
@@ -82,12 +82,12 @@ superclass. It is often used to perform a single action in different ways.
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/499491d3-a105-4918-9fac-46d827e26d9f)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/0c5f8cc1-3194-4cef-9188-7cdd6d7bd3b5)
 
-## Array of obejcts
+# Array of obejcts
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/ed74a410-34e0-43c0-9a66-be3000d865cc)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/4c197085-d66a-44c9-8070-9e96066594e9)
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/36be1841-b12a-4e40-872e-568949bb43b0)
 
-## Conclusion
+# Conclusion
 In this project, we have gained valuable insights and practical experience in software 
 development and team collaboration. We successfully implemented key C++ concepts such 
 as association, composition, inheritance, encapsulation, polymorphism, and array of objects, 
