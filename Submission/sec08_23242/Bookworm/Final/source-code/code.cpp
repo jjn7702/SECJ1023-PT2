@@ -216,7 +216,7 @@ class Booklist {
 		
 		~Booklist(){}
 		
-		int getCount(){ return count; }
+		int getCount()const{ return count; }
 			
 		void setCount(int c){ count = c; }
 		
