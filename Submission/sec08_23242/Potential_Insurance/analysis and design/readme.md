@@ -11,7 +11,8 @@
 <br>
 
 # PROBLEM ANALYSIS 🗒️ 
-|Classes|Objects|
+|**Classes**|**Objects**|
+|---|---|
 |User|Username
 Password
 Name
