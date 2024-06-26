@@ -1,4 +1,4 @@
-<h1 align="center"> 🍝Restaurant Recommendation System🍝 </h1> 
+<h1 align="center"> 🍝Restaurant Recommendation System Phase 2 Report🍝 </h1> 
 
 
 ### CONTENTS
@@ -44,5 +44,5 @@
 
 # CLASS DIAGRAM 💻
 <br>
-<image src = "">
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/pt2-%E7%AC%AC%201%20%E9%A1%B5.drawio.png">
 <br>
