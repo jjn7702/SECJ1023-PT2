@@ -22,8 +22,9 @@ The system design follows an object-oriented approach with the following key com
 - **Book Class**: Represents books, with derived classes for different types of books (e.g., Fiction, NonFiction).
 - **Publish Class**: Manages publication details associated with each book.
 - **Ratings Class**: Handles ratings associated with books.
-- BookRecommendationSystem Class: Integrates all functionalities, managing books, publications, ratings, and providing book recommendations.
+- **BookRecommendationSystem Class**: Integrates all functionalities, managing books, publications, ratings, and providing book recommendations.
 
 ## 4.0 Flowchart and UML Class Diagram
 
-UML Class Diagram
+**UML Class Diagram**
+
