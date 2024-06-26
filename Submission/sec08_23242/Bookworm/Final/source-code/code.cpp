@@ -202,79 +202,79 @@ class SciFi : public Book { // inheritance
 };
 
 class Booklist {
-    private:
-        Book* books[100]; // aggregation
-        int count;
+	private:
+		Book* books[100]; // aggregation
+		int count;
 
-    public:
-        Booklist(){
-            count = 0;
-            for(int i=0; i<100; i++){
-                books[i] = NULL;
-            }
-        }
-
-        ~Booklist(){}
-
-        int getCount(){ return count; }
+	public:
+		Booklist(){
+		    count = 0;
+		    for(int i=0; i<100; i++){
+			books[i] = NULL;
+		    }
+		}
 		
-	void setCount(int c){ count = c; }
-        
-        Book* getBook(int index){
-            return books[index];
-        }
-
-        void addBook(Book *b){
-            for (int i=0; i<100; i++){
-                if (books[i] == nullptr){
-                    books[i] = b;
-                    count++;
-                    cout << "This book is successfully added into your personalized booklist!" << endl << endl;
-                    break;
-                }
-            }
-        }
-
-        bool isBookInList(Book *b){
-            for(int i=0; i<count; i++){
-                if (books[i] == b)
-                    return true;
-            }
-            return false;
-        }
-
-        void display(){
-            cout << left << setw(11) << "Book Code" << setw(25) << "Book Title" << setw(10) << "Genre" << setw(14) << "Year Publish" << setw(31) <<"Publisher" << endl;
-            for (int i=0; i<count; i++){
-                if (books[i] != nullptr)
-                {
-                    cout << i + 1 << ") ";
-                    books[i]->display();
-                    cout << endl;
-                }
-             }
-	}
-
-        void removeBook(int index) {
-	        if (index >= 0 && index < count && books[index] != nullptr) {
-	            books[index] = nullptr;
-	            for (int i = index; i < count - 1; i++) {
-	                books[i] = books[i + 1];
-	            }
-	            books[count - 1] = nullptr;
-	            count--;
-	            cout << "Book removed successfully." << endl;
-	        } else {
-	            cout << "Invalid book index." << endl;
-	        }
-	}
-	    
-	    void saveBooklist() {
-		    string filename = "user_booklist.txt";
-		    ofstream file(filename);
-		    if (!file) {
-		        cerr << "Failed to open file for saving." << endl;
-		        return;
+		~Booklist(){}
+		
+		int getCount(){ return count; }
+			
+		void setCount(int c){ count = c; }
+		
+		Book* getBook(int index){
+		    return books[index];
+		}
+		
+		void addBook(Book *b){
+		    for (int i=0; i<100; i++){
+			if (books[i] == nullptr){
+			    books[i] = b;
+			    count++;
+			    cout << "This book is successfully added into your personalized booklist!" << endl << endl;
+			    break;
+			}
+		    }
+		}
+		
+		bool isBookInList(Book *b){
+		    for(int i=0; i<count; i++){
+			if (books[i] == b)
+			    return true;
+		    }
+		    return false;
+		}
+		
+		void display(){
+		    cout << left << setw(11) << "Book Code" << setw(25) << "Book Title" << setw(10) << "Genre" << setw(14) << "Year Publish" << setw(31) <<"Publisher" << endl;
+		    for (int i=0; i<count; i++){
+			if (books[i] != nullptr)
+			{
+			    cout << i + 1 << ") ";
+			    books[i]->display();
+			    cout << endl;
+			}
+		     }
+		}
+		
+		void removeBook(int index) {
+			if (index >= 0 && index < count && books[index] != nullptr) {
+			    books[index] = nullptr;
+			    for (int i = index; i < count - 1; i++) {
+				books[i] = books[i + 1];
+			    }
+			    books[count - 1] = nullptr;
+			    count--;
+			    cout << "Book removed successfully." << endl;
+			} else {
+			    cout << "Invalid book index." << endl;
+			}
+		}
+		    
+		void saveBooklist() {
+			string filename = "user_booklist.txt";
+			ofstream file(filename);
+			if (!file) {
+			cerr << "Failed to open file for saving." << endl;
+			return;
 		    }
 		    file << "------------------------------------------------------------------------------------------------------------------\n";
 		    file << "\t\t\t\t\t       Personal Book List   \t\t\t\t\t" << endl;
@@ -283,11 +283,11 @@ class Booklist {
 		    file << "------------------------------------------------------------------------------------------------------------------\n";
 		    for (int i = 0; i < count; i++) {
 		    if (books[i] != nullptr) {
-		        Publisher* publisher = books[i]->getPublisher();
-		        file << i + 1 << ") " << left << setw(12) << books[i]->getBookCode()  
+			Publisher* publisher = books[i]->getPublisher();
+			file << i + 1 << ") " << left << setw(12) << books[i]->getBookCode()  
 			<< setw(25) << books[i]->getBookTitle() << setw(20) << books[i]->getGenre() << setw(20) 
 			<< books[i]->getYearPublish() << setw(31) << publisher->getPublisherName() + ", " + publisher->getCountry() << endl;
-		        }
+			}
 		    }
 		    file.close();
 		    cout << "Booklist saved to " << filename << "." << endl;
@@ -295,127 +295,127 @@ class Booklist {
 };
 
 class User{
-    private:
-        string name;
-        string phoneNum;
-        string icNum;
-        Booklist booklist; // composition
-
-    public:
-        User(){}
-        
-        ~User(){}
-        
-        User(string ic, string n, string pn){
-            icNum = ic;
-            name = n;
-            phoneNum = pn;
-        }
-
-        string getName() {
-            return name;
-        }
-
-        string getPhoneNum() {
-            return phoneNum;
-        }
-
-        string getIcNum() {
-            return icNum;
-        }
-
-        void setName(string n) {
-            name = n;
-        }
-
-        void setPhoneNum(string pn) {
-            phoneNum = pn;
-        }
-
-        void setIcNum(string ic) {
-            icNum = ic;
-        }
-
-        void displayLogin() {
-        	do {
-	            cout << "Please enter your ic number   : ";
-	            getline(cin, icNum);
-			if (icNum.empty()) {
-				cout << "Ic cannot be empty. Please try again.\n";
-			}
-			} while (icNum.empty());
-			
-		do {
-            	cout << "Please enter your name        : ";
-            	getline(cin, name);
-	        if (name.empty()) {
-			cout << "Name cannot be empty. Please try again.\n";
-		}
-            } while (name.empty());
-            
-            bool valid = false;
-
-            while (!valid) {
-            	// exception handling
-                try {
-                    cout << "Please enter your phone number: ";
-                    getline(cin, phoneNum);
-					
-		if (phoneNum.empty()) {
-           		cout << "Phone cannot be empty. Please try again.\n";
-            		continue; // Restart the loop if phone number is empty
-       		}				
-					
-                for (char c : phoneNum) {
-                	if (isalpha(c)) {
-                            throw invalid_argument("Phone number contains invalid characters");
-                        }
-                }
-                valid = true; 
-                }
-                catch (const invalid_argument &e){
-                    cout << e.what() << endl;
-                    cout << "Please re-enter your phone number and only number digits allowed!" << endl << endl;
-                }
-            }
-        }
-
-        void displayBooklist(){
-            cout << "------------------------------------------------------------------------------------------------------------------\n";
-            cout << "\t\t\t\t\t       User details   \t\t\t\t\t" << endl;
-            cout << "------------------------------------------------------------------------------------------------------------------\n";
-            cout << left << setw(20) << "Name " << ": " << name << endl;
-            cout << left << setw(20) << "Phone Number " << ": " << phoneNum << endl;
-            cout << left << setw(20) << "IC Number " << ": " << icNum << endl << endl;
-            cout << "------------------------------------------------------------------------------------------------------------------\n";
-            cout << "\t\t\t\t\t       " << name << "'s  booklist \t\t\t\t\t" << endl;
-            cout << "------------------------------------------------------------------------------------------------------------------\n";
-            booklist.display();
-        }
-
-        void addBookToBooklist(Book* book){
-            int y = booklist.isBookInList(book);
-            if(y==0)
-                booklist.addBook(book);
-            else if(y==1)
-                cout << "This book is already in your personalized book list! :)" << endl << endl;
-        }
-
-	void removeBookFromBooklist(int index) {
-	        booklist.removeBook(index);
-	}
-	    
-	void saveUserBooklist() {
-		booklist.saveBooklist();
-	}
+	private:
+		string name;
+		string phoneNum;
+		string icNum;
+		Booklist booklist; // composition
 		
-	int getBooklistCount() const {
-            return booklist.getCount();
-        }
+	public:
+		User(){}
+		
+		~User(){}
+		
+		User(string ic, string n, string pn){
+		    icNum = ic;
+		    name = n;
+		    phoneNum = pn;
+		}
+		
+		string getName() {
+		    return name;
+		}
+		
+		string getPhoneNum() {
+		    return phoneNum;
+		}
+		
+		string getIcNum() {
+		    return icNum;
+		}
+		
+		void setName(string n) {
+		    name = n;
+		}
+		
+		void setPhoneNum(string pn) {
+		    phoneNum = pn;
+		}
+		
+		void setIcNum(string ic) {
+		    icNum = ic;
+		}
 
-        Book* getBookFromBooklist(int index) {
-            return booklist.getBook(index);
-        }
+	        void displayLogin() {
+		    do {
+			cout << "Please enter your ic number   : ";
+			getline(cin, icNum);
+			if (icNum.empty()) {
+			    cout << "Ic cannot be empty. Please try again.\n";
+			}
+		    } while (icNum.empty());
+				
+		     do {
+			cout << "Please enter your name        : ";
+			getline(cin, name);
+			if (name.empty()) {
+			    cout << "Name cannot be empty. Please try again.\n";
+			}
+		     } while (name.empty());
+	            
+	            bool valid = false;
+	
+	            while (!valid) {
+	            	// exception handling
+	                try {
+	                    	cout << "Please enter your phone number: ";
+	                    	getline(cin, phoneNum);
+						
+				if (phoneNum.empty()) {
+	           			cout << "Phone cannot be empty. Please try again.\n";
+	            			continue; // Restart the loop if phone number is empty
+	       			}				
+						
+	                	for (char c : phoneNum) {
+	                		if (isalpha(c)) {
+	                           		 throw invalid_argument("Phone number contains invalid characters");
+	                        	}
+	               		}
+	                	valid = true; 
+	               	}
+	                catch (const invalid_argument &e){
+	                    	cout << e.what() << endl;
+	                    	cout << "Please re-enter your phone number and only number digits allowed!" << endl << endl;
+	                }
+	            }
+	        }
+	
+	        void displayBooklist(){
+	            cout << "------------------------------------------------------------------------------------------------------------------\n";
+	            cout << "\t\t\t\t\t       User details   \t\t\t\t\t" << endl;
+	            cout << "------------------------------------------------------------------------------------------------------------------\n";
+	            cout << left << setw(20) << "Name " << ": " << name << endl;
+	            cout << left << setw(20) << "Phone Number " << ": " << phoneNum << endl;
+	            cout << left << setw(20) << "IC Number " << ": " << icNum << endl << endl;
+	            cout << "------------------------------------------------------------------------------------------------------------------\n";
+	            cout << "\t\t\t\t\t       " << name << "'s  booklist \t\t\t\t\t" << endl;
+	            cout << "------------------------------------------------------------------------------------------------------------------\n";
+	            booklist.display();
+	        }
+	
+	        void addBookToBooklist(Book* book){
+	            int y = booklist.isBookInList(book);
+	            if(y==0)
+	                booklist.addBook(book);
+	            else if(y==1)
+	                cout << "This book is already in your personalized book list! :)" << endl << endl;
+	        }
+	
+		void removeBookFromBooklist(int index) {
+		    booklist.removeBook(index);
+		}
+		    
+		void saveUserBooklist() {
+		    booklist.saveBooklist();
+		}
+			
+		int getBooklistCount() const {
+	            return booklist.getCount();
+	        }
+	
+	        Book* getBookFromBooklist(int index) {
+	            return booklist.getBook(index);
+	        }
 };
 
 int main() {
@@ -729,13 +729,13 @@ int main() {
 			 } while (genreChoice < 1 || genreChoice > 3);
 		}
 
-	// if user choose option 3 in menu page
+	    // if user choose option 3 in menu page
 	    else if (choice == 3) {
 	    	// Display Personalize Book List Page
 	    	system("cls");
 	        cout << "******************************************************************************************************************\n";
-			cout << "*                                                                                                                *\n";
-			cout << "*                                   Bookworm Book Recommendation System                                          *\n";
+		cout << "*                                                                                                                *\n";
+		cout << "*                                   Bookworm Book Recommendation System                                          *\n";
 	        cout << "*                                        Personal Book List Page                                                 *\n";
 	        cout << "*                                                                                                                *\n";
 	       	cout << "******************************************************************************************************************\n";
@@ -745,17 +745,17 @@ int main() {
 	        cout << endl;
 	        
 	        bool validChoice = false;
-		    while (!validChoice) {
-		        // choice10 user can input 1 to exit, or input other number to go back main menu
+		while (!validChoice) {
+			// choice10 user can input 1 to exit, or input other number to go back main menu
 		        cout << "Enter 1 to exit, enter other number to go back to main menu: ";
 		        cin >> choice10;
 		        
 		        if(cin.fail()){
-                	cin.clear(); // Clear the error flag
+                		cin.clear(); // Clear the error flag
         			cin.ignore(INT_MAX, '\n'); // Discard invalid input
         			cout << "Invalid input. Please enter an integer value.\n";
         		} 
-				else if (choice10 == 1) {
+			else if (choice10 == 1) {
 		            cout << endl << "Thank you for using Bookworm book recommendation system !" << endl;
 		            cout << "Hope to see you again!" << endl;
 		            system("pause");
@@ -763,8 +763,8 @@ int main() {
 		        } 
 		        else {
 		        	validChoice = true;
-				}
 			}
+		}
 	    }
 
 	   else if (choice == 4) {
