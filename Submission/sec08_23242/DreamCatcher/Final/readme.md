@@ -1,3 +1,9 @@
+<body>
+    <h1 align="center">Overview</h1>
+    <p>Dream Catcher is a sleep cycle analyzer designed to improve sleep quality by monitoring and analyzing sleep patterns. It provides detailed insights into sleep duration and quality, helping users make informed decisions about their sleep habits. Poor sleep is linked to various health issues, including obesity, heart disease, and mental health disorders. Dream Catcher aims to mitigate these risks by promoting healthy sleep habits, thereby enhancing physical health, cognitive function, and emotional stability.</p>
+    <p>A key feature, Sleep Symphony, offers soothing sounds like classical music and white noise to enhance relaxation and sleep quality. Users can personalize their sleep soundtrack by adding their favorite music, making Dream Catcher a comprehensive sleep improvement system.</p>
+</body>
+</html>
 
 <html>
   <h1 align="center">Problem Analysis and Design 💡</h1>
