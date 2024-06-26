@@ -2,11 +2,19 @@
 <image src = "Image/DINING.png" width="2000" height="500"> 
 
 ### CONTENTS
+
+- [Proposal Video](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
 - [Objective](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#objective-%EF%B8%8F)
 - [How to use the system](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#how-to-use-the-system-)
 - [Reporting](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#reporting-)
 
+# PROPOSAL VIDEO 📹
+
+<ul>
+  <li><a href="https://youtu.be/Ka1DC2lmKRg"> Proposal Video </a></li>
+</ul>
+ 
 # SYNOPSIS 📖
 The restaurant recommendation system is a software application designed to suggest restaurants to users based on their preferences, incorporating a blend of user feedback. The application collects data using a rating system and is developed using the C++ programming language.
 The main aim of this application is to propose food options tailored to users' tastes and habits. Additionally, the application provides convenience for users to order food from their favourite restaurants.
