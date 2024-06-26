@@ -510,38 +510,55 @@ int main() {
                     cout << endl;
                 }
 		    	
-		    	// choice2 user can input the number of trending book they want, or input 6 to go back main menu
+		    // choice2 user can input the number of trending book they want, or input 6 to go back main menu
 	            cout << "\nPlease kindly input the number (1-5) of the trending book you are interested in, press 6 to back to main menu: ";
 	            cin >> choice2;
 		   
-                if (choice2 >= 1 && choice2 <= 5) {
-                    user1.addBookToBooklist(&trending[choice2 - 1]);
-    				
-    				bool validChoice = false;
-            		while (!validChoice) {
-	                    // choice3 user can input 1 if want add more book, or input other number to go back main menu
-	                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
-	                    cin >> choice3;
-	                    
-	                    if(cin.fail()){
-	                    	cin.clear(); // Clear the error flag
-	            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
-	            			cout << "Invalid input. Please enter an integer value.\n";
-                		} else {
-                    		validChoice = true;
-                		}
-					}
-					
-                } else if (choice2 == 6) {
-                    break;
-                } else {
-                	cin.clear(); // Clear the error flag
-            		cin.ignore(INT_MAX, '\n'); // Discard invalid input
-                	cout << "Invalid input.\n";
-                	system("pause");
+	                if (choice2 >= 1 && choice2 <= 5) {
+	                    user1.addBookToBooklist(&trending[choice2 - 1]);
+	    				
+	    				bool validChoice = false;
+	            		while (!validChoice) {
+		                    // choice3 user can input 1 if want add more book, or input other number to go back main menu
+		                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
+		                    cin >> choice3;
+		                    
+		                    if(cin.fail()){
+		                    	cin.clear(); // Clear the error flag
+		            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+		            			cout << "Invalid input. Please enter an integer value.\n";
+	                		} else {
+	                    		validChoice = true;
+	                		}
 				}
-		    } while (choice2 < 1 || choice2 > 5 || choice3 == 1);
+						
+	                } else if (choice2 == 6) {
+	                    break;
+	                } else {
+	                	cin.clear(); // Clear the error flag
+	            		cin.ignore(INT_MAX, '\n'); // Discard invalid input
+	                	cout << "Invalid input.\n";
+	                	system("pause");
+			}
+		} while (choice2 < 1 || choice2 > 5 || choice3 == 1);
 	    }
 
 	
-
+	  	else if (choice == 2) {
+			do{
+				// Genre List Page
+			 	system("cls");
+			 	cout << "******************************************************************************************************************\n";
+				cout << "*                                                                                                                *\n";
+				cout << "*                                   Bookworm Book Recommendation System                                          *\n";
+				cout << "*                                                                                                                *\n";
+				cout << "******************************************************************************************************************\n";
+			 	cout << "------------------------------------------------------------------------------------------------------------------\n";
+				cout << "\t\t\t\t\t     Genre List Page \t\t\t\t\t" << endl;
+				cout << "------------------------------------------------------------------------------------------------------------------\n";
+				cout << "Please choose a genre:" << endl;
+				cout << "1. Romance" << endl;
+				cout << "2. Fantasy" << endl;
+				cout << "3. Sci-Fi" << endl;
+				cout << "Enter your genre choice (1-3): ";
+	            		cin >> genreChoice;
