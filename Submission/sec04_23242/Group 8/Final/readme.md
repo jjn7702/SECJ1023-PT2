@@ -93,13 +93,13 @@
 
 # References
 1.	Yilmaz, D., Tanrikulu, F., & Dikmen, Y. (2017). Research on sleep quality and the factors affecting the sleep quality of the nursing students. PubMed, 43(1), 20–24. https://doi.org/10.12865/chsj.43.01.03
--	Taken for sleep quality score calculation in the SleepQualityAssessment class.
+  -	Taken for sleep quality score calculation in the SleepQualityAssessment class.
 
 2.	Ms, J. L. (2024, January 18). How much deep, light, and REM sleep do you need? Healthline. https://www.healthline.com/health/how-much-deep-sleep-do-you-need#stages-of-sleep
--	The article provides information on the recommended ranges for sleep duration, deep sleep, light sleep, and REM sleep. The information is used in the ImprovementPlan class in the createPlan method to provide suggestions for improving sleep quality.
+  -	The article provides information on the recommended ranges for sleep duration, deep sleep, light sleep, and REM sleep. The information is used in the ImprovementPlan class in the createPlan method to provide suggestions for improving sleep quality.
 
 3.	Patel, A. K., Reddy, V., Shumway, K. R., & Araujo, J. F. (2024b, January 26). Physiology, sleep stages. StatPearls - NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK526132/
--	The article provides information on the different sleep stages and their typical duration. This information is used for sleep stages percentage calculation in the main function.
+  -	The article provides information on the different sleep stages and their typical duration. This information is used for sleep stages percentage calculation in the main function.
 
 
 
