@@ -38,3 +38,5 @@ Our disease diagnosis system is an exploration and implementation of innovations
 
 - Support for Healthcare Professionals: Supporting healthcare professionals, this system suggests doctors and healthcare professionals for further treatment based on the diagnosed disease, ensuring users receive professional medical advice when necessary.
 
+# 4.0 UML Class Diagram
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/MedSight/Analysis-Design/images/UML%20Class%20Diagram%20.png" width="400" height="1000">
