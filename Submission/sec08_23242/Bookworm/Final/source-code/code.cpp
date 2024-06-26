@@ -857,7 +857,7 @@ int main() {
 			cout << "Invalid choice\n";
 			system("pause");
 		}
-	} while (choice2 == 6 || choice3 != 1 || choice4 == 6 || choice5 != 1 || choice6 == 6 || choice7 !=1 || choice8 == 6 || choice9 !=1 || choice10 != 1 || choice11 == 50);
+	} while (choice2 == 6 || choice3 != 1 || choice4 == 6 || choice5 != 1 || choice6 == 6 || choice7 !=1 || choice8 == 6 || choice9 !=1 || choice10 != 1 || choice11 == 50|| choice12 == 50);
     
 	system("pause");
 	return 0;
