@@ -28,7 +28,7 @@ The system design follows an object-oriented approach with the following key com
 
 **UML Class Diagram**
 [PT2UML drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/148675768/a96aa356-ee8b-4ee8-a392-cd85e3d3f595)
-<image src = "Image/UML.jpg">
+<image src = "Image/PT2UML.drawio.jpg">
 
 
 ## 5.0 Class Details
