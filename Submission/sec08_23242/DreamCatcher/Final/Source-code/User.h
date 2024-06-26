@@ -22,8 +22,4 @@ class User {
 
 };
 
-
-    
- 
-
 #endif
