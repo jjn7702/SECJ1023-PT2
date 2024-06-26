@@ -468,4 +468,80 @@ int main() {
 	cout << "------------------------------------------------------------------------------------------------------------------\n\n";
 	user1.displayLogin();
 
+		do {
+		// Menu Page
+		system("cls");
+		cout << "******************************************************************************************************************\n";
+		cout << "*                                                                                                                *\n";
+		cout << "*                                   Bookworm Book Recommendation System                                          *\n";
+		cout << "*                                                                                                                *\n";
+		cout << "******************************************************************************************************************\n";
+		cout << "------------------------------------------------------------------------------------------------------------------\n";
+		cout << "\t\t\t\t\t        Menu Page \t\t\t\t\t" << endl;
+		cout << "------------------------------------------------------------------------------------------------------------------\n";
+		cout << "Please select an option: \n";
+	    cout << "Option 1: See trending book list" << endl;
+	    cout << "Option 2: See specific genre book list" << endl;
+	    cout << "Option 3: View my book recommendation list" << endl;
+	    cout << "Option 4: Remove a Book from My Booklist" << endl;
+	    cout << "Option 5: Save My Booklist to txt file" << endl;
+	    cout << "Option 6: Check whether a book in My Booklist is classic book" << endl;
+		cout << "Option 7: Exit" << endl;
+	    cout << "\nEnter your option: ";
+	    cin >> choice;
+	    
+	    // if user choose option 1 in menu page
+	    if (choice == 1) {
+	    	do {
+	    		// Trending Book List Page
+		    	system("cls");
+		    	cout << "------------------------------------------------------------------------------------------------------------------\n";
+				cout << "\t\t\t\t\t Trending List Page \t\t\t\t\t" << endl;
+				cout << "------------------------------------------------------------------------------------------------------------------\n";
+				cout << "\nHere is our most popular list of books: \n\n";
+				cout << "------------------------------------------------------------------------------------------------------------------\n";
+		        cout << left << setw(8) << "Code\t" << setw(25) << "Book Name" << setw(10) << "Genre" << setw(14) << "Year Publish"  << setw(31) << "Publisher" << endl;
+		        cout << "------------------------------------------------------------------------------------------------------------------\n";
+		        
+				// display the books
+				for (int i = 0; i < 5; i++) {
+                    cout << (i + 1) << ". ";
+                    trending[i].display();
+                    cout << endl;
+                }
+		    	
+		    	// choice2 user can input the number of trending book they want, or input 6 to go back main menu
+	            cout << "\nPlease kindly input the number (1-5) of the trending book you are interested in, press 6 to back to main menu: ";
+	            cin >> choice2;
+		   
+                if (choice2 >= 1 && choice2 <= 5) {
+                    user1.addBookToBooklist(&trending[choice2 - 1]);
+    				
+    				bool validChoice = false;
+            		while (!validChoice) {
+	                    // choice3 user can input 1 if want add more book, or input other number to go back main menu
+	                    cout << "Enter 1 to add more books, enter other number to go back to main menu: ";
+	                    cin >> choice3;
+	                    
+	                    if(cin.fail()){
+	                    	cin.clear(); // Clear the error flag
+	            			cin.ignore(INT_MAX, '\n'); // Discard invalid input
+	            			cout << "Invalid input. Please enter an integer value.\n";
+                		} else {
+                    		validChoice = true;
+                		}
+					}
+					
+                } else if (choice2 == 6) {
+                    break;
+                } else {
+                	cin.clear(); // Clear the error flag
+            		cin.ignore(INT_MAX, '\n'); // Discard invalid input
+                	cout << "Invalid input.\n";
+                	system("pause");
+				}
+		    } while (choice2 < 1 || choice2 > 5 || choice3 == 1);
+	    }
+
+	
 
