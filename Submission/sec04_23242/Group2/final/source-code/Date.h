@@ -1,6 +1,8 @@
 #ifndef DATE_H
 #define DATE_H
 #include "Schedule.h"
+#include <iostream>
+using namespace std;
 
 class Date: public Schedule{
     protected:
@@ -9,7 +11,6 @@ class Date: public Schedule{
     public:
         Date();
         Date(bool, int, int, int);
-        ~Date();
 
         //mutators
         void setYear(int);
@@ -21,7 +22,10 @@ class Date: public Schedule{
         int getMonth() const;
         int getDay() const;
 
+        virtual void readInput();
         void printDate();
+
+        friend ostream& operator<<(ostream&, Date);
 };
 
 #endif
