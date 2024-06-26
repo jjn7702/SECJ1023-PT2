@@ -42,5 +42,66 @@
 
 <h1 id="Section B: Implementation of the Concepts :">Section B: Implementation of the Concepts :</h1>
 
+<!DOCTYPE html>
+<html>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="encapsulation">Encapsulation</h1>
+<ol>
+<li>User Class</li>
+</ol>
+<p>Attributes: name</p>
+<p>Methods: inputName(), getName(), inputDetails(), returnGender(), returnAge()</p>
+<ol start="2">
+<li>Ingredient Class:</li>
+</ol>
+<p>Attributes: Array of ingredients, count</p>
+<p>Methods: inputIngredient(), removeIngredient(), setCount(), getCount(), getIngredients()</p>
+<ol start="3">
+<li>Allergy Class:</li>
+</ol>
+<p>Attributes: Array of Found, ingredients, count</p>
+<p>Methods: statusAllergy(), getFound(), getCounts()</p>
+<ol start="4">
+<li>Alert Class:</li>
+</ol>
+<p>Attributes: allergy</p>
+<p>Methods: notificationAlert()</p>
+<ol start="5">
+<li>Male Class (inherits from User):</li>
+</ol>
+<p>Attributes: Age, Gender</p>
+<p>Methods: inputAge(), inputDetails(), returnGender(), returnAge()</p>
+<ol start="6">
+<li>Female Class (inherits from User):</li>
+</ol>
+<p>Attributes: Age, Gender</p>
+<p>Methods: inputAge(), inputDetails(), returnGender(), returnAge()</p>
+<h1 id="aggregation">Aggregation</h1>
+<ul>
+<li>The Allergy class contains one or more Ingredient instances, as indicated by a hollow diamond. The Ingredient can exist independently of Allergy.</li>
+</ul>
+<h1 id="inheritance">Inheritance</h1>
+<ul>
+<li>The male and female classes inherit attributes and methods from the User superclass, which can access private.</li>
+</ul>
+<h1 id="composition">Composition</h1>
+<ul>
+<li>The Alert class has a composition relationship with the Allergy class, indicated by a filled diamond. Alert is integral to Allergy and cannot exist independently.</li>
+</ul>
+<h1 id="polymorphism">Polymorphism</h1>
+<ul>
+<li>The User class defines a method displayDetails, which is overridden by the male and female subclasses. This allows each subclass to provide its own implementation of displayDetails, demonstrating polymorphism.</li>
+<li></li>
+</ul>
+<h1 id="array-of-objects">Array of Objects</h1>
+<ul>
+<li>The class Ingredient manages an array of up to 10 strings (ingredient) to store ingredient names, with methods to set and get the count of ingredients, input new ingredients, and remove existing ones. The User class serves as a base class for Male and Female subclasses, which add age and gender-specific methods and data. The Allergy class checks the ingredients against a list of allergens from a file, storing found allergens in an array Found. Lastly, the Alert class uses an Allergy object to check for allergens and print a notification if any are found. Each class interacts through arrays of objects, such as the ingredients array in Ingredient and the Found array in Allergy, demonstrating the use of arrays to manage collections of related objects and data within the program.</li>
+</ul>
+</div>
+</body>
+
+</html>
+
 </html>
 
