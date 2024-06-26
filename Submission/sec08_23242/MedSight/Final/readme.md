@@ -70,21 +70,21 @@ Three classes have been inherited from Class Entity which are Class Clinic, Clas
 # 6.0 Benefits of The Proposed System
 
 + Convenient and Accessible Health Information
--- Users do not need to go to the healthcare facilities as often since this system provides the features for diagnosing the possible disease based on the symptom entered by the users.Thus, users can easily access the system even from their home without needing to go to the clinic first. 
--- Users can view the report of their health information after diagnosing the disease.
+  Users do not need to go to the healthcare facilities as often since this system provides the features for diagnosing the possible disease based on the symptom entered by the users.Thus, users can easily access the system even   from their home without needing to go to the clinic first. 
+  Users can view the report of their health information after diagnosing the disease.
 
 + Early Disease Detection and Intervention
--- Users can detect earlier the possible disease they are suffering from before going to the healthcare facilities and they can avoid things that will worsen their condition before referring to the doctor. 
--- Users will also be provided with suggested medications for the non - critical diseases.
+  Users can detect earlier the possible disease they are suffering from before going to the healthcare facilities and they can avoid things that will worsen their condition before referring to the doctor. 
+  Users will also be provided with suggested medications for the non - critical diseases.
 
 + Time and Cost Efficiency
--- Users  can conveniently access the system from anywhere, eliminating the need to visit the healthcare facilities for minor or common health issues like flu or common cold. Thus, transportation costs will decrease.
+  Users  can conveniently access the system from anywhere, eliminating the need to visit the healthcare facilities for minor or common health issues like flu or common cold. Thus, transportation costs will decrease.
 
 + Keeping Track of Users Record
--- The system will store the user's data in the file so that we can easily manage the user's data and the users can log in with a phone number without needing to enter their information again the next time they use the system.
+  The system will store the user's data in the file so that we can easily manage the user's data and the users can log in with a phone number without needing to enter their information again the next time they use the system.
 
 + Keeping Track of Current Disease
--- The system allows for the addition of new symptoms to existing diseases and the updating of diseases it can diagnose, enabling it to keep track of the current diseases globally.
+  The system allows for the addition of new symptoms to existing diseases and the updating of diseases it can diagnose, enabling it to keep track of the current diseases globally.
 
 # 7.0 Summary
 
