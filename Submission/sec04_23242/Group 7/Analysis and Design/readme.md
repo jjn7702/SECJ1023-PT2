@@ -40,4 +40,4 @@ class Applicant {
 };
 
 # Section C: Class Diagram
-![UML Class Diagram](images/UML-Class-Diagram.jpg)
+![UML Class Diagram](images/UML-Class-Diagram.png)
