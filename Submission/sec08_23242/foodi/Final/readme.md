@@ -140,6 +140,7 @@ applied within Our source code:
 Encapsulation is the bundling of data with methods that operate on that data. It restricts direct
 access to some of the object's components, which is a means of preventing accidental
 interference and misuse of the methods and data.
+
 ● Example: The Allergen and User classes demonstrate encapsulation. Data members such
 as name and email in the User class are private and can only be accessed through public
 getter and setter methods.
@@ -147,6 +148,7 @@ getter and setter methods.
 
 ## Composition
 Composition represents a "has-a" relationship where one class contains objects of another class.
+
 ● Example: The User class has a vector of Allergen objects, indicating that a user can have
 multiple allergies. Here, User is composed of Allergen objects.
 
@@ -154,6 +156,7 @@ multiple allergies. Here, User is composed of Allergen objects.
 ## Aggregation
 Aggregation is a special form of association representing a "whole-part" relationship where the
 part can exist independently of the whole.
+
 ● Example: The FoodItem class aggregates FoodCategory objects through a pointer. This
 indicates that while FoodItem includes a FoodCategory, FoodCategory can exist
 independently.
@@ -162,8 +165,10 @@ independently.
 ## Inheritance
 Inheritance allows a class to inherit properties and behavior from another class, facilitating code
 reusability and a hierarchical classification.
+
 ● Example: The Cuisine class is a base class, and FoodItem inherits from it, extending its
 functionalities.
+
 ● FoodCategory is another example, where Dessert, Breakfast, Lunch, and Dinner classes
 inherit from the FoodCategory interface.
 
@@ -171,6 +176,7 @@ inherit from the FoodCategory interface.
 ## Polymorphism
 Polymorphism allows objects of different classes to be treated as objects of a common base class,
 particularly useful for dynamic method binding.
+
 ● Example: The FoodCategory interface is designed to be polymorphic. Classes inheriting
 from FoodCategory implement the getCategory method, allowing FoodItem to treat
 different FoodCategory objects uniformly
@@ -179,6 +185,7 @@ different FoodCategory objects uniformly
 ## Array of Objects
 An array of objects is a data structure where each element is an object. This allows storing and
 managing a collection of objects in a structured way.
+
 ● Example: The system uses vector containers to store multiple Allergen objects within a
 User and multiple FoodItem objects to manage food data.
 
