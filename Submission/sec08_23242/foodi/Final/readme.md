@@ -1,6 +1,6 @@
-# Semester II 2023/2024
+# Final Report
 
-## Subject: Programming Technique 2 - SECJ1023
+## Semester II 2023/2024
 
 **Section:** 08  
 **Task:** Final report  
