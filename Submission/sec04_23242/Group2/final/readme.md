@@ -8,6 +8,17 @@ The main objective of the system is to help the user to organise their activitie
 
 The main output for the system would be the display of events on an ordered basis based on the order that the events were keyed into the system. The most recent upcoming event would be displayed on the front page, and if the user chooses to do so, they can view all the other events they have added by choosing the option to “view timeline”. Once the date for the events have passed, the status of the event will be changed to ‘done’ and the event will be cleared from the system and no longer be shown on the user’s timeline. 
 
+
+___--> Flowchart___
+
+![Flowchart](images/Flowchart.png)
+![Flowchart Function](images/Flowchart_.png)
+
+___--> UML Diagram___
+
+![uml](images/UML_Diagram.jpg)
+
+
 **SECTION B**
 
 |**Class**|**Attributes**|**Methods**|
