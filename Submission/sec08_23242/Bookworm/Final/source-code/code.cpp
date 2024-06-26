@@ -111,6 +111,96 @@ class Book {
 	    }
 };
 
+class Romance : public Book { // inheritance
+	private:
+	    string mainCoupleName;
+
+	public:
+	    Romance() { 
+			mainCoupleName = ""; 
+		}
+		
+	    Romance(string bc, string bt, int yp, Publisher *p, string mc) : Book(bc, bt, "Romance", yp, p) {
+	        mainCoupleName = mc;
+	    }
+	    
+	    ~Romance() {}
+	    
+	    string getMainCoupleName() { 
+			return mainCoupleName; 
+		}
+		
+	    void setMainCouple(string mc) { 
+			mainCoupleName = mc; 
+		}
+		
+	    // override display function in Book class to display main couple name
+	    void display(){
+	        Book::display();
+	        cout << left << setw(25) << mainCoupleName << endl;
+	    }
+};
+
+class Fantasy : public Book { // inheritance
+	private:
+	    string creatureType;
+
+	public:
+	    Fantasy() {
+	        creatureType = "";
+	    }
+	
+	    Fantasy(string bc, string bt, int yp, Publisher *p, string ct) : Book(bc, bt, "Fantasy", yp, p) {
+	        creatureType = ct;
+	    }
+	
+	    ~Fantasy() {}
+	
+	    string getCreatureType() {
+	        return creatureType;
+	    }
+	
+	    void setCreatureType(string ct) {
+	        creatureType = ct;
+	    }
+	
+		// override display function in Book class to display creature type
+	    void display() {
+	        Book::display();
+	        cout << left << setw(25) << creatureType << endl;
+	    }
+};
+
+class SciFi : public Book { // inheritance
+	private:
+	    string scientificConcept;
+	
+	public:
+	    SciFi() {
+	        scientificConcept = "";
+	    }
+	
+	    ~SciFi() {}
+	
+	    SciFi(string bc, string bt, int yp, Publisher *p, string sc) : Book(bc, bt, "Sci-Fi", yp, p) {
+	        scientificConcept = sc;
+	    }
+	
+	    string getScientificConcept(){
+	        return scientificConcept;
+	    }
+	
+	    void setScientificConcept(string sc) {
+	        scientificConcept = sc;
+	    }
+	
+		// override display function in Book class to display scientific concept
+	    void display() {
+	        Book::display();
+	        cout << left << setw(25) << scientificConcept << endl;
+	    }
+};
+
 class Booklist {
     private:
         Book* books[100]; // aggregation
