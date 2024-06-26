@@ -18,7 +18,7 @@
 **CLASS DIAGRAM**
 - The class diagram represents a sleep analysis system that collects sleep data, analyzes it, and provides personalized recommendations to improve sleep quality. 
 
-![SleepAnalyzer (3)](https://github.com/jjn7702/SECJ1023-PT2/assets/148436857/e965494f-45d2-4b4a-88b6-86d70c42b4f2)
+![SleepAnalyzer (4)](https://github.com/jjn7702/SECJ1023-PT2/assets/148436857/4d621d39-2445-47f0-a3d2-ca380e654b84)
 
 
 
