@@ -16,4 +16,5 @@ These days, the prevalence of unhealthy eating habits, fueled by a reliance on j
 ## Findings 🔍
 -[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/2e1i/Proposal) <br>
 -[Proposal Video](https://youtu.be/cf3Y22MzCVM?feature=shared)<br>
--[Analysis-Desgin](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/2e1i/Analysis-Design)<br>
+-[Analysis-Design](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/2e1i/Analysis-Design)<br>
+-[Final Project](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/2e1i/Final)<br>
