@@ -69,6 +69,8 @@ The **BookRecommendationSystem** class is the core class that integrates all fun
 ## 6.0 Implementation of Concept
 1. **Encapsulation**
 
+
+
 Explanation: Encapsulation in object-oriented programming bundles data (attributes) and methods (functions) that operate on the data into a single unit (class). It hides the internal state of objects from direct access by clients and allows controlled access via public methods.
 
 Justification: The Book class encapsulates attributes such as name, author, genre, and booktype, providing public methods like getName(), getAuthor(), getGenre() to access these attributes. This prevents direct modification of internal data and ensures data integrity
