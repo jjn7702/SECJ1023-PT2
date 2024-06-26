@@ -1,0 +1,57 @@
+User Manual for Grocery Shopping Assistant System
+1. Customer Operations:
+Option 1: New Customer
+
+Enter your name, phone number, and estimated budget.
+Choose from a list of available grocery items (vegetables, fruits, meat).
+Select quantities for items.
+Proceed to payment where you can view and pay your bill.
+A receipt will be generated with details of your purchase.
+Option 2: Returning Customer
+
+Choose from a list of previous customers.
+Update your budget if needed.
+Choose grocery items and quantities.
+Proceed to payment and receive a receipt.
+2. Admin Operations:
+Admin Login
+Enter username and password to access admin functionalities.
+Once logged in, view customer receipts by entering the customer's name.
+Receipt details will be displayed if found, otherwise, an error message will appear.
+3. Additional Features:
+Read Me
+Provides an overview of the system and its functionalities.
+Includes instructions on how to use each feature available.
+4. Exit:
+Allows you to safely exit the system.
+Detailed Instructions:
+Customer Operations:
+New Customer:
+
+Enter your details and estimated budget.
+Choose grocery items from categories like vegetables, fruits, and meat.
+Specify quantities for selected items.
+Confirm your order and proceed to payment.
+View your receipt and remaining budget.
+Returning Customer:
+
+Choose from a list of previous customers.
+Update your estimated budget if necessary.
+Select items and quantities.
+Proceed to payment to view and receive a receipt.
+Admin Operations:
+Admin Login:
+Enter valid admin credentials (username and password).
+Access customer receipts by entering the customer's name.
+View detailed receipts of customer purchases.
+Additional Information:
+Error Handling:
+
+The system handles invalid inputs gracefully and prompts users to correct them.
+User Interface:
+
+Clear screen functionalities (using system("cls")) help maintain a neat display.
+Notes:
+Ensure all input data follows the specified formats to avoid errors.
+For any technical issues or questions, refer to the Read Me section or contact support.
+This manual should provide a comprehensive guide for both users and administrators using your Grocery Shopping Assistant System. Adjustments can be made based on further updates or additional features you may include in your system.
