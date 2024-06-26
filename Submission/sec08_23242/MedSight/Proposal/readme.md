@@ -22,4 +22,10 @@ The Disease Diagnose system is a software application designed to diagnose disea
 ## 📌**Report**
 - This system will recommend medication based on the diagnosed disease.
 - This application will recommend a diet plan to ensure that our bodies get enough nutrients and that we eat the right foods in order to avoid the progression of user’s illness.
-- If our system detects something more serious that requires prompt professional treatment, it will also ask the user to consult a doctor who is more experienced in this area. 
+- If our system detects something more serious that requires prompt professional treatment, it will also ask the user to consult a doctor who is more experienced in this area.
+
+## 📌**Proposal Video**
+<ul>
+<li><a href="https://youtu.be/JGtisrjJo0A"> Proposal Video Link </a></li>  
+</ul>
+
