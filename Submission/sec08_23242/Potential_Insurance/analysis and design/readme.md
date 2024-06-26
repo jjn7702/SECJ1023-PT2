@@ -3,7 +3,7 @@
 
 ### CONTENTS
 <ul>
-  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#flow-chart-"> Flow Chart </a></li>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/readme.md#flow-chart-"> Flow Chart </a></li>
 </ul>
 <ul>
   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/readme.md#problem-analysis-%EF%B8%8F"> Problem Analysis </a></li>
