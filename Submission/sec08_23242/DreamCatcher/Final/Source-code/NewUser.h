@@ -15,7 +15,6 @@ class NewUser : public User {
         double height;
         double weight;
 
-
     public:
         NewUser(string _username = "", string _password = "") : User(_username, _password)  {
             name = "";
@@ -24,7 +23,6 @@ class NewUser : public User {
             height = 0;
             weight = 0;
         } 
-
 
         string getName() { return name; }
         int getAge() const { return age; }
