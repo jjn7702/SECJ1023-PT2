@@ -80,4 +80,4 @@ Based on the responses, the system identifies the probable diseases by matching 
 
 <h2 id="umlclassdiagram">🔗 Section C (UML Class Diagram) </h2>
 
-![](images/UMLclassDiagram.png)
+![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/MedSight/Analysis-Design/images/UML%20Class%20Diagram%20.png)
