@@ -1,0 +1,21 @@
+~pizza italian keto dinner cheese tomato dough %
+~burger american non_vegetarian lunch beef cheese lettuce bun %
+~salad mediterranean vegetarian breakfast salad greens cucumber tomato feta cheese %
+~sushi japanese keto dinner rice fish seaweed %
+~pasta italian vegetarian dinner pasta tomato sauce parmesan cheese basil %
+~steak american keto dinner beef salt pepper garlic butter %
+~sandwich american non_vegetarian lunch bread turkey cheese lettuce tomato mayo %
+~soup french vegetarian lunch broth carrots potatoes green beans peas %
+~tacos mexican non_vegetarian lunch beef cheese lettuce salsa %
+~curry indian vegetarian dinner curry sauce potatoes peas carrots rice %
+~ramen japanese non_vegetarian dinner noodles broth pork egg scallions %
+~paella spanish non_vegetarian lunch rice shrimp mussels saffron peas %
+~falafel middle_eastern vegetarian breakfast chickpeas garlic parsley tahini pita %
+~gnocchi italian vegetarian dinner potato dumplings tomato sauce parmesan basil %
+~gyros greek non_vegetarian lunch lamb tzatziki lettuce tomato pita %
+~bruschetta italian vegetarian lunch tomato basil garlic bread %
+~quesadilla mexican non_vegetarian breakfast chicken cheese tortilla salsa %
+~ratatouille french vegetarian dinner eggplant zucchini tomato bell pepper onion %
+~risotto italian vegetarian dinner rice mushrooms parmesan onion garlic %
+~milkshake american non_vegetarian dessert milk ice_cream sugar vanilla_extract %
+~nasi_goreng indonesian non_vegetarian lunch rice chicken soy_sauce egg milk %
