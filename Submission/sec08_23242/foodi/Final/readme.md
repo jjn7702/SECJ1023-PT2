@@ -127,10 +127,10 @@ Once logged in, users will navigate to the home screen, which features three pri
 ## Polymorphism:
 - **FoodCategory and (Lunch, Breakfast, Dinner, Dessert):** The FoodCategory interface is designed to be polymorphic. Classes inheriting from FoodCategory implement the `getCategory` method, allowing FoodItem to treat different FoodCategory objects uniformly.
 
-## 2.0 Section B
+## Section B
 
 
-### 2.1 OOP Implementation
+###  OOP Implementation
 
 
 
