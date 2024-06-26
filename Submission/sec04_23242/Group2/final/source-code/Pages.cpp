@@ -37,9 +37,9 @@ bool loginPage(User users[], User &user){
     cout << "Password: ";
     getline(cin, password, '\n');
 
-    for (int i = 0; i < 100 + 1; i++)
+    for (int i = 0; i < 10 + 1; i++)
     {   
-        if (i == 100)
+        if (i == 10)
         {
             cout << "Username not found, try reentering your username or press 0 to return to start menu\n";
             return loginPage(users, user);
