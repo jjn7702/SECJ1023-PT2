@@ -420,3 +420,39 @@ class User{
             return booklist.getBook(index);
         }
 };
+
+int main() {
+	User user1;
+	int choice, choice2, choice3, choice4, choice5, choice6, choice7, choice8, choice9, choice10, choice11, choice12;
+	int genreChoice;
+	
+	// array of objects
+	Publisher p[5]{{"HarperCollins", "United Kingdom"}, 
+					{"Penguin Random House", "America"}, 
+					{"Hachette Publishing", "America"}, 
+					{"Simon & Schuster", "Australia"}, 
+					{"Macmillan", "America"}};
+					
+	Book trending[5] = {{"t001","Pride and Prejudice","Romance", 1813, &p[1]},
+						{"t002","Secrets in the dark","Romance", 2023,&p[0]},
+						{"t003","The Olympian Affair","Sci-Fi", 2023, &p[1]},
+						{"t004", "Hunt On Dark Waters", "Fantasy", 2023, &p[1]},
+						{"t005", "The Scarlett Throne", "Sci-fi", 2024, &p[2]}};
+						
+	Romance romance[5]={{"r001", "Love from Scratch", 2024, &p[3], "Ethan and Hazel"},
+						{"r002", "The Song of Achilles", 2012, &p[0], "Patroclus and Achilles"},
+						{"r003", "Leopard's Hunt", 2024, &p[1], "Gorya and Maya"},
+						{"r004", "Mistakes we never made", 2024, &p[2], "Finn and Emma"},
+						{"r005", "Your Lion Eyes", 2018, &p[4], "Grady and Molly"}};
+						
+	Fantasy fantasy[5]={{"f001", "Rewitched", 2024, &p[4], "Witch"},
+						{"f002", "Howl's moving castle", 2008, &p[0], "Magician"},
+						{"f003", "Night Angel Nemesis", 2024, &p[2], "Angel"},
+						{"f004", "Blood on the tide", 2024, &p[1], "Vampire"},
+						{"f005", "The Desert Talon", 2025, &p[3], "Dragons"}};
+						
+	SciFi scifi[5] = {{"s001", "Service Model", 2024, &p[4], "Robot"},
+					  {"s002", "The Hair Carpet Weavers", 2020, &p[1], "Universe"},
+					  {"s003", "Translation State", 2024, &p[2], "Translator"},
+					  {"s004", "Trinity:A Novel", 2024, &p[3], "Nuclear"},
+					  {"s005", "Termination Shock", 2021, &p[0], "Futuristic"}};
