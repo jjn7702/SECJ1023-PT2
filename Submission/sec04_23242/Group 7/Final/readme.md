@@ -1,5 +1,5 @@
 # PROJECT REPORT GROUP 7
-## TOPIC: Scholarship Application System
+## TOPIC: Scholarship Application System 🎓
 
 ### Table of Contents
 - [1.0 Introduction]
@@ -14,21 +14,18 @@ In the current era of globalization, There is a lot of people who want to apply 
 
 ## 2.0 OBJECTIVES OF THE SYSTEM
 
--Make it easy for students to apply for the scholarship.
-
--Save time and effort for both applicants and administrators with a simple, automated process.
-
--Clearly explain the requirements, process, and timelines to applicants.
-
--Store all applications securely in one place.
+- Make it easy for students to apply for the scholarship
+- Save time and effort for both applicants and administrators with a simple, automated process
+- Clearly explain the requirements, process, and timelines to applicants
+- Store all applications securely in one place
 
 ## 3.0 ANALYSIS AND DESIGN
 
 1. Flowchart
-![Flowchart](images/Flowchart.png)
+![Flowchart](Images/Final-Flowchart.png)
    
-2. UML Class Diagram
-![UML Class Diagram](images/UML-Class-Diagram.png)
+3. UML Class Diagram
+![UML Class Diagram](Images/Final-UML-Class-Diagram.png)
 
 ## 4.0 IMPLEMENTATION OF THE CONCEPT
 
@@ -64,26 +61,18 @@ One technique to generate a new class from an existing class is through inherita
 Justification:
 We implemented Account (superclass) with Admin and Applicant (subclass), Scholarship (superclass) with UGscholarship (subclass), AcademicBG (superclass) with UGacadBG (subclass) through an inheritance relationship. The superclass extends the class functionality by adding more attributes which are more specific to the subclass.This shown by the scope resolution operator( :: ).
 
-Base Class: Account
+- Base Class: Account
 
+  Derived Class: Admin and Applicant 
 
-Derived Class: Admin and Applicant 
+- Base Class: AcademicBG
 
+  Derived Class: UGAcadBG 
 
+- Base Class: Scholarship
 
-Base Class: AcademicBG
-
-
-Derived Class: UGAcadBG 
-
-
-
-Base Class: Scholarship
-
-
-Derived Class: UGScholarship 
-
-
+  Derived Class: UGScholarship
+  
 
 5. Polymorphism
 
