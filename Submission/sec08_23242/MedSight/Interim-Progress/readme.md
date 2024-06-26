@@ -10,5 +10,5 @@
 
 ## 📌**Explanation Video**
 <ul>
-  <li><a href=" "> Video link </a></li>
+  <li><a href="https://youtu.be/KfpL3fzssCY?si=kKGU5oQ8DN4JKT-z"> Video link </a></li>
 </ul>
