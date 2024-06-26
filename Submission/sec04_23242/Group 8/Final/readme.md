@@ -28,7 +28,36 @@
 - For example, methods in this class such as getSessionDuration will operate on the contained SleepData objects to calculate the total duration of the sleep session.
 
 **(ii) Module 2 : Sleep Analysis**
+
 **(iii) Module 3 : Sleep Summary**
+1. **Encapsulation**
+   - The `SleepReport` class:
+     - Encapsulates `report date`, `summary`, and `recommendations` as private member variables.
+     - Provides public member functions `getReportDate()`, `getSummary()`, and `getRecommendations()` to access these private members.
+     - Organizes code into logical units, enhancing readability and maintainability.
+   - Use of `auto`:
+     - Encapsulates the type of the loop variable `session` within the compiler's type deduction mechanism.
+     - Hides the implementation details of the type from the rest of the code.
+     - Decouples the loop variable `session` from the specific type of the container `sleepSessions`.
+     - Facilitates changing the container type without affecting the loop logic.
+
+2. **Inheritance**
+   - The `ImprovementPlan` class:
+     - Inherits from the `Suggestion` class.
+     - Inherits the `provideSuggestion()` method.
+     - Overrides `provideSuggestion()` to provide its own implementation.
+     - Establishes a class hierarchy from `Suggestion` to `ImprovementPlan`, clarifying their relationships.
+
+3. **Polymorphism**
+   - The `Suggestion` class:
+     - Provides a virtual method `provideSuggestion()`.
+   - The `ImprovementPlan` class:
+     - Overrides the `provideSuggestion()` method.
+   - The `User` class:
+     - Has a method `displaySuggestions()` that takes a vector of `Suggestion` objects.
+     - Can handle objects of type `ImprovementPlan` or any other subclass of `Suggestion`.
+     - Reduces coupling between classes, making it easier to change one class without affecting others.
+     - 
 **(iv) Module 4 : User**
 
 
