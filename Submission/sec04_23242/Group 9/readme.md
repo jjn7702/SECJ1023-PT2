@@ -19,6 +19,8 @@ The Medication Scheduler project is a simple application that will help you mana
 
 ## Progress
 1. [Proposal](Proposal/readme.md)
+2. [Analysis-Design](Analysis-Design/readme.md)
+3. [Final](Final/readme.md)
 
 
 
