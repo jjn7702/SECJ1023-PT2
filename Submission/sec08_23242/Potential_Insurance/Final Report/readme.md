@@ -1,6 +1,6 @@
-## Table of contents
+## List of contents
 
-- [Introduction]https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#introduction)
+- [Introduction](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#introduction)
 - [Objectives](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#objectives-%EF%B8%8F)
 - [Background of the project](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#background-of-the-project)
 - [Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#flowchart)
