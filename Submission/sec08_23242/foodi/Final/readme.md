@@ -136,6 +136,8 @@ user profiles and food items effectively. Following is an explanation of how eac
 ( Encapsulation,Composition , Aggegration , Inheritance , Polymorphism , Array of objects ) is
 applied within Our source code:
 
+For a more detailed report, please refer to the [Final Report Group 11](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/foodi/Final/files/Final%20reportgroup%2011.pdf).
+
 ## Encapsulation
 Encapsulation is the bundling of data with methods that operate on that data. It restricts direct
 access to some of the object's components, which is a means of preventing accidental
