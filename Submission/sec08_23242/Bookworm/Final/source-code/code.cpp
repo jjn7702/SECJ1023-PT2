@@ -719,15 +719,15 @@ int main() {
 	                } while (choice8 < 1 || choice8 > 5 || choice9 == 1);
 	            } 
 
-		// if user input invalid genre choice at genre list page
-				else {
-					cin.clear(); // Clear the error flag
+		    // if user input invalid genre choice at genre list page
+		    else {
+			cin.clear(); // Clear the error flag
             		cin.ignore(INT_MAX, '\n'); // Discard invalid input
 	                cout << "Invalid genre choice\n";
 	                system("pause");
 	            }
-			 } while (genreChoice < 1 || genreChoice > 3);
-		}
+		} while (genreChoice < 1 || genreChoice > 3);
+	    }
 
 	    // if user choose option 3 in menu page
 	    else if (choice == 3) {
