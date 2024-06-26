@@ -14,6 +14,19 @@
 
 # FLOW CHART 📈
 <br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053200.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053226.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053240.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053257.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053316.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-05%20053330.png">
+<br>
+
 
 # PROBLEM ANALYSIS 🗒️ 
 |**Classes**|**Objects**|
@@ -28,6 +41,13 @@
 |Western|DisplayMenu() <br> Menu|
 |Rating|Feedback <br> Rating|
 |Date|Day <br> Month <br> Year <br> DisplayDay() <br> DisplayMonth() <br> PrintDate()|
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-06%20070755.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-06%20071014.png">
+<br>
+<image src = "https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis%20and%20design/image/Screenshot%202024-06-06%20071040.png">
+<br>
 
 # CLASS DIAGRAM 💻
 
