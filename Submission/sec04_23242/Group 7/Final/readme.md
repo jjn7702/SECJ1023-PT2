@@ -6,7 +6,7 @@
 In the current era of globalization, there are a lot of people who want to apply for scholarships, especially for teenagers. Hence, we created the “Scholarship Application” system using C++. The Scholarship application system offers a platform where students can easily access scholarship information, submit applications, track status, and receive the offer. It's a user-friendly system that simplifies the application process, making it accessible to a wide range of applicants.The application offers a dependable, and user-friendly interface for managing different tasks in order to guarantee flexibility and convenience of use by utilizing the capabilities of object-oriented programming principles in C++. 
 
 
-**Objectives of the system**
+**OBJECTIVE OF THE SYSTEM**
 
 -Make it easy for students to apply for the scholarship.
 
@@ -17,6 +17,7 @@ In the current era of globalization, there are a lot of people who want to apply
 -Store all applications securely in one place.
 
 
+
 **2.0 Analysis and Design**
 
 
@@ -24,6 +25,7 @@ Flowchart
 
 
 UML Class Diagram
+
 
 
 
