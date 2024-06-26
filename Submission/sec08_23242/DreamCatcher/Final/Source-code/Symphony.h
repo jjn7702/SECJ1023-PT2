@@ -54,7 +54,7 @@ class ClassicM : public Music{
 };
 
 class WhiteNoise : public Music{
-    private
+    private:
         string typeW;
 
     public:
