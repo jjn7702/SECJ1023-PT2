@@ -3,7 +3,7 @@
 
 ### CONTENTS
 
-- [Proposal Video](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
+- [Proposal Video](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#proposal-video-)
 - [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
 - [Objective](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#objective-%EF%B8%8F)
 - [How to use the system](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#how-to-use-the-system-)
