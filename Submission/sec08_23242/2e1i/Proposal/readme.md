@@ -18,13 +18,14 @@ These days, the prevalence of unhealthy eating habits, fueled by a reliance on j
 The **nutrition tracking system** aims to provide users with a comprehensive platform to **monitor their dietary intake**, set nutrition goals, and receive personalized recommendations. By integrating user-friendly interfaces and advanced data analysis, the system empowers individuals to make informed decisions about their health and wellness.
 
 ## Objectives and Purposes 🎯
-- Enable users to set personalized health goals based on factors such as age, weight, gender, and activity level.
-
-- Track daily food intake, including calories, macronutrients (carbohydrates, fats, proteins) and fiber.
-
-- Provide real-time feedback on users' progress towards their nutrition goals.
-
-- Offer personalized recommendations from nutritionists to optimize dietary habits and improve overall well-being.
+- Enable users to set personalized health goals based on factors such as age, weight,
+gender, and activity level
+- Track daily food intake, including calories, macronutrients (carbohydrates, fats, proteins)
+and fiber
+- Provide a tracking report based on the user’s progress towards their calories intake and
+health condition.
+- Offer personalized feedback from nutritionists to optimize dietary habits and improve
+overall well-being.
 
 
 
@@ -46,13 +47,13 @@ The **nutrition tracking system** aims to provide users with a comprehensive pla
   - *Physical Activity* : Users also track their daily calories burned. This includes exercises, workouts, or any other physical movements that contribute to their energy expenditure. Users have the option to directly input the calories burnt through physical activity.
 
 
-- **Feedback and Recommendations:** The system compares users’ nutritional intake against personalized targets thereby generating real-time overview on users' progress towards their nutrition goals. Additionally, users are offered personalized recommendations from nutritionists based on users’ diet patterns.
+- **Feedback from nutritionist :** The system compares users’ nutritional intake against personalized targets thereby generating real-time overview on users' progress towards
+their nutrition goals. Additionally, users are offered personalized feedback from nutritionists based on users’ diet patterns.
 
 
 ## Reporting 🖥️
-- **Daily Summary:** Users receive a daily summary of their food intake and progress towards their nutrition goals.
+- **Daily Summary:** Users receive a daily summary of their food intake including nutrition intake and calories burnt.
 
-- **Weekly/Monthly Reports:** Users can access comprehensive reports summarizing their dietary habits and overall progress over extended periods.
-
-- **Nutritionist Recommendations:** Nutritionists can review users' data and provide tailored recommendations for achieving optimal health and wellness.
+- **Nutritionist feedback:** Nutritionists can review users' data and provide tailored feedback
+for achieving optimal health and wellness.
 
