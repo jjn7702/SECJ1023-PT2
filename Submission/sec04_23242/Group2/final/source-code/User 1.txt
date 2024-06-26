@@ -1,0 +1,17 @@
+Event Name          :E2
+Event Status        :Not Done
+Description         :D2
+Date: 26/06/2024	
+Time: 12:00	
+Status: Occupied
+1
+Event Name          :PT2 presentation
+Event Status        :Not Done
+Description         :phase 3 final ver.
+Date: 27/06/2024	
+Time: 08:00	
+Status: Occupied
+2
+Date: 27/06/2024	
+Time: 08:15	
+Status: Occupied
