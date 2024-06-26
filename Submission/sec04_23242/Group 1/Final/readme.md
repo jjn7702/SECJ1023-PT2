@@ -30,9 +30,10 @@ The system design follows an object-oriented approach with the following key com
 <image src = "Image/PT2UML.drawio.jpg">
 
 **Flowchart**
-<image src = "Image/PT2UML.drawio.jpg">
-
-
+<image src = "Image/FlowchartPT2 page 1.png">
+<image src = "Image/FlowchartPT2 page 2.png">
+<image src = "Image/FlowchartPT2 page 3.png">
+<image src = "Image/FlowchartPT2 page 4.png">
 
 ## 5.0 Class Details
 **User Class**
