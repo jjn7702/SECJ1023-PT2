@@ -11,7 +11,7 @@
 
 **FLOW CHART**
 
-![flowchart drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/102563828/bba9a30c-5f96-4c12-be59-cd19195b1144) <br>
+![new flowchart drawio](https://github.com/jjn7702/SECJ1023-PT2/assets/102563828/b25fce48-0b89-4ae3-9fde-0a0d4e1d3bc8) <br>
 
 *Figure 1: Flowchart of Sleep Analyzer System* <br>
 
