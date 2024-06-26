@@ -227,17 +227,17 @@ bool checkEmpty(Music m){
 
 // Add Music
 void addMusic(){
-    ofstream outFile("musicList.txt",ios::app);
+    ofstream outFile("musicList.txt", ios::app);
     char option;
-    string musicName, musicLink,musicType;
+    string musicName, musicLink, musicType;
      
     cout << "Enter the name of music: ";
     cin.ignore();
-    getline(cin,musicName);
+    getline(cin, musicName);
     cout << "Enter the link of the music: ";
-    getline(cin,musicLink);
+    getline(cin, musicLink);
     cout << "Enter the type of the music(Classical,White Noise,....): ";
-    getline(cin,musicType);
+    getline(cin, musicType);
     outFile  << endl << musicName;
     outFile << endl << musicLink;
     outFile << endl << musicType;
@@ -280,19 +280,19 @@ void loadMusic(){
             }
 
             else if(i < 60 && i >= 30){
-                typeW="";
+                typeW = "";
                 getline(inFile,typeW);          
                 wn.push_back(WhiteNoise(list,url,typeW));  
             }
 
             if(i < 210 && i >= 60){
-                typeF="";
-                getline(inFile,typeF);          
+                typeF = "";
+                getline(inFile, typeF);          
                 if(!typeF.empty())
                 fm.push_back(FavM(list,url,typeF));        
 
-                else
-                    break;
+            else
+                break;
             }
         }
     }
@@ -313,11 +313,11 @@ void loadMusic(){
         wn[i].dispClist();
     }
 
-    for(int i=0; i<fm.size();i++){
-        if(i==0)
+    for(int i = 0; i < fm.size(); i++){
+        if(i == 0)
             cout << "\nUser Defined Music: \n";
 
-        cout << setw(3) << left << i+1;
+        cout << setw(3) << left << i + 1;
         fm[i].dispClist();
             
     }
@@ -331,7 +331,7 @@ void loadMusic(){
     inFile.close();
 }
 
-//! SleepSymphony Page
+// SleepSymphony Page
 void sleepSymphony(NewUser &user){
     char option;
     
@@ -362,10 +362,10 @@ void sleepSymphony(NewUser &user){
                 mainMenu(user);
                 break;
         }
-    }while (option=='1');
+    }while (option == '1');
 }
 
-//! Exit System
+// Exit System
 void Quit() {
     cout << endl;
     printLines();
@@ -376,7 +376,7 @@ void Quit() {
 
 }
 
-//! Main Menu Page
+// Main Menu Page
 void mainMenu(NewUser &user) {
     char choice;
 
