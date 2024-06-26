@@ -1,10 +1,18 @@
 ## Table of contents
 
-- [Introduction]()
-- [Synopsis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#synopsis-)
-- [Objective](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#objective-%EF%B8%8F)
-- [How to use the system](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#how-to-use-the-system-)
-- [Reporting](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Proposal/readme.md#reporting-)
+- [Introduction]https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#introduction)
+- [Objectives](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#objectives-%EF%B8%8F)
+- [Background of the project](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#background-of-the-project)
+- [Flowchart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#flowchart)
+- [UML Class Diagram](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#uml-class-diagram)
+- [Encapsulation](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#encapsulation)
+- [Composition](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#composition)
+- [Aggregation](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#aggregation)
+- [Inheritance](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#inheritance)
+- [Polymorphism](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#polymorphism)
+- [Array of objects](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#array-of-obejcts)
+- [Conclusion](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#conclusion)
+- [Presentation slide](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/Final%20Report/readme.md#presentation-slide)
 
 # Introduction
 The restaurant recommendation system is a software application designed to suggest 
@@ -57,6 +65,7 @@ in their vicinity
 # Encapsulation
 Encapsulation is the bundling of data (attributes) and methods (functions) that operate on the 
 data into a single unit, known as a class. It also restricts direct access to some of an object's components, which is a means of preventing accidental interference and misuse of the data.
+
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/148403271/e4e6ed98-80f1-4217-aa32-5e3d36bd818e)
 
 
