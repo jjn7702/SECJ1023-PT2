@@ -5,7 +5,7 @@
 #include "Schedule.h"
 using namespace std;
 
-
+//to run and compile the code, run it in single file console project mode while main.cpp file is selected
 int main ()
 {
     User users[10];
