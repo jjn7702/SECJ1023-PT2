@@ -8,7 +8,7 @@
 *Figure 1: Flowchart of Sleep Analyzer System* <br>
 
 **CLASS DIAGRAM**
-The class diagram represents a sleep analysis system that collects sleep data, analyzes it, and provides personalized recommendations to improve sleep quality. 
+- The class diagram represents a sleep analysis system that collects sleep data, analyzes it, and provides personalized recommendations to improve sleep quality. 
 
 ![SleepAnalyzer (3)](https://github.com/jjn7702/SECJ1023-PT2/assets/148436857/e965494f-45d2-4b4a-88b6-86d70c42b4f2)
 
