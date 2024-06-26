@@ -3,7 +3,7 @@
 
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="section-a-flowchart">Section A: Flowchart</h1>
-    <img src="../Proposal/Image/Flowchart.png" width="7000" height="600">
+    <img src="../Proposal/Image/PT2.png" width="9300" height="1000">
     Food Allergy System is a system that will save your life by detecting potential allergens found in your immune system. The system will first ask the user for their informations, such as their Name, Gender and Age. After that, the system will prompt a menu where the user has 5 options which is: "Ingredients", "Allergy", "Information", "About Us" and "Exit". The user is required to insert the options. If the user chooses Ingredients, the system will then give you another option whether you want to add ingredients or remove ingredients. If the user chooses Allergy in the menu section, the system will use the ingredients and then try to match the ingredients with the potential allergens and alert the user if there is any potential allergies. By going to the Information part, the user can see their information such as their name, gender, age, ingredients and allergy. For the About Us section, the system will display the information of the developers. Lastly the user can exit the system by choosing the exit option.
   </img>
 
