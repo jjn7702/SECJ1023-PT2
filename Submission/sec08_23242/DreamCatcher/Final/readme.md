@@ -11,7 +11,7 @@
   <li><a href="#flowchart"> Section A: Flowchart </a></li>
   <li><a href="#problemanalysis"> Section B: Problem Analysis </a></li>
   <li><a href="#uml"> Section C: UML Class Diagram </li>
-  <li>a href="#reference" Reference </li>
+  <li><a href="#reference"> Reference </li>
 
 <h1 id="flowchart"align="center"> Section A: Flowchart </h1>  <br />
     <img src =https://github.com/jjn7702/SECJ1023-PT2/assets/147849956/66490e32-ac60-4f48-bf40-71c04bb78116>
@@ -226,7 +226,7 @@ The following classes in involved in the project:
 
 
   
-  <h1 align="center">Reference</h1>
+  <h1 id="reference"align="center">Reference</h1>
   <p>For the reference for the recommended sleep time for different ages, visit the <a href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/how-many-hours-of-sleep-are-enough/faq-20057898">Mayo Clinic website</a>.</p>
 </html>
 
