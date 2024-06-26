@@ -1,1 +1,3 @@
-
+git remote add origin git@github.com:CLQuan/Project_final.git
+git branch -M main
+git push -u origin main
