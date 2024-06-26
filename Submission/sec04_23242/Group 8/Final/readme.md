@@ -1,5 +1,6 @@
 # Section A : 
 **INTRODUCTION**
+
 The Sleep Analyzer System is an advanced platform designed to track, monitor, 
 analyze, and enhance users’ sleep patterns with the awareness of the importance of 
 sleep for overall health and well-being, the system offers a comprehensive solution. It 
@@ -11,6 +12,7 @@ and benefits of the system, emphasizing its role in empowering users to achieve 
 sleep health.
 
 **PURPOSE**
+
 The primary purpose of the Sleep Analyzer System is to assist users in 
 understanding, managing, and enhancing their sleep quality. By offering detailed 
 analysis and personalized recommendations based on individual sleep data, the system 
@@ -105,14 +107,14 @@ quality, it will contribute to their overall health and quality of life
      
 **(iv) Module 4 : User**
 1. **Encapsulation**
-   - The `User` class encapsulates user attributes which is `userID`, `name`, `age`, `weight`, 
+- The `User` class encapsulates user attributes which is `userID`, `name`, `age`, `weight`, 
 and `height` and methods like `updateProfile`, `addSleepSession`, `analyzeSleep`, and 
 `generateReport` to manipulate these attributes.
 -The private attributes are accessed and 
 modified through public methods, ensuring control over the data.
    
 2. **Composition**
-    - The `SleepSession` is directly contains instances of `SleepData` object 
+- The `SleepSession` is directly contains instances of `SleepData` object 
 `vector<SleepData>`.
 - The `SleepData` instances are tightly bound to their respective `SleepSession` 
 instances means that when a `SleepSession` is created, its associated `SleepData` instances 
@@ -122,7 +124,7 @@ are also initialized. Conversely, when the `SleepSession` is destroyed, all its 
 within the User class. It performs analysis on the sleep sessions owned by the User.
 
 3. **Aggregation**
-   - The User class aggregated a `SleepReport` object pointer. This represents that a 
+- The User class aggregated a `SleepReport` object pointer. This represents that a 
 `User` has an associated `SleepReport` that contains summary information and 
 recommendations.
 - The `User` class aggregates a pointer to a `SleepQualityAssessment` object,
@@ -132,7 +134,7 @@ aggregation. The User class contains `Suggestion` objects, but they can exist
 independently of the `User` class
    
 4. **Array of Objects**
-   - The User class contains a vector<SleepSession> which is an array of 
+- The User class contains a vector<SleepSession> which is an array of 
 SleepSession objects. This allows the User to manage multiple sleep sessions.
 
 # References
