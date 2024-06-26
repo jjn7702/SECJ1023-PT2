@@ -151,6 +151,7 @@ Composition represents a "has-a" relationship where one class contains objects o
 
 ● Example: The User class has a vector of Allergen objects, indicating that a user can have
 multiple allergies. Here, User is composed of Allergen objects.
+
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/8fa00c07-ae1a-4942-aa14-a7168690ae28)
 
 
