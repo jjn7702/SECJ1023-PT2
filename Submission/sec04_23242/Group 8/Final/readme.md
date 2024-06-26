@@ -25,17 +25,26 @@
 # Section B : Implementation of the concepts
 **(i) Module 1 : Sleep Data**
 
-1.Encapsulation  
+1. **Encapsulation**  
 - 'SleepData' class encapsulates sleep-related data with private member variables such as such as 'timestamp', 'duration', 'deepSleepDuration','lightSleepDuration' and 'REMduration' 
 - It provides public methods including a constructor like 'SleepData' and methods like 'getTimestamp' and 'getDuration', 'getREMduration' to access these variables.
 - The internal state of the object can only be modified through its methods.  
 
-2. Composition 
+2. **Composition** 
 - 'SleepSession' class contains a vector of 'SleepData' objects that spans multiple segments within a single sleep period.
 - This indicates that a sleep session is composed of multiple sleep data entries, but 'SleepData' objects can exist independently of 'SleepSession'.
 - For example, methods in this class such as 'getSessionDuration' will operate on the contained 'SleepData' objects to calculate the total duration of the sleep session.
 
 **(ii) Module 2 : Sleep Analysis**
+1. **Encapsulation**
+   - The `SleepQualityAssessment` class:
+      - Encapsulates the qualityScore and description attributes and provides getter methods to access these values.
+   - The `SleepCycleAnalyzer` class:
+      - Encapsulates the logic for analyzing sleep data and assessing sleep quality within its methods.
+    
+2. **Composition**
+   - The `SleepCycleAnalyzer` class:
+      - The SleepCycleAnalyzer class uses the SleepQualityAssessment class to return the results of its analysis, demonstrating the "has-a" relationship.
 
 **(iii) Module 3 : Sleep Summary**
 1. **Encapsulation**
