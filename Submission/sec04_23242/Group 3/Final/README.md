@@ -40,5 +40,7 @@
 <h1 id="UML Class Diagram">UML Class Diagram</h1>
 <img src="../Proposal/Image/UML CLASS DIAGRAM.jpg" width="7000" height="950">
 
+<h1 id="Section B: Implementation of the Concepts :">Section B: Implementation of the Concepts :</h1>
+
 </html>
 
