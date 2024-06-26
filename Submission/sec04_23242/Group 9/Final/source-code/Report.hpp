@@ -20,68 +20,34 @@ using namespace std;
 
 class Report
 {
-    string startDate, endDate;
-    Medication *medication[20]; 
+    double startDate, endDate;
+    Medication *med = new Medication[50];
     Patient *patient;           
-    MedType *medtype[20];
-    Frequency *freq[20];
+    MedType *medtype = new MedType[50];
+    Frequency *freq = new Frequency[50];
 
    public:
-    Report() : startDate(""), endDate(""){}
-    Report(string s, string e) : startDate(s), endDate(e) {}
+    Report() : startDate(0), endDate(0){}
+    Report(double s, double e) : startDate(s), endDate(e) {}
 
     // MUTATORS
     int setSdate()
     {
-        int m,d;
-        string sD;
-        
-        // Extract month from user
-        do{
-        cout << "(DD-MM) : ";
+        cout << "End Date and Time (YYMMDD.HHMM): ";
+        cin >> startDate;
         cin.ignore();
-        getline (cin, sD);
-        startDate = sD;
-        string a = startDate.substr(3,2);
-        m = stoi(a);
-
-        string b = startDate.substr(0,2);
-        d = stoi(b);
-        
-        if(m > 12 || d > 31 || m <= 0 || d <= 0) // notification pop up if month/day entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(m > 12 || d > 31 || m <= 0 || d <= 0);
-        return m;
 
     }
-
 
     void setEdate()
-    {
-        int n, e;
-        string eD;
-        
-        do{
-        cout << "(DD-MM) : ";
-        getline (cin, eD);
-        endDate = eD;
-        string c = endDate.substr(3,2);
-        n = stoi(c);
-
-        string f = endDate.substr(0,2);
-        e = stoi(f);
-        
-        if(n > 12 || e > 31 || n <= 0 || e <= 0 ) // notification pop up if month entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(n > 12 || e > 31 || n <= 0 || e <= 0);
-        endDate = eD;
-    }
+    {cout << "End Date and Time (YYMMDD.HHMM): ";
+     cin >> endDate;
+     cin.ignore();}
 
 
     // ACCESSORS
-    string getSdate(){return startDate;}
-    string getEdate(){return endDate;}
-
+    double getSdate(){return startDate;}
+    double getEdate(){return endDate;}
 
      void displayReport(Patient *p)
     { 
@@ -92,18 +58,33 @@ class Report
     }
 
     // Display medication (Aggregation)
-    void displayMed(Medication *m, MedType *mt) const 
-    {
-        
-        cout << "Date Start - Date End : " << startDate << " - " <<  endDate << "\n";
-        cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
-        cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
+    void displayMedSchedule(Medication *m, MedType *mt, int medCount, double currentDateTime) {
+    cout << "\t\tBelow is your past medicine(s): \n";
+    for (int i = 0; i < medCount; ++i) {
+        if (startDate < currentDateTime) {
+            cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
+            cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
 
-        if (mt!=NULL) m->medtypeOutput();
+            if (mt!=NULL) m->medtypeOutput();
         
-        m->freqOutput();
+            m->freqOutput();
+            cout << endl;
+        }
     }
 
+    cout << "\n\t\tCurrent list of medicines:\n";
+    for (int i = 0; i < medCount; ++i) {
+        if (startDate >= currentDateTime) {
+            cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
+            cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
+
+            if (mt!=NULL) m->medtypeOutput();
+        
+            m->freqOutput();
+            cout << endl;
+        }
+    }
+}
     ~Report(){}
     
 };
