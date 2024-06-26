@@ -107,7 +107,7 @@ In this project, we have gained valuable insights and practical experience in so
 development and team collaboration. We successfully implemented key C++ concepts such 
 as association, composition, inheritance, encapsulation, polymorphism, and array of objects, 
 which significantly enhanced our understanding of object-oriented programming and design 
-principles. This hands-on experience allowed us to apply theoretical knowledge to a realworld problem, reinforcing our learning and boosting our technical proficiency.
+principles. This hands-on experience allowed us to apply theoretical knowledge to a real world problem, reinforcing our learning and boosting our technical proficiency.
 Moreover, we have experienced the dynamics of working in a team to develop a 
 comprehensive program. Through effective communication and collaboration, we managed 
 to integrate our individual contributions into a cohesive system, demonstrating the 
