@@ -29,7 +29,7 @@ The purpose of this book recommendation system is to let users view the books so
 <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/849c5b12-bc94-44d0-b44c-89b88e0fede9"></img>
 
 <h2>UML Class Diagram</h2>
-<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/555a91d7-8e0f-45e3-b146-a42cd422161f"></img>
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/147809633/2bc30559-9967-4612-9cf4-b11a66dadb0d"></img>
 
 <h1>Implementation of the Concepts</h1>
 <h2>Encapsulation</h2>
