@@ -216,7 +216,7 @@ In this project, the `Booklist` and `Book` classes will have an aggregation rela
 
 
 <h2>Inheritance</h2>
-<p>&emsp;Inheritance allows derived classes to inherit properties and behaviors from the base class.  In this project, inheritance is demonstrated through the Book class and its derived classes: Romance, Fantasy, and SciFi.</p>
+Inheritance allows derived classes to inherit properties and behaviors from the base class.  In this project, inheritance is demonstrated through the Book class and its derived classes: Romance, Fantasy, and SciFi.
 <p>&emsp;When an object of the Romance, Fantasy, or SciFi class is created, each object will contain all the attributes and methods of the Book class, plus any additional attributes and methods specific to the derived class. Each derived class object, for example: Romance class object, Fantasy class object and SciFi class object can access the protected and public members of the Book class directly. 
 </p>
 
