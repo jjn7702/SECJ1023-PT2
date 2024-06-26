@@ -1,3 +1,6 @@
+
+#ifndef MEDTYPE_H
+#define MEDTYPE_H
 class MedType {
     string form, shape, color;
 
@@ -27,3 +30,5 @@ class MedType {
         //destructor
         ~MedType(){}
 };
+
+#endif
