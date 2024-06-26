@@ -73,7 +73,9 @@ Explanation: Aggregation represents a "has-a" relationship where one class (the 
 Justification: The Ratings class aggregates a Book object using a pointer (Book* book). It maintains a relationship where Ratings can refer to a Book object without owning it, allowing flexibility in object relationships and data management
 
 3. **Composition**
+
 Explanation: Composition is a stronger form of aggregation where the lifetime of the contained object is managed by the container. If the container object is destroyed, all contained objects are also destroyed.
+
 Justification: In your design, the Publish class demonstrates composition with Book as a member object (Book book). The Publish object owns its associated Book object, ensuring that a Publish instance cannot exist without a corresponding Book instance
 
 4. **Inheritance**
@@ -96,8 +98,13 @@ Justification: In BookRecommendationSystem, arrays (adbooks[], addpublications[]
 
 In main(), we use BookRecommendationSystem to populate these arrays
 
-7. **File handling **
+7. **File handling**
 
 Explanation: File handling in C++ provides mechanisms to read from and write to files. It allows data to be stored persistently and retrieved as needed by the program.
 
 Justification: The User class utilizes file handling (fstream) in methods like login()to read and write user credentials (username and password) to a file (users.txt). This enables user authentication and registration functionalities while persisting user data across program executions.
+
+## 7.0 Conclusion
+
+The Book Recommendation System developed using C++ provides a user-friendly way to discover new books based on personal preferences. By leveraging object-oriented programming principles, we have created a robust and flexible system that can be easily extended with new features and functionalities. This project not only enhances user engagement with books but also encourages exploration of new genres and authors, fostering a deeper love for reading.
+
