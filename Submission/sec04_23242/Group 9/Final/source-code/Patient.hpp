@@ -1,3 +1,7 @@
+
+#ifndef PATIENT_H
+#define PATIENT_H
+
 class Patient {
     protected:
     string patientID,  fullname, password, dob, sex;
@@ -102,5 +106,7 @@ class Patient {
 
     ~Patient() {} //destructor
 };
+
+#ENDIF
 
 //------------------------------------------------------
