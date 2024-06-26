@@ -218,7 +218,7 @@ class Booklist {
 
         int getCount(){ return count; }
 		
-		void setCount(int c){ count = c; }
+	void setCount(int c){ count = c; }
         
         Book* getBook(int index){
             return books[index];
@@ -248,7 +248,7 @@ class Booklist {
             for (int i=0; i<count; i++){
                 if (books[i] != nullptr)
                 {
-                	cout << i + 1 << ") ";
+                    cout << i + 1 << ") ";
                     books[i]->display();
                     cout << endl;
                 }
@@ -267,7 +267,7 @@ class Booklist {
 	        } else {
 	            cout << "Invalid book index." << endl;
 	        }
-	    }
+	}
 	    
 	    void saveBooklist() {
 		    string filename = "user_booklist.txt";
@@ -278,15 +278,15 @@ class Booklist {
 		    }
 		    file << "------------------------------------------------------------------------------------------------------------------\n";
 		    file << "\t\t\t\t\t       Personal Book List   \t\t\t\t\t" << endl;
-			file << "------------------------------------------------------------------------------------------------------------------\n";
-			file << left << setw(15) << "Book Code" << setw(25) << "Book Title" << setw(20) << "Genre" << setw(20) << "Year Publish" << setw(31) << "Publisher" << endl;
-			file << "------------------------------------------------------------------------------------------------------------------\n";
+		    file << "------------------------------------------------------------------------------------------------------------------\n";
+		    file << left << setw(15) << "Book Code" << setw(25) << "Book Title" << setw(20) << "Genre" << setw(20) << "Year Publish" << setw(31) << "Publisher" << endl;
+		    file << "------------------------------------------------------------------------------------------------------------------\n";
 		    for (int i = 0; i < count; i++) {
-		        if (books[i] != nullptr) {
-		        	Publisher* publisher = books[i]->getPublisher();
-		            file << i + 1 << ") " << left << setw(12) << books[i]->getBookCode()  
-						 << setw(25) << books[i]->getBookTitle() << setw(20) << books[i]->getGenre() << setw(20) 
-						 << books[i]->getYearPublish() << setw(31) << publisher->getPublisherName() + ", " + publisher->getCountry() << endl;
+		    if (books[i] != nullptr) {
+		        Publisher* publisher = books[i]->getPublisher();
+		        file << i + 1 << ") " << left << setw(12) << books[i]->getBookCode()  
+			<< setw(25) << books[i]->getBookTitle() << setw(20) << books[i]->getGenre() << setw(20) 
+			<< books[i]->getYearPublish() << setw(31) << publisher->getPublisherName() + ", " + publisher->getCountry() << endl;
 		        }
 		    }
 		    file.close();
@@ -340,17 +340,17 @@ class User{
         	do {
 	            cout << "Please enter your ic number   : ";
 	            getline(cin, icNum);
-				if (icNum.empty()) {
-					cout << "Ic cannot be empty. Please try again.\n";
-				}
+			if (icNum.empty()) {
+				cout << "Ic cannot be empty. Please try again.\n";
+			}
 			} while (icNum.empty());
 			
-			do {
+		do {
             	cout << "Please enter your name        : ";
             	getline(cin, name);
-	            if (name.empty()) {
-					cout << "Name cannot be empty. Please try again.\n";
-				}
+	        if (name.empty()) {
+			cout << "Name cannot be empty. Please try again.\n";
+		}
             } while (name.empty());
             
             bool valid = false;
@@ -361,18 +361,17 @@ class User{
                     cout << "Please enter your phone number: ";
                     getline(cin, phoneNum);
 					
-					if (phoneNum.empty()) {
-           				cout << "Phone cannot be empty. Please try again.\n";
-            			continue; // Restart the loop if phone number is empty
-       				}				
+		if (phoneNum.empty()) {
+           		cout << "Phone cannot be empty. Please try again.\n";
+            		continue; // Restart the loop if phone number is empty
+       		}				
 					
-                    for (char c : phoneNum) {
-                        if (isalpha(c)) {
+                for (char c : phoneNum) {
+                	if (isalpha(c)) {
                             throw invalid_argument("Phone number contains invalid characters");
                         }
-                    }
-
-                    valid = true; 
+                }
+                valid = true; 
                 }
                 catch (const invalid_argument &e){
                     cout << e.what() << endl;
@@ -392,7 +391,6 @@ class User{
             cout << "\t\t\t\t\t       " << name << "'s  booklist \t\t\t\t\t" << endl;
             cout << "------------------------------------------------------------------------------------------------------------------\n";
             booklist.display();
-
         }
 
         void addBookToBooklist(Book* book){
@@ -401,18 +399,17 @@ class User{
                 booklist.addBook(book);
             else if(y==1)
                 cout << "This book is already in your personalized book list! :)" << endl << endl;
-
         }
 
 	void removeBookFromBooklist(int index) {
 	        booklist.removeBook(index);
-	    }
+	}
 	    
-	    void saveUserBooklist() {
-		    booklist.saveBooklist();
-		}
+	void saveUserBooklist() {
+		booklist.saveBooklist();
+	}
 		
-		int getBooklistCount() const {
+	int getBooklistCount() const {
             return booklist.getCount();
         }
 
