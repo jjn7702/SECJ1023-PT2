@@ -18,6 +18,7 @@ In the current era of globalization, there are a lot of people who want to apply
 
 
 
+
 **2.0 Analysis and Design**
 
 
@@ -25,6 +26,7 @@ Flowchart
 
 
 UML Class Diagram
+
 
 
 
