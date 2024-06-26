@@ -131,22 +131,4 @@ The object-oriented approach used to build the system included the following pri
 - **Inheritance**: The FoodItem class inherited attributes and methods from the Cuisine class to represent different types of food.
 - **Polymorphism**: Polymorphism was used in the FoodCategory class to allow different types of food items to be treated as instances of the FoodCategory class.
 
-### Additional Notes
-
-The project implementation followed the prescribed guidelines to ensure the correct application of object-oriented principles. The class designs were carefully reviewed and revised to meet the requirements of the system and to provide a robust solution for managing food allergies.
-
----
-
-### Appendix
-
-#### References
-
-- Lecture Notes and Slides
-- Online Tutorials
-- API Documentation
-
-#### Diagrams
-
-- [Flowchart](#)
-- [UML Diagram](#)
 
