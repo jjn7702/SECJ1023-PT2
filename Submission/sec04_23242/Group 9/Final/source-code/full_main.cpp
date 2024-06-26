@@ -3,6 +3,9 @@
 #include <string>
 #include <ctime>
 #include <exception>
+#include <fstream>
+#include <vector>
+#include <conio.h>
 
 using namespace std;
 
@@ -251,6 +254,16 @@ class Medication {
         cout << setw(20) << medName << setw(10) << dosage << setw(10) << medType.getMedForm() << setw(10)<< medType.getMedShape() << setw(10) << medType.getMedColor() << "\n";
     }
 
+    void addtoFile(string filename) {
+        ofstream outfile(filename, ios::app);
+        if (outfile.is_open()) {
+            outfile << medName << " " << dosage << " " << medType.getMedForm() << " " << medType.getMedColor() << " " << medType.getMedShape() << endl;
+            outfile.close();
+        } else {
+            cout << "Error opening file for writing patient data." << endl;
+        }
+    }
+
     //destructor
     ~Medication(){}
 };
@@ -292,10 +305,15 @@ class Patient {
         setID(patientID);
         cout << "\t\tFull Name: ";
         getline(cin, fullname);
-        cout << "\t\tPassword: ";
-        getline(cin, password);
+        cout << "\t\tPassword (no space): ";
+        char ch = getch();
+        while (ch != 13) { // hide password
+            password.push_back(ch);
+            cout << '*';
+            ch = getch();
+        }
         setpassword(password);
-        cout << "\t\tDate of Birth (DD/MM/YYYY): ";
+        cout << "\n\t\tDate of Birth (DD/MM/YYYY): ";
         getline(cin, dob);
         cout << "\t\tGender (M/F): ";
         getline(cin, sex);
@@ -333,14 +351,18 @@ class Patient {
 
     cout << "\t\tPatient ID: ";
     getline(cin, pt);
-    cout << "\t\tPassword: ";
-    getline(cin, pw);
-
+    cout << "\t\tPassword (no space): ";
+    char ch = getch();
+    while (ch!=13){ // hide password
+        pw.push_back(ch);
+        cout << '*';
+        ch = getch();
+    }
     //login credentials
-    if (pt == getID() && pw == getpassword()) {
-        cout << "\t\tLOGIN SUCCESSFUL." << endl;
+    if (pt == getID() && password == getpassword()) {
+        cout << "\n\t\tLOGIN SUCCESSFUL." << endl;
     } else {
-        cout << "\t\t!Invalid ID or Password!" << endl;
+        cout << "\n\t\t!Invalid ID or Password!" << endl;
         cout << "\t\tEnter again." << endl;
         login(); 
     }
@@ -359,6 +381,26 @@ class Patient {
         med = m;
     }
 
+    void addPatientFile() {
+    ofstream outfile("patient_list.txt", ios::app);
+        if (outfile.is_open()) {
+            outfile << patientID << " " << fullname << " " << password << " " << dob << " " << sex << endl;
+            outfile.close();
+        } else {
+            cout << "Error opening file for writing patient data." << endl;
+        }
+
+        //for each patient (Example: Arisha_med_history.txt)
+        string medFilename = fullname + "_med_history.txt";
+        ofstream medFile(medFilename);
+        if (medFile.is_open()) {
+                med->addtoFile(medFilename);
+        } else {
+            cout << "Error opening file for writing medications." << endl;
+        }
+
+        medFile.close();
+}
     ~Patient() {} //destructor
 };
 
@@ -428,68 +470,34 @@ class SpecialPatient: public Patient {
 
 class Report
 {
-    string startDate, endDate;
-    Medication *medication[20]; 
+    double startDate, endDate;
+    Medication *med = new Medication[50];
     Patient *patient;           
-    MedType *medtype[20];
-    Frequency *freq[20];
+    MedType *medtype = new MedType[50];
+    Frequency *freq = new Frequency[50];
 
    public:
-    Report() : startDate(""), endDate(""){}
-    Report(string s, string e) : startDate(s), endDate(e) {}
+    Report() : startDate(0), endDate(0){}
+    Report(double s, double e) : startDate(s), endDate(e) {}
 
     // MUTATORS
     int setSdate()
     {
-        int m,d;
-        string sD;
-        
-        // Extract month from user
-        do{
-        cout << "(DD-MM) : ";
+        cout << "End Date and Time (YYMMDD.HHMM): ";
+        cin >> startDate;
         cin.ignore();
-        getline (cin, sD);
-        startDate = sD;
-        string a = startDate.substr(3,2);
-        m = stoi(a);
-
-        string b = startDate.substr(0,2);
-        d = stoi(b);
-        
-        if(m > 12 || d > 31 || m <= 0 || d <= 0) // notification pop up if month/day entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(m > 12 || d > 31 || m <= 0 || d <= 0);
-        return m;
 
     }
-
 
     void setEdate()
-    {
-        int n, e;
-        string eD;
-        
-        do{
-        cout << "(DD-MM) : ";
-        getline (cin, eD);
-        endDate = eD;
-        string c = endDate.substr(3,2);
-        n = stoi(c);
-
-        string f = endDate.substr(0,2);
-        e = stoi(f);
-        
-        if(n > 12 || e > 31 || n <= 0 || e <= 0 ) // notification pop up if month entered is invalid
-        cout << "Oops! It seems like there's a typo on your date.\n Enter again.";
-        } while(n > 12 || e > 31 || n <= 0 || e <= 0);
-        endDate = eD;
-    }
+    {cout << "End Date and Time (YYMMDD.HHMM): ";
+     cin >> endDate;
+     cin.ignore();}
 
 
     // ACCESSORS
-    string getSdate(){return startDate;}
-    string getEdate(){return endDate;}
-
+    double getSdate(){return startDate;}
+    double getEdate(){return endDate;}
 
      void displayReport(Patient *p)
     { 
@@ -500,18 +508,33 @@ class Report
     }
 
     // Display medication (Aggregation)
-    void displayMed(Medication *m, MedType *mt) const 
-    {
-        
-        cout << "Date Start - Date End : " << startDate << " - " <<  endDate << "\n";
-        cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
-        cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
+    void displayMedSchedule(Medication *m, MedType *mt, int medCount, double currentDateTime) {
+    cout << "\t\tBelow is your past medicine(s): \n";
+    for (int i = 0; i < medCount; ++i) {
+        if (startDate < currentDateTime) {
+            cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
+            cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
 
-        if (mt!=NULL) m->medtypeOutput();
+            if (mt!=NULL) m->medtypeOutput();
         
-        m->freqOutput();
+            m->freqOutput();
+            cout << endl;
+        }
     }
 
+    cout << "\n\t\tCurrent list of medicines:\n";
+    for (int i = 0; i < medCount; ++i) {
+        if (startDate >= currentDateTime) {
+            cout << "Name" << setw(10) << ":  " << m->getMedName() << "\n";
+            cout << "Dosage" << setw(8) << ":  " << m->getMedDosage() << "\n";
+
+            if (mt!=NULL) m->medtypeOutput();
+        
+            m->freqOutput();
+            cout << endl;
+        }
+    }
+}
     ~Report(){}
     
 };
@@ -548,7 +571,7 @@ int returnorexit() {
     system("cls");
 }
 
-void case4(int numMed, Medication med[], Report report[], Patient patient, MedType mt[]) {
+void case4(int numMed, Medication med[], Report report[], Patient patient, MedType mt[], double currentDateTime) {
     cout << "\t\tYou have chosen to VIEW REPORT and EXIT SYSTEM.\n\n";
     displayLine();
 
@@ -569,8 +592,7 @@ void case4(int numMed, Medication med[], Report report[], Patient patient, MedTy
 
         report[0].displayReport(&patient); // Display report, display patient's information
         for (int i = 0; i < numMed; ++i) {
-            cout << "\nMEDICATION " << i + 1 << endl;
-            report[0].displayMed(&med[i], &mt[i]);
+            report[0].displayMedSchedule(&med[i], &mt[i], numMed, currentDateTime);
         }
     }
 
@@ -592,17 +614,20 @@ int main() {
     Frequency *freq = new Frequency[50];
 
     //TIME-FOR MEDICATION INTAKE 
-    time_t now = time(nullptr);
+    time_t t = time(0);
+    struct tm* now = localtime(&t);
+    double currentDateTime = (now->tm_year-100) * 10000 + (now->tm_mon + 1) * 100 + now->tm_mday + (now->tm_hour / 100.0) + (now->tm_min / 10000.0);
 
     displayLine();
     cout << "\t\t|       HI!! WELCOME TO        |" << endl;
     cout << "\t\t| 2024 MEDICATION SCHEDULER :) |" << endl;
     displayLine();
-    // Print the current time
-    cout << "\t\tCURRENT TIME: " << put_time(localtime(&now), "%Y-%m-%d %H:%M:%S") << endl << endl;
+    // print the current time
+    cout << "\t\tCURRENT TIME: " << put_time(localtime(&t), "%Y-%m-%d %H:%M:%S") << endl << endl;
 
     rPatient.getData(); //get patient data
     patient = &rPatient;
+
 
     system("cls");
 
@@ -623,9 +648,6 @@ int main() {
 
     while(!exit)
     {
-
-    //int optionUser = userOption(); //for user option
-
     switch(userOption()) 
     {
          case 1: 
@@ -642,19 +664,18 @@ int main() {
                     med[i].input();
                     patient->setMed(med); //point to med
                     string medname = med[i].getMedName();
+                    patient->addPatientFile();
                     addMed[addMedNum++] = medname;
                     system("cls");
                 }
-
             med->output(numMed);
             for(int j = 0; j < numMed; j++) {
                 med[j].outputMed();}
 
             int c = returnorexit();
             if(c==2)
-            case4(numMed, med, report, *patient, mt);
+            case4(numMed, med, report, *patient, mt, currentDateTime);
             break;
-
         }
 
         case 2: 
@@ -692,7 +713,7 @@ int main() {
             }
                 int c = returnorexit();
                 if(c==2)
-                case4(numMed, med, report, *patient, mt);
+                case4(numMed, med, report, *patient, mt, currentDateTime);
                 break;
         }
 
@@ -714,10 +735,10 @@ int main() {
         int c = returnorexit();
         system("cls");
             if(c==2)
-            case4(numMed, med, report, *patient, mt);
+            case4(numMed, med, report, *patient, mt, currentDateTime);
             break;}
 
-        case 4:{case4(numMed, med, report, *patient, mt);}
+        case 4:{case4(numMed, med, report, *patient, mt, currentDateTime);}
 
         default: 
         {
