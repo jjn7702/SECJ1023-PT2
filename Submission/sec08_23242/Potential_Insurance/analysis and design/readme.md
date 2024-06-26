@@ -1,9 +1,16 @@
 <h1 align="center"> 🍝Restaurant Recommendation System🍝 </h1> 
 
+
 ### CONTENTS
-- [Flow Chart](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#flow-chart-)
-- [Problem Analysis](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#problem-analysis-)
-- [Class Diagram](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#class-diagram-)
+<ul>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#flow-chart-"> Flow Chart </a></li>
+</ul>
+<ul>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#problem-analysis-"> Problem Analysis </a></li>
+</ul>
+<ul>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/analysis and design/readme.md#class-diagram-"> Class Diagram </a></li>
+</ul>
 
 # FLOW CHART 📈
 <br>
