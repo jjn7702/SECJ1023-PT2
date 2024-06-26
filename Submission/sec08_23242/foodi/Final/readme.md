@@ -88,7 +88,7 @@ Once logged in, users will navigate to the home screen, which features three pri
 ### 1.6 UML
 [UML link:](https://app.creately.com/d/yvJ5es1K2eW/view).
 
-![UML Diagram](#)
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/122166710/25d469f4-8874-4a65-aa4f-32da849bab66)
 
 ### 1.7 Objects
 
