@@ -39,3 +39,7 @@ The main aim of this application is to propose food options tailored to users' t
 <ul>
   <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Source Code"> Source Code </a></li>
 </ul>
+<ul>
+  <li><a href="https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec08_23242/Potential_Insurance/Final Report"> Final Report </a></li>
+</ul>
+
