@@ -83,8 +83,9 @@ Once logged in, users will navigate to the home screen, which features three pri
 
 ### 1.5 Proposed Flowchart
 
-![Flowchart](#)
+![realpg1](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/10cf9b15-98a5-4132-93e5-bc1eb1448ecc)
 
+![Pt2_A2_flowchart-Page-2 (1)](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/c777e7b9-4d85-43a6-ba7e-73ed8729b411)
 ### 1.6 UML
 [UML link:](https://app.creately.com/d/yvJ5es1K2eW/view).
 
