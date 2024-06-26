@@ -1,13 +1,27 @@
 # Section A : 
-**OBJECTIVES & PURPOSES**
-- To provide users with a platform to track and monitor their sleep patterns.
+**INTRODUCTION**
+The Sleep Analyzer System is an advanced platform designed to track, monitor, 
+analyze, and enhance users’ sleep patterns with the awareness of the importance of 
+sleep for overall health and well-being, the system offers a comprehensive solution. It 
+aims to provide individuals with deep insights into their sleep habits, facilitating 
+informed decision to improve sleep quality. By leveraging data-driven insights, the 
+Sleep Analyzer System aims to provide personalized recommendations and actionable 
+plans tailored to each user’s unique sleep profile. This report outlines the functionalities 
+and benefits of the system, emphasizing its role in empowering users to achieve optimal 
+sleep health.
 
-- To analyze sleep data and provide insights into sleep quality, duration, and stages (deep sleep, light sleep, and REM sleep).
-
-- To offer personalized recommendations for improving sleep quality based on the user's sleep data.
-
-- To educate users on the importance of sleep and provide resources for better sleep habits.
-
+**PURPOSE**
+The primary purpose of the Sleep Analyzer System is to assist users in 
+understanding, managing, and enhancing their sleep quality. By offering detailed 
+analysis and personalized recommendations based on individual sleep data, the system 
+aims to:
+• Track and monitor sleep patterns.
+• Provide insights into sleep stages and overall sleep quality.
+• Enable users to make informed decisions regarding sleep habits and routines.
+• Offer actionable plans for improving sleep health based on data-driven insights.
+The Sleep Analyzer System aims to empower users to take proactive steps towards 
+achieving better sleep quality through these functionalities. By having excellent sleep 
+quality, it will contribute to their overall health and quality of life
 
 **FLOW CHART**
 
@@ -90,6 +104,36 @@
    - This composition relationship indicates that `SleepReport` "has" `SleepSession` objects, meaning `SleepReport` relies on the `SleepSession` objects to fulfill its responsibilities.
      
 **(iv) Module 4 : User**
+1. **Encapsulation**
+   - The `User` class encapsulates user attributes which is `userID`, `name`, `age`, `weight`, 
+and `height` and methods like `updateProfile`, `addSleepSession`, `analyzeSleep`, and 
+`generateReport` to manipulate these attributes.
+-The private attributes are accessed and 
+modified through public methods, ensuring control over the data.
+   
+2. **Composition**
+    - The `SleepSession` is directly contains instances of `SleepData` object 
+`vector<SleepData>`.
+- The `SleepData` instances are tightly bound to their respective `SleepSession` 
+instances means that when a `SleepSession` is created, its associated `SleepData` instances 
+are also initialized. Conversely, when the `SleepSession` is destroyed, all its contains 
+`SleepData` instances are automatically destroyed as well.
+-The `SleepCycleAnalyzer` is an instance of `SleepCycleAnalyzer` directly embedded 
+within the User class. It performs analysis on the sleep sessions owned by the User.
+
+3. **Aggregation**
+   - The User class aggregated a `SleepReport` object pointer. This represents that a 
+`User` has an associated `SleepReport` that contains summary information and 
+recommendations.
+- The `User` class aggregates a pointer to a `SleepQualityAssessment` object,
+indicating that the user’s sleep quality can be assessed and updated independently.
+- The `vector<Suggestion*>suggestion` in the `User` class can be considered as 
+aggregation. The User class contains `Suggestion` objects, but they can exist 
+independently of the `User` class
+   
+4. **Array of Objects**
+   - The User class contains a vector<SleepSession> which is an array of 
+SleepSession objects. This allows the User to manage multiple sleep sessions.
 
 # References
 1.	Yilmaz, D., Tanrikulu, F., & Dikmen, Y. (2017). Research on sleep quality and the factors affecting the sleep quality of the nursing students. PubMed, 43(1), 20–24. https://doi.org/10.12865/chsj.43.01.03
