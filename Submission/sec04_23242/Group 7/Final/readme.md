@@ -5,8 +5,11 @@ In the current era of globalization, There is a lot of people who want to apply 
 OBJECTIVES OF THE SYSTEM
 
 -Make it easy for students to apply for the scholarship.
+
 -Save time and effort for both applicants and administrators with a simple, automated process.
+
 -Clearly explain the requirements, process, and timelines to applicants.
+
 -Store all applications securely in one place.
 
 
