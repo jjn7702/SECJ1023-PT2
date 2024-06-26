@@ -4,7 +4,6 @@
 using namespace std;
 
 Schedule :: Schedule(bool s = true): status(s){}
-Schedule :: ~Schedule() {}
 
 void Schedule :: setStatus(bool s){status = s;}
 
