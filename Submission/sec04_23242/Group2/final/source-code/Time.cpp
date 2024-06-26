@@ -4,11 +4,9 @@
 #include "Time.h"
 using namespace std;
 
-Time :: Time(): hour(0), minute(0), Date(NULL,0,0,0) {}
-    
-Time :: Time(bool s, int y, int m, int d, int h, int min): hour(h), minute(m), Date(s, y, m, d) {}
+Time :: Time(): hour(0), minute(0), Date(true,0,0,0) {}
 
-Time :: ~Time() {}
+Time :: Time(bool s, int y, int m, int d, int h, int min): hour(h), minute(min), Date(s, y, m, d) {}
 
 //mutators
 void Time :: setHour(int h) { hour = h;}
@@ -38,11 +36,18 @@ void Time :: dateExtract(string d){
         year = stoi(d.substr(19, '\n'));
 }
 
+void Time :: readInputTime()
+{
+    string time;
+    cout << "Enter time in 24h format(HH MM): ";
+    cin >> hour >> minute;
+}
+
 void Time :: readInput(){
-    cout << "Enter date(DD MM YYYY): ";
-        cin >> day >> month >> year;
-        cout << "Enter time(HH MM): ";
-        cin >> hour >> minute;
+    cout << "Enter date(DD MM YYYY) or press 0 for all values to return to previous menu(does not work for end time input)\nInput: ";
+    cin >> day >> month >> year;
+    
+    readInputTime();
 }
 void Time :: printTime()
     {
@@ -55,13 +60,13 @@ void Time :: printTime()
         if (minute < 10)
             cout << "0";
 
-        cout << minute << endl;
+        cout << minute << "\t";
 }
 
-void Time :: print(){
-    Date::printDate();
+void Time :: print() {
+    printDate();
     printTime();
-    Date::printStatus();
+    printStatus();
 }
 
 void Time :: diffPrint(){
@@ -92,19 +97,19 @@ Time Time :: operator-(const Time &t){
         temp.hour = hour - t.hour;
         temp.minute = minute - t.minute;
 
-        if (minute < t.minute)
+        if (temp.minute < 0)
         {
             temp.minute += 60;
             temp.hour--;
         }
 
-        if (hour < t.hour)
+        if (temp.hour < 0)
         {
             temp.hour += 24;
             temp.day--;
         }
 
-        if (day < t.day)
+        if (temp.day < 0)
         {
             int dayCalcMonth = month - 2;
             if (dayCalcMonth < 0)
@@ -113,7 +118,7 @@ Time Time :: operator-(const Time &t){
             temp.day += dayCalc[dayCalcMonth];
             temp.month--;
         }
-        if (month < t.month)
+        if (temp.month < 0)
         {
             temp.month += 12;
             temp.year--;
@@ -130,3 +135,102 @@ void Time :: getCurrentTime()
     ptr = localtime(&t);
     dateExtract(asctime(ptr));
 }
+
+bool Time :: operator<(const Time &t){
+    if((year - t.year) < 0)
+        return true;
+
+    if((month - t.month) < 0)
+        return true;
+
+    if((day - t.day) < 0)
+        return true;
+    
+    if((hour - t.hour) < 0)
+        return true;
+
+    if((minute - t.minute) < 0)
+        return true;
+
+    return false;
+}
+
+bool timeCompareForEvent(Time &a, Time &t)
+{
+    if((a.year - t.year) < 0)
+        return true;
+
+    else if (a.year - t.year > 0)
+        return false;
+
+    if((a.month - t.month) < 0)
+        return true;
+
+    else if (a.month - t.month > 0)
+        return false;
+
+    if((a.day - t.day) < 0)
+        return true;
+
+    else if (a.day - t.day > 0)
+        return false;
+    
+    if((a.hour - t.hour) < 0)
+        return true;
+
+    else if (a.hour - t.hour > 0)
+        return false;
+
+    if((a.minute - t.minute) < 0)
+        return true;
+
+    return false;    
+}
+
+bool timeCompareOneHour(Time &a, Time &t)
+{
+    if((a.year - t.year) > 0)
+        return true;
+
+    if((a.month - t.month) > 0)
+        return true;
+
+    if((a.day - t.day) > 0)
+        return true;
+    
+    if((a.hour - t.hour) >= 1)
+        return true;
+
+    return false;   
+}
+ostream& operator<< (ostream& out, Time t)
+{
+        out << "Date: ";
+        if (t.day < 10)
+            out << "0";
+
+        out << t.day << "/";
+
+        if (t.month < 10)
+            out << "0";       
+
+        out << t.month << "/" << t.year << "\t";
+        out << "\nTime: ";
+        if (t.hour < 10)
+            out << "0";
+
+        out << t.hour << ":";
+
+        if (t.minute < 10)
+            out << "0";
+
+        out << t.minute << "\t";
+       
+        out << "\nStatus: ";
+        if(t.status)
+            out << "Occupied\n";
+        else    
+            out << "Free\n";
+        return out;
+}
+
