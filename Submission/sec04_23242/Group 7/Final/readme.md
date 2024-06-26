@@ -1,5 +1,5 @@
-# PROJECT REPORT GROUP 7
-## TOPIC: Scholarship Application System 🎓
+# SCHOLARSHIP APPLICATION SYSTEM 🎓
+## Group 7
 
 ### Table of Contents
 - [1.0 Introduction]
