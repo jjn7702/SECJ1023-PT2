@@ -1,4 +1,4 @@
-## Programming Technique II Phase 4: Project Finale
+# Programming Technique II Phase 4: Project Finale
 
 **DATE:** 27 May 2024
 
