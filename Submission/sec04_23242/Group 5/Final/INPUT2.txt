@@ -1,0 +1,120 @@
+The Dark Knight,Action,2000s,Christopher Nolan,Christian Bale,9.0
+Gladiator,Action,2000s,Ridley Scott,Russell Crowe,8.5
+Kill Bill: Vol. 1,Action,2000s,Quentin Tarantino,Uma Thurman,8.2
+The Bourne Ultimatum,Action,2000s,Paul Greengrass,Matt Damon,8.0
+300,Action,2000s,Zack Snyder,Gerard Butler,7.6
+Casino Royale,Action,2000s,Martin Campbell,Daniel Craig,8.0
+Spider-Man 2,Action,2000s,Sam Raimi,Tobey Maguire,7.4
+Iron Man,Action,2000s,Jon Favreau,Robert Downey Jr,7.9
+The Matrix Reloaded,Action,2000s,Lana Wachowski,Keanu Reeves,7.2
+Taken,Action,2000s,Pierre Morel,Liam Neeson,7.8
+Mad Max: Fury Road,Action,2010s,George Miller,Tom Hardy,8.1
+Inception,Action,2010s,Christopher Nolan,Leonardo DiCaprio,8.8
+The Avengers,Action,2010s,Joss Whedon,Robert Downey Jr,8.0
+John Wick,Action,2010s,Chad Stahelski,Keanu Reeves,7.4
+Skyfall,Action,2010s,Sam Mendes,Daniel Craig,7.8
+The Dark Knight Rises,Action,2010s,Christopher Nolan,Christian Bale,8.4
+Logan,Action,2010s,James Mangold,Hugh Jackman,8.1
+Guardians of the Galaxy,Action,2010s,James Gunn,Chris Pratt,8.0
+Django Unchained,Action,2010s,Quentin Tarantino,Jamie Foxx,8.4
+Black Panther,Action,2010s,Ryan Coogler,Chadwick Boseman,7.3
+Tenet,Action,2020s,Christopher Nolan,John David Washington,7.3
+No Time to Die,Action,2020s,Cary Joji Fukunaga,Daniel Craig,7.3
+The Suicide Squad,Action,2020s,James Gunn,Margot Robbie,7.2
+Dune,Action,2020s,Denis Villeneuve,Timothee Chalamet,8.0
+Top Gun: Maverick,Action,2020s,Joseph Kosinski,Tom Cruise,8.4
+Spider-Man: No Way Home,Action,2020s,Jon Watts,Zendaya,8.3
+The Batman,Action,2020s,Matt Reeves,Robert Pattinson,7.9
+Shang-Chi and the Legend of the Ten Rings,Action,2020s,Destin Daniel Cretton,Simu Liu,7.4
+Extraction,Action,2020s,Sam Hargrave,Chris Hemsworth,6.7
+Bullet Train,ction,2020s,David Leitch,Brad Pitt,7.3
+There Will Be Blood,Drama,2000s,Paul Thomas Anderson,Daniel Day-Lewis,8.2
+No Country for Old Men,Drama,2000s,Joel Coen,Tommy Lee Jones,8.2
+A Beautiful Mind,Drama,2000s,Ron Howard,Russell Crowe,8.2
+Slumdog Millionaire,Drama,2000s,Danny Boyle,Dev Patel,8.0
+Million Dollar Baby,Drama,2000s,Clint Eastwood,Hilary Swank,8.1
+Gladiator,Drama,2000s,Ridley Scott,Russell Crowe,8.5
+Eternal Sunshine of the Spotless Mind,Drama,2000s,Michel Gondry,Jim Carrey,8.3
+City of God,Drama,2000s,Fernando Meirelles,Alexandre Rodrigues,8.6
+Requiem for a Dream,Drama,2000s,Darren Aronofsky,Ellen Burstyn,8.3
+The Pianist,Drama,2000s,Roman Polanski,Adrien Brody,8.5
+Moonlight,Drama,2010s,Barry Jenkins,Mahershala Ali,7.4
+The Social Network,Drama,2010s,David Fincher,Jesse Eisenberg,7.7
+12 Years a Slave,Drama,2010s,Steve McQueen,Chiwetel Ejiofor,8.1
+The King's Speech,Drama,2010s,Tom Hooper,Colin Firth,8.0
+La La Land,Drama,2010s,Damien Chazelle,Ryan Gosling,8.0
+Whiplash,Drama,2010s,Damien Chazelle,Miles Teller,8.5
+Spotlight,Drama,2010s,Tom McCarthy,Mark Ruffalo,8.1
+Boyhood,Drama,2010s,Richard Linklater,Ellar Coltrane,7.9
+The Revenant,Drama,2010s,Alejandro G. Inarritu,Leonardo DiCaprio,8.0
+Manchester by the Sea,Drama,2010s,Kenneth Lonergan,Casey Affleck,7.8
+Nomadland,Drama,2020s,Chloe Zhao,Frances McDormand,7.4
+The Father,Drama,2020s,Florian Zeller,Anthony Hopkins,8.3
+Minari,Drama,2020s,Lee Isaac Chung,Steven Yeun,7.5
+Sound of Metal,Drama,2020s,Darius Marder,Riz Ahmed,7.8
+Promising Young Woman,Drama,2020s,Emerald Fennell,Emerald Fennell,7.5
+The Trial of the Chicago 7,Drama,2020s,Aaron Sorkin,Eddie Redmayne,7.8
+Mank,Drama,2020s,David Fincher,Gary Oldman,6.8
+Judas and the Black Messiah,Drama,2020s,Shaka King,Daniel Kaluuya,7.5
+The Power of the Dog,Drama,2020s,Jane Campion,Benedict Cumberbatch,6.9
+Dune,Drama,2020s,Denis Villeneuve,Timothee Chalamet,8.0
+Superbad,Comedy,2000s,Greg Mottola,Jonah Hill,7.6
+The Hangover,Comedy,2000s,Todd Phillips,Zach Galifianakis,7.7
+Anchorman: The Legend of Ron Burgundy,Comedy,2000s,Adam McKay,Will Ferrell,7.2
+Step Brothers,Comedy,2000s,Adam McKay,Will Ferrell,6.9
+Tropic Thunder,Comedy,2000s,Ben Stiller,Ben Stiller,7.0
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Comedy,2000s,Larry Charles,Sacha Baron Cohen,7.3
+Mean Girls,Comedy,2000s,Mark Waters,Lindsay Lohan,7.0
+Elf,Comedy,2000s,Jon Favreau,Will Ferrell,7.0
+Shaun of the Dead,Comedy,2000s,Edgar Wright,Simon Pegg,7.9
+Napoleon Dynamite,Comedy,2000s,Jared Hess,Jon Heder,6.9
+The Grand Budapest Hotel,Comedy,2010s,Wes Anderson,Ralph Fiennes,8.1
+Bridesmaids,Comedy,2010s,Paul Feig,Kristen Wiig,6.8
+The Wolf of Wall Street,Comedy,2010s,Martin Scorsese,Leonardo DiCaprio,8.2
+Superbad,Comedy,2010s,Greg Mottola,Jonah Hill,7.6
+21 Jump Street,Comedy,2010s,Phil Lord,Jonah Hill,7.2
+Deadpool,Comedy,2010s,Tim Miller,Ryan Reynolds,8.0
+Guardians of the Galaxy,Comedy,2010s,James Gunn,Chris Pratt,8.0
+The Nice Guys,Comedy,2010s,Shane Black,Russell Crowe,7.4
+Crazy Rich Asians,Comedy,2010s,Jon M. Chu,Constance Wu,7.0
+Palm Springs,Comedy,2020s,Max Barbakow,Andy Samberg,7.4
+Borat Subsequent Moviefilm,Comedy,2020s,Jason Woliner,Sacha Baron Cohen,6.7
+The King of Staten Island,Comedy,2020s,Judd Apatow,Pete Davidson,7.1
+Eurovision Song Contest: The Story of Fire Saga,Comedy,2020s,David Dobkin,Will Ferrell,6.5
+Bad Trip,Comedy,2020s,Kitao Sakurai,Eric Andre,6.5
+Barb and Star Go to Vista Del Mar,Comedy,2020s,Josh Greenbaum,Kristen Wiig,6.3
+Onward,Comedy,2020s,Dan Scanlon,Tom Holland,7.4
+The Personal History of David Copperfield,Comedy,2020s,Armando Iannucci,Dev Patel,6.3
+The Lovebirds,Comedy,2020s,Michael Showalter,Issa Rae,6.1
+Happiest Season,Comedy,2020s,Clea DuVall,Kristen Stewart,6.5
+The Half of It,Comedy,2020s,Alice Wu,Leah Lewis,6.9
+The Others,Horror,2000s,Alejandro Amenabar,Nicole Kidman,7.6
+The Ring,Horror,2000s,Gore Verbinski,Naomi Watts,7.1
+28 Days Later,Horror,2000s,Danny Boyle,Cillian Murphy,7.6
+Saw,Horror,2000s,James Wan,Cary Elwes,7.6
+The Descent,Horror,2000s,Neil Marshall,Shauna Macdonald,7.2
+Dawn of the Dead,Horror,2000s,Zack Snyder,Sarah Polley,7.3
+The Mist,Horror,2000s,Frank Darabont,Thomas Jane,7.1
+Paranormal Activity,Horror,2000s,Oren Peli,Katie Featherston,6.3
+Drag Me to Hell,Horror,2000s,Sam Raimi,Alison Lohman,6.6
+The Grudge,Horror,2000s,Takashi Shimizu	Sarah,Michelle Gellar,5.9
+Get Out,Horror,2010s,Jordan Peele,Daniel Kaluuya,7.7
+The Conjuring,Horror,2010s,James Wan,Patrick Wilson,7.5
+Hereditary,Horror,2010s,Ari Aster,Toni Collette,7.3
+It Follows,Horror,2010s,David Robert Mitchell,Maika Monroe,6.8
+A Quiet Place,Horror,2010s,John Krasinski,Emily Blunt,7.5
+The Babadook,Horror,2010s,Jennifer Kent,Essie Davis,6.8
+It,Horror,2010s,Andy Muschietti,Bill Skarsgard,7.3
+Us,Horror,2010s,Jordan Peele,Lupita Nyong'o,6.9
+The Witch,Horror,2010s,Robert Eggers,Anya Taylor-Joy,6.9
+Midsommar,Horror,2010s,Ari Aster,Florence Pugh,7.1
+The Invisible Man,Horror,2020s,Leigh Whannell,Elisabeth Moss,7.1
+A Quiet Place Part II,Horror,2020s,John Krasinski,Emily Blunt,7.3
+The Conjuring: The Devil Made Me Do It,Horror,2020s,Michael Chaves,Patrick Wilson,6.3
+His House,Horror,2020s,Remi Weekes,Sope Dirisu,6.5
+Relic,Horror,2020s,Natalie Erika James,Emily Mortimer,6.3
+The Night House,Horror,2020s,David Bruckner,Rebecca Hall,6.4
+Saint Maud,Horror,2020s,Rose Glass,Morfydd Clark,6.7
+Candyman,Horror,2020s,Nia DaCosta,Yahya Abdul-Mateen II,6.0
+The Empty Man,Horror,2020s,David Prior,James Badge Dale,6.1
+The Lodge,Horror,2020s,Veronika Franz,Riley Keough,6.1
