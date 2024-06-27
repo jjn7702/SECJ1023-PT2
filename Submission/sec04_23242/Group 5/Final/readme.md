@@ -1,6 +1,6 @@
 # FINAL VERSION   (MOVIE RECOMMENDATION SYSTEM)
 ## Presentation
-[CANVA_compressed.pdf](https://github.com/user-attachments/files/16009066/CANVA_compressed.pdf)
+[Click Here](https://github.com/user-attachments/files/16009066/CANVA_compressed.pdf)
 ## Report PDF
 [CLick Here](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group%205/Final/files/PT%20Final%20Report.pdf) <br>
 ## Code
