@@ -260,7 +260,7 @@ public:
     // Virtual destructor
     virtual ~Exercise() = default;
 };
-
+    
 // Cardio Class (inherits from Exercise)
 class Cardio : public Exercise {
 private:
@@ -474,9 +474,11 @@ class User{
         }
 
         void displayAllDailyLog(){
+    
             for (int i = 0; i < userLogCount + 1;i++){
                 cout << "#" << i + 1 << " Daily Log" << endl;
-                userLog[i].printAllMeals();
+                userLog[i].printAllMeals(); 
+                cout << "--------------------------------" << endl;
                 userLog[i].printAllExercise();
 
             }
@@ -683,9 +685,9 @@ void menu(User *user,FoodItem foodItems[], int foodItemCount){
     cout << "WELCOME TO NUTRACKERAPP" << endl;
 
     while(choice != 9){
-        cout << "-------------------------------------------------------nuTrackerApp HomePage-------------------\n";
-        cout << "1.Add Meals\t2.Add Exercise\t3.Add Goals\t4.View Goals\t5.Set Goals\t6.View Daily Log\n7.Add Daily Log\t\t8.Display User Info\t9.Exit" << endl;
-        cout << "------------------------------------------------------------------------------------------------\n";
+        cout << "\n----------------------------------nuTrackerApp HomePage-------------------\n";
+        cout << "1.Add Meals\n2.Add Exercise\n3.Add Goals\n4.View Goals\n5.Set Goals\n6.View Daily Log\n7.Add Daily Log\n\n8.Display User Info\n9.Exit" << endl;
+        cout << "--------------------------------------------------------------------------\n";
         cin >> choice;
         cin.ignore();
 
