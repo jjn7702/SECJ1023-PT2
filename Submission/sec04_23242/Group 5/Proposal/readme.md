@@ -17,17 +17,17 @@ Finally, gathering insightful information on the preferences, habits, and patter
 # How to Use The System
 ## --> User Registration
 The user can establish an account using an email address and password in order to keep their information and data accessible from any device. A variety of data, such as preferences, settings, and any other relevant information on the app, can be stored once they have an account. This allows the user to have a personalized experience while using the app.
-# --> Preference Selection
+## --> Preference Selection
 Users can choose their movie preferences, such as genres, year of release, actors, and directors, based on their interests. Users have the right to customize their movie preferences in order to enhance their overall app experience and make the app more personalized based on individual taste.
-# --> Personalized Recommendation
+## --> Personalized Recommendation
 The system will provide a personalized movie recommendation based on the user's preferences. Users are allowed to browse and select the recommended movies that they are interested in. This browsing and selection process gives users the opportunity to explore recommended movies at their own pace. It also improves their movie-watching experience by offering personalized suggestions that match their tastes.
-# --> Feedback
+## --> Feedback
 Collect feedback and reviews from the users within the app, where they can rate the recommended movies on a scale of 5. This enables the system to create better future recommendations and also improves the user's app experience. 
-# --> Movie Matchmaker
+## --> Movie Matchmaker
 A feature within the system that is designed to adapt to users' moods on any given day. This feature will suggest films based on their current feelings at the moment. Additionally, this feature also offers a random option, which is perfect for users who struggle with decision-making.
 
 # Reporting
 For the output of the system, a list of personalized movies for users based on their preferences and past data. Relevant details such as title, genre, year of release, synopsis, director, and cast will be included. Besides that, in order to refine and improve the future movie recommendation, the user will be asked to rate the recommended movie on a scale of 5. In addition, The system will also display additional information, such as trending movies and upcoming releases.
 
-### Videolink
+## Videolink
 [Click Here](https://www.youtube.com/watch?v=7h0dXbHTV-M&t=152s](https://youtu.be/x3d3-U1fO6s?si=W9Gs7ogg82IptGdw))
