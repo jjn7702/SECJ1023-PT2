@@ -1,5 +1,14 @@
 # Fitness Progress Tracker System
 
+**LECTURER'S NAME:** Ms. Lizawati Binti Mi Yusuf
+
+| NAME                                    | MATRICS NUMBER |
+|-----------------------------------------|----------------|
+| Muhammad Nazmi Bin Mohd Saifulizam      | A23CS0135      |
+| Muhammad Azfar bin Sharifuddin          | A23CS0123      |
+| Dillan Revada                           | A23CS0290      |
+| Muhammad Danial Bin Nasharudin          | A23CS0125      |
+
 ## Section A: Flowchart
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/b5e78a8e-8556-44df-bd4c-d20e16e4257f)
 
