@@ -1,4 +1,4 @@
-[3Square Proposal](./3Square/Proposal/Readme.md)
+
 ### PROJECT PROPOSAL
 ---
 
