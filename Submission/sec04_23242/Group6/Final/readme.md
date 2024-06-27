@@ -287,7 +287,7 @@ An array of objects is a collection of instances of the same class type. It allo
 - `Nutrition *nutritions[100]` is an array that can hold up to 100 pointers to Nutrition objects.
 - The `numA` and `numN` variables are used to count the array of activities and nutrition respectively.
 - These arrays allow ProgressTracker to keep track of multiple activities and nutrition entries for a user.
-- 
+  
 ### Add Activtiy and Nutrition Method
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/193eea69-f492-46bc-bad9-2912acc2f0ee)
 
@@ -331,5 +331,4 @@ An array of objects is a collection of instances of the same class type. It allo
 - Once logged in, users can perform various actions such as adding nutrition, adding activities, updating their profile, and showing progress.
 - These actions are managed using the User object at the `accindex`.
 - For example, the users can log their cardio activity.
-
 - Similarly, other choices of menu allow users to add activities, update their profile, and display their progress.
