@@ -1,7 +1,6 @@
 ## Programming Technique II Phase 4: Project Finale
 
-**DATE:** 28 May 2024
-
+**DATE:** 27 May 2024
 
 **LECTURER'S NAME:** Ms. Lizawati Binti Mi Yusuf
 
@@ -87,3 +86,149 @@ The Fitness Progress Tracker offers several useful outputs to help users monitor
 
 5. **Feedback and Tips:**
     - The system offers simple personalized feedback and tips based on the users’ profile. This helps users stay motivated and make informed decisions to improve their fitness progress.
+
+
+
+# 3.0 Association (Aggregation)
+
+Aggregation is a special form of association which is a one-way relationship. It models a "has-a" relationship between classes where the enclosing class "has-a" enclosed class. The existence of both enclosing and enclosed objects are independent. In this case, there are three aggregation relationships which are ProgressTracker and Activity, ProgressTracker and Nutrition, as well as Profile and Goal. Here is the explanation:
+
+### ProgressTracker and Activity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/4c4c23a6-21c2-448b-b762-d3aeae6a470f)
+- The relationship between ProgressTracker and Activity is aggregation where both enclosing objects and enclosed objects can exist independently.
+- In this context, the ProgressTracker class "has-a" and manages multiple Activity objects, but these Activity objects can exist independently of the ProgressTracker.
+- The ProgressTracker class is designed to keep track of a user's fitness progress by recording various activities they perform which hold arrays of Activity objects to store and manage these activities.
+
+### ProgressTracker and Nutrition
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/4f24f8ef-0a94-4d50-8b32-423b09efc340)
+- ProgressTracker aggregates Nutrition.
+- In this context, the ProgressTracker class "has-a" and manages multiple Nutrition objects, but these Nutrition objects can exist independently of the ProgressTracker.
+- This relationship suggests that while ProgressTracker tracks multiple nutritional records, the existence of Nutrition objects is not dependent on the ProgressTracker.
+- The ProgressTracker class is designed to keep track of a user's fitness progress by recording various nutritional intakes along with activities which hold arrays of Nutrition objects to store and manage these nutritional entries.
+
+### Profile and Goal
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/5662593e-c562-42ca-966d-fb9d6e5b777a)
+- Profile has aggregation with Goal.
+- This means Profile manages Goal objects but does not strictly control their lifecycle.
+- Profile objects (enclosing objects) do not necessarily have Goal objects (enclosed objects).
+- Both of them can exist independently regardless of if one party is destroyed.
+- The Profile class is designed to manage user details related to their fitness journey, including current weight, goal weight, and fitness goals which holds a pointer to a Goal object to represent the user's fitness goal.
+
+# 4.0 Inheritance
+
+Inheritance is a concept where a new class (derived class) inherits the properties and behavior of another class (base class). In this case, there are derived classes from the Activity (base class) and StrengthActivity (intermediate base class). Here is the explanation:
+
+### Base Class: Activity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/a043e651-d0e0-4713-825a-acf12a18a812)
+**Interpretation:**
+- Activity will be the base class where the derived classes such as SportsActivity, CardioActivity, and StrengthActivity inherit its attributes and behavior.
+
+### Derived Class: SportsActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/afe7578f-3ab7-4f28-9ddc-5efa504202a3)
+
+### Derived Class: CardioActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/c0621bca-1159-41a4-8d32-f05eb28df45d)
+
+### Derived Class: StrengthActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/c37a8bfc-59f2-477c-a465-f0f5efff0838)
+**Interpretation:**
+- These classes are specialized forms of Activity, each with unique attributes and behaviors that extend the base class Activity.
+- Inheritance is used here to promote code reuse and polymorphic behavior.
+- Each subclass extends the functionality of the base class and introduces specialized behaviors without duplicating code. For example, specific calorie burning calculations and activity-specific attributes.
+
+### Derived Class: BodyWeightExercise
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/95fb858c-f3f7-4c73-a659-3966262d7ae8)
+
+### Derived Class: WeightExercise
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/a45b4db8-dbef-4aaa-bf8c-82afd9297f53)
+**Interpretation:**
+- These classes are specialized forms of Activity and StrengthActivity, each with unique attributes and behaviors that extend the Activity (base class) and StrengthActivity (intermediate base class).
+- The BodyWeightExercise and WeightExercise are inherited from the StrengthActivity and through it, indirectly from Activity.
+- By inheriting from StrengthActivity, they not only gain the general attributes of Activity (duration, intensity) but also the specialized attributes of StrengthActivity (sets, repsPerSet).
+
+# 5.0 Polymorphism
+
+Polymorphism is one of the most important concepts in OOP that describes the ability of objects to take or to be displayed in different forms. In other words, it performs the same actions but different behaviors. It allows objects of different classes to be treated as objects of a common superclass. In this case, we implement the virtual member functions on base classes like Activity and StrengthActivity that will do the dynamic binding where the bindings are decided at runtime. Here is the explanation:
+
+### Base Class: Activity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/dcd3405e-594c-4d36-8229-1ad8fcb14b67)
+**Interpretation:**
+- The `calculateCaloriesBurned()` and `displayActivity()` methods in the Activity (base class) are declared as virtual.
+- This allows derived classes from the Activity (base class) such as StrengthActivity, SportsActivity, and CardioActivity to provide their own implementation.
+
+### Derived Class: SportsActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/21e1d5a8-16ac-48f4-a076-7c2aacf94d68)
+
+### Derived Class: CardioActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/db2bba49-719b-497e-8001-105626d05d03)
+**Interpretation:**
+- SportsActivity and CardioActivity classes override the `calculateCaloriesBurned()` and `displayActivity()` methods from the base class, providing specific implementations.
+
+### Derived Class and Intermediate Base Class: StrengthActivity
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/276ee7de-913c-4930-85bd-a7e05fb35730)
+**Interpretation:**
+- Other than overriding the `calculateCaloriesBurned()` and `displayActivity()` methods from the Activity (base class), the StrengthActivity class also will be an intermediate base class.
+- The `calculateCaloriesBurned()` and `displayActivity()` methods in the StrengthActivity (intermediate base class) will be declared as virtual too.
+- This allows derived classes from the Activity (base class) and StrengthActivity (intermediate base class) which are WeightExercise and BodyWeightExercise classes to provide their own implementation.
+
+### Derived Class: WeightExercise
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/be92f7a8-4b53-40cf-b8d4-5c2863c868a3)
+
+### Derived Class: BodyWeightExercise
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/0ce9ad56-66d3-4626-b500-cc8e08d073ec)
+**Interpretation:**
+- WeightExercise and BodyWeightExercise override the `calculateCaloriesBurned()` and `displayActivity()` methods from the Activity (base class) and the StrengthActivity (intermediate base class) to provide specific implementations.
+
+# 6.0 Array of Objects
+
+
+An array of objects is a collection of instances of the same class type. It allows for the management of multiple objects of the same type in a structured way. The arrays of objects can be used to store and manipulate collections of objects using indices, providing a convenient way to handle multiple data items of the same type. This concept is implemented in the project to store the users, activities, and nutrition information. Here is the explanation:
+
+### Activity and Nutrition Array in ProgressTracker Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/c941d2a1-01f2-4c27-9d8a-d5ded9b77ee8)
+**Interpretation:**
+- Arrays of objects are used in the ProgressTracker class to manage collections of Activity and Nutrition objects.
+- `Activity *activities[100]` is an array that can hold up to 100 pointers to Activity objects.
+- `Nutrition *nutritions[100]` is an array that can hold up to 100 pointers to Nutrition objects.
+- The `numA` and `numN` variables are used to count the array of activities and nutrition respectively.
+- These arrays allow ProgressTracker to keep track of multiple activities and nutrition entries for a user.
+- 
+### Add Activtiy and Nutrition Method
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/193eea69-f492-46bc-bad9-2912acc2f0ee)
+**Interpretation:**
+- The `addActivity()` method takes a pointer to an Activity object and adds it to the activities array, incrementing the `numA` counter.
+- The `addNutrition()` method takes a pointer to a Nutrition object and adds it to the nutritions array, incrementing the `numN` counter.
+  
+### Display Activtiy and Nutrition Method
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/900f4232-2b1f-4a97-8a42-da99b463f8a8)
+**Interpretation:**
+- The `showProgress()` method iterates over the activities array using a for loop, displaying each activity and calculating calories burned.
+- Similarly, it iterates over the nutritions array to display each nutrition entry.
+- The use of loops to iterate over arrays allows for processing each object stored in the array efficiently.
+
+### Users Array in Main Function
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/93ea1608-5ed7-4d97-ae80-969ceee2c0b5)
+**Interpretation:**
+- `User u[100]` is an array of User objects that can hold up to 100 users. Each element in the array is an instance of the User class.
+- The `arraycounter` variable is used to count the array of users.
+  
+### Users Array For Registration
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/1ead5d9e-6391-4c0d-a45f-04930e89dd55)
+**Interpretation:**
+- When a new user creates an account, their information is stored in the next available slot in the User array.
+- `arraycounter` is incremented to point to the next available slot in the array for the next new user.
+
+### Users Array For Login
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/dcf6db95-1902-4798-8f21-0fb5bfdb762c)
+**Interpretation:**
+- When an existing user attempts to log in, the program iterates through the User array to verify the username and password.
+- If a match is found, `accindex` is set to the index of the matching user.
+
+### Users Array For Add Activity and Nutrition
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/7ff738b5-5087-4c45-928d-bf0ce3fa4a35)
+**Interpretation:**
+- Once logged in, users can perform various actions such as adding nutrition, adding activities, updating their profile, and showing progress.
+- These actions are managed using the User object at the `accindex`.
+- For example, the users can log their cardio activity.
+
+- Similarly, other choices of menu allow users to add activities, update their profile, and display their progress.
