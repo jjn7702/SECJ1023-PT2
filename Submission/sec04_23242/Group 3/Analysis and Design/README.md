@@ -21,22 +21,22 @@
 <tr>
 <td>User</td>
 <td>-Name
-<br>-Age
-<br>-Gender</td>
-  <td>-inputName<br>-inputGender<br>-inputAge </td>
+  <td>-User<br>-inputName<br>-getName<br>-inputDetails<br>-returnGender<br>-returnAge<br>-~User </td>
         </tr>
 </tr>
 <td>Ingredient</td>
 <td>-Array of ingredient
-<br>-IngredientCount</td>  
-  <td>-inputIngredient<br>-countIngredient</td>
+<br>-count</td>  
+  <td>-inputIngredient<br>-removeIngredient<br>-Ingredient(string, int)<br>-setCount<br>-getCount<br>-*getIngredients</td>
         </tr>
 <tr>
 <td>Allergy</td>
-<td>-Array of Allergy
+<td>-Array of Found
 <br>-Ingredient form class Ingredient
-<br>-Array of Status Allergy</td>
-  <td>-statusAllergy</td>
+<br>-*ingredients
+<br>-IngredientCount
+<br>-count</td>
+  <td>-statusAllergy<br>-getFound<br>-getCounts</td>
         </tr>
   <tr>
 <td>Alert</td>
@@ -46,12 +46,12 @@
   <tr>
         <td>Male</td>
 <td>-Age<br>-Gender</td>
-  <td>-inputAge<br>-inputGender</td>
+  <td>-inputAge<br>-inputDetails<br>-Male<br>-returnGender<br>-returnAge</td>
         </tr>
 <tr>
         <td>Female</td>
 <td>-Age<br>-Gender</td>
-  <td>-inputAge<br>-inputGender</td>
+  <td>-inputAge<br>-inputDetails<br>-Female<br>-returnGender<br>-returnAge</td>
         </tr>
 
 <p>The problem analysis presents a system designed to manage user information, ingredients, allergies, and alerts through four main classes: User, Ingredient, Allergy, and Alert. The User class represents individuals using the system and includes attributes for their name, age, and gender, with methods to input these details (inputName, inputGender, and inputAge). The Ingredient class handles a collection of ingredients with attributes for an array of ingredients and a count of these ingredients, and includes methods to input and count the ingredients (inputIngredient and countIngredient).
