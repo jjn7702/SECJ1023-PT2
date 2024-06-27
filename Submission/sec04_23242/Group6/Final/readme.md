@@ -87,13 +87,17 @@ The Fitness Progress Tracker offers several useful outputs to help users monitor
 5. **Feedback and Tips:**
     - The system offers simple personalized feedback and tips based on the users’ profile. This helps users stay motivated and make informed decisions to improve their fitness progress.
 
-## 2.0 2.0 Analysis and Design 
+## 2.0 Analysis and Design 
 
 ### 2.1 UML Diagram
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/61c850d3-434c-47fe-a3ae-97158fae8d6e)
 
+
 ### 2.1 Flowchart
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/b4766f82-a1aa-462b-9256-f7df2b1e17f0)
+
+**Brief Description of the Main Process**: The Fitness Progress Tracker System initiates interaction with new users through a user-friendly registration process where they input username, password and update profiles such as current weight, goal weight, and fitness goals to create an account. After successfully creating an account, users are guided to log in by authenticating their credentials in order to ensure secure access to their account. This integration of registration, profile updates and authentication is crucial for better user experiences and ensuring that each user's fitness journey is aligned with their specific goals and preferences.
+Once logged in, users interact with the system by choosing menu options including logging various physical activities, nutritions and progress feedback.  The system records specifics such as activity duration, intensity, type of food consumed, and caloric intake which is important especially for calculating calories burned. Besides, the users also can choose to update their profile especially in situations where they already achieved their previous goal and want to make a new goal. Furthermore, the system provides users with feedback on their progress towards their fitness goals. This comprehensive approach to activity and nutrition management, coupled with  profile update and simple constructive feedback, creates a supportive environment that encourages users to maintain and enhance their health and fitness levels effectively.
 
 
 # SECTION B
