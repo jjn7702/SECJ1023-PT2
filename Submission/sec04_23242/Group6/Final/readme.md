@@ -1,5 +1,6 @@
 # Universiti Teknologi Malaysia (UTM)
-![UTM Logo](https://upload.wikimedia.org/wikipedia/en/0/0f/UTM_Logo.png)
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/b167be38-aa30-4797-9c47-d32a371db425)
+
 
 ## Programming Technique II Phase 4: Project Finale
 
