@@ -107,51 +107,62 @@ Encapsulation is the bundling of data attributes and methods that operate on tha
 Here is the Explanation:
 
 ### Goal Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/b77c6876-5b25-4369-9cae-f16c2a4b2522)
 
 - Private Data Members: description and isAchieved
 - Accessor and Mutator: `getDesc()`, `getAchieved()`, `setDesc()`, `setAchieved()`
 
 ### Profile Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/f4d7ab97-ec0d-492d-ae8d-b7ab27bd0963)
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/ebb4219b-ae18-4e7b-950e-ca4a7f616101)
 
 - Private Data Members: currentWeight, goalWeight
 - Accessor: `getCurrentWeight()`, `getGoalWeight()`
 
 ### Nutrition Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/f1051409-2d20-4408-a87f-2de7dd754df1)
 
 - Private Data Members: food, calories
 - Accessor and Mutator: `getFood()`, `getCalories()`, `setFood()`, `setCalories()`
 
 ### Activity Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/99952fd0-77a4-4585-b767-c6ae3f4e6641)
 
 - Private Data Members: duration, intensity
 - Accessor: `getDuration()`, `getIntensity()`
 
 ### SportsActivity Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/135f1546-ccba-49f2-9dec-009b42bfbb89)
 
 - Private Data Members: sportType
 - Mutator: `setSportType()`
 
 ### CardioActivity Class 
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/d909f20f-f72b-453b-98b7-c7e3fe74fa5c)
 
 - Private Data Members: distance
 - Accessor and Mutator: `getDistance()`, `setDistance()`
 
 ### StrengthActivity Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/2389a85d-7125-47bf-b17e-fed56ae94bd3)
 
 - Private Data Members: repsPerSet, sets
 - Accessor and Mutator: `getReps()`, `getSets()`, `setReps()`, `setSets()`
 
 ### BodyWeightExercise Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/a196b1d3-1730-4d8d-a601-de76d5b8c3a3)
 
 - Private Data Members: exerciseType
 - Accessor and Mutator: `getExerciseType()`, `setExerciseType()`
 
 ### WeightExercise Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/2578f3b0-6abd-493b-9683-135bbda51bc5)
 
 - Private Data Members: weight
 - Accessor and Mutator: `getWeight()`, `setWeight()`
 
 ### User Class
+![image](https://github.com/jjn7702/SECJ1023-PT2/assets/147962263/15627377-446c-41d7-ab59-15a599e00f3c)
 
 - Private Data Members: username, password
 - Accessor and Mutator: `getUsername()`, `getPassword()`, `setUsername()`, `setPassword()`
