@@ -15,5 +15,5 @@ Movie recommendation system is a type of information filtering system which atte
 ## Findings
 📄[Proposal](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%205/Proposal) <br>
 📽[Proposal Video](https://youtu.be/x3d3-U1fO6s?si=W9Gs7ogg82IptGdw) <br>
-🫧[Analysis & Design](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%205/Analysis-Design)
+🫧[Analysis & Design](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%205/Analysis-Design) <br>
 [Final](https://github.com/jjn7702/SECJ1023-PT2/tree/main/Submission/sec04_23242/Group%205/Final)
