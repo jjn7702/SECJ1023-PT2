@@ -28,7 +28,7 @@ A feature within the system that is designed to adapt to users' moods on any giv
 
 ## Reporting
 For the output of the system, a list of personalized movies for users based on their preferences and past data. Relevant details such as title, genre, year of release, synopsis, director, and cast will be included. Besides that, in order to refine and improve the future movie recommendation, the user will be asked to rate the recommended movie on a scale of 5. In addition, The system will also display additional information, such as trending movies and upcoming releases.
-## ----------------------------------------------------------------------------------------------------------------------------------------------------
+## --------------------------------------------------------------------------------------------------------
 ## Proposal PDF
 [Proposal](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec04_23242/Group%205/Proposal/files/Project%20Proposal.pdf) <br> 
 ## Video Link
