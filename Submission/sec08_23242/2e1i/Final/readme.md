@@ -22,8 +22,13 @@
 ### Encapsulation
 ### Association - Aggregation
 ### Association - Composition
-### Inheritance
-### Polymorphism
+### Inheritance and Polymorphism
+<image src = "image/parentClass.png" width="400" height="260">
+
+<image src = "image/regularSignUp.png" width="500" height="240">
+
+<image src = "image/nutritionistSignUp.png" width="500" height="250">
+
 ### Exception Handling
 
 ## References
