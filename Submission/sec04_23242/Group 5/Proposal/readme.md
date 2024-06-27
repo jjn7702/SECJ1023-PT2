@@ -1,20 +1,20 @@
-# PROPOSAL (MOVIE RECOMMENDATION SYSTEM)
+# 🎥 PROPOSAL (MOVIE RECOMMENDATION SYSTEM) 🎥
 
-## 1.0 Synopsis & General Idea
+## 1.0 Synopsis & General Idea 🧠
 A movie recommendation system is a type of information filtering system which attempts to predict the preferences of a user. By analysing users behaviour such as ratings, movie recommendation system aims to offer personalized recommendations that align with individual tastes and interests. It employs algorithms to match users with films that they are likely to enjoy in order to enhancing their overall viewing experience.
 
 Furthermore, this system is able to collect information about users’ choices and can use this information to improve their suggestions in the future. For example, it may track which movies users watch, how they rate them, and which recommendations they follow. These are allowing the system to give more suggestions accurately to each user. Sometimes, the recommendation systems can make improvements based on the activities of a large number of people too. For example, if the system observes a large number of customers who watch the latest movie, they can recommend the movie to a new user who has just download the movie recommendation system.
 
 Three main approaches are used for our recommender systems which is demographic filtering, content-based filtering and collaborative filtering. For demographic filtering, they offer generalized recommendations to every user based on movie popularity and genre. The basic concept is movies that are more popular will have a higher probability of being liked by the average audience. Next, content-based filtering involves profiling users’ interests using information collected and recommend items based on that profile. The other is collaborative filtering aim to group similar users together and use information about the group to make recommendations to the user.
 
-## 2.0 System Objectives and Purposes
+## 2.0 System Objectives and Purposes 🧠
 Firstly, tailoring movie suggestion based on the preferences and actions of our users. The recommendation system can increase user satisfaction and retention by suggesting relevant and interesting movies based on analysis of user's viewing history, ratings, and interactions with the system.
 
 Secondly, helping our users in finding hidden gems and underrated movies that they would not have encountered. The recommendation system can highlight independent or niche movies, broadening viewers perspective and encouraging a wider selection of films.
 
 Finally, gathering insightful information on the preferences, habits, and patterns of movie-watching among users. Analyzing user data can make a better decision making and company growth, which can also be used to guide marketing efforts, platform enhancement, and content acquisition plans. 
 
-## 3.0 How to Use The System
+## 3.0 How to Use The System 🪜
 ### 3.1 User Registration
 The user can establish an account using an email address and password in order to keep their information and data accessible from any device. A variety of data, such as preferences, settings, and any other relevant information on the app, can be stored once they have an account. This allows the user to have a personalized experience while using the app.
 ### 3.2 Preference Selection
