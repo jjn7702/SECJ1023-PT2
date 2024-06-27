@@ -4,8 +4,8 @@
 
 - [Synopsis and General Idea](#synopsis-and-general-idea)
 - [Objectives and Purpose](#objectives-and-purpose)
-- [Flowchart & UML Diagram](#flowchart-&-uml-diagram)
-- [Implementation of OO Concept](#implementaion-of-oo-concept)
+- [Flowchart & UML Diagram](#flowchart--uml-diagram)
+- [Implementation of OO Concept](#implementation-of-oo-concept)
 - [References](#references)
 
 ## Synopsis and General Idea
@@ -26,7 +26,7 @@
 ### Polymorphism
 ### Exception Handling
 
-## Reference
+## References
 - https://www.calculator.net/bmi-calculator.html
 - https://www.calculator.net/bmr-calculator.html
 - https://www.healthyweightforum.org/eng/calculators/activity-burned/
