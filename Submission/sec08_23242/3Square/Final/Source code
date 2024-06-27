@@ -1,1 +1,456 @@
+#include<iostream>
+#include<string>
+#include<fstream>
+#include<cctype>
+using namespace std;
 
+#define MAXSTUDENT 100
+class StudentInfo{
+    protected:
+      string name,studentID,email,contactNum;
+      int age;
+
+    public:
+      StudentInfo(string n="",int a=0,string id="",string e="",string contact=""){
+        name=n;
+        age=a;
+        studentID=id;
+        email=e;
+        contactNum=contact;
+      }
+
+      void setName(string n)
+      {name=n;}
+
+      void setAge(int a)
+      {age=a;}
+
+      void setStudentID(string id)
+      {studentID=id;}
+
+      void setEmail(string e)
+      {email=e;}
+
+      void setContactNum(string num)
+      {contactNum=num;}
+
+      string getName()
+      {return name;}
+
+      int getAge()
+      {return age;}
+
+      string getStudentID()
+      {return studentID;}
+
+     string getEmail()
+     {return email;} 
+
+      string getContactNum()
+      {return contactNum;}
+      
+      //This function is to check whether the email is valid or not
+      bool checkEmail() {  
+        int atPos = email.find("@");
+        int dotPos = email.find(".", atPos);
+        if (atPos == -1  || atPos == -1 || atPos > dotPos) {
+            return false;
+        }
+        return true;
+      }
+
+      void readData() {
+        cout << "Enter your name: ";
+        getline(cin, name);
+        cout << "Enter your age: ";
+        cin >> age;
+        cin.ignore();
+        cout << "Enter your student ID: ";
+        cin >> studentID;
+        cout << "Enter your contact number: ";
+        cin >> contactNum;
+        cout << "Enter your email: ";
+        cin >> email;
+        while (!checkEmail()) {
+            cout << "Invalid email. Please re-enter: ";
+            cin >> email;
+        }
+      }
+     
+    ~StudentInfo()
+    {}
+};
+
+class Student{
+    protected:
+      int familyincome,year;
+      double cgpa,courseFee;
+      StudentInfo s1;
+
+    public:
+       Student(int income=0,double c=0.0,double fee=0.0,int y=0,string name="",int age=0,string id="",string email="",string contact=""):
+       s1(name,age,id,email,contact)
+       {
+          familyincome=income;
+          cgpa=c;
+          courseFee=fee;
+          year=y;
+       }
+
+       class NegativeSign{};
+
+       void setfamilyincome(int income)
+       {familyincome=income;}
+
+       void setcgpa(double c)
+       {cgpa=c;}
+
+       void setcourseFee(int fee)
+       {courseFee=fee;}
+
+       void setyear(int y)
+       {year=y;}
+
+       double getcgpa()
+       {return cgpa;}
+
+       double getcourseFee()
+       {return courseFee;}
+
+       int getfamilyIncome()
+       {return familyincome;}
+
+       int getYear()
+       {return year;}
+
+    void StudentData() {
+        s1.readData();
+        cout << "Enter your family income (RM): ";
+        cin >> familyincome;
+        if (familyincome<0)
+        throw NegativeSign();
+        cout << "Enter your current CGPA: ";
+        cin >> cgpa; 
+        
+        //Check the validate CGPA
+        while (cgpa < 0 || cgpa > 4.0) {
+           cout << "Invalid CGPA. CGPA should be between 0.0 and 4.0." << endl;
+           cout << "Enter your current CGPA: ";
+           cin >> cgpa;
+        }
+        if(cgpa<0)
+        throw NegativeSign();
+        cout << "Enter your course fee (RM): ";
+        cin >> courseFee;
+        if (courseFee<0)
+        throw NegativeSign();
+        cout << "Enter your year of study: ";
+        cin >> year;
+        if (year<0)
+        throw NegativeSign();
+    }
+    
+    //Store the student's data to a file named "data.txt".
+    void file(){
+       
+        ofstream out;
+        out.open("data.txt", ios::app); // Open in append mode
+        if (!out) {
+            cerr << "Error opening file!" << endl;
+            return;
+        }
+        
+        string upperName;
+        upperName = s1.getName();
+        
+        //Convert the name to uppercase.
+        for(int i=0; i<upperName.length();++i){
+          upperName[i]=toupper(upperName[i]);
+        }
+
+        s1.setName(upperName);
+        
+        out << "Name: " << s1.getName()<< endl;
+        out << "Age: " << s1.getAge() << endl;
+        out << "Student ID: " << s1.getStudentID() << endl;
+        out << "Contact Number: " << s1.getContactNum() << endl;
+        out << "Email: " << s1.getEmail() << endl;
+        out << "Enter your family income (RM): "<<familyincome<<endl;
+        out << "Enter your current CGPA: "<<cgpa<<endl;
+        out << "Enter your course fee (RM): "<<courseFee<<endl;
+        out << "Enter your year of study: "<<year<<endl;
+        out << endl;
+
+        out.close();
+    }
+
+    virtual void printDetails()=0;
+
+    ~Student(){}
+};
+
+
+
+class Undergraduate : public Student {
+  public:
+    Undergraduate(int income = 0, double c = 0.0, double fee = 0.0, int y = 0) : Student(income, c, fee, y) {}  //inheritance
+
+    void printDetails() {
+        cout << endl << "Student Details:" << endl;
+        cout << "Name: " << s1.getName() << endl;
+        cout << "Age: " << s1.getAge() << endl;
+        cout << "Student ID: " << s1.getStudentID() << endl;
+        cout << "Contact Number: " << s1.getContactNum() << endl;
+        cout << "Email: " << s1.getEmail() << endl;
+        cout << "Family income (RM): " << familyincome << endl;
+        cout << "Current CGPA: " << cgpa << endl;
+        cout << "Course fee (RM): " << courseFee << endl;
+        cout << "Year of study: " << year << endl;
+    }
+
+    ~Undergraduate(){}
+};
+
+class Postgraduate : public Student{
+  protected:
+    string degreeProgram;
+
+  public:
+    Postgraduate(int income = 0, double c = 0.0, double fee = 0.0, int y = 0, string dP="") : Student(income, c, fee, y), degreeProgram(dP) {}
+
+    string getDegreeProgram()
+    {return degreeProgram;}
+
+    void setDegreeProgram(string dp)
+    {degreeProgram=dp;}
+
+    void printDetails(){
+        cout << endl << "Student Details:" << endl;
+        cout << "Name: " << s1.getName() << endl;
+        cout << "Age: " << s1.getAge() << endl;
+        cout << "Student ID: " << s1.getStudentID() << endl;
+        cout << "Contact Number: " << s1.getContactNum() << endl;
+        cout << "Email: " << s1.getEmail() << endl;
+        cout << "Family income (RM): " << familyincome << endl;
+        cout << "Current CGPA: " << cgpa << endl;
+        cout << "Course fee (RM): " << courseFee << endl;
+        cout << "Year of study: " << year << endl;
+        cout << "Degree Program: " << degreeProgram << endl;
+    }
+
+    ~Postgraduate(){}
+};
+
+class Scholarship
+{
+  protected:
+  int scholarshipType;
+  double scholarshipAmount;
+  string application;
+  Student *student;
+
+  public:
+  Scholarship(int st=1, double sAmount=0.00, string a="Pending"):scholarshipType(st),scholarshipAmount(sAmount),application(a)
+  {student = NULL;}
+
+  int getScholarshipType()
+  {return scholarshipType;}
+
+  double getScholarshipAmount()
+  {return scholarshipAmount;}
+
+  string getApplication()
+  {return application;}
+
+  void setScholarshipType(int st)
+  {scholarshipType=st;}
+
+  void setScholarshipAmount(double sa)
+  {scholarshipAmount=sa;}
+
+  void updateStatus(string status)
+  {application=status; }
+
+  void addStudent(Student *s)
+  {student=s;}
+
+  virtual void scholarshipInfo()=0;
+
+  virtual void amountReceived()=0;
+
+  ~Scholarship(){}
+};
+
+class MeritBased:public Scholarship
+{
+  public:
+  MeritBased(int sT = 1,double amount=0.0, string aS = "Pending"):Scholarship(sT,amount,aS){}
+
+  //Calculates the scholarship amount a student is eligible for based on their CGPA.
+  void amountReceived(){
+    if (student->getcgpa() == 4.0) {
+      scholarshipAmount=student->getcourseFee() ;
+      application="Approved";
+    }
+    else if (student->getcgpa() >= 3.67) {
+      scholarshipAmount= 0.75 * student->getcourseFee();
+      application="Approved";
+    }
+    else if (student->getcgpa() >= 3.0) {
+      scholarshipAmount= 0.5 * student->getcourseFee();
+      application="Approved";
+    }
+    else {
+      scholarshipAmount= 0.0;
+      application="Rejected";
+    }
+  }
+
+  void scholarshipInfo(){
+    if (application == "Approved"){
+      cout << endl << "Congratulation! You get a Merit-Based Scholarship"<< endl;
+      cout << "The amount that you get is RM " << scholarshipAmount << endl;
+    }
+    else
+      cout << endl << "Your merit-based scholarship application has been rejected" << endl;
+    }
+
+  ~MeritBased(){}
+};
+
+class NeedBased:public Scholarship
+{
+  public:
+  NeedBased(int sT = 2, double amount=0.0,string aS = "Pending"):Scholarship(sT,amount,aS){}
+  
+  //Calculates the scholarship amount a student is eligible based on the student's CGPA and family income.
+  void amountReceived() {
+    if(student->getcgpa()>=3.0){
+          
+      if(student->getfamilyIncome() < 4849){
+        cout << endl << "You are in category B40. Need-based scholarship application has been approved."<<endl;
+        scholarshipAmount=student->getcourseFee();
+        application="Approved";
+      }
+
+      else{
+        cout << endl << "You are in category M40 and T20."<<endl;
+        scholarshipAmount= 0.0;
+        application="Rejected";
+        }
+      }
+
+    else{
+      cout << endl << "Your CGPA is below 3.0. You do not meet our requirement for need-based scholarship."<< endl;
+      scholarshipAmount=0.0;
+      application= "Rejected";
+      }
+    }
+
+  void scholarshipInfo(){
+    if (application == "Approved"){
+      cout << endl << "Congratulation! You get a Need-Based Scholarship"<< endl;
+      cout << "The amount that you get is RM " << scholarshipAmount << endl;
+    }
+    else
+    cout << "Your need-based scholarship application has been rejected." << endl;
+  }
+
+  ~NeedBased(){}
+};
+
+
+int main(){
+  Student *stud[MAXSTUDENT];
+  Scholarship *_scholarship[MAXSTUDENT];
+  int studentCount = 0;
+  int numApply=0;
+  
+  while (true){
+    string degreeProgram;
+    cout << "Enter your degree program (leave empty and press Enter if you are undergraduate): ";
+    getline(cin, degreeProgram);
+
+    Student *stu = NULL;
+    
+    if (degreeProgram.empty()){
+      stu = new Undergraduate();
+    }
+    else{
+      stu = new Postgraduate(0,0,0,0,degreeProgram);
+    }
+    try{
+    stu->StudentData();
+    stu->file();
+    stu->printDetails();
+    }
+
+    catch(Student::NegativeSign)
+    {cout << "Something wrong!!! Negtive sign exist";}
+
+
+    while(true){
+
+      int scholarship;
+      cout << endl << "Choose the Scholarship Type you want to apply: " << endl;
+      cout << "1 - Merit-based" << endl << "2 - Need-based" << endl;
+      
+      cout << "Enter your choice: ";
+      cin >> scholarship;
+      
+      Scholarship *scholar;
+      
+      switch(scholarship){
+        case 1: scholar=new MeritBased();
+                break;
+        case 2: scholar=new NeedBased();
+                break;
+        default: 
+                cout<<"Invalid input.Please enter again."<<endl;
+                continue;
+    }
+  
+    scholar->addStudent(stu);
+    scholar->amountReceived();
+    scholar->scholarshipInfo();
+
+    if (scholar->getApplication() == "Approved") {
+      _scholarship[numApply] = scholar;
+      numApply++;
+      stud[studentCount] = stu;
+      studentCount++;
+      break;
+    } 
+    else {
+      char choice;
+      cout << "Do you want to apply for another scholarship? (y/n): ";
+      cin >> choice;
+      if (choice == 'n' || choice == 'N') {
+        break;
+      }
+    }
+  }
+    
+  
+
+  char addMore;
+  cout << "Do you want to add another student? (y/n): ";
+  cin >> addMore;
+  cin.ignore(); // Ignore newline character left in the buffer
+
+    if (addMore == 'n' || addMore == 'N') {
+      break;
+    }
+  }
+
+  // Clean up
+  for (int i = 0; i < studentCount; i++) {
+    delete stud[i];
+  }
+  for (int j=0; j<numApply;j++){
+    delete _scholarship[j];
+  }
+
+system ("pause");
+return 0;
+}
