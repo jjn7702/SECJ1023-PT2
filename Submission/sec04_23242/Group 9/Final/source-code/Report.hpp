@@ -31,7 +31,7 @@ class Report
     Report(double s, double e) : startDate(s), endDate(e) {}
 
     // MUTATORS
-    int setSdate()
+    void setSdate()
     {
         cout << "End Date and Time (YYMMDD.HHMM): ";
         cin >> startDate;
