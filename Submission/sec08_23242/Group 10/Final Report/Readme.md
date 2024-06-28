@@ -1,6 +1,13 @@
-
 # Final Report
-## Table of Content
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Objective and Purpose](#objective-and-purpose)
+- [Flowchart on How The System is Used](#flowchart-on-how-the-system-is-used)
+- [UML Diagram](#uml-diagram)
+- [Class Relation](#class-relation)
+- [Object Oriented Concept](#object-oriented-concept)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -12,6 +19,7 @@ Additionally, our system is also able to assist the staff in doing the sales pro
 In general, our pet inventory management system is to make daily operations of pet supply stores easier and more efficient. This will save operating costs and increase customer satisfaction. Our system will help pet businesses prosper in a more competitive market by utilizing technology to automate critical procedures and deliver useful data.
 
 ## Objective and Purpose
+
 Developing a pet supply inventory system serves several critical objectives and purposes within the context of managing a pet store or similar business. Firstly, such a system that aims to streamline and optimize inventory management processes. By providing a centralized platform to track items, quantities, and relevant information like expiration dates, the system empowers staff to efficiently monitor stock levels, make informed purchasing decisions, and avoid stockouts or overstock situations.
 
 Secondly, our system makes customer service and sales management more efficient. The system gives employees the ability to process transactions, keep track of sales history, manage client profiles, and track purchase trends in addition to providing tailored recommendations and ensuring correct and fast order fulfillment. This promotes client happiness and loyalty by improving the total customer experience.
@@ -153,6 +161,7 @@ supplier[100]）to eƯiciently manage and manipulate multiple instances of Suppl
 objects.
 
 ## Conclusion
+
 In conclusion, our project on developing a pet inventory management system aims to enhance the efficiency of pet supply stores by automating and streamlining key processes. This system, comprising ten interconnected classes, optimizes inventory management, sales operations, and supplier relations. 
 
 By centralizing inventory data, the system allows for efficient tracking of stock levels and streamlined reordering processes, preventing both overstock and stockouts. Automating transaction calculations reduces human errors and speeds up the sales process, improving the customer experience and promoting atisfaction and loyalty. 
@@ -160,3 +169,4 @@ By centralizing inventory data, the system allows for efficient tracking of stoc
 Comprehensive capabilities offer actionable insights for informed decision-making regarding pricing, supplier partnerships, and inventory policies, aiding business growth and competitiveness. The system’s architecture, featuring clear relationships such as aggregation, composition, and inheritance, ensures robustness and scalability, allowing for easy maintenance and future enhancements.
 
 Overall, our pet inventory management system simplifies and improves the operation of pet supply stores, helping businesses reduce costs, enhance customer service, and achieve sustainable growth. This project highlights the transformative potential of technology in business operations and the importance of strategic system design.
+
