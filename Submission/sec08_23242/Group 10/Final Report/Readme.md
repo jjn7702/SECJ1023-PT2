@@ -129,7 +129,7 @@ implementing their specific details.
 
 This picture shows that polymorphism is demonstrated through the use of pure virtual
 functions (getDetails() and LoadFile()) in the Item class, which are overridden in derived
-classes (Food, Toy, Medicine, Other) to provide diƯerent implementations based on the
+classes (Food, Toy, Medicine, Other) to provide different implementations based on the
 specific type of item.
 
 - Composition:
