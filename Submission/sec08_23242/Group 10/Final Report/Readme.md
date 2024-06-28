@@ -108,8 +108,7 @@ specifying their unique characteristics during instantiation.
 
 ## Object Oriented Concept
 
-- Encapsulation:
-![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Encapsulate)
+![Encapsulation:](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Encapsulate)
 Encapsulation is used in this code such as getQuantity() and setQuantity().Item, Supplier,
 and other classes, where data (attributes) and methods are bundled together within each
 class, maintaining data integrity and providing a clear interface to interact with.
