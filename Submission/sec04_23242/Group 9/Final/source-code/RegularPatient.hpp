@@ -2,6 +2,10 @@
 #ifndef REGULARPATIENT_H
 #define REGULARPATIENT_H
 
+#include "Patient.hpp"
+#include <iostream>
+using namespace std;
+
 class RegularPatient : public Patient{
     private:
     string contactInfo, emergencyContact;
