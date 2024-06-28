@@ -4,14 +4,14 @@
 #include <iomanip>
 
 //Include all neccessary files
-#include "Medication.h"
-#include "MedType.h"
-#include "frequency.h"
-#include "Daily_Frequency.h"
-#include "Weekly_Frequency.h"
-#include "Patient.h"
-#include "RegularPatient.h"
-#include "SpecialPatient.h"
+#include "Medication.hpp"
+#include "MedType.hpp"
+#include "frequency.hpp"
+#include "Daily_Frequency.hpp"
+#include "Weekly_Frequency.hpp"
+#include "Patient.hpp"
+#include "RegularPatient.hpp"
+#include "SpecialPatient.hpp"
 
 #ifndef REPORT_H
 #define REPORT_H
