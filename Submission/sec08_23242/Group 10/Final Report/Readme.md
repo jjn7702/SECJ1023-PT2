@@ -107,13 +107,15 @@ it allows to reuse common attributes and methods defined in the Item class while
 specifying their unique characteristics during instantiation. 
 
 ## Object Oriented Concept
+- Encapsulation:
 
-![Encapsulation:](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Encapsulate)
+![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Encapsulate)
 Encapsulation is used in this code such as getQuantity() and setQuantity().Item, Supplier,
 and other classes, where data (attributes) and methods are bundled together within each
 class, maintaining data integrity and providing a clear interface to interact with.
 
 - Inheritance:
+
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Inherrit.png)
 
 The picture above shows that Food, Toy, Medicine, and Other inheriting from the Item class.
@@ -121,6 +123,7 @@ This relationship allows them to inherit common attributes and methods from Item
 implementing their specific details.
 
 - Polymorphism:
+
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Polymorphy.png)
 
 This picture shows that polymorphism is demonstrated through the use of pure virtual
@@ -129,6 +132,7 @@ classes (Food, Toy, Medicine, Other) to provide diƯerent implementations based 
 specific type of item.
 
 - Composition:
+
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Composition.png)
 
 This picture shows that there are composition relationship. Composition describe how
@@ -138,6 +142,7 @@ Food,Toy,Medicime and other class has a composition relationship with the Expire
 This signifies a strong ownership relationship.
 
 - Aggregation:
+
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Aggregation.png)
 
 This picture shows that there are aggregation relationships. Aggregation describes how
@@ -151,6 +156,7 @@ facilitate organized and eƯicient management of items, suppliers, and sales tra
 within the system.
 
 - Array of object:
+
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Array%20of%20object.png)
 
 The SupplierManager and Inventory class uses an array of pointers.For example in
