@@ -36,6 +36,7 @@ class Frequency
         // Destructor
         ~Frequency(){}
 
+
 };
 
 #endif
