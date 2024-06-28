@@ -2,6 +2,10 @@
 #ifndef PATIENT_H
 #define PATIENT_H
 
+#include "Medication.hpp"
+#include <iostream>
+using namespace std;
+
 class Patient {
     protected:
     string patientID,  fullname, password, dob, sex;
@@ -37,10 +41,15 @@ class Patient {
         setID(patientID);
         cout << "\t\tFull Name: ";
         getline(cin, fullname);
-        cout << "\t\tPassword: ";
-        getline(cin, password);
+        cout << "\t\tPassword (no space): ";
+        char ch = getch();
+        while (ch != 13) { // hide password
+            password.push_back(ch);
+            cout << '*';
+            ch = getch();
+        }
         setpassword(password);
-        cout << "\t\tDate of Birth (DD/MM/YYYY): ";
+        cout << "\n\t\tDate of Birth (DD/MM/YYYY): ";
         getline(cin, dob);
         cout << "\t\tGender (M/F): ";
         getline(cin, sex);
@@ -78,14 +87,18 @@ class Patient {
 
     cout << "\t\tPatient ID: ";
     getline(cin, pt);
-    cout << "\t\tPassword: ";
-    getline(cin, pw);
-
+    cout << "\t\tPassword (no space): ";
+    char ch = getch();
+    while (ch!=13){ // hide password
+        pw.push_back(ch);
+        cout << '*';
+        ch = getch();
+    }
     //login credentials
-    if (pt == getID() && pw == getpassword()) {
-        cout << "\t\tLOGIN SUCCESSFUL." << endl;
+    if (pt == getID() && password == getpassword()) {
+        cout << "\n\t\tLOGIN SUCCESSFUL." << endl;
     } else {
-        cout << "\t\t!Invalid ID or Password!" << endl;
+        cout << "\n\t\t!Invalid ID or Password!" << endl;
         cout << "\t\tEnter again." << endl;
         login(); 
     }
@@ -104,8 +117,29 @@ class Patient {
         med = m;
     }
 
+    void addPatientFile() {
+    ofstream outfile("patient_list.txt", ios::app);
+        if (outfile.is_open()) {
+            outfile << patientID << " " << fullname << " " << password << " " << dob << " " << sex << endl;
+            outfile.close();
+        } else {
+            cout << "Error opening file for writing patient data." << endl;
+        }
+
+        //for each patient (Example: Arisha_med_history.txt)
+        string medFilename = fullname + "_med_history.txt";
+        ofstream medFile(medFilename);
+        if (medFile.is_open()) {
+                med->addtoFile(medFilename);
+        } else {
+            cout << "Error opening file for writing medications." << endl;
+        }
+
+        medFile.close();
+}
     ~Patient() {} //destructor
 };
+
 
 #ENDIF
 
