@@ -1,5 +1,11 @@
 #ifndef SPECIALPATIENT_H
 #define SPECIALPATIENT_H
+
+#include "Patient.hpp"
+#include <iostream>
+using namespace std;
+
+
 class SpecialPatient: public Patient {
     private:
     string guardianName, relationship, guardianContact;
