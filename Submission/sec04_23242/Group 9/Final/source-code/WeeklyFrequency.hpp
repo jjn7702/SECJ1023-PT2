@@ -1,7 +1,7 @@
 #ifndef WEEKLYFREQ_H
 #define WEEKLYFREQ_H
 
-#include "Frequency.h"
+#include "Frequency.hpp"
 #include <iostream>
 using namespace std;
 
