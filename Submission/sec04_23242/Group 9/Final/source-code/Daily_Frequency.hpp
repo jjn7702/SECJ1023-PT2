@@ -4,7 +4,7 @@
 #define DAILYFREQ_H
 
 // Include parent class file
-#include "Frequency.h"
+#include "Frequency.hpp"
 
 #include <iostream>
 #include <iomanip>
