@@ -108,12 +108,14 @@ class, maintaining data integrity and providing a clear interface to interact wi
 
 - Inheritance:
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Inherrit.png)
+
 The picture above shows that Food, Toy, Medicine, and Other inheriting from the Item class.
 This relationship allows them to inherit common attributes and methods from Item while
 implementing their specific details.
 
 - Polymorphism:
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Polymorphy.png)
+
 This picture shows that polymorphism is demonstrated through the use of pure virtual
 functions (getDetails() and LoadFile()) in the Item class, which are overridden in derived
 classes (Food, Toy, Medicine, Other) to provide diƯerent implementations based on the
@@ -121,6 +123,7 @@ specific type of item.
 
 - Composition:
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Composition.png)
+
 This picture shows that there are composition relationship. Composition describe how
 objects are connected and used together. For example, the Item class has a composition
 relationship with the Supplier class, where each Item contains a Supplier object (sup) and
@@ -129,6 +132,7 @@ This signifies a strong ownership relationship.
 
 - Aggregation:
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Aggregation.png)
+
 This picture shows that there are aggregation relationships. Aggregation describes how
 objects are connected and used together. For example, the Inventory class aggregates an
 array of Item pointers (Item* item[400]), representing a collection of items that are stored
@@ -141,6 +145,7 @@ within the system.
 
 - Array of object:
 ![](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/Group%2010/Final%20Report/Images/Array%20of%20object.png)
+
 The SupplierManager and Inventory class uses an array of pointers.For example in
 inventory class (Item* item[400]) to manage and manipulate multiple instances of Food,
 Toy, Medicine, and Other items eƯiciently and SupplierManager class （Supplier*
