@@ -33,6 +33,7 @@ class weeklyFreq : public Frequency  //inheritance
             cout << "\nThis medicine needs to be taken " << dayPerWeek << " day(s) per week, and\n";
             //Frequency :: printFreq(); // print also the general frequency
         }
+
 };
 
 #endif
