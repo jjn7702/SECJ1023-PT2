@@ -22,9 +22,6 @@ income <br>
 <p align="justify">Encapsulation is the process of combining attributes and methods in one package and hiding the implementation of the data from the user of the object. Our system has 7 classes: ‘Expense’, ‘User’, ‘Name’, ‘Income’, ‘ActiveIncome’, ‘PassiveIncome’ and ‘Budget’.
 </p>
 
-# Expense Tracker Classes
-
-## Class Definitions
 
 ```cpp
 class Expense {
