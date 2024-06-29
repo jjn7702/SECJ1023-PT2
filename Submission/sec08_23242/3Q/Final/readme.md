@@ -185,3 +185,13 @@ public:
     // Method to print budget
     void printBudget();
 };
+
+```
+
+<h4> Composition  </h4>
+<h4> Encapsulation </h4>
+<h4> Aggregation </h4>
+<h4> Inheritance </h4>
+<h4> Polymorphism  </h4>
+<h4> Array of objects </h4>
+<h4> Exception handling </h4>
