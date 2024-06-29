@@ -19,5 +19,5 @@ Financial management plays an important role in our daily lives. Everyone shoul
 
 ## Description
 -Proposal :  (Report: [Proposal](https://github.com/jjn7702/SECJ1023-PT2/blob/main/Submission/sec08_23242/3Q/proposal/readme.md)) <br>
--Problem Analysis and Design : (Report: [Problem Analysis and Design](https://github.com/jjn7702/SECJ1023-PT2/blob/17181b3d16870bd9030a87cbb87abc6a95782b1a/Submission/sec08_23242/3Q/Problem%20Analysis%20and%20Design/readme.md))
+-Problem Analysis and Design : (Report: [Problem Analysis and Design](https://github.com/jjn7702/SECJ1023-PT2/blob/17181b3d16870bd9030a87cbb87abc6a95782b1a/Submission/sec08_23242/3Q/Problem%20Analysis%20and%20Design/readme.md))<br>
 -Final : (Report: [Final](https://github.com/jjn7702/SECJ1023-PT2/tree/3f83be69315cb2c158c5978e2b3b6d7bfb2c0ae2/Submission/sec08_23242/3Q/Final))
