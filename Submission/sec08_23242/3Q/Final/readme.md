@@ -17,6 +17,11 @@ income <br>
 
 <h4> UML Class Diagram </h4>
 
+<p align = "center">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/148413538/c4ecd364-63dd-4c62-8a58-877cb4bb8af2" width ="800">
+</p>
+
+
 <h3> Concept OO </h3>
 <h4> Encapsulation </h4>
 <p align="justify">Encapsulation is the process of combining attributes and methods in one package and hiding the implementation of the data from the user of the object. Our system has 7 classes: ‘Expense’, ‘User’, ‘Name’, ‘Income’, ‘ActiveIncome’, ‘PassiveIncome’ and ‘Budget’.
