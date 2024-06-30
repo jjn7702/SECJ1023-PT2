@@ -2,6 +2,9 @@
 
 ### Table of Contents
 
+- [Report]()
+- [Presentation Slides]()
+- [Source Code]()
 - [Synopsis and General Idea](#synopsis-and-general-idea)
 - [Objectives and Purpose](#objectives-and-purpose)
 - [Flowchart & UML Diagram](#flowchart--uml-diagram)
