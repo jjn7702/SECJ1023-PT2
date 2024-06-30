@@ -14,7 +14,13 @@ income <br>
 
 <h3> Analysis and design </h3>
 <h4> Flow Chart </h4>
-
+<p align = "center">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/308ea207-c20f-408a-957a-b33c91dabcaa" width ="800">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/3a29bf42-e12d-4391-95bf-a1b320b3a1d8" width ="800">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/2cf5756a-4599-4170-961e-bad935963750" width ="800">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/bdf4eaeb-c4e7-4457-bf8e-825d9e5b78fe" width ="800">
+<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/151108692/8882f9b0-e6a7-4546-930e-5ce764589317" width ="800">
+</p>
 <h4> UML Class Diagram </h4>
 
 <p align = "center">
