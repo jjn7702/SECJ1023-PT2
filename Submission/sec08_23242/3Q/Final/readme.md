@@ -212,8 +212,13 @@ class User {
 
 ```
 
-<h4> Encapsulation </h4>
 <h4> Aggregation </h4>
+<p align="justify">
+Aggregation is a special type of association which is one way relationship. It models a 'has a' relationship between classes. The existence of the objects are independent.
+</p>
+<h5><b>User has a </b><br></h5>
+```c++
+
 
 <h4> Inheritance </h4>
 <h4> Polymorphism  </h4>
