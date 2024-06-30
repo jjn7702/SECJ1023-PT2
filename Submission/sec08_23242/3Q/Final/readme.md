@@ -216,11 +216,29 @@ class User {
 <p align="justify">
 Aggregation is a special type of association which is one way relationship. It models a 'has a' relationship between classes. The existence of the objects are independent.
 </p>
-<h5><b>User has a </b><br></h5>
+<h5><b>Budget has an Income </b><br></h5>
+<p align="justify">
+‘Budget’ has an 'Income', meaning income can exist despite no 'Budget'. 
 ```c++
-
+class Budget {
+    double savingsGoal;
+    double mFood;
+    double mTransport;
+    double mShopping;
+    double mBills;
+    double mEntertainment;
+    double mHealthcare;
+    double mEducation;
+    double mGroceries;
+    double mGift;
+    double mOthers;
+    Income *myIncome; //Aggregation
+};
 
 <h4> Inheritance </h4>
+
+
+
 <h4> Polymorphism  </h4>
 <p align="justify">
 Polymorphism is the ability of objects to perform the same actions differently. It is a concept that extends from inheritance. In our system, we have a parent class Income, and child classes PassiveIncome    and ActiveIncome. In the parent class Income, we have a display method, and the same method is also defined in the child classes PassiveIncome and ActiveIncome. We apply this concept by adding the ‘virtual’ keyword to the display method in the Income class, which allows derived classes to override this method to provide their own specific implementation.
