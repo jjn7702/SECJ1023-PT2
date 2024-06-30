@@ -22,6 +22,9 @@
 Nutritionist has a array of object (regular user) to manage regular user<br>
 <image src = "image/Array.png" width="700" height="260">
 ### Encapsulation
+Encapsulation refers to combining attributes and methods in one package, known as a class and hiding the implementation of the data from the user of the object. This ensures data security and prevents unauthorized access. 
+<image src = "image/encapsulation.png" width="500" height="500">
+  
 ### Association - Aggregation
 ### Association - Composition
 ### Inheritance and Polymorphism
