@@ -15,7 +15,7 @@
 
 
 ## Flowchart & UML Diagram
-
+<image src = "image/PT2_CD.jpg" width="400" height="260">
 
 ## Implementation of OO Concept
 ### Array of Objects
