@@ -1,9 +1,9 @@
 # Final Report
 
-### Table of Contents
+### **Table of Contents**
 
 - [Report](files/2E1I_REPORT.pdf)
-- [Presentation Slides]()
+- [Presentation Slides](files/Project Proposal Nutrition Tracker System.pdf)
 - [Source Code]()
 - [Synopsis and General Idea](#synopsis-and-general-idea)
 - [Objectives and Purpose](#objectives-and-purpose)
