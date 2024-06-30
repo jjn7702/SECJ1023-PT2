@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-- [Report](Submission/sec08_23242/2e1i/Final/files/2E1I_REPORT.pdf)
+- [Report](files/2E1I_REPORT.pdf)
 - [Presentation Slides]()
 - [Source Code]()
 - [Synopsis and General Idea](#synopsis-and-general-idea)
