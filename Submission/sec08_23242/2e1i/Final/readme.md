@@ -18,7 +18,7 @@
 
 
 ## <ins>Flowchart & UML Diagram
-<image src = "image/flowchart.jpg" width="400" height="260">
+<image src = "image/flowchart.jpg" width="800" height="400">
 <image src = "image/PT2_CD.jpg" width="400" height="260">
 
 ## <ins>Implementation of OO Concept
