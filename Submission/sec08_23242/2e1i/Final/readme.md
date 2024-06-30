@@ -3,7 +3,7 @@
 ### **Table of Contents**
 
 - [Report](files/2E1I_REPORT.pdf)
-- [Presentation Slides](files/Project Proposal Nutrition Tracker System.pdf)
+- [Presentation Slides](files/ProjectProposalNutritionTrackerSystem.pdf)
 - [Source Code]()
 - [Synopsis and General Idea](#synopsis-and-general-idea)
 - [Objectives and Purpose](#objectives-and-purpose)
