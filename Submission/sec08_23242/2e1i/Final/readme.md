@@ -19,6 +19,8 @@
 
 ## Implementation of OO Concept
 ### Array of Objects
+Nutritionist has a array of object (regular user) to manage regular user<br>
+<image src = "image/Array.png" width="700" height="260">
 ### Encapsulation
 ### Association - Aggregation
 ### Association - Composition
