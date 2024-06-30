@@ -12,14 +12,18 @@
 - [References](#references)
 
 ## <ins>Synopsis and General Idea
-
+These days, the prevalence of unhealthy eating habits, fueled by a reliance on junk food and snacks, has contributed to many health issues, including obesity and related diseases. Recognizing the importance of maintaining a balanced diet and an active lifestyle, we aim to introduce a nutrition tracker system to address this growing concern.The nutrition tracking system aims to provide users with a comprehensive platform to monitor their dietary intake, set nutrition goals, and receive personalized recommendations. By integrating user-friendly interfaces and advanced data analysis, the system empowers individuals to make informed decisions about their health and wellness.
 
 ## <ins>Objectives and Purpose
+1. Enable users to set personalized health goals based on factors such as age, weight, gender, and activity level
+2. Track daily food intake, including calories, macronutrients (carbohydrates, fats, proteins) and fiber
+3. Provide a tracking report based on the user’s progress towards their calories intake and health condition.
+4. Offer personalized feedback from nutritionists to optimize dietary habits and improve overall well-being.
 
 
 ## <ins>Flowchart & UML Diagram
 <image src = "image/flowchart.jpg" width="650" height="700">
-<image src = "image/PT2_CD.jpg" width="650" height="700">
+<image src = "image/PT2_CD.jpg" width="700" height="700">
 
 ## <ins>Implementation of OO Concept
 ### Array of Objects
