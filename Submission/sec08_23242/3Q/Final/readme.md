@@ -209,14 +209,13 @@ class User {
     int expenseCount;
 };
 
-
 ```
 
 <h4> Aggregation </h4>
 <p align="justify">
 Aggregation is a special type of association which is one way relationship. It models a 'has a' relationship between classes. The existence of the objects are independent. It is a concept of objects contain pointer to other object.
 </p>
-<h5><b>User has an Expense</b><br></h5>
+<h5><b>User has an Expense and Income</b><br></h5>
 <p align="justify">
 ‘User’ has an 'Expense', this indicates that 'Expense' can exist independently without 'User'.<br>
 Same goes to class 'User' and class 'Income'. 'User' has an 'Income' and 'Income' can exist without 'User'
@@ -229,8 +228,9 @@ class User {
     Expense *expense[100]; //Aggregation
     int expenseCount;
 };
+
 ```
-<h5><b>Budget has an Income </b><br></h5>
+<h5><b>Budget has an Income</b><br></h5>
 <p align="justify">
 ‘Budget’ has an 'Income', meaning income can exist despite no 'Budget'. 
 </p>
@@ -250,11 +250,55 @@ class Budget {
     double mOthers;
     Income *myIncome; //Aggregation
 };
+
 ```
 <h4> Inheritance </h4>
+<p align="justify">
+Inheritance provides a way to create a new class from an existing class. The new class is a specialized version of the existing class. Derived classes can inherit attributes and methods from other classes, and add extra attributes and methods of its own. It is used to share commonality between two or more classes and extend the functionality of an existing class. <br>
+In our system, we have parent class 'Income' and child classes 'ActiveIncome' and 'PassiveIncome'. Both child classes inherit the attributes and methods from the parent class and also has extra attributes an methods of their own. The attributes in parent class 'Income' are protected so that they are accessible by the child classes.
+</p>
 
+```cpp
+class Income {
+protected:
+    double amount;
+    string source;
+public:
+    Income(double a = 0, string s = "");
+    double getAmount() const;
+    string getSource() const;
+    void setAmount(double a);
+    void setSource(string s);
+    virtual void display() const;
+};
 
+class ActiveIncome : public Income {
+    double salary;
+    int otHour;
+    double rate;
+public:
+    ActiveIncome(double s = 0, int o = 0, double r = 0, double a = 0.0, string src = "Active Income");
+    double getSalary() const;
+    int getHour() const;
+    double getRate() const;
+    void setSalary(double s);
+    void setHour(int h);
+    void setRate(double r);
+    void calcAmount();
+    void display() const override;
+};
 
+class PassiveIncome : public Income {
+    string type;
+public:
+    PassiveIncome(double a = 0.0, string tp = "", string src = "Passive Income");
+    string getType() const;
+    void setType(string t);
+    void setAmount(double a);
+    void display() const override;
+};
+
+```
 <h4> Polymorphism  </h4>
 <p align="justify">
 Polymorphism is the ability of objects to perform the same actions differently. It is a concept that extends from inheritance. In our system, we have a parent class Income, and child classes PassiveIncome    and ActiveIncome. In the parent class Income, we have a display method, and the same method is also defined in the child classes PassiveIncome and ActiveIncome. We apply this concept by adding the ‘virtual’ keyword to the display method in the Income class, which allows derived classes to override this method to provide their own specific implementation.
@@ -299,6 +343,7 @@ public:
     void setAmount(double a);
     void display() const override;
 };
+
 ```
 <h4> Array of objects </h4>
 We use an array of objects to store similar data items. For example, in the main function, we declare an array pasIncome with a maximum size of 100 to store up to 100 user's passive income. Additionally,  within the User class, we declare an array of pointers expense with a maximum size of 100 to store pointers to Expense objects. Both of the objects have different functions where the pasIncome array is declared in the main function for object initialization, while the expense array is declared in the User class to show aggregation.<br><br>
