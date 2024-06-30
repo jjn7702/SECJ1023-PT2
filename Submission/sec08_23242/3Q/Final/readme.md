@@ -214,11 +214,27 @@ class User {
 
 <h4> Aggregation </h4>
 <p align="justify">
-Aggregation is a special type of association which is one way relationship. It models a 'has a' relationship between classes. The existence of the objects are independent.
+Aggregation is a special type of association which is one way relationship. It models a 'has a' relationship between classes. The existence of the objects are independent. It is a concept of objects contain pointer to other object.
 </p>
+<h5><b>User has an Expense</b><br></h5>
+<p align="justify">
+‘User’ has an 'Expense', this indicates that 'Expense' can exist independently without 'User'.<br>
+Same goes to class 'User' and class 'Income'. 'User' has an 'Income' and 'Income' can exist without 'User'
+</p>
+
+```c++
+class User {
+    Name name; 
+    Income *income; //Aggregation
+    Expense *expense[100]; //Aggregation
+    int expenseCount;
+};
+```
 <h5><b>Budget has an Income </b><br></h5>
 <p align="justify">
 ‘Budget’ has an 'Income', meaning income can exist despite no 'Budget'. 
+</p>
+    
 ```c++
 class Budget {
     double savingsGoal;
@@ -234,7 +250,7 @@ class Budget {
     double mOthers;
     Income *myIncome; //Aggregation
 };
-
+```
 <h4> Inheritance </h4>
 
 
