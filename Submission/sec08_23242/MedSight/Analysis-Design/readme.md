@@ -22,62 +22,38 @@ Based on the responses, the system identifies the probable diseases by matching 
 
 | Classes             | Attributes            | Method                  |
 |---------------------|-----------------------|-------------------------|
-| UserInfo            | - Name                | displayInfo()           |
-|                     | - Age                 |                         |
-|                     | - Gender              |                         |
-|                     | - phone number        |                         |
+| UserInfo            | - Name                | display()               |
+|                     | - Age                 | addUserInfo ()          |
 |                     | - email               |                         |
+|                     | - phone number        |                         |
+|                     | - Gender              |                         |
+|                     | - MedHistory          |                         |
+|                     | - Symptom*            |                         |                   
 |                     |                       |                         |
 | MedHistory          | - exist disease       | addMedHistory()         |
-|                     | - medicine            | displayMedHistory()     |
+|                     | - medicine            | display()               |
 |                     | - allergic            |                         |
 |                     |                       |                         |
-| Symptoms            | - Fever               |                         |
-|                     | - Cough               |                         |
-|                     | - Sore Throat         |                         |
-|                     | - Nausea and vomiting |                         | 
-|                     | - Watery stool        |                         |
-|                     | - Diarrhea            |                         |
-|                     | - Muscle pain         |                         |
-|                     | - Cough up blood      |                         |
-|                     | - Chest pain          |                         |
-|                     | - Redness             |                         |
-|                     | - Red spot            |                         |
-|                     | - Swelling            |                         |
-|                     | - Blister             |                         |
-|                     | - Headache            |                         |
-|                     | - Neck pain           |                         |
-|                     | - Stuffy nose         |                         |
-|                     | - Shortness of breath |                         |
-|                     | - Rapid breathing     |                         |
+| Symptoms            | - nameSym             | setNameSym()            |
+|                     |                       | getNameSym()            |
 |                     |                       |                         |
-| Disease             | - Diarrhea            | setDisease()            |
-|                     | - Malaria             | getDisease()            |
-|                     | - common cold         | displayDisease()        |
-|                     | - TB                  | addDisease()            | 
-|                     | - Pneumonia           |                         |
-|                     | - Influenza           |                         |
-|                     | - Cellulitis          |                         | 
-|                     | - Chicken Pox         |                         | 
-|                     | - Migraine            |                         | 
-|                     | - Food Poisoning      |                         |
-|                     | - Asthma              |                         | 
+| Disease             | - nameDisease         | addDisease()            |
+|                     | - desc                | addSymptom()            |
+|                     | - symptomCount        | printSymptoms()         |
+|                     | - symptom[]           | display()               | 
+|                     | - medicine            | hasSymptom()            |
 |                     |                       |                         |
-| Suggestions         | - Suggested_Medicine  |                         |
-|                     | - Nutritional_Advice  |                         |
-|                     | - Clinic              |                         |
+| Entity              | - name                | setName()               |
+|                     |                       | getName()               |
+|                     |                       | display()               |
 |                     |                       |                         |
-| Suggested_Medicine  | - medicine            | display()               |
+| Suggested_Medicines | - medicine            | displayMed()            |
 |                     | - duration            |                         |
 |                     |                       |                         |
-| Nutritional_Advice  | - mealSuggest()       | display()               |
-|                     | - mealAvoid()         |                         |
-|                     |                       |                         |
-| Clinic              | - state               | display()               |
-|                     | - stateName           |                         |
+| Clinic              | - stateName           | displayClinic()         |
 |                     | - clinicName          |                         |
 |                     | - availability        |                         |
-|                     | - clinic_number       |                         |
+|                     | - clinicNo            |                         |
 
 
 <h2 id="umlclassdiagram">🔗 Section C (UML Class Diagram) </h2>
