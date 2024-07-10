@@ -11,7 +11,8 @@
 
 | Name             | Matric Number | Photo                                                         |
 | :---------------- | :-------------: | :------------------------------------------------------------: |
-| Rami Yassein Eltayeb       | A23CS0022     |<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/faf3c8d0-aa0f-44a3-a9da-60752e258a17)" width="200" height="200">|
+| Rami Yassein Eltayeb       | A23CS0022     |<img src="![personal photo](https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/329e2772-2863-4f96-bd32-f6028edc0d6e)
+)" width="200" height="200">|
 | Ammar Abdulrahman Anaam Mudhsh   | A23CS0287   |<img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/141bba51-21cd-4963-a9f7-bca34e29dd39" width="200" height="200">|
 | Mohamed Ali Mohamed Ali | A21EC0287     | <img src="https://github.com/jjn7702/SECJ1023-PT2/assets/149052853/a4149f9f-5667-4148-b33a-94d4565ff249" width="200" height="200">      |
 
