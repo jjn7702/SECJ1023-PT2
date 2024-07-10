@@ -21,4 +21,4 @@
 ![image](https://github.com/jjn7702/SECJ1023-PT2/assets/151102097/a98b3bad-50be-460b-b6f9-b15b5fd07d94)
 
 ## 2.2 UML Diagram
-<img src="images/uml_diagram.png">
+<img src="makabaka/images/uml_diagram.png">
